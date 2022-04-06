@@ -1,119 +1,708 @@
 [
     {
-        "DOI": "10.1002/jez.1400610202",
+        "DOI": "10.1590/S1984-46702010000200001",
         "author": [
             {
-                "family": "Allee",
-                "given": "W. C."
+                "family": "Agosta",
+                "given": "Salvatore J."
             },
             {
-                "family": "Bowen",
-                "given": "Edith S."
+                "family": "Janz",
+                "given": "Niklas"
+            },
+            {
+                "family": "Brooks",
+                "given": "Daniel R."
             }
         ],
-        "container-title": "Journal of Experimental Zoology",
-        "id": "Allee1932StuAni",
+        "container-title": "Zoologia (Curitiba)",
+        "id": "Agosta2010HowSpe",
         "issue": "2",
         "issued": {
             "date-parts": [
                 [
-                    1932,
+                    2010,
+                    4
+                ]
+            ]
+        },
+        "page": "151-162",
+        "publisher": "Sociedade Brasileira de Zoologia",
+        "title": "How specialists can be generalists: Resolving the \"parasite paradox\" and implications for emerging infectious disease",
+        "type": "article-journal",
+        "volume": "27"
+    },
+    {
+        "DOI": "10.1038/s41467-020-16153-4",
+        "author": [
+            {
+                "family": "Albery",
+                "given": "Gregory F."
+            },
+            {
+                "family": "Eskew",
+                "given": "Evan A."
+            },
+            {
+                "family": "Ross",
+                "given": "Noam"
+            },
+            {
+                "family": "Olival",
+                "given": "Kevin J."
+            }
+        ],
+        "container-title": "Nature Communications",
+        "id": "Albery2020PreGlo",
+        "issue": "1, 1",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    5,
+                    8
+                ]
+            ]
+        },
+        "page": "2260",
+        "publisher": "Nature Publishing Group",
+        "title": "Predicting the global mammalian viral sharing network using phylogeography",
+        "type": "article-journal",
+        "volume": "11"
+    },
+    {
+        "DOI": "10.1093/ve/vex012",
+        "author": [
+            {
+                "family": "Anthony",
+                "given": "Simon J."
+            },
+            {
+                "family": "Johnson",
+                "given": "Christine K."
+            },
+            {
+                "family": "Greig",
+                "given": "Denise J."
+            },
+            {
+                "family": "Kramer",
+                "given": "Sarah"
+            },
+            {
+                "family": "Che",
+                "given": "Xiaoyu"
+            },
+            {
+                "family": "Wells",
+                "given": "Heather"
+            },
+            {
+                "family": "Hicks",
+                "given": "Allison L."
+            },
+            {
+                "family": "Joly",
+                "given": "Damien O."
+            },
+            {
+                "family": "Wolfe",
+                "given": "Nathan D."
+            },
+            {
+                "family": "Daszak",
+                "given": "Peter"
+            },
+            {
+                "family": "Karesh",
+                "given": "William"
+            },
+            {
+                "family": "Lipkin",
+                "given": "W. I."
+            },
+            {
+                "family": "Morse",
+                "given": "Stephen S."
+            },
+            {
+                "family": "Mazet",
+                "given": "Jonna A. K."
+            },
+            {
+                "family": "Goldstein",
+                "given": "Tracey"
+            }
+        ],
+        "container-title": "Virus Evolution",
+        "id": "Anthony2017GloPat",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2017,
+                    1,
+                    1
+                ]
+            ]
+        },
+        "publisher": "Oxford Academic",
+        "title": "Global patterns in coronavirus diversity",
+        "type": "article-journal",
+        "volume": "3"
+    },
+    {
+        "DOI": "10.1101/2020.05.22.111344",
+        "author": [
+            {
+                "family": "Becker",
+                "given": "Daniel J."
+            },
+            {
+                "family": "Albery",
+                "given": "Gregory F."
+            },
+            {
+                "family": "Sjodin",
+                "given": "Anna R."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Dallas",
+                "given": "Tad A."
+            },
+            {
+                "family": "Eskew",
+                "given": "Evan A."
+            },
+            {
+                "family": "Farrell",
+                "given": "Maxwell J."
+            },
+            {
+                "family": "Guth",
+                "given": "Sarah"
+            },
+            {
+                "family": "Han",
+                "given": "Barbara A."
+            },
+            {
+                "family": "Simmons",
+                "given": "Nancy B."
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            }
+        ],
+        "container-title": "bioRxiv",
+        "id": "Becker2020PreWil",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    5,
+                    23
+                ]
+            ]
+        },
+        "page": "2020.05.22.111344",
+        "publisher": "Cold Spring Harbor Laboratory",
+        "title": "Predicting wildlife hosts of betacoronaviruses for SARS-CoV-2 sampling prioritization",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1038/emi.2013.5",
+        "PMCID": "PMC3630490",
+        "author": [
+            {
+                "family": "Engering",
+                "given": "Anneke"
+            },
+            {
+                "family": "Hogerwerf",
+                "given": "Lenny"
+            },
+            {
+                "family": "Slingenbergh",
+                "given": "Jan"
+            }
+        ],
+        "container-title": "Emerging Microbes & Infections",
+        "id": "Engering2013PatHos",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
                     2
                 ]
             ]
         },
-        "page": "185-207",
-        "title": "Studies in animal aggregations: Mass protection against colloidal silver among goldfishes",
+        "page": "e5",
+        "title": "Pathogen\u2013host\u2013environment interplay and disease emergence",
+        "type": "article-journal",
+        "volume": "2"
+    },
+    {
+        "DOI": "10.1016/0006-3207(92)91201-3",
+        "author": [
+            {
+                "family": "Faith",
+                "given": "Daniel P."
+            }
+        ],
+        "container-title": "Biological Conservation",
+        "id": "Faith1992ConEva",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    1992,
+                    1,
+                    1
+                ]
+            ]
+        },
+        "page": "1-10",
+        "title": "Conservation evaluation and phylogenetic diversity",
         "type": "article-journal",
         "volume": "61"
     },
     {
+        "DOI": "10.1017/S0031182021000391",
         "author": [
             {
-                "family": "Camerano",
-                "given": "Lorenzo"
+                "family": "Higino",
+                "given": "Gracielle T."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
             }
         ],
-        "container-title": "Atti Della R. Accad. Delle Sci. Torino",
-        "id": "Camerano1880EquViv",
+        "container-title": "Parasitology",
+        "id": "Higino2021BetPhy",
         "issued": {
             "date-parts": [
                 [
-                    1880
+                    2021,
+                    3,
+                    8
                 ]
             ]
         },
-        "page": "393-414",
-        "title": "Dell\u2019equilibrio dei viventi merce la reciproca distruzione",
+        "other-ids": "Higino2020BetPhy",
+        "page": "1-23",
+        "title": "Beta and phylogenetic diversities tell complementary stories about ecological networks biogeography",
+        "type": "article-journal"
+    },
+    {
+        "URL": "https://www.iucnredlist.org",
+        "author": [
+            {
+                "literal": "IUCN"
+            }
+        ],
+        "id": "IUCN2021IucRed",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "title": "The IUCN Red List of Threatened Species.",
+        "type": "webpage"
+    },
+    {
+        "DOI": "10.1111/ele.12141",
+        "author": [
+            {
+                "family": "Legendre",
+                "given": "Pierre"
+            },
+            {
+                "family": "De C\u00e1ceres",
+                "given": "Miquel"
+            }
+        ],
+        "container-title": "Ecology Letters",
+        "editor": [
+            {
+                "family": "Morlon",
+                "given": "H\u00e9l\u00e8ne"
+            }
+        ],
+        "id": "Legendre2013BetDiv",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    8
+                ]
+            ]
+        },
+        "page": "951-963",
+        "title": "Beta diversity as the variance of community data: Dissimilarity coefficients and partitioning",
+        "type": "article-journal",
+        "volume": "16"
+    },
+    {
+        "DOI": "10.1186/s40663-019-0164-4",
+        "author": [
+            {
+                "family": "Legendre",
+                "given": "Pierre"
+            },
+            {
+                "family": "Condit",
+                "given": "Richard"
+            }
+        ],
+        "container-title": "Forest Ecosystems",
+        "id": "Legendre2019SpaTem",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2019,
+                    2,
+                    18
+                ]
+            ]
+        },
+        "page": "7",
+        "title": "Spatial and temporal analysis of beta diversity in the Barro Colorado Island forest dynamics plot, Panama",
+        "type": "article-journal",
+        "volume": "6"
+    },
+    {
+        "DOI": "10.1038/nature22975",
+        "author": [
+            {
+                "family": "Olival",
+                "given": "Kevin J."
+            },
+            {
+                "family": "Hosseini",
+                "given": "Parviez R."
+            },
+            {
+                "family": "Zambrana-Torrelio",
+                "given": "Carlos"
+            },
+            {
+                "family": "Ross",
+                "given": "Noam"
+            },
+            {
+                "family": "Bogich",
+                "given": "Tiffany L."
+            },
+            {
+                "family": "Daszak",
+                "given": "Peter"
+            }
+        ],
+        "container-title": "Nature",
+        "id": "Olival2017HosVir",
+        "issue": "7660",
+        "issued": {
+            "date-parts": [
+                [
+                    2017,
+                    6,
+                    21
+                ]
+            ]
+        },
+        "page": "646-650",
+        "title": "Host and viral traits predict zoonotic spillover from mammals",
+        "type": "article-journal",
+        "volume": "546"
+    },
+    {
+        "DOI": "10.1098/rspb.2014.2124",
+        "author": [
+            {
+                "family": "Plowright",
+                "given": "Raina K."
+            },
+            {
+                "family": "Eby",
+                "given": "Peggy"
+            },
+            {
+                "family": "Hudson",
+                "given": "Peter J."
+            },
+            {
+                "family": "Smith",
+                "given": "Ina L."
+            },
+            {
+                "family": "Westcott",
+                "given": "David"
+            },
+            {
+                "family": "Bryden",
+                "given": "Wayne L."
+            },
+            {
+                "family": "Middleton",
+                "given": "Deborah"
+            },
+            {
+                "family": "Reid",
+                "given": "Peter A."
+            },
+            {
+                "family": "McFarlane",
+                "given": "Rosemary A."
+            },
+            {
+                "family": "Martin",
+                "given": "Gerardo"
+            },
+            {
+                "family": "Tabor",
+                "given": "Gary M."
+            },
+            {
+                "family": "Skerratt",
+                "given": "Lee F."
+            },
+            {
+                "family": "Anderson",
+                "given": "Dale L."
+            },
+            {
+                "family": "Crameri",
+                "given": "Gary"
+            },
+            {
+                "family": "Quammen",
+                "given": "David"
+            },
+            {
+                "family": "Jordan",
+                "given": "David"
+            },
+            {
+                "family": "Freeman",
+                "given": "Paul"
+            },
+            {
+                "family": "Wang",
+                "given": "Lin-Fa"
+            },
+            {
+                "family": "Epstein",
+                "given": "Jonathan H."
+            },
+            {
+                "family": "Marsh",
+                "given": "Glenn A."
+            },
+            {
+                "family": "Kung",
+                "given": "Nina Y."
+            },
+            {
+                "family": "McCallum",
+                "given": "Hamish"
+            }
+        ],
+        "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+        "id": "Plowright2015EcoDyn",
+        "issue": "1798",
+        "issued": {
+            "date-parts": [
+                [
+                    2015,
+                    1,
+                    7
+                ]
+            ]
+        },
+        "page": "20142124",
+        "publisher": "Royal Society",
+        "title": "Ecological dynamics of emerging bat virus spillover",
+        "type": "article-journal",
+        "volume": "282"
+    },
+    {
+        "DOI": "10.1038/nrmicro.2017.45",
+        "author": [
+            {
+                "family": "Plowright",
+                "given": "Raina K."
+            },
+            {
+                "family": "Parrish",
+                "given": "Colin R."
+            },
+            {
+                "family": "McCallum",
+                "given": "Hamish"
+            },
+            {
+                "family": "Hudson",
+                "given": "Peter J."
+            },
+            {
+                "family": "Ko",
+                "given": "Albert I."
+            },
+            {
+                "family": "Graham",
+                "given": "Andrea L."
+            },
+            {
+                "family": "Lloyd-Smith",
+                "given": "James O."
+            }
+        ],
+        "container-title": "Nature Reviews Microbiology",
+        "id": "Plowright2017PatZoo",
+        "issue": "8, 8",
+        "issued": {
+            "date-parts": [
+                [
+                    2017,
+                    8
+                ]
+            ]
+        },
+        "page": "502-510",
+        "publisher": "Nature Publishing Group",
+        "title": "Pathways to zoonotic spillover",
         "type": "article-journal",
         "volume": "15"
     },
     {
+        "DOI": "10.1086/424610",
         "author": [
             {
-                "family": "Elton",
-                "given": "Charles S"
-            }
-        ],
-        "id": "Elton1927AniEco",
-        "issued": {
-            "date-parts": [
-                [
-                    1927
-                ]
-            ]
-        },
-        "publisher": "University of Chicago Press",
-        "title": "Animal ecology",
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "Fahrenholz",
-                "given": "H."
-            }
-        ],
-        "container-title": "Zool. Anz.",
-        "id": "Fahrenholz1913EctUnd",
-        "issued": {
-            "date-parts": [
-                [
-                    1913
-                ]
-            ]
-        },
-        "page": "371-374",
-        "title": "Ectoparasiten und abstammungslehre",
-        "type": "article-journal",
-        "volume": "41"
-    },
-    {
-        "DOI": "10.1111/j.1096-3642.1935.tb01680.x",
-        "author": [
-            {
-                "family": "Nicholson",
-                "given": "A. J."
+                "family": "Power",
+                "given": "Alison G."
             },
             {
-                "family": "Bailey",
-                "given": "V. A."
+                "family": "Mitchell",
+                "given": "Charles E."
             }
         ],
-        "container-title": "Proceedings of the Zoological Society of London",
-        "id": "Nicholson1935BalAni",
+        "container-title": "The American Naturalist",
+        "id": "Power2004PatSpi",
+        "issue": "S5",
+        "issued": {
+            "date-parts": [
+                [
+                    2004,
+                    11,
+                    1
+                ]
+            ]
+        },
+        "page": "S79-S89",
+        "publisher": "The University of Chicago Press",
+        "title": "Pathogen Spillover in Disease Epidemics.",
+        "type": "article-journal",
+        "volume": "164"
+    },
+    {
+        "DOI": "10.1002/lol2.10078",
+        "author": [
+            {
+                "family": "Seekell",
+                "given": "David A."
+            },
+            {
+                "family": "Lapierre",
+                "given": "Jean-Fran\u00e7ois"
+            },
+            {
+                "family": "Cheruvelil",
+                "given": "Kendra Spence"
+            }
+        ],
+        "container-title": "Limnology and Oceanography Letters",
+        "id": "Seekell2018GeoLak",
         "issue": "3",
         "issued": {
             "date-parts": [
                 [
-                    1935,
-                    9
+                    2018
                 ]
             ]
         },
-        "page": "551-598",
-        "title": "The Balance of Animal Populations.Part I.",
+        "page": "49-56",
+        "title": "A geography of lake carbon cycling",
         "type": "article-journal",
-        "volume": "105"
+        "volume": "3"
+    },
+    {
+        "DOI": "10.1371/journal.pbio.3000494",
+        "author": [
+            {
+                "family": "Upham",
+                "given": "Nathan S."
+            },
+            {
+                "family": "Esselstyn",
+                "given": "Jacob A."
+            },
+            {
+                "family": "Jetz",
+                "given": "Walter"
+            }
+        ],
+        "container-title": "PLOS Biology",
+        "id": "Upham2019InfMam",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2019,
+                    12,
+                    4
+                ]
+            ]
+        },
+        "page": "e3000494",
+        "title": "Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation",
+        "type": "article-journal",
+        "volume": "17"
+    },
+    {
+        "DOI": "10.1007/s12250-009-3032-5",
+        "author": [
+            {
+                "family": "Wang",
+                "given": "Lin-Fa"
+            }
+        ],
+        "container-title": "Virologica Sinica",
+        "id": "Wang2009BatVir",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2009,
+                    4,
+                    1
+                ]
+            ]
+        },
+        "page": "93-99",
+        "title": "Bats and viruses: A brief review",
+        "type": "article-journal",
+        "volume": "24"
     }
 ]
