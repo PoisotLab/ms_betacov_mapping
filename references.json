@@ -200,35 +200,51 @@
         "volume": "3"
     },
     {
-        "DOI": "10.1101/2020.05.22.111344",
+        "DOI": "10.1016/S2666-5247(21)00245-7",
         "author": [
             {
                 "family": "Becker",
-                "given": "Daniel J."
+                "given": "Daniel J"
             },
             {
                 "family": "Albery",
-                "given": "Gregory F."
+                "given": "Gregory F"
             },
             {
                 "family": "Sjodin",
-                "given": "Anna R."
+                "given": "Anna R"
             },
             {
                 "family": "Poisot",
                 "given": "Timoth\u00e9e"
             },
             {
+                "family": "Bergner",
+                "given": "Laura M"
+            },
+            {
+                "family": "Chen",
+                "given": "Binqi"
+            },
+            {
+                "family": "Cohen",
+                "given": "Lily E"
+            },
+            {
                 "family": "Dallas",
-                "given": "Tad A."
+                "given": "Tad A"
             },
             {
                 "family": "Eskew",
-                "given": "Evan A."
+                "given": "Evan A"
+            },
+            {
+                "family": "Fagre",
+                "given": "Anna C"
             },
             {
                 "family": "Farrell",
-                "given": "Maxwell J."
+                "given": "Maxwell J"
             },
             {
                 "family": "Guth",
@@ -236,31 +252,37 @@
             },
             {
                 "family": "Han",
-                "given": "Barbara A."
+                "given": "Barbara A"
             },
             {
                 "family": "Simmons",
-                "given": "Nancy B."
+                "given": "Nancy B"
+            },
+            {
+                "family": "Stock",
+                "given": "Michiel"
+            },
+            {
+                "family": "Teeling",
+                "given": "Emma C"
             },
             {
                 "family": "Carlson",
-                "given": "Colin J."
+                "given": "Colin J"
             }
         ],
-        "container-title": "bioRxiv",
-        "id": "Becker2020PreWil",
+        "container-title": "The Lancet Microbe",
+        "id": "Becker2022OptPre",
         "issued": {
             "date-parts": [
                 [
-                    2020,
-                    5,
-                    23
+                    2022,
+                    1,
+                    10
                 ]
             ]
         },
-        "page": "2020.05.22.111344",
-        "publisher": "Cold Spring Harbor Laboratory",
-        "title": "Predicting wildlife hosts of betacoronaviruses for SARS-CoV-2 sampling prioritization",
+        "title": "Optimising predictive models to prioritise viral discovery in zoonotic reservoirs",
         "type": "article-journal"
     },
     {
