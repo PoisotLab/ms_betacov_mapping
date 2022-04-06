@@ -977,6 +977,7 @@ INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text-bold.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/stix2-type1/ts1-stix2text.tfm
 INPUT draft.aux
 INPUT ./draft.out
 INPUT ./draft.out

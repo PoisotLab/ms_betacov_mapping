@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.4)  6 APR 2022 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.4)  6 APR 2022 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -867,20 +867,20 @@ l.281 We downloaded the β
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[4] [5] [6] [7] 
+[4] [5] [6] [7] [8] [9] [10] [11] [12] 
 AED: lastpage setting LastPage
-[8] AED endfloat: Processing end Figures and Tables (./draft.aux)
+[13] AED endfloat: Processing end Figures and Tables (./draft.aux)
 Package rerunfilecheck Info: File `draft.out' has not changed.
-(rerunfilecheck)             Checksum: 9B8D28C0E16414BD0AECE25E325FBF78;2082.
+(rerunfilecheck)             Checksum: 0531A103C26AA0EEFC51841DF63B1DAC;3104.
  ) 
 Here is how much of TeX's memory you used:
- 18804 strings out of 478268
- 305318 string characters out of 5848350
- 568784 words of memory out of 5000000
- 36704 multiletter control sequences out of 15000+600000
- 570516 words of font info for 91 fonts, out of 8000000 for 9000
+ 18838 strings out of 478268
+ 306007 string characters out of 5848350
+ 569137 words of memory out of 5000000
+ 36723 multiletter control sequences out of 15000+600000
+ 570857 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,117p,328b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,11n,117p,336b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/texlive/tex
 dir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-t1.enc}{/opt/texlive/texdir/te
 xmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/opt/texlive/texdir/texmf-dis
@@ -892,10 +892,10 @@ exmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb></opt/texlive/te
 xdir/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/tex
 mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on draft.pdf (8 pages, 472501 bytes).
+Output written on draft.pdf (13 pages, 485092 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

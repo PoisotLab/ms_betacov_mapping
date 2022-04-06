@@ -1315,6 +1315,7 @@ INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/stix2-type1/ts1-stix2text.tfm
 INPUT preprint.aux
 INPUT ./preprint.out
 INPUT ./preprint.out

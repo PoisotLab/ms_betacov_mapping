@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.4)  6 APR 2022 13:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.4)  6 APR 2022 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1120,7 +1120,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \flrow@LT@prelastfoot=\box78
 \c@FBLTpage=\count343
 )
-<logo.png, id=55, 556.2381pt x 202.356pt>
+<logo.png, id=75, 556.2381pt x 202.356pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 207.
@@ -1256,18 +1256,18 @@ own-loaded the CoV reser-voir database from https://www.viralemergence.org/beta
 cov
  []
 
-[2] [3] 
+[2] [3] [4] [5] 
 AED: lastpage setting LastPage
-[4] (./preprint.aux)
+[6] (./preprint.aux)
 Package rerunfilecheck Info: File `preprint.out' has not changed.
-(rerunfilecheck)             Checksum: 71C24C59D3D5F6AC146A63308C1A47FC;2108.
+(rerunfilecheck)             Checksum: C4F2C2ADDECB85EF5EC7D058A86502C2;3132.
  ) 
 Here is how much of TeX's memory you used:
- 30683 strings out of 478268
- 557492 string characters out of 5848350
- 835578 words of memory out of 5000000
- 48336 multiletter control sequences out of 15000+600000
- 575698 words of font info for 96 fonts, out of 8000000 for 9000
+ 30714 strings out of 478268
+ 558175 string characters out of 5848350
+ 836041 words of memory out of 5000000
+ 48355 multiletter control sequences out of 15000+600000
+ 576039 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,11n,117p,405b,643s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/texlive/tex
@@ -1280,10 +1280,10 @@ dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb></opt/texlive/texdir/
 texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/texmf-di
 st/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvr8a.pfb>
-Output written on preprint.pdf (4 pages, 405540 bytes).
+Output written on preprint.pdf (6 pages, 420035 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 173 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 
