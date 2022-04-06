@@ -1,269 +1,204 @@
-This template uses `pandoc` (and a few additional python glue scripts) to
-facilitate the production of scientific articles using a standard markdown file.
-The objective is to ensure that standard markdown (with the important exception
-of the `pandoc-crossref` citation markup) will be rendered into an interactive
-website (which allows collaborative annotations with the `hypothes.is`
-platform), a "draft" style PDF (double-spaced, numbered lines, figures at the
-end), and a "preprint" style PDF (with slightly more reader-friendly
-pagination).
+Spillover risk is not unidimensional. From the standpoint of an animal
+community, i.e. a pool of possible hosts, there are a multiplicity of ecological
+factors that come into play (Plowright et al. 2017). The global richness of
+hosts is one such component commonly mentioned/analysed (Anthony et al. 2017),
+but there is an argument to be made that species who are not competent hosts of
+a specific virus genus may not factor into this (Plowright et al. 2015), or that
+species who are assumed to share viruses at different rates should be weighted
+accordingly (Albery et al. 2020). In mammals, key functional traits (for which
+phylogeny is a reasonable proxy) are determinants of the spillover potential
+(Olival et al. 2017); these include, notably, TK. Finally, especially when the
+pool of potential hosts spans the entire globe, there may be local host pools
+that are highly unique; not having been observed in other locations, these can
+act on the overall risk either by providing novel contact opportunities,
+reflecting unique host-environment combinations (Engering et al. 2013), or
+facilitating rapid changes in specialism (Agosta et al. 2010). In the specific
+case of generalist pathogens (as betacoronavirus clearly are), there is
+conceptual and empirical support to the idea that these community- level
+mechanisms are even more important in driving the overall risk (Power and
+Mitchell 2004).
 
-The core bit of configuration is the `metadata.json` file, which handles
-information about authorship, affiliations, the abstract, keywords, etc. All
-documents will be deployed to `gh-pages` *only* on push events from the `main`
-branch. All of the artifacts will be built when doing pull requests, so you can
-check that merging a branch is *not* going to cause the compilation of the
-documents to fail; indeed, you can download the artifacts produced during the
-run, to check the PDF and html files. The website is only updated from the
-`main` branch.
+Bats are important reservoir hosts for different classes of microorganisms (Chu
+2008, Donaldson 2010, Li 2010), some of which can threaten human health.
+Especially concerning is the fact that bats are reservoirs for a variety of
+emerging viruses (Calisher 2006), making balancing the needs for bat
+conservation and disease prevention a potentially difficult act, especially in
+more densely populated areas (REF). Chiropterans emerged around 64 million years
+ago and are one of the most diverse mammalian orders, with an estimated richness
+of more than 12000 species, (Peixoto F et al, 2018) and 14325 known species
+Simmons & Cirranello. They exhibit a broad variety of habitat use, behaviour,
+and feeding strategies, resulting in their playing an essential role in the
+delivery of several ecosystem services (Kasso 2013), including economic
+benefits. Over two-thirds of bats are either obligate or facultative
+insectivorous mammals, therefore playing an important role in the regulation of
+insect pests that can affect crops (Williams-Guillen 2011), and vectors of
+diseases that put a risk on human health (Gonsalves 2013 ). Because bats are
+globally distributed and have a long evolutionary history, phylogeographic and
+biogeographic approaches are required to shed light on the extant distribution
+of coevolutionary processes between bats and the pathogens they carry. As a
+consequence, not all areas are facing a risk of human spillover, and those who
+do might not be facing risks of the same nature and magnitude.
 
-The workflow is *very* GitHub based, and so the manuscript file *is* the
-`README.md` - this is not going to be a huge issue as 90% of the markdown is
-standard, with the exception of the citations and mathematics, so this will
-render (mostly) like a normal README file.
+Yet a comprehensive assessment of the risk of spillover of betacoronaviruses
+from bat hosts to humans is limited by the fact that we do not know the full
+diversity of viruses associated with every bat species. Predictive models can
+help fill in some of these gaps, by recommending hosts based on known host-virus
+associations BECKER REF. In this paper, we examine the biogeographic structure
+of bats-betacoronaviruses associations, based on a curated dataset of known and
+predicted hosts. We turn these associations into a spatially explicit additive
+mapping of zoonotic risk components, which reveals extreme heterogeneity of risk
+at the global scale; furthermore, we identify the Amazon and South-Eastern Asia
+as hotspots of phylogenetic distinctiveness of betacoronaviruses; surprisingly,
+current data suggest that viral sharing between hosts in high in the Amazon and
+low in South-Eastern Asia, which has the potential to  result in different
+evolutionary dynamics between these two regions.
 
-# Deploying the template
+TK summary of the results
 
-The process of deploying this template has been *greatly* streamlined from
-previous versions:
+# Methods
 
-- Click on the "Use this template" button
-- Edit `README.md` with your own text, commit, and push
-- This push will trigger the first build - the builds are only active on the `main` branch (*not* `master`!), and on pull requests
-- Go to `http://you.github.io/repo-name/` to view the html version, and get access to the PDFs
-- Add your references to the `references.bib` file
-- Edit the `metadata.json` file to add the title, abstract, authors
+## Known betacoronavirus hosts
 
-In particular, note that *you do not need* to create a personnal access token to
-deploy to `gh-pages` (from where the website is served).
+We downloaded the βCoV reservoir database from
+https://www.viralemergence.org/betacov on Aug. 2021. This database was assembled
+by a combination of data mining, literature surveys, and application of an
+ensemble recommender system classifying hosts as either “Suspected” or
+“Unlikely” (REF BECKER). The hosts considered for this study were all hosts with
+a known record of a betacoronavirus, and all those with a “Suspected” status in
+the ensemble model. This resulted in a list of TK TP unique host species. 
 
-# The metadata file
+## Bats occurrences
 
-## General information
+We downloaded the rangemap of every extant bat species that was either
+classified as an empirically documented or a suspected host of
+beta-coronaviruses (Becker et al. 2020), according to recent IUCN data (IUCN
+2021). The range maps were subsequently rasterized at a resolution of
+approximately TK TP. For every pixel in the resulting raster where at least one
+bat host of betacoronavirus was present, we extract the species pool, which was
+used to calculate the following risk assessment components: phylogenetic
+diversity, bat compositional uniqueness, and predicted viral sharing risk.
 
-The title is a field in the `metadata.json`:
+## Bats phylogeography
 
-~~~json
-{
-    "title": "Preprint template"
-}
-~~~
+For every pixel, we measured Faith’s Phylogenetic Diversity (Faith 1992) based
+on a recent synthetic tree with robust time calibration, covering about 6000
+mammalian species (Upham et al. 2019). Faith’s PD measures the sum of unique
+branches from an arbitrary root to a set of tips, and comparatively larger
+values indicate a more phylogenetic diverse species pool. We measured
+phylogenetic diversity starting from the root of the entire tree (and not from
+Chiroptera); this bears no consequences on the resulting values, since all
+branches leading up to Chiroptera are only counted one per species pool, and (as
+we explain when describing the assembly of the composite risk map), all
+individual risk components are ranged in [0,1]. This measure incorporates a
+richness component, which we chose not to correct for; the interpretation of the
+phylogenetic diversity is therefore a weighted species richness, that accounts
+for phylogenetic over/under-dispersal in some places.
 
-## Authorship
+## Bats compositional uniqueness
 
-Authors are listed as objects in the `authors` block. Each author is specified
-as follows:
+For every species pool, we measured its Local Contribution to Beta-Diversity
+(Legendre and De Cáceres 2013); LCBD works from a species-data matrix
+(traditionally noted as Y), where species are rows and sites are columns, and a
+value of 1 indicates occurrence. We extracted the Y matrix assuming that every
+pixel represents a unique location, and following best practices (Legendre and
+Condit 2019) transformed it using Hellinger’s distance to account for unequal
+bat richness at different pixels. The correction of raw community data is
+particularly important for two reasons: first, it prevents the artifact of
+richer sites having higher importance; second, it removes the effect of overall
+species richness, which is already incorporated in the phylogenetic diversity
+component. High values of LCBD indicate that the pixel has a community that is
+on average more dissimilar in species composition than what is expected knowing
+the entire matrix, i.e. a more unique community.
 
-~~~json
-{
-      "familyname": "Bob",
-      "givennames": "Alice",
-      "email": "alice.bob@u.edu",
-      "orcid": "0000-0000-0000-0001",
-      "affiliations": [
-        "Affiliation 1",
-        "Affiliation 2"
-      ],
-      "status": ["corresponding", "equal"]
-    }
-~~~
+## Viral sharing between hosts
 
-The `email` field is recommended for all authors. The `status` field is only
-useful for the corresponding author, and to denote equal contributions. These
-informations are rendered on the initial page. If an `orcid` is given, it will
-be linked on the HTML and PDF versions.
+For all bat hosts of betacoronaviruses, we extracted their predicted viral
+sharing network (Albery et al. 2020). This network stores pairwise values of
+viral community similarity. To project viral sharing values into a single value
+for every pixel, we averaged the pairwise scores. High values of the average
+sharing propensity means that this specific extant bat assemblage is likely to
+be proficient at exchanging viruses.
 
-Note that there is *no need* to number the affiliations - a small python script
-will take care of this automatically.
+## Composite risk map
 
-## Abstract
+To visualize the aggregated risk at the global scale, we combine the three
+individual risk components (phylogenetic diversity, compositional uniqueness,
+and viral sharing) using an additive color model (Seekell et al. 2018). In this
+approach, every risk component gets assigned a component in the RGB color model
+(phylogenetic diversity is green, compositional uniqueness is red, and viral
+sharing is blue). In order to achieve a valid RGB measure, all components are
+re-scaled to the [0,1] interval. This additive model conveys both the intensity
+of the overall risk, but also the nature of the risk as colors diverge towards
+combinations of values for three risk components.
 
-This template supports three types of abstracts, indicated in the metadata file
-as `abstract`:
+## Viral phylogeography
 
-A regular `abstract` is defined as
+We used the following query to pull all betacoronavirus sequence data from the
+GenBank Nucleotide database except SARS-CoV-2; ("Betacoronavirus"[Organism] OR
+betacoronavirus[All Fields]) NOT ("Severe acute respiratory syndrome coronavirus
+2"[Organism] OR sars-cov-2[All Fields]). We added a single representative
+sequence for SARS-CoV-2 and manually curated to remove sequences without the
+RNA-dependent RNA polymerase (RdRp) sequence or that contained words indicating
+recombinant or laboratory strains including “patent”, “mutant”, “GFP”, and
+“recombinant”. We filtered over-represented taxa including betacoronavirus 1,
+hCoV-OC43, Middle East respiratory syndrome coronavirus, Murine hepatitis virus,
+and hCoV-HKU1. Curated betacoronavirus RdRp sequences were then aligned using
+MAFFT v 1.4.0 (Katoh and Standley 2013, Supplemental X) and a maximum likelihood
+tree reconstructed in IQ-TREE v 1.6.12 (Nguyen et al. 2015) with ModelFinder
+(Kalyaanamoorthy et al. 2017) ultrafast bootstrap approximation (Hoang et al.
+2018) and the following parameters (STEPH WILL ADD, Supplemental X).
 
-~~~json
-"abstract": "A very long string"
-~~~
+## Viral evolutionary diversification
 
-An itemized abstract is an array of strings, each representing a bullet point:
+We first tested the hypothesis that hotspots of viral diversification would
+track hotspots of bat diversification. To do so, we plotted the number of known
+bat hosts (specifically only those included in the phylogeny, so there was a 1:1
+correspondence between data sources) against the “mean evolutionary
+distinctiveness” of the associated viruses. To calculate this, we derived the
+fair proportions evolutionary distinctiveness (Isaac et al., 2007) for each of
+the viruses in the tree, then averaged these at the bat species level, projected
+these values onto their geographic distributions, and averaged across every bat
+found in a given pixel. As such, this can be thought of as a map of the mean
+evolutionary distinctiveness of the known viral community believed to be
+associated with a particular subset of bats present.
 
-~~~json
-"abstract": [
-    "Point 1",
-    "Point 2"
-]
-~~~
+## Co-distribution of hosts and viral hotspots
 
-A structured abstract is an object with key-value pairs :
+Subsequently, we tested the hypothesis that the biogeography of bat
+betacoronaviruses should track the biogeography of their hosts. To test this
+idea, we loosely adapted a method from Kreft & Jetz (2010), who proposed a
+phylogenetic method for the delineation of animal biogeographic regions. In
+their original method, a distance matrix - where each row or column represents a
+geographic raster’s grid cell, and the dissimilarity values are the “beta
+diversity similarity” of their community assemble - undergoes non-metric
+multidimensional scaling (NMDS); the first two axes of the NMDS are projected
+geographically using a four-color bivariate map.
 
-~~~json
-"abstract": {
-    "Location": "Worldwide",
-    "Organisms": "Mammals"
-}
-~~~
+Here, we build on this idea with an entirely novel methodology. First, we
+measure the phylogenetic distance between the different viruses in the
+betacoronavirus tree by using the cophenetic function in ‘ape’; subsequently, we
+take a principal components analysis of that distance matrix (readily
+interchangeable for NMDS in this case) to project the viral tree into an
+n-dimensional space. We then take the first two principal components and, as
+with the evolutionary distinctiveness analysis, aggregated these to a mean host
+value and projected them using a four-color bivariate map. 
 
-## Citation style
+## Outbreaks data geo-referencing
 
-The `citationstyle` key corresponds to the name, with `.csl` ommited, of a CSL
-stylesheet stored in the [citation style language][csl] repository. Note that
-there is no difference between main and dependent styles, the build engine will
-take the correct steps to get the correct style. The default is
-`"citationstyle": "ecology-letters"`. There is a longer section about references
-management later on.
+Finally, we provide a summary visualization of what available information
+describes the spillover of zoonotic betacoronaviruses of bat origin where data
+was available before and up through the COVID-19 pandemic. The SARS-CoV-2
+outbreak was georeferenced to the initial case cluster in Wuhan, China; SARS-CoV
+was georeferenced based on the cave with the closest known viruses circulating
+in nature (Hu et al. 2017 PLoS Pathogens), and a nearby location where
+serological (antibody) evidence has indicated human exposure to SARS-like
+viruses (Wang et al. 2018 Virologica Sinica). For MERS-CoV, we presented the
+index cases available from a recently-published compendium of MERS-CoV cases
+(Ramshaw et al. 2019); these are largely if not all presumed to be
+camel-to-human transmission, and the precise origin point of MERS-CoV in bats is
+uncertain. Not shown is a recent case of a recombinant canine coronavirus that
+showed the ability to infect humans, both because this study was published after
+the beginning of the COVID-19 pandemic and because bats’ involvement in this
+cycle of transmission has been marginal to non-existent.
 
-[csl]: https://github.com/citation-style-language/
-# References management
-
-The references are managed by `pandoc`. Note that we *do not* use
-`pandoc-citeproc`, which was an external module for older `pandoc` versions.
-References *must* be stored in a `references.bib` file, and that it would make
-sense to order it alphabetically by key.
-
-We use [Zotero](https://www.zotero.org/) for references management, and for the
-lab's manuscripts, we work from folders in a shared library (with a folder for
-every manuscript).
-
-It is recommedned to use the [Better
-BibTeX](https://retorque.re/zotero-better-bibtex/) plugin for citation key
-generations, and auto-export of the shared library to the `references.bib` file.
-We use a citation key format meant to convey information on the author (first
-author full name), date (complet year), and title (first three letters of the
-first two non-stop words). It must be set in the Better BibTeX preferences as
-(you might need to remove the line changes):
-
-~~~
-[auth:fold]
-[year]
-[title:fold:nopunctordash:skipwords:lower:select=1,1:substring=1,3:capitalize]
-[title:fold:nopunctordash:skipwords:lower:select=2,2:substring=1,3:capitalize]
-~~~
-
-It is a good idea to configure Better BibTeX to auto-export on change, and to
-remove a lot of fields that are not strictly speaking required for references.
-The list of fields we usually ignore is:
-
-~~~
-abstract,copyright,annotation,file,pmid,month,shorttitle,keywords
-~~~
-
-The citations are done using the normal markdown syntax, where
-`@Elton1927AniEco` produces @Elton1927AniEco, and `[@Camerano1880EquViv]`
-produces [@Camerano1880EquViv].
-
-# Figures, Tables, and other floats
-
-Note that you can wrap the text of legends for both figures and tables. This
-avoids the issue of having very long lines.
-
-## Mathematics
-
-The following equation
-
-$$J'(p) = \frac{1}{\text{log}(S)}\times\left(-\sum p \times \text{log}(p)\right)$$ {#eq:eq1}
-
-is produced using
-
-~~~latex
-$$J'(p) = \frac{1}{\text{log}(S)}\times ... $$ {#eq:eq1}
-~~~
-
-and can be referenced using `@eq:eq1`, which will result in @eq:eq1. Note that
-because we use `pandoc-crossref`, the label "eq." will be generated
-automatically.
-
-## Tables
-
-Table legends go on the line after the table itself. To generate a reference to
-the table, use `{#tbl:id}` -- then, in the text, you can use `{@tbl:id}` to
-refer to the table. For example, the table below is @tbl:id. You can remove the
-*table* in front by using `!@tbl:id`, or force it to be capitalized with
-`\*tbl:id`.
-
-| Sepal.Length | Sepal.Width | Petal.Length | Petal.Width | Species |
-|-------------:|------------:|-------------:|------------:|:--------|
-|          5.1 |         3.5 |          1.4 |         0.2 | setosa  |
-|          5.0 |         3.6 |          1.4 |         0.2 | setosa  |
-|          5.4 |         3.9 |          1.7 |         0.4 | setosa  |
-
-Table: This is a table, and its identifier is `id` -- we can refer to it using
-`{@tbl:id}`. Note that even if the table legend is written below the table
-itself, it will appear on top in the PDF document. {#tbl:id}
-
-# Figures
-
-Figures can have a legend -- all figures *must* be in the `figures/` folder of
-the project, as it is also used for the website. We recommend to use good
-resolution images, rather than PDFs, or at least to have multiple versions
-available.
-
-~~~
-![This is the legend of the figure...](figures/figure.png){#fig:figure}
-~~~
-
-![This is the legend of the figure, which will be shown in the margin in
-preprint mode, and underneath the figure in draft mode. The legend can contain
-references, etc. It is advised to use a resolution of at least 600dpi for the
-figures.](figures/figure.png){#fig:figure}
-
-We can now use `@fig:figure` to refer to @fig:figure.
-
-# Example text
-
-Connectance, defined as the ratio of realized interactions on the total number
-of potential interactions, is one of the most common descriptor of network
-structure. In a bipartite network with $T$ species at the top, and $B$ at the
-bottom, having a total of $L$ interactions, it is defined as $Co = L/(T\times
-B)$. Connectance has a lower bound, as the network cannot have fewer
-interactions that the number of species in its more speciose level -- the
-minimal connectance is therefore $c_m = \text{max}(T,B)$. This makes the
-connectance of networks of different sizes difficult to compare, especially
-since bipartite networks tends to have a low connectance. For this reason, we
-used a corrected version of connectance, defined as
-
-$$Co^\star=\frac{L-c_m}{T\times B-c_m} \,.$${#eq:cstar}
-
-## This is a subsection
-
-This takes values between 0 (the network has the minimal number of interactions)
-and 1 (all species are connected), but is robust to variations in species
-richness.
-
-## This is another subsection
-
-This takes values between 0 (the network has the minimal number of interactions)
-and 1 (all species are connected), but is robust to variations in species
-richness.
-
-## Some non-standard maths
-
-The phylogenetic reconstruction of $\hat{\mathscr{L}}$ and $\hat{\mathscr{R}}$
-has an associated uncertainty, represented by the breadth of the uniform
-distribution associated to each of their entries. Therefore, we can use this
-information to assemble a *probabilistic* metaweb in the sense of
-@Poisot2016StrPro, *i.e.* in which every interaction is represented as a single,
-independent, Bernoulli event of probability $p$.
-
-Specifically, we have adopted the following approach. For every entry in
-$\hat{\mathscr{L}}$ and $\hat{\mathscr{R}}$, we draw a value from its
-distribution. This results in one instance of the possible left
-($\hat{\mathscr{l}}$) and right ($\hat{\mathscr{r}}$) subspaces for the Canadian
-metaweb. These can be multiplied, to produce one matrix of real values. Because
-the entries in $\hat{\mathscr{l}}$ and $\hat{\mathscr{r}}$ are in the same space
-where $\mathscr{L}$ and $\mathscr{R}$ were originally predicted, it follows that
-the threshold $\rho$ estimated for the European metaweb also applies. We use
-this information to produce one random Canadian metaweb, $N =
-\hat{\mathscr{L}}$$\hat{\mathscr{R}}' \ge \rho$.
-
-Because the intervals around some trait values can be broad [in fact, probably
-broader than what they would actually be, see *e.g.* @Garland1999IntPhy], we
-repeat the above process $2\times 10^5$ times, which results in a probabilistic
-metaweb $P$, where the probability of an interaction (here conveying our degree
-of trust that it exists given the inferred trait distributions) is given by the
-number of times where it appears across all random draws $N$, divided by the
-number of samples. An interaction with $P_{i,j} = 1$ means that these two
-species were predicted to interact in all $2\times 10^5$ random draws, etc..
-
-
-# References
+# Results

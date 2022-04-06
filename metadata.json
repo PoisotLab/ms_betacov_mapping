@@ -38,9 +38,13 @@
     "Internals": "GitHub actions and a series of python scritpts. The markdown is handled with `pandoc`."
   },
   "keywords": [
-    "pandoc",
-    "pandoc-crossref",
-    "github actions"
+    "bats",
+    "betacoronavirus",
+    "disease ecology",
+    "geographic mosaic theory of coevolution",
+    "phylogenetic diversity",
+    "viral sharing",
+    "SARS-CoV-2"
   ],
-  "citationstyle": "ecology-letters"
+  "citationstyle": "ecography"
 }
