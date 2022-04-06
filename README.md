@@ -1,9 +1,9 @@
 Spillover risk is not unidimensional. From the standpoint of an animal
 community, i.e. a pool of possible hosts, there are a multiplicity of ecological
-factors that come into play (Plowright et al. 2017). The global richness of
-hosts is one such component commonly mentioned/analysed (Anthony et al. 2017),
-but there is an argument to be made that species who are not competent hosts of
-a specific virus genus may not factor into this (Plowright et al. 2015), or that
+factors that come into play [@Plowright2017PatZoo]. The global richness of hosts
+is one such component commonly mentioned/analysed (Anthony et al. 2017), but
+there is an argument to be made that species who are not competent hosts of a
+specific virus genus may not factor into this [@Plowright2015EcoDyn], or that
 species who are assumed to share viruses at different rates should be weighted
 accordingly (Albery et al. 2020). In mammals, key functional traits (for which
 phylogeny is a reasonable proxy) are determinants of the spillover potential
@@ -11,8 +11,8 @@ phylogeny is a reasonable proxy) are determinants of the spillover potential
 pool of potential hosts spans the entire globe, there may be local host pools
 that are highly unique; not having been observed in other locations, these can
 act on the overall risk either by providing novel contact opportunities,
-reflecting unique host-environment combinations (Engering et al. 2013), or
-facilitating rapid changes in specialism (Agosta et al. 2010). In the specific
+reflecting unique host-environment combinations [@Engering2013PatHos], or
+facilitating rapid changes in specialism [@Agosta2010HowSpe]. In the specific
 case of generalist pathogens (as betacoronavirus clearly are), there is
 conceptual and empirical support to the idea that these community- level
 mechanisms are even more important in driving the overall risk (Power and
@@ -406,3 +406,5 @@ Calcul Québec (www.calculquebec.ca) and Compute Canada (www.computecanada.ca).
 NF is funded by the NSERC BIOS² CREATE program. TP and NF are funded by the
 Courtois Foundation. RLM was supported by Bryce Carmine and Anne Carmine (née
 Percival), through the Massey University Foundation.
+
+# References
