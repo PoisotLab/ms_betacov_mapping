@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.4)  6 APR 2022 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.4)  6 APR 2022 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1222,19 +1222,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--263
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.12506pt on input line 329.
+(Font)              scaled to size 7.12506pt on input line 330.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 7.50009pt on input line 329.
+(Font)              scaled to size 7.50009pt on input line 330.
 [1
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.25993pt on input line 333.
+(Font)              scaled to size 10.25993pt on input line 334.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.25993pt on input line 333.
+(Font)              scaled to size 10.25993pt on input line 334.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 337.
+(Font)              scaled to size 8.54997pt on input line 338.
 
 
 ! LaTeX Error: Unicode character β (U+03B2)
@@ -1244,46 +1244,47 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.339 We downloaded the β
+l.340 We downloaded the β
                           CoV reservoir database from
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (97.20505pt too wide) in paragraph at lines 339--347
+Overfull \hbox (97.20505pt too wide) in paragraph at lines 340--348
 [] []|\T1/phv/b/n/9 1.1. Known be-ta-coro-n-avirus hosts[] \T1/stix2/m/n/9 We d
 own-loaded the CoV reser-voir database from https://www.viralemergence.org/beta
 cov
  []
 
-[2] [3] [4] [5] 
+[2] [3] [4] [5] [6] 
 AED: lastpage setting LastPage
-[6] (./preprint.aux)
+[7] (./preprint.aux)
 Package rerunfilecheck Info: File `preprint.out' has not changed.
 (rerunfilecheck)             Checksum: D229483C8FAA7A45D300EA605D6CEC75;3226.
  ) 
 Here is how much of TeX's memory you used:
- 30722 strings out of 478268
- 558306 string characters out of 5848350
- 836094 words of memory out of 5000000
- 48357 multiletter control sequences out of 15000+600000
- 576039 words of font info for 97 fonts, out of 8000000 for 9000
+ 30730 strings out of 478268
+ 558446 string characters out of 5848350
+ 837094 words of memory out of 5000000
+ 48358 multiletter control sequences out of 15000+600000
+ 583740 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,11n,117p,405b,643s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,12n,117p,405b,643s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/texlive/tex
-dir/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/opt/texlive/texdir/tex
-mf-dist/fonts/enc/dvips/stix2-type1/stix2-t1.enc}{/opt/texlive/texdir/texmf-dis
+dir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-t1.enc}{/opt/texlive/texdir/te
+xmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/opt/texlive/texdir/texmf-dis
 t/fonts/enc/dvips/stix2-type1/stix2-ts1.enc}</opt/texlive/texdir/texmf-dist/fon
 ts/type1/public/inconsolata/Inconsolata-zi4r.pfb></opt/texlive/texdir/texmf-dis
 t/fonts/type1/public/stix2-type1/STIX2Text-Bold.pfb></opt/texlive/texdir/texmf-
-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb></opt/texlive/texdir/
-texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/texmf-di
-st/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fonts/ty
-pe1/urw/helvetic/uhvr8a.pfb>
-Output written on preprint.pdf (6 pages, 430399 bytes).
+dist/fonts/type1/public/stix2-type1/STIX2Text-Italic.pfb></opt/texlive/texdir/t
+exmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb></opt/texlive/te
+xdir/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/tex
+mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fon
+ts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on preprint.pdf (7 pages, 536682 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
  162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1649255249 "preprint.tex" "preprint.pdf" "preprint" 1649255250
+["pdflatex"] 1649255709 "preprint.tex" "preprint.pdf" "preprint" 1649255711
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-t1.enc" 1610747736 7007 7bfc8f72039f2cce6ca911c3c71db584 ""
@@ -30,11 +30,13 @@
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/stix2-type1/stix2-mathsfit.tfm" 1610747736 1964 080fe4119d24dfa21545a87045bb93d1 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/stix2-type1/stix2-mathtt.tfm" 1610747736 1468 476d30739d7bde27ef978647fed37255 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text-bold.tfm" 1610747736 28532 15c9fc954b1440700b35aab90bfb9230 ""
+  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text-italic.tfm" 1610747736 30900 0903f6d37c44d064d62d9c928b7560fc ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text.tfm" 1610747736 28540 097ba14dab39294b86bfe4de12d2fe0b ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/stix2-type1/ts1-stix2text.tfm" 1610747736 1460 ab4098db9455eb1e01cadc3c0fc30c5f ""
   "/opt/texlive/texdir/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb" 1509395996 11767 1689f192b3621a5be44996e5940b6bb6 ""
   "/opt/texlive/texdir/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb" 1558214095 55526 184de5d68af8c544d6d1653244a2b006 ""
   "/opt/texlive/texdir/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Bold.pfb" 1610747736 537414 936ea934798617b12bdc2368f1bc9ddd ""
+  "/opt/texlive/texdir/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Italic.pfb" 1610747736 452561 61eccfe7853019df7c3d332e353ab0f8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb" 1610747736 526217 45f43131563c350dac0de98a3a4109a9 ""
   "/opt/texlive/texdir/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb" 1136849748 35941 f27169cc74234d5bd5e4cca5abafaabb ""
   "/opt/texlive/texdir/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb" 1136849748 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
@@ -215,10 +217,10 @@
   "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1649102900 4410328 ad4c8b228945fed75b2c936885ec50a0 ""
   "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1649102970 2826451 94aa35869eb83e6c7f1128c86158d424 ""
   "/opt/texlive/texdir/texmf.cnf" 1649102891 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "logo.png" 1649255246 113359 45033ed08cbb258b39c48b6cb6fa077c ""
-  "preprint.aux" 1649255250 6185 1359e88c2b49c6ad09802b212716c063 "pdflatex"
-  "preprint.out" 1649255250 3226 d229483c8faa7a45d300ea605d6cec75 "pdflatex"
-  "preprint.tex" 1649255246 37124 2eb0fb641c6a4b214337cf52f143db77 ""
+  "logo.png" 1649255707 113359 45033ed08cbb258b39c48b6cb6fa077c ""
+  "preprint.aux" 1649255710 6185 e2f30299b30a89f026b8c78f74924626 "pdflatex"
+  "preprint.out" 1649255710 3226 d229483c8faa7a45d300ea605d6cec75 "pdflatex"
+  "preprint.tex" 1649255707 38017 a3de5ff22dfde67c6693d1b7487231bf ""
   (generated)
   "preprint.aux"
   "preprint.log"

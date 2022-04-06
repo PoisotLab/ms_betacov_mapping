@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.4)  6 APR 2022 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.4)  6 APR 2022 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,9 +848,9 @@ LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 232.
+(Font)              scaled to size 5.69998pt on input line 233.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 271.
+(Font)              scaled to size 8.54997pt on input line 272.
  [3
 
 ]
@@ -862,7 +862,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.281 We downloaded the β
+l.282 We downloaded the β
                           CoV reservoir database from
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -874,9 +874,9 @@ Package rerunfilecheck Info: File `draft.out' has not changed.
 (rerunfilecheck)             Checksum: BD2E2B774692510E844B767CDA0C9A60;3200.
  ) 
 Here is how much of TeX's memory you used:
- 18848 strings out of 478268
- 306162 string characters out of 5848350
- 569189 words of memory out of 5000000
+ 18853 strings out of 478268
+ 306262 string characters out of 5848350
+ 570189 words of memory out of 5000000
  36726 multiletter control sequences out of 15000+600000
  570857 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -892,10 +892,10 @@ exmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb></opt/texlive/te
 xdir/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></opt/texlive/texdir/tex
 mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/texdir/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on draft.pdf (13 pages, 485886 bytes).
+Output written on draft.pdf (13 pages, 486934 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 55 named destinations out of 1000 (max. 500000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 60 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
