@@ -1,22 +1,23 @@
 Spillover risk is not unidimensional. From the standpoint of an animal
-community, i.e. a pool of possible hosts, there are a multiplicity of ecological
-factors that come into play [@Plowright2017PatZoo]. The global richness of hosts
-is one such component commonly mentioned/analysed (Anthony et al. 2017), but
-there is an argument to be made that species who are not competent hosts of a
-specific virus genus may not factor into this [@Plowright2015EcoDyn], or that
-species who are assumed to share viruses at different rates should be weighted
-accordingly (Albery et al. 2020). In mammals, key functional traits (for which
-phylogeny is a reasonable proxy) are determinants of the spillover potential
-(Olival et al. 2017); these include, notably, TK. Finally, especially when the
-pool of potential hosts spans the entire globe, there may be local host pools
-that are highly unique; not having been observed in other locations, these can
-act on the overall risk either by providing novel contact opportunities,
-reflecting unique host-environment combinations [@Engering2013PatHos], or
-facilitating rapid changes in specialism [@Agosta2010HowSpe]. In the specific
-case of generalist pathogens (as betacoronavirus clearly are), there is
-conceptual and empirical support to the idea that these community- level
-mechanisms are even more important in driving the overall risk (Power and
-Mitchell 2004).
+community, *i.e.* a pool of possible hosts, it is driven by a multiplicity of
+factors [@Plowright2017PatZoo]. The global richness of hosts is one such
+component commonly mentioned/analysed [see *e.g.* @Anthony2017GloPat for
+coronaviruses], but there is an argument to be made that species who are not
+competent hosts of a specific virus genus may not factor into this
+[@Plowright2015EcoDyn], or that species who are assumed to share viruses at
+different rates should be weighted accordingly [@Albery2020PreGlo]. In mammals,
+key functional traits (for which phylogeny is a reasonable proxy) are
+determinants of the spillover potential [@Olival2017HosVir]; these include,
+notably, body mass and affinity for urban environments [@Albery2022UrbMam].
+Finally, especially when the pool of potential hosts spans the entire globe,
+there may be local host pools that are highly unique; not having been observed
+in other locations, these can act on the overall risk either by providing novel
+contact opportunities, reflecting unique host-environment combinations
+[@Engering2013PatHos], or facilitating rapid changes in specialism
+[@Agosta2010HowSpe]. In the specific case of generalist pathogens (as
+betacoronavirus clearly are), there is conceptual and empirical support to the
+idea that these community- level mechanisms are even more important in driving
+the overall risk [@Power2004PatSpi].
 
 Bats are important reservoir hosts for different classes of microorganisms (Chu
 2008, Donaldson 2010, Li 2010), some of which can threaten human health.
