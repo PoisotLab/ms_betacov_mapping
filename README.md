@@ -64,13 +64,12 @@ dynamics between these two regions.
 
 ## Known betacoronavirus hosts
 
-We downloaded the βCoV reservoir database from
-https://www.viralemergence.org/betacov on Aug. 2021. This database was assembled
-by a combination of data mining, literature surveys, and application of an
-ensemble recommender system classifying hosts as either “Suspected” or
-“Unlikely” (REF BECKER). The hosts considered for this study were all hosts with
-a known record of a betacoronavirus, and all those with a “Suspected” status in
-the ensemble model. This resulted in a list of TK TP unique host species. 
+We downloaded the data on bats hosts of betacoronaviruses assembled by
+@Becker2022OptPre from `https://www.viralemergence.org/betacov` on Aug. 2021,
+and filtered it to "known" hosts (established before the emergence of
+SARS-CoV-2) and "novel" hosts (confirmed through sampling since the emergence of
+SARS-CoV-2). This database was assembled by a combination of data mining and
+literature surveys.
 
 ## Bats occurrences
 
