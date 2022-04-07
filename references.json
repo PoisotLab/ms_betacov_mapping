@@ -119,6 +119,46 @@
         "type": "article-journal"
     },
     {
+        "DOI": "10.1016/j.baae.2017.12.002",
+        "author": [
+            {
+                "family": "Alves",
+                "given": "Davi Mello Cunha Crescente"
+            },
+            {
+                "family": "Diniz-Filho",
+                "given": "Jos\u00e9 Alexandre Felizola"
+            },
+            {
+                "family": "Silva e Souza",
+                "given": "Kelly",
+                "non-dropping-particle": "da"
+            },
+            {
+                "family": "Gouveia",
+                "given": "Sidney Feitosa"
+            },
+            {
+                "family": "Villalobos",
+                "given": "Fabricio"
+            }
+        ],
+        "container-title": "Basic and Applied Ecology",
+        "id": "Alves2018GeoVar",
+        "issued": {
+            "date-parts": [
+                [
+                    2018,
+                    3
+                ]
+            ]
+        },
+        "page": "1-8",
+        "title": "Geographic variation in the relationship between large-scale environmental determinants and bat species richness",
+        "type": "article-journal",
+        "volume": "27"
+    },
+    {
         "DOI": "10.1093/ve/vex012",
         "author": [
             {
@@ -198,6 +238,143 @@
         "title": "Global patterns in coronavirus diversity",
         "type": "article-journal",
         "volume": "3"
+    },
+    {
+        "DOI": "10.3389/fimmu.2020.00026",
+        "author": [
+            {
+                "family": "Banerjee",
+                "given": "Arinjay"
+            },
+            {
+                "family": "Baker",
+                "given": "Michelle L."
+            },
+            {
+                "family": "Kulcsar",
+                "given": "Kirsten"
+            },
+            {
+                "family": "Misra",
+                "given": "Vikram"
+            },
+            {
+                "family": "Plowright",
+                "given": "Raina"
+            },
+            {
+                "family": "Mossman",
+                "given": "Karen"
+            }
+        ],
+        "container-title": "Frontiers in Immunology",
+        "id": "Banerjee2020NovIns",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    1
+                ]
+            ]
+        },
+        "page": "26",
+        "title": "Novel Insights Into Immune Systems of Bats",
+        "type": "article-journal",
+        "volume": "11"
+    },
+    {
+        "author": [
+            {
+                "family": "Beard C K",
+                "given": "K Christopher Beard"
+            }
+        ],
+        "container-title": "Bulletin of the Carnegie Museum of Natural History",
+        "id": "BeardCK1988EasEde",
+        "issued": {
+            "date-parts": [
+                [
+                    1988
+                ]
+            ]
+        },
+        "title": "East of Eden: Asia as an important center of taxonomic origination in mammalian evolution",
+        "type": "article-journal",
+        "volume": "34"
+    },
+    {
+        "DOI": "10.1101/2020.05.22.111344",
+        "author": [
+            {
+                "family": "Becker",
+                "given": "Daniel J."
+            },
+            {
+                "family": "Albery",
+                "given": "Gregory F."
+            },
+            {
+                "family": "Sjodin",
+                "given": "Anna R."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Bergner",
+                "given": "Laura M."
+            },
+            {
+                "family": "Dallas",
+                "given": "Tad A."
+            },
+            {
+                "family": "Eskew",
+                "given": "Evan A."
+            },
+            {
+                "family": "Farrell",
+                "given": "Maxwell J."
+            },
+            {
+                "family": "Guth",
+                "given": "Sarah"
+            },
+            {
+                "family": "Han",
+                "given": "Barbara A."
+            },
+            {
+                "family": "Simmons",
+                "given": "Nancy B."
+            },
+            {
+                "family": "Stock",
+                "given": "Michiel"
+            },
+            {
+                "family": "Teeling",
+                "given": "Emma C."
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            }
+        ],
+        "genre": "Preprint",
+        "id": "Becker2020OptPre",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    5
+                ]
+            ]
+        },
+        "publisher": "Ecology",
+        "title": "Optimizing predictive models to prioritize viral discovery in zoonotic reservoirs",
+        "type": "report"
     },
     {
         "DOI": "10.1016/S2666-5247(21)00245-7",
@@ -286,6 +463,215 @@
         "type": "article-journal"
     },
     {
+        "DOI": "10.3390/v4061011",
+        "author": [
+            {
+                "family": "Belouzard",
+                "given": "Sandrine"
+            },
+            {
+                "family": "Millet",
+                "given": "Jean K."
+            },
+            {
+                "family": "Licitra",
+                "given": "Beth N."
+            },
+            {
+                "family": "Whittaker",
+                "given": "Gary R."
+            }
+        ],
+        "container-title": "Viruses",
+        "id": "Belouzard2012MecCor",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2012,
+                    6
+                ]
+            ]
+        },
+        "page": "1011-1033",
+        "title": "Mechanisms of Coronavirus Cell Entry Mediated by the Viral Spike Protein",
+        "type": "article-journal",
+        "volume": "4"
+    },
+    {
+        "DOI": "10.1128/CMR.00017-06",
+        "author": [
+            {
+                "family": "Calisher",
+                "given": "Charles H."
+            },
+            {
+                "family": "Childs",
+                "given": "James E."
+            },
+            {
+                "family": "Field",
+                "given": "Hume E."
+            },
+            {
+                "family": "Holmes",
+                "given": "Kathryn V."
+            },
+            {
+                "family": "Schountz",
+                "given": "Tony"
+            }
+        ],
+        "container-title": "Clinical Microbiology Reviews",
+        "id": "Calisher2006BatImp",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2006,
+                    7
+                ]
+            ]
+        },
+        "page": "531-545",
+        "title": "Bats: Important Reservoir Hosts of Emerging Viruses",
+        "type": "article-journal",
+        "volume": "19"
+    },
+    {
+        "DOI": "10.1038/s41559-019-0910-6",
+        "author": [
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            },
+            {
+                "family": "Zipfel",
+                "given": "Casey M."
+            },
+            {
+                "family": "Garnier",
+                "given": "Romain"
+            },
+            {
+                "family": "Bansal",
+                "given": "Shweta"
+            }
+        ],
+        "container-title": "Nature Ecology & Evolution",
+        "id": "Carlson2019GloEst",
+        "issue": "7",
+        "issued": {
+            "date-parts": [
+                [
+                    2019,
+                    7
+                ]
+            ]
+        },
+        "page": "1070-1075",
+        "title": "Global estimates of mammalian viral diversity accounting for host sharing",
+        "type": "article-journal",
+        "volume": "3"
+    },
+    {
+        "DOI": "10.1038/s41579-018-0118-9",
+        "author": [
+            {
+                "family": "Cui",
+                "given": "Jie"
+            },
+            {
+                "family": "Li",
+                "given": "Fang"
+            },
+            {
+                "family": "Shi",
+                "given": "Zheng-Li"
+            }
+        ],
+        "container-title": "Nature Reviews Microbiology",
+        "id": "Cui2019OriEvo",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2019,
+                    3
+                ]
+            ]
+        },
+        "page": "181-192",
+        "title": "Origin and evolution of pathogenic coronaviruses",
+        "type": "article-journal",
+        "volume": "17"
+    },
+    {
+        "DOI": "10.1111/oik.08359",
+        "author": [
+            {
+                "family": "Deshpande",
+                "given": "Kadambari"
+            },
+            {
+                "family": "Vanak",
+                "given": "Abi T."
+            },
+            {
+                "family": "Devy",
+                "given": "M. Soubadra"
+            },
+            {
+                "family": "Krishnaswamy",
+                "given": "Jagdish"
+            }
+        ],
+        "container-title": "Oikos (Copenhagen, Denmark)",
+        "id": "Deshpande2022ForFru",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    1
+                ]
+            ]
+        },
+        "page": "oik.08359",
+        "title": "Forbidden fruits? Ecosystem services from seed dispersal by fruit bats in the context of latent zoonotic risk",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1016/j.antiviral.2013.10.013",
+        "author": [
+            {
+                "family": "Drexler",
+                "given": "Jan Felix"
+            },
+            {
+                "family": "Corman",
+                "given": "Victor Max"
+            },
+            {
+                "family": "Drosten",
+                "given": "Christian"
+            }
+        ],
+        "container-title": "Antiviral Research",
+        "id": "Drexler2014EcoEvo",
+        "issued": {
+            "date-parts": [
+                [
+                    2014,
+                    1
+                ]
+            ]
+        },
+        "page": "45-56",
+        "title": "Ecology, evolution and classification of bat coronaviruses in the aftermath of SARS",
+        "type": "article-journal",
+        "volume": "101"
+    },
+    {
         "DOI": "10.1038/emi.2013.5",
         "PMCID": "PMC3630490",
         "author": [
@@ -344,6 +730,206 @@
         "volume": "61"
     },
     {
+        "DOI": "10.1016/j.cmet.2020.06.013",
+        "author": [
+            {
+                "family": "Gorbunova",
+                "given": "Vera"
+            },
+            {
+                "family": "Seluanov",
+                "given": "Andrei"
+            },
+            {
+                "family": "Kennedy",
+                "given": "Brian K."
+            }
+        ],
+        "container-title": "Cell Metabolism",
+        "id": "Gorbunova2020WorGoe",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    7
+                ]
+            ]
+        },
+        "page": "31-43",
+        "title": "The World Goes Bats: Living Longer and Tolerating Viruses",
+        "type": "article-journal",
+        "volume": "32"
+    },
+    {
+        "DOI": "10.1371/journal.ppat.1006073",
+        "author": [
+            {
+                "family": "Gryseels",
+                "given": "Sophie"
+            },
+            {
+                "family": "Baird",
+                "given": "Stuart J. E."
+            },
+            {
+                "family": "Borremans",
+                "given": "Benny"
+            },
+            {
+                "family": "Makundi",
+                "given": "Rhodes"
+            },
+            {
+                "family": "Leirs",
+                "given": "Herwig"
+            },
+            {
+                "family": "Go\u00fcy de Bellocq",
+                "given": "Jo\u00eblle"
+            }
+        ],
+        "container-title": "PLOS Pathogens",
+        "editor": [
+            {
+                "family": "Kuhn",
+                "given": "Jens H."
+            }
+        ],
+        "id": "Gryseels2017WheVir",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2017,
+                    1
+                ]
+            ]
+        },
+        "page": "e1006073",
+        "title": "When Viruses Don\u2019t Go Viral: The Importance of Host Phylogeographic Structure in the Spatial Spread of Arenaviruses",
+        "type": "article-journal",
+        "volume": "13"
+    },
+    {
+        "DOI": "10.1371/journal.pone.0251368",
+        "author": [
+            {
+                "family": "Haddad",
+                "given": "Dania"
+            },
+            {
+                "family": "John",
+                "given": "Sumi Elsa"
+            },
+            {
+                "family": "Mohammad",
+                "given": "Anwar"
+            },
+            {
+                "family": "Hammad",
+                "given": "Maha M."
+            },
+            {
+                "family": "Hebbar",
+                "given": "Prashantha"
+            },
+            {
+                "family": "Channanath",
+                "given": "Arshad"
+            },
+            {
+                "family": "Nizam",
+                "given": "Rasheeba"
+            },
+            {
+                "family": "Al-Qabandi",
+                "given": "Sarah"
+            },
+            {
+                "family": "Al Madhoun",
+                "given": "Ashraf"
+            },
+            {
+                "family": "Alshukry",
+                "given": "Abdullah"
+            },
+            {
+                "family": "Ali",
+                "given": "Hamad"
+            },
+            {
+                "family": "Thanaraj",
+                "given": "Thangavel Alphonse"
+            },
+            {
+                "family": "Al-Mulla",
+                "given": "Fahd"
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "editor": [
+            {
+                "family": "Attoui",
+                "given": "Houssam"
+            }
+        ],
+        "id": "Haddad2021SarPos",
+        "issue": "5",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    5
+                ]
+            ]
+        },
+        "page": "e0251368",
+        "title": "SARS-CoV-2: Possible recombination and emergence of potentially more virulent strains",
+        "type": "article-journal",
+        "volume": "16"
+    },
+    {
+        "DOI": "10.1038/s42005-021-00679-0",
+        "author": [
+            {
+                "family": "Hazarie",
+                "given": "Surendra"
+            },
+            {
+                "family": "Soriano-Pa\u00f1os",
+                "given": "David"
+            },
+            {
+                "family": "Arenas",
+                "given": "Alex"
+            },
+            {
+                "family": "G\u00f3mez-Garde\u00f1es",
+                "given": "Jes\u00fas"
+            },
+            {
+                "family": "Ghoshal",
+                "given": "Gourab"
+            }
+        ],
+        "container-title": "Communications Physics",
+        "id": "Hazarie2021IntPop",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    12
+                ]
+            ]
+        },
+        "page": "191",
+        "title": "Interplay between population density and mobility in determining the spread of epidemics in cities",
+        "type": "article-journal",
+        "volume": "4"
+    },
+    {
         "DOI": "10.1017/S0031182021000391",
         "author": [
             {
@@ -372,6 +958,46 @@
         "type": "article-journal"
     },
     {
+        "DOI": "10.1038/s41586-020-03128-0",
+        "author": [
+            {
+                "family": "Irving",
+                "given": "Aaron T."
+            },
+            {
+                "family": "Ahn",
+                "given": "Matae"
+            },
+            {
+                "family": "Goh",
+                "given": "Geraldine"
+            },
+            {
+                "family": "Anderson",
+                "given": "Danielle E."
+            },
+            {
+                "family": "Wang",
+                "given": "Lin-Fa"
+            }
+        ],
+        "container-title": "Nature",
+        "id": "Irving2021LesHos",
+        "issue": "7842",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    1
+                ]
+            ]
+        },
+        "page": "363-370",
+        "title": "Lessons from the host defences of bats, a unique viral reservoir",
+        "type": "article-journal",
+        "volume": "589"
+    },
+    {
         "URL": "https://www.iucnredlist.org",
         "author": [
             {
@@ -388,6 +1014,215 @@
         },
         "title": "The IUCN Red List of Threatened Species.",
         "type": "webpage"
+    },
+    {
+        "DOI": "10.1098/rspb.2019.2736",
+        "author": [
+            {
+                "family": "Johnson",
+                "given": "Christine K."
+            },
+            {
+                "family": "Hitchens",
+                "given": "Peta L."
+            },
+            {
+                "family": "Pandit",
+                "given": "Pranav S."
+            },
+            {
+                "family": "Rushmore",
+                "given": "Julie"
+            },
+            {
+                "family": "Evans",
+                "given": "Tierra Smiley"
+            },
+            {
+                "family": "Young",
+                "given": "Cristin C. W."
+            },
+            {
+                "family": "Doyle",
+                "given": "Megan M."
+            }
+        ],
+        "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+        "id": "Johnson2020GloShi",
+        "issue": "1924",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    4
+                ]
+            ]
+        },
+        "page": "20192736",
+        "title": "Global shifts in mammalian population trends reveal key predictors of virus spillover risk",
+        "type": "article-journal",
+        "volume": "287"
+    },
+    {
+        "DOI": "10.1016/j.tim.2021.12.009",
+        "author": [
+            {
+                "family": "Jones",
+                "given": "Devin N."
+            },
+            {
+                "family": "Ravelomanantsoa",
+                "given": "Ny Anjara Fifi"
+            },
+            {
+                "family": "Yeoman",
+                "given": "Carl J."
+            },
+            {
+                "family": "Plowright",
+                "given": "Raina K."
+            },
+            {
+                "family": "Brook",
+                "given": "Cara E."
+            }
+        ],
+        "container-title": "Trends in Microbiology",
+        "id": "Jones2022GasMic",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    1
+                ]
+            ]
+        },
+        "page": "S0966842X21003024",
+        "title": "Do gastrointestinal microbiomes play a role in bats\u2019 unique viral hosting capacity?",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1007/s10531-008-9458-5",
+        "author": [
+            {
+                "family": "Kingston",
+                "given": "Tigga"
+            }
+        ],
+        "container-title": "Biodiversity and Conservation",
+        "id": "Kingston2010ResPri",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2010,
+                    2
+                ]
+            ]
+        },
+        "page": "471-484",
+        "title": "Research priorities for bat conservation in Southeast Asia: A consensus approach",
+        "type": "article-journal",
+        "volume": "19"
+    },
+    {
+        "DOI": "10.1038/srep14830",
+        "author": [
+            {
+                "family": "Kreuder Johnson",
+                "given": "Christine"
+            },
+            {
+                "family": "Hitchens",
+                "given": "Peta L."
+            },
+            {
+                "family": "Smiley Evans",
+                "given": "Tierra"
+            },
+            {
+                "family": "Goldstein",
+                "given": "Tracey"
+            },
+            {
+                "family": "Thomas",
+                "given": "Kate"
+            },
+            {
+                "family": "Clements",
+                "given": "Andrew"
+            },
+            {
+                "family": "Joly",
+                "given": "Damien O."
+            },
+            {
+                "family": "Wolfe",
+                "given": "Nathan D."
+            },
+            {
+                "family": "Daszak",
+                "given": "Peter"
+            },
+            {
+                "family": "Karesh",
+                "given": "William B."
+            },
+            {
+                "family": "Mazet",
+                "given": "Jonna K."
+            }
+        ],
+        "container-title": "Scientific Reports",
+        "id": "KreuderJohnson2015SpiPan",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2015,
+                    12
+                ]
+            ]
+        },
+        "page": "14830",
+        "title": "Spillover and pandemic properties of zoonotic viruses with high host plasticity",
+        "type": "article-journal",
+        "volume": "5"
+    },
+    {
+        "DOI": "10.1093/ve/vey028",
+        "author": [
+            {
+                "family": "Leeks",
+                "given": "Asher"
+            },
+            {
+                "family": "Segredo-Otero",
+                "given": "Ernesto A"
+            },
+            {
+                "family": "Sanju\u00e1n",
+                "given": "Rafael"
+            },
+            {
+                "family": "West",
+                "given": "Stuart A"
+            }
+        ],
+        "container-title": "Virus Evolution",
+        "id": "Leeks2018BenCoi",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2018,
+                    7
+                ]
+            ]
+        },
+        "title": "Beneficial coinfection can promote within-host viral diversity",
+        "type": "article-journal",
+        "volume": "4"
     },
     {
         "DOI": "10.1111/ele.12141",
@@ -451,6 +1286,296 @@
         "title": "Spatial and temporal analysis of beta diversity in the Barro Colorado Island forest dynamics plot, Panama",
         "type": "article-journal",
         "volume": "6"
+    },
+    {
+        "DOI": "10.1371/journal.ppat.1002260",
+        "author": [
+            {
+                "family": "Longdon",
+                "given": "Ben"
+            },
+            {
+                "family": "Hadfield",
+                "given": "Jarrod D."
+            },
+            {
+                "family": "Webster",
+                "given": "Claire L."
+            },
+            {
+                "family": "Obbard",
+                "given": "Darren J."
+            },
+            {
+                "family": "Jiggins",
+                "given": "Francis M."
+            }
+        ],
+        "container-title": "PLoS Pathogens",
+        "editor": [
+            {
+                "family": "Schneider",
+                "given": "David S."
+            }
+        ],
+        "id": "Longdon2011HosPhy",
+        "issue": "9",
+        "issued": {
+            "date-parts": [
+                [
+                    2011,
+                    9
+                ]
+            ]
+        },
+        "page": "e1002260",
+        "title": "Host Phylogeny Determines Viral Persistence and Replication in Novel Hosts",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "DOI": "10.1073/pnas.2006778117",
+        "author": [
+            {
+                "family": "Mollentze",
+                "given": "Nardus"
+            },
+            {
+                "family": "Streicker",
+                "given": "Daniel G."
+            },
+            {
+                "family": "Murcia",
+                "given": "Pablo R."
+            },
+            {
+                "family": "Hampson",
+                "given": "Katie"
+            },
+            {
+                "family": "Biek",
+                "given": "Roman"
+            }
+        ],
+        "container-title": "Proceedings of the National Academy of Sciences",
+        "id": "Mollentze2020VirMis",
+        "issue": "46",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    11
+                ]
+            ]
+        },
+        "page": "28859-28866",
+        "title": "Virulence mismatches in index hosts shape the outcomes of cross-species transmission",
+        "type": "article-journal",
+        "volume": "117"
+    },
+    {
+        "DOI": "10.1073/pnas.1919176117",
+        "author": [
+            {
+                "family": "Mollentze",
+                "given": "Nardus"
+            },
+            {
+                "family": "Streicker",
+                "given": "Daniel G."
+            }
+        ],
+        "container-title": "Proceedings of the National Academy of Sciences",
+        "id": "Mollentze2020VirZoo",
+        "issue": "17",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    4
+                ]
+            ]
+        },
+        "page": "9423-9430",
+        "title": "Viral zoonotic risk is homogenous among taxonomic orders of mammalian and avian reservoir hosts",
+        "type": "article-journal",
+        "volume": "117"
+    },
+    {
+        "DOI": "10.1590/0074-02760150048",
+        "author": [
+            {
+                "family": "Moratelli",
+                "given": "Ricardo"
+            },
+            {
+                "family": "Calisher",
+                "given": "Charles H"
+            }
+        ],
+        "container-title": "Mem\u00f3rias do Instituto Oswaldo Cruz",
+        "id": "Moratelli2015BatZoo",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2015,
+                    2
+                ]
+            ]
+        },
+        "page": "1-22",
+        "title": "Bats and zoonotic viruses: Can we confidently link bats with emerging deadly viruses?",
+        "type": "article-journal",
+        "volume": "110"
+    },
+    {
+        "DOI": "10.1111/mec.16027",
+        "author": [
+            {
+                "family": "Moreno Santill\u00e1n",
+                "given": "Diana D."
+            },
+            {
+                "family": "Lama",
+                "given": "Tanya M."
+            },
+            {
+                "family": "Gutierrez Guerrero",
+                "given": "Yocelyn T."
+            },
+            {
+                "family": "Brown",
+                "given": "Alexis M."
+            },
+            {
+                "family": "Donat",
+                "given": "Paul"
+            },
+            {
+                "family": "Zhao",
+                "given": "Huabin"
+            },
+            {
+                "family": "Rossiter",
+                "given": "Stephen J."
+            },
+            {
+                "family": "Yohe",
+                "given": "Laurel R."
+            },
+            {
+                "family": "Potter",
+                "given": "Joshua H."
+            },
+            {
+                "family": "Teeling",
+                "given": "Emma C."
+            },
+            {
+                "family": "Vernes",
+                "given": "Sonja C."
+            },
+            {
+                "family": "Davies",
+                "given": "Kalina T. J."
+            },
+            {
+                "family": "Myers",
+                "given": "Eugene"
+            },
+            {
+                "family": "Hughes",
+                "given": "Graham M."
+            },
+            {
+                "family": "Huang",
+                "given": "Zixia"
+            },
+            {
+                "family": "Hoffmann",
+                "given": "Federico"
+            },
+            {
+                "family": "Corthals",
+                "given": "Angelique P."
+            },
+            {
+                "family": "Ray",
+                "given": "David A."
+            },
+            {
+                "family": "D\u00e1valos",
+                "given": "Liliana M."
+            }
+        ],
+        "container-title": "Molecular Ecology",
+        "id": "MorenoSantillan2021LarGen",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    7
+                ]
+            ]
+        },
+        "page": "mec.16027",
+        "title": "Large-scale genome sampling reveals unique immunity and metabolic adaptations in bats",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1101/2021.12.09.471691",
+        "author": [
+            {
+                "family": "Muylaert",
+                "given": "Renata L."
+            },
+            {
+                "family": "Kingston",
+                "given": "Tigga"
+            },
+            {
+                "family": "Luo",
+                "given": "Jinhong"
+            },
+            {
+                "family": "Vancine",
+                "given": "Maur\u00edcio Humberto"
+            },
+            {
+                "family": "Galli",
+                "given": "Nikolas"
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            },
+            {
+                "family": "John",
+                "given": "Reju Sam"
+            },
+            {
+                "family": "Rulli",
+                "given": "Maria Cristina"
+            },
+            {
+                "family": "Hayman",
+                "given": "David T. S."
+            }
+        ],
+        "genre": "Preprint",
+        "id": "Muylaert2021PreFut",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    12
+                ]
+            ]
+        },
+        "publisher": "Ecology",
+        "title": "Present and future distribution of bat hosts of sarbecoviruses: Implications for conservation and public health",
+        "type": "report"
     },
     {
         "DOI": "10.1038/nature22975",
@@ -687,6 +1812,80 @@
         "volume": "164"
     },
     {
+        "DOI": "10.1038/s41467-020-19273-z",
+        "author": [
+            {
+                "family": "Sallinen",
+                "given": "Suvi"
+            },
+            {
+                "family": "Norberg",
+                "given": "Anna"
+            },
+            {
+                "family": "Susi",
+                "given": "Hanna"
+            },
+            {
+                "family": "Laine",
+                "given": "Anna-Liisa"
+            }
+        ],
+        "container-title": "Nature Communications",
+        "id": "Sallinen2020IntHos",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    12
+                ]
+            ]
+        },
+        "page": "5610",
+        "title": "Intraspecific host variation plays a key role in virus community assembly",
+        "type": "article-journal",
+        "volume": "11"
+    },
+    {
+        "DOI": "10.1371/journal.pone.0054023",
+        "author": [
+            {
+                "family": "Schneeberger",
+                "given": "Karin"
+            },
+            {
+                "family": "Czirj\u00e1k",
+                "given": "G\u00e1bor \u00c1."
+            },
+            {
+                "family": "Voigt",
+                "given": "Christian C."
+            }
+        ],
+        "container-title": "PLoS ONE",
+        "editor": [
+            {
+                "family": "Brown",
+                "given": "Justin David"
+            }
+        ],
+        "id": "Schneeberger2013MeaCon",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    1
+                ]
+            ]
+        },
+        "page": "e54023",
+        "title": "Measures of the Constitutive Immune System Are Linked to Diet and Roosting Habits of Neotropical Bats",
+        "type": "article-journal",
+        "volume": "8"
+    },
+    {
         "DOI": "10.1002/lol2.10078",
         "author": [
             {
@@ -716,6 +1915,74 @@
         "title": "A geography of lake carbon cycling",
         "type": "article-journal",
         "volume": "3"
+    },
+    {
+        "DOI": "10.1016/j.cub.2013.09.053",
+        "author": [
+            {
+                "family": "Springer",
+                "given": "Mark S."
+            }
+        ],
+        "container-title": "Current Biology",
+        "id": "Springer2013PhyBat",
+        "issue": "22",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    11
+                ]
+            ]
+        },
+        "page": "R999-R1001",
+        "title": "Phylogenetics: Bats United, Microbats Divided",
+        "type": "article-journal",
+        "volume": "23"
+    },
+    {
+        "DOI": "10.1126/science.1105113",
+        "author": [
+            {
+                "family": "Teeling",
+                "given": "Emma C."
+            },
+            {
+                "family": "Springer",
+                "given": "Mark S."
+            },
+            {
+                "family": "Madsen",
+                "given": "Ole"
+            },
+            {
+                "family": "Bates",
+                "given": "Paul"
+            },
+            {
+                "family": "O\u2019Brien",
+                "given": "Stephen J."
+            },
+            {
+                "family": "Murphy",
+                "given": "William J."
+            }
+        ],
+        "container-title": "Science (New York, N.Y.)",
+        "id": "Teeling2005MolPhy",
+        "issue": "5709",
+        "issued": {
+            "date-parts": [
+                [
+                    2005,
+                    1
+                ]
+            ]
+        },
+        "page": "580-584",
+        "title": "A Molecular Phylogeny for Bats Illuminates Biogeography and the Fossil Record",
+        "type": "article-journal",
+        "volume": "307"
     },
     {
         "DOI": "10.1371/journal.pbio.3000494",
@@ -774,5 +2041,106 @@
         "title": "Bats and viruses: A brief review",
         "type": "article-journal",
         "volume": "24"
+    },
+    {
+        "DOI": "10.1038/nature05775",
+        "author": [
+            {
+                "family": "Wolfe",
+                "given": "Nathan D."
+            },
+            {
+                "family": "Dunavan",
+                "given": "Claire Panosian"
+            },
+            {
+                "family": "Diamond",
+                "given": "Jared"
+            }
+        ],
+        "container-title": "Nature",
+        "id": "Wolfe2007OriMaj",
+        "issue": "7142",
+        "issued": {
+            "date-parts": [
+                [
+                    2007,
+                    5
+                ]
+            ]
+        },
+        "page": "279-283",
+        "title": "Origins of major human infectious diseases",
+        "type": "article-journal",
+        "volume": "447"
+    },
+    {
+        "DOI": "10.1111/jeb.12477",
+        "author": [
+            {
+                "family": "Yu",
+                "given": "W."
+            },
+            {
+                "family": "Wu",
+                "given": "Y."
+            },
+            {
+                "family": "Yang",
+                "given": "G."
+            }
+        ],
+        "container-title": "Journal of Evolutionary Biology",
+        "id": "Yu2014EarDiv",
+        "issue": "10",
+        "issued": {
+            "date-parts": [
+                [
+                    2014,
+                    10
+                ]
+            ]
+        },
+        "page": "2204-2218",
+        "title": "Early diversification trend and Asian origin for extent bat lineages",
+        "type": "article-journal",
+        "volume": "27"
+    },
+    {
+        "DOI": "10.1186/s44149-021-00005-9",
+        "author": [
+            {
+                "family": "Zhou",
+                "given": "Zhijian"
+            },
+            {
+                "family": "Qiu",
+                "given": "Ye"
+            },
+            {
+                "family": "Ge",
+                "given": "Xingyi"
+            }
+        ],
+        "container-title": "Animal Diseases",
+        "id": "Zhou2021TaxHos",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    12
+                ]
+            ]
+        },
+        "page": "5",
+        "title": "The taxonomy, host range and pathogenicity of coronaviruses and other viruses in the Nidovirales order",
+        "type": "article-journal",
+        "volume": "1"
+    },
+    {
+        "genre": "Article",
+        "id": "zotero-7064",
+        "type": "article-journal"
     }
 ]
