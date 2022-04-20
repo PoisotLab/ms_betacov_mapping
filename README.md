@@ -101,18 +101,20 @@ for phylogenetic over/under-dispersal in some places.
 ## Bats compositional uniqueness
 
 For every species pool, we measured its Local Contribution to Beta-Diversity
-(Legendre and De Cáceres 2013); LCBD works from a species-data matrix
-(traditionally noted as Y), where species are rows and sites are columns, and a
+[@Legendre2013BetDiv]; LCBD works from a species-data matrix (traditionally
+noted as $\mathbf{Y}$), where species are rows and sites are columns, and a
 value of 1 indicates occurrence. We extracted the Y matrix assuming that every
-pixel represents a unique location, and following best practices (Legendre and
-Condit 2019) transformed it using Hellinger’s distance to account for unequal
-bat richness at different pixels. The correction of raw community data is
-particularly important for two reasons: first, it prevents the artifact of
+pixel represents a unique location, and following best practices
+[@Legendre2019SpaTem] transformed it using Hellinger’s distance to account for
+unequal bat richness at different pixels. The correction of raw community data
+is particularly important for two reasons: first, it prevents the artifact of
 richer sites having higher importance; second, it removes the effect of overall
 species richness, which is already incorporated in the phylogenetic diversity
 component. High values of LCBD indicate that the pixel has a community that is
 on average more dissimilar in species composition than what is expected knowing
-the entire matrix, i.e. a more unique community.
+the entire matrix, i.e. a more unique community. Recent results by
+@Dansereau2022EvaEco shows that LCBD measures are robust with regards to spatial
+scale, and are therefore applicable at the global scale.
 
 ## Viral sharing between hosts
 
