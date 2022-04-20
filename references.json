@@ -730,6 +730,89 @@
         "volume": "61"
     },
     {
+        "DOI": "10.1371/journal.pone.0077183",
+        "author": [
+            {
+                "family": "Gonsalves",
+                "given": "Leroy"
+            },
+            {
+                "family": "Bicknell",
+                "given": "Brian"
+            },
+            {
+                "family": "Law",
+                "given": "Brad"
+            },
+            {
+                "family": "Webb",
+                "given": "Cameron"
+            },
+            {
+                "family": "Monamy",
+                "given": "Vaughan"
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "id": "Gonsalves2013MosCon",
+        "issue": "10",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    10,
+                    10
+                ]
+            ]
+        },
+        "page": "e77183",
+        "publisher": "Public Library of Science",
+        "title": "Mosquito Consumption by Insectivorous Bats: Does Size Matter?",
+        "type": "article-journal",
+        "volume": "8"
+    },
+    {
+        "DOI": "10.1071/WR12148",
+        "author": [
+            {
+                "family": "Gonsalves",
+                "given": "Leroy"
+            },
+            {
+                "family": "Lamb",
+                "given": "Susan"
+            },
+            {
+                "family": "Webb",
+                "given": "Cameron"
+            },
+            {
+                "family": "Law",
+                "given": "Bradley"
+            },
+            {
+                "family": "Monamy",
+                "given": "Vaughan"
+            }
+        ],
+        "container-title": "Wildlife Research",
+        "id": "Gonsalves2013MosInf",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    1
+                ]
+            ]
+        },
+        "page": "10-24",
+        "publisher": "CSIRO Publishing",
+        "title": "Do mosquitoes influence bat activity in coastal habitats?",
+        "type": "article-journal",
+        "volume": "40"
+    },
+    {
         "DOI": "10.1016/j.cmet.2020.06.013",
         "author": [
             {
@@ -1100,6 +1183,35 @@
         "page": "S0966842X21003024",
         "title": "Do gastrointestinal microbiomes play a role in bats\u2019 unique viral hosting capacity?",
         "type": "article-journal"
+    },
+    {
+        "DOI": "10.1155/2013/187415",
+        "author": [
+            {
+                "family": "Kasso",
+                "given": "Mohammed"
+            },
+            {
+                "family": "Balakrishnan",
+                "given": "Mundanthra"
+            }
+        ],
+        "container-title": "ISRN Biodiversity",
+        "id": "Kasso2013EcoEco",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    11,
+                    10
+                ]
+            ]
+        },
+        "page": "e187415",
+        "publisher": "Hindawi",
+        "title": "Ecological and Economic Importance of Bats (Order Chiroptera)",
+        "type": "article-journal",
+        "volume": "2013"
     },
     {
         "DOI": "10.1007/s10531-008-9458-5",
@@ -1623,6 +1735,40 @@
         "volume": "546"
     },
     {
+        "DOI": "10.1186/s12898-018-0174-z",
+        "PMCID": "PMC5996565",
+        "author": [
+            {
+                "family": "Peixoto",
+                "given": "Franciele Parreira"
+            },
+            {
+                "family": "Braga",
+                "given": "Pedro Henrique Pereira"
+            },
+            {
+                "family": "Mendes",
+                "given": "Poliana"
+            }
+        ],
+        "container-title": "BMC ecology",
+        "id": "Peixoto2018SynEco",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2018,
+                    6,
+                    11
+                ]
+            ]
+        },
+        "page": "18",
+        "title": "A synthesis of ecological and evolutionary determinants of bat diversity across spatial scales",
+        "type": "article-journal",
+        "volume": "18"
+    },
+    {
         "DOI": "10.1098/rspb.2014.2124",
         "author": [
             {
@@ -1917,6 +2063,29 @@
         "volume": "3"
     },
     {
+        "URL": "https://batnames.org/",
+        "author": [
+            {
+                "family": "Simmons",
+                "given": "N B"
+            },
+            {
+                "family": "Cirranello",
+                "given": "A L"
+            }
+        ],
+        "id": "Simmons2020BatSpe",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "title": "Bat Species of the World: A taxonomic and geographic database",
+        "type": "webpage"
+    },
+    {
         "DOI": "10.1016/j.cub.2013.09.053",
         "author": [
             {
@@ -2018,6 +2187,31 @@
         "volume": "17"
     },
     {
+        "DOI": "10.1007/978-3-319-25220-9",
+        "editor": [
+            {
+                "family": "Voigt",
+                "given": "Christian C."
+            },
+            {
+                "family": "Kingston",
+                "given": "Tigga"
+            }
+        ],
+        "id": "Voigt2016BatAnt",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "publisher": "Springer International Publishing",
+        "publisher-place": "Cham",
+        "title": "Bats in the Anthropocene: Conservation of Bats in a Changing World",
+        "type": "book"
+    },
+    {
         "DOI": "10.1007/s12250-009-3032-5",
         "author": [
             {
@@ -2041,6 +2235,40 @@
         "title": "Bats and viruses: A brief review",
         "type": "article-journal",
         "volume": "24"
+    },
+    {
+        "DOI": "10.1126/science.1152944",
+        "author": [
+            {
+                "family": "Williams-Guill\u00e9n",
+                "given": "Kimberly"
+            },
+            {
+                "family": "Perfecto",
+                "given": "Ivette"
+            },
+            {
+                "family": "Vandermeer",
+                "given": "John"
+            }
+        ],
+        "container-title": "Science",
+        "id": "Williams-Guillen2008BatLim",
+        "issue": "5872",
+        "issued": {
+            "date-parts": [
+                [
+                    2008,
+                    4,
+                    4
+                ]
+            ]
+        },
+        "page": "70-70",
+        "publisher": "American Association for the Advancement of Science",
+        "title": "Bats Limit Insects in a Neotropical Agroforestry System",
+        "type": "article-journal",
+        "volume": "320"
     },
     {
         "DOI": "10.1038/nature05775",
@@ -2137,10 +2365,5 @@
         "title": "The taxonomy, host range and pathogenicity of coronaviruses and other viruses in the Nidovirales order",
         "type": "article-journal",
         "volume": "1"
-    },
-    {
-        "genre": "Article",
-        "id": "zotero-7064",
-        "type": "article-journal"
     }
 ]
