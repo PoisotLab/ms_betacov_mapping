@@ -52,10 +52,10 @@ on concepts from the Geographic Mosaic Theory of Coevolution
 additive mapping of zoonotic risk components, which reveals extreme
 heterogeneity of risk at the global scale; furthermore, we identify the Amazon
 and South-Eastern Asia as hotspots of phylogenetic distinctiveness of
-betacoronaviruses; surprisingly, current data suggest that viral sharing between
-hosts in high in the Amazon and low in South-Eastern Asia, which has the
-potential to result in different evolutionary dynamics between these two
-regions.
+betacoronaviruses [@Anthony2017GloPat]; surprisingly, current data suggest that
+viral sharing between hosts in high in the Amazon and low in South-Eastern Asia,
+which has the potential to result in different evolutionary dynamics between
+these two regions.
 
 # Methods
 
