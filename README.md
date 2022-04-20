@@ -150,10 +150,10 @@ risk level by the value component. Specifically, given a pixel with colorimetric
 coordinates $(h,s,v)$, its ranged weighted risk value is
 
 $$
-v\times\left[1-\frac{\left|\text{atan}\left(\text{cos}(\text{rad}(h)), \text{sin}(\text{rad}(h))\right) - X\right)\right|}{2\pi}\right]\,,
+v\times\left[1-\frac{\left|\text{atan}\left(\text{cos}(\text{rad}(h)), \text{sin}(\text{rad}(h))\right) - X\right|}{2\pi}\right]\,,
 $$
 
-where X is $atan(cos(deg2rad(60.0)), sin(deg2rad(60.0))$, a constant
+where X is $atan(cos(deg2rad(60.0)), sin(deg2rad(60.0)))$, a constant
 approximately equal to $0.5235$.
 
 ## Viral phylogeography
@@ -180,8 +180,8 @@ track hotspots of bat diversification. To do so, we plotted the number of known
 bat hosts (specifically only those included in the phylogeny, so there was a 1:1
 correspondence between data sources) against the “mean evolutionary
 distinctiveness” of the associated viruses. To calculate this, we derived the
-fair proportions evolutionary distinctiveness (Isaac et al., 2007) for each of
-the viruses in the tree, then averaged these at the bat species level, projected
+fair proportions evolutionary distinctiveness [@Isaac2007MamEdg] for each of the
+viruses in the tree, then averaged these at the bat species level, projected
 these values onto their geographic distributions, and averaged across every bat
 found in a given pixel. As such, this can be thought of as a map of the mean
 evolutionary distinctiveness of the known viral community believed to be
@@ -191,22 +191,21 @@ associated with a particular subset of bats present.
 
 Subsequently, we tested the hypothesis that the biogeography of bat
 betacoronaviruses should track the biogeography of their hosts. To test this
-idea, we loosely adapted a method from Kreft & Jetz (2010), who proposed a
-phylogenetic method for the delineation of animal biogeographic regions. In
-their original method, a distance matrix - where each row or column represents a
-geographic raster’s grid cell, and the dissimilarity values are the “beta
-diversity similarity” of their community assemble - undergoes non-metric
+idea, we loosely adapted a method from [@Kreft2007GloPat; @Kreft2010FraDel], who
+proposed a phylogenetic method for the delineation of animal biogeographic
+regions. In their original method, a distance matrix - where each row or column
+represents a geographic raster’s grid cell, and the dissimilarity values are the
+“beta diversity similarity” of their community assemble - undergoes non-metric
 multidimensional scaling (NMDS); the first two axes of the NMDS are projected
-geographically using a four-color bivariate map.
-
-Here, we build on this idea with an entirely novel methodology. First, we
-measure the phylogenetic distance between the different viruses in the
-betacoronavirus tree by using the cophenetic function in ‘ape’; subsequently, we
-take a principal components analysis of that distance matrix (readily
-interchangeable for NMDS in this case) to project the viral tree into an
-n-dimensional space. We then take the first two principal components and, as
-with the evolutionary distinctiveness analysis, aggregated these to a mean host
-value and projected them using a four-color bivariate map. 
+geographically using a four-color bivariate map. Here, we build on this idea
+with an entirely novel methodology. First, we measure the phylogenetic distance
+between the different viruses in the betacoronavirus tree by using the
+cophenetic function in `ape` [@Paradis2019ApeEnv]; subsequently, we take a
+principal components analysis of that distance matrix (readily interchangeable
+for NMDS in this case) to project the viral tree into an n-dimensional space. We
+then take the first two principal components and, as with the evolutionary
+distinctiveness analysis, aggregated these to a mean host value and projected
+them using a four-color bivariate map.
 
 ## Outbreaks data geo-referencing
 
