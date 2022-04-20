@@ -62,28 +62,31 @@ these two regions.
 ## Known betacoronavirus hosts
 
 We downloaded the data on bats hosts of betacoronaviruses assembled by
-@Becker2022OptPre from `https://www.viralemergence.org/betacov` on Aug. 2021,
+@Becker2022OptPre from `https://www.viralemergence.org/betacov` on Apr. 2022,
 and filtered it to "known" hosts (established before the emergence of
 SARS-CoV-2) and "novel" hosts (confirmed through sampling since the emergence of
-SARS-CoV-2). This database was assembled by a combination of data mining and
-literature surveys.
+SARS-CoV-2). The original database was assembled by a combination of data mining
+and literature surveys, including automated alerts on the "bats" and
+"coronavirus" keywords to identify novel empirical evidence of
+bats-betacoronaviruses associations.
 
 ## Bats occurrences
 
 We downloaded the rangemap of every extant bat species that was either
-classified as an empirically documented or a suspected host of
-beta-coronaviruses (Becker et al. 2020), according to recent IUCN data (IUCN
-2021). The range maps were subsequently rasterized at a resolution of
-approximately TK TP. For every pixel in the resulting raster where at least one
-bat host of betacoronavirus was present, we extract the species pool, which was
-used to calculate the following risk assessment components: phylogenetic
-diversity, bat compositional uniqueness, and predicted viral sharing risk.
+classified as an empirically documented host of beta-coronaviruses from the
+previous step, according to recent IUCN data [@IUCN2021IucRed]. The range maps
+were subsequently rasterized using the `rasterize` function from `GDAL`
+[@RouaultEven2022GdaOgr] at a resolution of approximately **TK TP**. For every
+pixel in the resulting raster where at least one bat host of betacoronavirus was
+present, we extract the species pool (list of all bat species), which was used
+to calculate the following risk assessment components: phylogenetic diversity,
+bat compositional uniqueness, and predicted viral sharing risk.
 
 ## Bats phylogeography
 
-For every pixel, we measured Faith’s Phylogenetic Diversity (Faith 1992) based
-on a recent synthetic tree with robust time calibration, covering about 6000
-mammalian species (Upham et al. 2019). Faith’s PD measures the sum of unique
+For every pixel, we measured Faith’s Phylogenetic Diversity [@Faith1992ConEva]
+based on a recent synthetic tree with robust time calibration, covering about
+6000 mammalian species [@Upham2019InfMam]. Faith’s PD measures the sum of unique
 branches from an arbitrary root to a set of tips, and comparatively larger
 values indicate a more phylogenetic diverse species pool. We measured
 phylogenetic diversity starting from the root of the entire tree (and not from
