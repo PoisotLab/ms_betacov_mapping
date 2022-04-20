@@ -223,7 +223,7 @@
             <h2 id="bats-phylogeography">Bats phylogeography</h2>
             <p>For every pixel, we measured Faith’s Phylogenetic Diversity <span class="citation" data-cites="Faith1992ConEva">(Faith 1992)</span> based on a recent synthetic tree with robust time calibration, covering about 6000 mammalian species <span class="citation" data-cites="Upham2019InfMam">(Upham et al. 2019)</span>. Faith’s PD measures the sum of unique branches from an arbitrary root to a set of tips, and comparatively larger values indicate a more phylogenetic diverse species pool. We measured phylogenetic diversity starting from the root of the entire tree (and not from Chiroptera); this bears no consequences on the resulting values, since all branches leading up to Chiroptera are only counted one per species pool, and (as we explain when describing the assembly of the composite risk map), all individual risk components are ranged in [0,1]. This measure incorporates a richness component, which we chose not to correct for; the interpretation of the phylogenetic diversity is therefore a weighted species richness, that accounts for phylogenetic over/under-dispersal in some places.</p>
             <h2 id="bats-compositional-uniqueness">Bats compositional uniqueness</h2>
-            <p>For every species pool, we measured its Local Contribution to Beta-Diversity (Legendre and De Cáceres 2013); LCBD works from a species-data matrix (traditionally noted as Y), where species are rows and sites are columns, and a value of 1 indicates occurrence. We extracted the Y matrix assuming that every pixel represents a unique location, and following best practices (Legendre and Condit 2019) transformed it using Hellinger’s distance to account for unequal bat richness at different pixels. The correction of raw community data is particularly important for two reasons: first, it prevents the artifact of richer sites having higher importance; second, it removes the effect of overall species richness, which is already incorporated in the phylogenetic diversity component. High values of LCBD indicate that the pixel has a community that is on average more dissimilar in species composition than what is expected knowing the entire matrix, i.e. a more unique community.</p>
+            <p>For every species pool, we measured its Local Contribution to Beta-Diversity <span class="citation" data-cites="Legendre2013BetDiv">(Legendre and De Cáceres 2013)</span>; LCBD works from a species-data matrix (traditionally noted as <span class="math inline"><strong>Y</strong></span>), where species are rows and sites are columns, and a value of 1 indicates occurrence. We extracted the Y matrix assuming that every pixel represents a unique location, and following best practices <span class="citation" data-cites="Legendre2019SpaTem">(Legendre and Condit 2019)</span> transformed it using Hellinger’s distance to account for unequal bat richness at different pixels. The correction of raw community data is particularly important for two reasons: first, it prevents the artifact of richer sites having higher importance; second, it removes the effect of overall species richness, which is already incorporated in the phylogenetic diversity component. High values of LCBD indicate that the pixel has a community that is on average more dissimilar in species composition than what is expected knowing the entire matrix, i.e. a more unique community. Recent results by <span class="citation" data-cites="Dansereau2022EvaEco">Dansereau et al. (2022)</span> shows that LCBD measures are robust with regards to spatial scale, and are therefore applicable at the global scale.</p>
             <h2 id="viral-sharing-between-hosts">Viral sharing between hosts</h2>
             <p>For all bat hosts of betacoronaviruses, we extracted their predicted viral sharing network (Albery et al. 2020). This network stores pairwise values of viral community similarity. To project viral sharing values into a single value for every pixel, we averaged the pairwise scores. High values of the average sharing propensity means that this specific extant bat assemblage is likely to be proficient at exchanging viruses.</p>
             <h2 id="composite-risk-map">Composite risk map</h2>
@@ -277,6 +277,9 @@
             <div id="ref-Calisher2006BatImp" class="csl-entry" role="doc-biblioentry">
             Calisher, C. H. et al. 2006. Bats: Important Reservoir Hosts of Emerging Viruses. - Clinical Microbiology Reviews 19: 531–545.
             </div>
+            <div id="ref-Dansereau2022EvaEco" class="csl-entry" role="doc-biblioentry">
+            Dansereau, G. et al. 2022. Evaluating ecological uniqueness over broad spatial extents using species distribution modelling. - Oikos n/a: e09063.
+            </div>
             <div id="ref-Engering2013PatHos" class="csl-entry" role="doc-biblioentry">
             Engering, A. et al. 2013. Pathogen–host–environment interplay and disease emergence. - Emerging Microbes &amp; Infections 2: e5.
             </div>
@@ -294,6 +297,12 @@
             </div>
             <div id="ref-Kasso2013EcoEco" class="csl-entry" role="doc-biblioentry">
             Kasso, M. and Balakrishnan, M. 2013. Ecological and Economic Importance of Bats (Order Chiroptera). - ISRN Biodiversity 2013: e187415.
+            </div>
+            <div id="ref-Legendre2013BetDiv" class="csl-entry" role="doc-biblioentry">
+            Legendre, P. and De Cáceres, M. 2013. Beta diversity as the variance of community data: Dissimilarity coefficients and partitioning (H Morlon, Ed.). - Ecology Letters 16: 951–963.
+            </div>
+            <div id="ref-Legendre2019SpaTem" class="csl-entry" role="doc-biblioentry">
+            Legendre, P. and Condit, R. 2019. Spatial and temporal analysis of beta diversity in the Barro Colorado Island forest dynamics plot, Panama. - Forest Ecosystems 6: 7.
             </div>
             <div id="ref-Melaun2014BatPot" class="csl-entry" role="doc-biblioentry">
             Melaun, C. et al. 2014. Bats as Potential Reservoir Hosts for Vector-Borne Diseases. - In: Klimpel, S. and Mehlhorn, H. (eds), Bats (Chiroptera) as Vectors of Diseases and Parasites: Facts and Myths. Parasitology Research Monographs. Springer, pp. 25–61.

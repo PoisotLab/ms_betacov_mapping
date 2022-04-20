@@ -651,6 +651,37 @@
         "volume": "17"
     },
     {
+        "DOI": "10.1111/oik.09063",
+        "author": [
+            {
+                "family": "Dansereau",
+                "given": "Gabriel"
+            },
+            {
+                "family": "Legendre",
+                "given": "Pierre"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            }
+        ],
+        "container-title": "Oikos",
+        "id": "Dansereau2022EvaEco",
+        "issue": "n/a",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "e09063",
+        "title": "Evaluating ecological uniqueness over broad spatial extents using species distribution modelling",
+        "type": "article-journal",
+        "volume": "n/a"
+    },
+    {
         "DOI": "10.1111/oik.08359",
         "author": [
             {
