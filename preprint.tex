@@ -345,31 +345,34 @@ hosts}\label{known-betacoronavirus-hosts}}
 
 We downloaded the data on bats hosts of betacoronaviruses assembled by
 Becker et al. (2022) from
-\texttt{https://www.viralemergence.org/betacov} on Aug.~2021, and
+\texttt{https://www.viralemergence.org/betacov} on Apr.~2022, and
 filtered it to ``known'' hosts (established before the emergence of
 SARS-CoV-2) and ``novel'' hosts (confirmed through sampling since the
-emergence of SARS-CoV-2). This database was assembled by a combination
-of data mining and literature surveys.
+emergence of SARS-CoV-2). The original database was assembled by a
+combination of data mining and literature surveys, including automated
+alerts on the ``bats'' and ``coronavirus'' keywords to identify novel
+empirical evidence of bats-betacoronaviruses associations.
 
 \hypertarget{bats-occurrences}{%
 \subsection{Bats occurrences}\label{bats-occurrences}}
 
 We downloaded the rangemap of every extant bat species that was either
-classified as an empirically documented or a suspected host of
-beta-coronaviruses (Becker et al.~2020), according to recent IUCN data
-(IUCN 2021). The range maps were subsequently rasterized at a resolution
-of approximately TK TP. For every pixel in the resulting raster where at
-least one bat host of betacoronavirus was present, we extract the
-species pool, which was used to calculate the following risk assessment
-components: phylogenetic diversity, bat compositional uniqueness, and
-predicted viral sharing risk.
+classified as an empirically documented host of beta-coronaviruses from
+the previous step, according to recent IUCN data (IUCN 2021). The range
+maps were subsequently rasterized using the \texttt{rasterize} function
+from \texttt{GDAL} (Rouault et al. 2022) at a resolution of
+approximately \textbf{TK TP}. For every pixel in the resulting raster
+where at least one bat host of betacoronavirus was present, we extract
+the species pool (list of all bat species), which was used to calculate
+the following risk assessment components: phylogenetic diversity, bat
+compositional uniqueness, and predicted viral sharing risk.
 
 \hypertarget{bats-phylogeography}{%
 \subsection{Bats phylogeography}\label{bats-phylogeography}}
 
 For every pixel, we measured Faith's Phylogenetic Diversity (Faith 1992)
 based on a recent synthetic tree with robust time calibration, covering
-about 6000 mammalian species (Upham et al.~2019). Faith's PD measures
+about 6000 mammalian species (Upham et al. 2019). Faith's PD measures
 the sum of unique branches from an arbitrary root to a set of tips, and
 comparatively larger values indicate a more phylogenetic diverse species
 pool. We measured phylogenetic diversity starting from the root of the
@@ -780,6 +783,10 @@ Viruses. - Clinical Microbiology Reviews 19: 531--545.
 Engering, A. et al. 2013. Pathogen--host--environment interplay and
 disease emergence. - Emerging Microbes \& Infections 2: e5.
 
+\leavevmode\hypertarget{ref-Faith1992ConEva}{}%
+Faith, D. P. 1992. Conservation evaluation and phylogenetic diversity. -
+Biological Conservation 61: 1--10.
+
 \leavevmode\hypertarget{ref-Gonsalves2013MosInf}{}%
 Gonsalves, L. et al. 2013a. Do mosquitoes influence bat activity in
 coastal habitats? - Wildlife Research 40: 10--24.
@@ -787,6 +794,9 @@ coastal habitats? - Wildlife Research 40: 10--24.
 \leavevmode\hypertarget{ref-Gonsalves2013MosCon}{}%
 Gonsalves, L. et al. 2013b. Mosquito Consumption by Insectivorous Bats:
 Does Size Matter? - PLOS ONE 8: e77183.
+
+\leavevmode\hypertarget{ref-IUCN2021IucRed}{}%
+IUCN 2021. The IUCN Red List of Threatened Species.
 
 \leavevmode\hypertarget{ref-Kasso2013EcoEco}{}%
 Kasso, M. and Balakrishnan, M. 2013. Ecological and Economic Importance
@@ -825,6 +835,10 @@ Rego, K. M. da C. et al. 2015. Assessing human-bat interactions around a
 protected area in northeastern Brazil. - Journal of Ethnobiology and
 Ethnomedicine 11: 80.
 
+\leavevmode\hypertarget{ref-RouaultEven2022GdaOgr}{}%
+Rouault, E. et al. 2022. GDAL/OGR Geospatial Data Abstraction software
+Library. - Zenodo.
+
 \leavevmode\hypertarget{ref-Simmons2020BatSpe}{}%
 Simmons, N. B. and Cirranello, A. L. 2020. Bat Species of the World: A
 taxonomic and geographic database.
@@ -837,6 +851,11 @@ from Roosts in Houses. - PLoS ONE 10: e0131825.
 \leavevmode\hypertarget{ref-Thompson2005GeoMos}{}%
 Thompson, J. N. 2005. The Geographic Mosaic of Coevolution. - University
 Of Chicago Press.
+
+\leavevmode\hypertarget{ref-Upham2019InfMam}{}%
+Upham, N. S. et al. 2019. Inferring the mammal tree: Species-level sets
+of phylogenies for questions in ecology, evolution, and conservation. -
+PLOS Biology 17: e3000494.
 
 \leavevmode\hypertarget{ref-Voigt2016BatAnt}{}%
 2016. Bats in the Anthropocene: Conservation of Bats in a Changing World

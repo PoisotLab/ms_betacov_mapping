@@ -217,11 +217,11 @@
             <p>In this paper, we examine the biogeographic structure of bats-betacoronaviruses associations, based on a curated dataset of known and recently discovered hosts. This work is important both as a description of the bats-betacoronavirus complex, but aslo because more broadly, bats are known reservoirs for a variety of emerging viruses and pathogens <span class="citation" data-cites="Calisher2006BatImp Melaun2014BatPot">(Calisher et al. 2006, Melaun et al. 2014)</span>, making balancing the needs for bat conservation and disease prevention a potentially difficult act and a source of human-wildlife conflicts, especially in more densely populated areas <span class="citation" data-cites="Rego2015AssHum Stone2015ManCon">(Stone et al. 2015, Rego et al. 2015)</span>. By drawing on concepts from the Geographic Mosaic Theory of Coevolution <span class="citation" data-cites="Thompson2005GeoMos">(Thompson 2005)</span>, we turn these associations into a spatially explicit additive mapping of zoonotic risk components, which reveals extreme heterogeneity of risk at the global scale; furthermore, we identify the Amazon and South-Eastern Asia as hotspots of phylogenetic distinctiveness of betacoronaviruses <span class="citation" data-cites="Anthony2017GloPat">(Anthony et al. 2017)</span>; surprisingly, current data suggest that viral sharing between hosts in high in the Amazon and low in South-Eastern Asia, which has the potential to result in different evolutionary dynamics between these two regions.</p>
             <h1 id="methods">Methods</h1>
             <h2 id="known-betacoronavirus-hosts">Known betacoronavirus hosts</h2>
-            <p>We downloaded the data on bats hosts of betacoronaviruses assembled by <span class="citation" data-cites="Becker2022OptPre">Becker et al. (2022)</span> from <code>https://www.viralemergence.org/betacov</code> on Aug. 2021, and filtered it to “known” hosts (established before the emergence of SARS-CoV-2) and “novel” hosts (confirmed through sampling since the emergence of SARS-CoV-2). This database was assembled by a combination of data mining and literature surveys.</p>
+            <p>We downloaded the data on bats hosts of betacoronaviruses assembled by <span class="citation" data-cites="Becker2022OptPre">Becker et al. (2022)</span> from <code>https://www.viralemergence.org/betacov</code> on Apr. 2022, and filtered it to “known” hosts (established before the emergence of SARS-CoV-2) and “novel” hosts (confirmed through sampling since the emergence of SARS-CoV-2). The original database was assembled by a combination of data mining and literature surveys, including automated alerts on the “bats” and “coronavirus” keywords to identify novel empirical evidence of bats-betacoronaviruses associations.</p>
             <h2 id="bats-occurrences">Bats occurrences</h2>
-            <p>We downloaded the rangemap of every extant bat species that was either classified as an empirically documented or a suspected host of beta-coronaviruses (Becker et al. 2020), according to recent IUCN data (IUCN 2021). The range maps were subsequently rasterized at a resolution of approximately TK TP. For every pixel in the resulting raster where at least one bat host of betacoronavirus was present, we extract the species pool, which was used to calculate the following risk assessment components: phylogenetic diversity, bat compositional uniqueness, and predicted viral sharing risk.</p>
+            <p>We downloaded the rangemap of every extant bat species that was either classified as an empirically documented host of beta-coronaviruses from the previous step, according to recent IUCN data <span class="citation" data-cites="IUCN2021IucRed">(IUCN 2021)</span>. The range maps were subsequently rasterized using the <code>rasterize</code> function from <code>GDAL</code> <span class="citation" data-cites="RouaultEven2022GdaOgr">(Rouault et al. 2022)</span> at a resolution of approximately <strong>TK TP</strong>. For every pixel in the resulting raster where at least one bat host of betacoronavirus was present, we extract the species pool (list of all bat species), which was used to calculate the following risk assessment components: phylogenetic diversity, bat compositional uniqueness, and predicted viral sharing risk.</p>
             <h2 id="bats-phylogeography">Bats phylogeography</h2>
-            <p>For every pixel, we measured Faith’s Phylogenetic Diversity (Faith 1992) based on a recent synthetic tree with robust time calibration, covering about 6000 mammalian species (Upham et al. 2019). Faith’s PD measures the sum of unique branches from an arbitrary root to a set of tips, and comparatively larger values indicate a more phylogenetic diverse species pool. We measured phylogenetic diversity starting from the root of the entire tree (and not from Chiroptera); this bears no consequences on the resulting values, since all branches leading up to Chiroptera are only counted one per species pool, and (as we explain when describing the assembly of the composite risk map), all individual risk components are ranged in [0,1]. This measure incorporates a richness component, which we chose not to correct for; the interpretation of the phylogenetic diversity is therefore a weighted species richness, that accounts for phylogenetic over/under-dispersal in some places.</p>
+            <p>For every pixel, we measured Faith’s Phylogenetic Diversity <span class="citation" data-cites="Faith1992ConEva">(Faith 1992)</span> based on a recent synthetic tree with robust time calibration, covering about 6000 mammalian species <span class="citation" data-cites="Upham2019InfMam">(Upham et al. 2019)</span>. Faith’s PD measures the sum of unique branches from an arbitrary root to a set of tips, and comparatively larger values indicate a more phylogenetic diverse species pool. We measured phylogenetic diversity starting from the root of the entire tree (and not from Chiroptera); this bears no consequences on the resulting values, since all branches leading up to Chiroptera are only counted one per species pool, and (as we explain when describing the assembly of the composite risk map), all individual risk components are ranged in [0,1]. This measure incorporates a richness component, which we chose not to correct for; the interpretation of the phylogenetic diversity is therefore a weighted species richness, that accounts for phylogenetic over/under-dispersal in some places.</p>
             <h2 id="bats-compositional-uniqueness">Bats compositional uniqueness</h2>
             <p>For every species pool, we measured its Local Contribution to Beta-Diversity (Legendre and De Cáceres 2013); LCBD works from a species-data matrix (traditionally noted as Y), where species are rows and sites are columns, and a value of 1 indicates occurrence. We extracted the Y matrix assuming that every pixel represents a unique location, and following best practices (Legendre and Condit 2019) transformed it using Hellinger’s distance to account for unequal bat richness at different pixels. The correction of raw community data is particularly important for two reasons: first, it prevents the artifact of richer sites having higher importance; second, it removes the effect of overall species richness, which is already incorporated in the phylogenetic diversity component. High values of LCBD indicate that the pixel has a community that is on average more dissimilar in species composition than what is expected knowing the entire matrix, i.e. a more unique community.</p>
             <h2 id="viral-sharing-between-hosts">Viral sharing between hosts</h2>
@@ -280,11 +280,17 @@
             <div id="ref-Engering2013PatHos" class="csl-entry" role="doc-biblioentry">
             Engering, A. et al. 2013. Pathogen–host–environment interplay and disease emergence. - Emerging Microbes &amp; Infections 2: e5.
             </div>
+            <div id="ref-Faith1992ConEva" class="csl-entry" role="doc-biblioentry">
+            Faith, D. P. 1992. Conservation evaluation and phylogenetic diversity. - Biological Conservation 61: 1–10.
+            </div>
             <div id="ref-Gonsalves2013MosInf" class="csl-entry" role="doc-biblioentry">
             Gonsalves, L. et al. 2013a. Do mosquitoes influence bat activity in coastal habitats? - Wildlife Research 40: 10–24.
             </div>
             <div id="ref-Gonsalves2013MosCon" class="csl-entry" role="doc-biblioentry">
             Gonsalves, L. et al. 2013b. Mosquito Consumption by Insectivorous Bats: Does Size Matter? - PLOS ONE 8: e77183.
+            </div>
+            <div id="ref-IUCN2021IucRed" class="csl-entry" role="doc-biblioentry">
+            IUCN 2021. The IUCN Red List of Threatened Species.
             </div>
             <div id="ref-Kasso2013EcoEco" class="csl-entry" role="doc-biblioentry">
             Kasso, M. and Balakrishnan, M. 2013. Ecological and Economic Importance of Bats (Order Chiroptera). - ISRN Biodiversity 2013: e187415.
@@ -310,6 +316,9 @@
             <div id="ref-Rego2015AssHum" class="csl-entry" role="doc-biblioentry">
             Rego, K. M. da C. et al. 2015. Assessing human-bat interactions around a protected area in northeastern Brazil. - Journal of Ethnobiology and Ethnomedicine 11: 80.
             </div>
+            <div id="ref-RouaultEven2022GdaOgr" class="csl-entry" role="doc-biblioentry">
+            Rouault, E. et al. 2022. GDAL/OGR Geospatial Data Abstraction software Library. - Zenodo.
+            </div>
             <div id="ref-Simmons2020BatSpe" class="csl-entry" role="doc-biblioentry">
             Simmons, N. B. and Cirranello, A. L. 2020. Bat Species of the World: A taxonomic and geographic database.
             </div>
@@ -318,6 +327,9 @@
             </div>
             <div id="ref-Thompson2005GeoMos" class="csl-entry" role="doc-biblioentry">
             Thompson, J. N. 2005. The Geographic Mosaic of Coevolution. - University Of Chicago Press.
+            </div>
+            <div id="ref-Upham2019InfMam" class="csl-entry" role="doc-biblioentry">
+            Upham, N. S. et al. 2019. Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation. - PLOS Biology 17: e3000494.
             </div>
             <div id="ref-Voigt2016BatAnt" class="csl-entry" role="doc-biblioentry">
              2016. Bats in the Anthropocene: Conservation of Bats in a Changing World (CC Voigt and T Kingston, Eds.). - Springer International Publishing.
