@@ -447,10 +447,10 @@ pixel with colorimetric coordinates \((h,s,v)\), its ranged weighted
 risk value is
 
 \[
-v\times\left[1-\frac{\left|\text{atan}\left(\text{cos}(\text{rad}(h)), \text{sin}(\text{rad}(h))\right) - X\right)\right|}{2\pi}\right]\,,
+v\times\left[1-\frac{\left|\text{atan}\left(\text{cos}(\text{rad}(h)), \text{sin}(\text{rad}(h))\right) - X\right|}{2\pi}\right]\,,
 \]
 
-where X is \(atan(cos(deg2rad(60.0)), sin(deg2rad(60.0))\), a constant
+where X is \(atan(cos(deg2rad(60.0)), sin(deg2rad(60.0)))\), a constant
 approximately equal to \(0.5235\).
 
 \hypertarget{viral-phylogeography}{%
@@ -484,12 +484,12 @@ number of known bat hosts (specifically only those included in the
 phylogeny, so there was a 1:1 correspondence between data sources)
 against the ``mean evolutionary distinctiveness'' of the associated
 viruses. To calculate this, we derived the fair proportions evolutionary
-distinctiveness (Isaac et al., 2007) for each of the viruses in the
-tree, then averaged these at the bat species level, projected these
-values onto their geographic distributions, and averaged across every
-bat found in a given pixel. As such, this can be thought of as a map of
-the mean evolutionary distinctiveness of the known viral community
-believed to be associated with a particular subset of bats present.
+distinctiveness (Isaac et al. 2007) for each of the viruses in the tree,
+then averaged these at the bat species level, projected these values
+onto their geographic distributions, and averaged across every bat found
+in a given pixel. As such, this can be thought of as a map of the mean
+evolutionary distinctiveness of the known viral community believed to be
+associated with a particular subset of bats present.
 
 \hypertarget{co-distribution-of-hosts-and-viral-hotspots}{%
 \subsection{Co-distribution of hosts and viral
@@ -497,18 +497,17 @@ hotspots}\label{co-distribution-of-hosts-and-viral-hotspots}}
 
 Subsequently, we tested the hypothesis that the biogeography of bat
 betacoronaviruses should track the biogeography of their hosts. To test
-this idea, we loosely adapted a method from Kreft \& Jetz (2010), who
-proposed a phylogenetic method for the delineation of animal
+this idea, we loosely adapted a method from (Kreft and Jetz 2007, 2010),
+who proposed a phylogenetic method for the delineation of animal
 biogeographic regions. In their original method, a distance matrix -
 where each row or column represents a geographic raster's grid cell, and
 the dissimilarity values are the ``beta diversity similarity'' of their
 community assemble - undergoes non-metric multidimensional scaling
 (NMDS); the first two axes of the NMDS are projected geographically
-using a four-color bivariate map.
-
-Here, we build on this idea with an entirely novel methodology. First,
-we measure the phylogenetic distance between the different viruses in
-the betacoronavirus tree by using the cophenetic function in `ape';
+using a four-color bivariate map. Here, we build on this idea with an
+entirely novel methodology. First, we measure the phylogenetic distance
+between the different viruses in the betacoronavirus tree by using the
+cophenetic function in \texttt{ape} (Paradis and Schliep 2019);
 subsequently, we take a principal components analysis of that distance
 matrix (readily interchangeable for NMDS in this case) to project the
 viral tree into an n-dimensional space. We then take the first two
@@ -831,6 +830,10 @@ coastal habitats? - Wildlife Research 40: 10--24.
 Gonsalves, L. et al. 2013b. Mosquito Consumption by Insectivorous Bats:
 Does Size Matter? - PLOS ONE 8: e77183.
 
+\leavevmode\hypertarget{ref-Isaac2007MamEdg}{}%
+Isaac, N. J. B. et al. 2007. Mammals on the EDGE: Conservation
+Priorities Based on Threat and Phylogeny. - PLOS ONE 2: e296.
+
 \leavevmode\hypertarget{ref-IUCN2021IucRed}{}%
 IUCN 2021. The IUCN Red List of Threatened Species.
 
@@ -842,6 +845,16 @@ of Bats (Order Chiroptera). - ISRN Biodiversity 2013: e187415.
 Keke, S. et al. 2010. Study on skin color image segmentation used by
 Fuzzy-c-means arithmetic. - 2010 Seventh International Conference on
 Fuzzy Systems and Knowledge Discovery 2: 612--615.
+
+\leavevmode\hypertarget{ref-Kreft2007GloPat}{}%
+Kreft, H. and Jetz, W. 2007. Global patterns and determinants of
+vascular plant diversity. - Proceedings of the National Academy of
+Sciences 104: 5925--5930.
+
+\leavevmode\hypertarget{ref-Kreft2010FraDel}{}%
+Kreft, H. and Jetz, W. 2010. A framework for delineating biogeographical
+regions based on species distributions. - Journal of Biogeography 37:
+2029--2053.
 
 \leavevmode\hypertarget{ref-Legendre2013BetDiv}{}%
 Legendre, P. and De Cáceres, M. 2013. Beta diversity as the variance of
@@ -862,6 +875,11 @@ Parasitology Research Monographs. Springer, pp. 25--61.
 \leavevmode\hypertarget{ref-Olival2017HosVir}{}%
 Olival, K. J. et al. 2017. Host and viral traits predict zoonotic
 spillover from mammals. - Nature 546: 646--650.
+
+\leavevmode\hypertarget{ref-Paradis2019ApeEnv}{}%
+Paradis, E. and Schliep, K. 2019. Ape 5.0: An environment for modern
+phylogenetics and evolutionary analyses in R. - Bioinformatics 35:
+526--528.
 
 \leavevmode\hypertarget{ref-Peixoto2018SynEco}{}%
 Peixoto, F. P. et al. 2018. A synthesis of ecological and evolutionary

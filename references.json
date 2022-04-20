@@ -1232,6 +1232,48 @@
         "volume": "589"
     },
     {
+        "DOI": "10.1371/journal.pone.0000296",
+        "author": [
+            {
+                "family": "Isaac",
+                "given": "Nick J. B."
+            },
+            {
+                "family": "Turvey",
+                "given": "Samuel T."
+            },
+            {
+                "family": "Collen",
+                "given": "Ben"
+            },
+            {
+                "family": "Waterman",
+                "given": "Carly"
+            },
+            {
+                "family": "Baillie",
+                "given": "Jonathan E. M."
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "id": "Isaac2007MamEdg",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2007,
+                    3,
+                    14
+                ]
+            ]
+        },
+        "page": "e296",
+        "publisher": "Public Library of Science",
+        "title": "Mammals on the EDGE: Conservation Priorities Based on Threat and Phylogeny",
+        "type": "article-journal",
+        "volume": "2"
+    },
+    {
         "URL": "https://www.iucnredlist.org",
         "author": [
             {
@@ -1419,6 +1461,63 @@
         "title": "Research priorities for bat conservation in Southeast Asia: A consensus approach",
         "type": "article-journal",
         "volume": "19"
+    },
+    {
+        "DOI": "10.1073/pnas.0608361104",
+        "author": [
+            {
+                "family": "Kreft",
+                "given": "Holger"
+            },
+            {
+                "family": "Jetz",
+                "given": "Walter"
+            }
+        ],
+        "container-title": "Proceedings of the National Academy of Sciences",
+        "id": "Kreft2007GloPat",
+        "issue": "14",
+        "issued": {
+            "date-parts": [
+                [
+                    2007,
+                    4,
+                    3
+                ]
+            ]
+        },
+        "page": "5925-5930",
+        "publisher": "Proceedings of the National Academy of Sciences",
+        "title": "Global patterns and determinants of vascular plant diversity",
+        "type": "article-journal",
+        "volume": "104"
+    },
+    {
+        "DOI": "10.1111/j.1365-2699.2010.02375.x",
+        "author": [
+            {
+                "family": "Kreft",
+                "given": "Holger"
+            },
+            {
+                "family": "Jetz",
+                "given": "Walter"
+            }
+        ],
+        "container-title": "Journal of Biogeography",
+        "id": "Kreft2010FraDel",
+        "issue": "11",
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        },
+        "page": "2029-2053",
+        "title": "A framework for delineating biogeographical regions based on species distributions",
+        "type": "article-journal",
+        "volume": "37"
     },
     {
         "DOI": "10.1038/srep14830",
@@ -1966,6 +2065,35 @@
         "title": "Host and viral traits predict zoonotic spillover from mammals",
         "type": "article-journal",
         "volume": "546"
+    },
+    {
+        "DOI": "10.1093/bioinformatics/bty633",
+        "author": [
+            {
+                "family": "Paradis",
+                "given": "Emmanuel"
+            },
+            {
+                "family": "Schliep",
+                "given": "Klaus"
+            }
+        ],
+        "container-title": "Bioinformatics",
+        "id": "Paradis2019ApeEnv",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2019,
+                    2,
+                    1
+                ]
+            ]
+        },
+        "page": "526-528",
+        "title": "Ape 5.0: An environment for modern phylogenetics and evolutionary analyses in R",
+        "type": "article-journal",
+        "volume": "35"
     },
     {
         "DOI": "10.1186/s12898-018-0174-z",
