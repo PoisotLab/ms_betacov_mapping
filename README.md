@@ -119,7 +119,7 @@ scale, and are therefore applicable at the global scale.
 ## Viral sharing between hosts
 
 For all bat hosts of betacoronaviruses, we extracted their predicted viral
-sharing network (Albery et al. 2020). This network stores pairwise values of
+sharing network [@Albery2020PreGlo]. This network stores pairwise values of
 viral community similarity. To project viral sharing values into a single value
 for every pixel, we averaged the pairwise scores. High values of the average
 sharing propensity means that this specific extant bat assemblage is likely to
@@ -129,13 +129,32 @@ be proficient at exchanging viruses.
 
 To visualize the aggregated risk at the global scale, we combine the three
 individual risk components (phylogenetic diversity, compositional uniqueness,
-and viral sharing) using an additive color model (Seekell et al. 2018). In this
+and viral sharing) using an additive color model [@Seekell2018GeoLak]. In this
 approach, every risk component gets assigned a component in the RGB color model
 (phylogenetic diversity is green, compositional uniqueness is red, and viral
 sharing is blue). In order to achieve a valid RGB measure, all components are
-re-scaled to the [0,1] interval. This additive model conveys both the intensity
-of the overall risk, but also the nature of the risk as colors diverge towards
-combinations of values for three risk components.
+re-scaled to the [0,1] interval, so that a pixel with no sharing, no
+phylogenetic diversity, and no compositional uniqueness is black, and a pixel
+with maximal values for each is white. This additive model conveys both the
+intensity of the overall risk, but also the nature of the risk as colors diverge
+towards combinations of values for three risk components. Out of the possible
+combinations, the most risky in terms or rapid diversification and spillover
+potential is high phylogenetic diversity and low viral sharing
+[@Cavender-Bares2009MerCom; @Gomulkiewicz2000HotSpo], in that this allows
+multiple independent host-virus coevolutionary dynamics to take place in the
+same location. In the colorimetric space, this correspond to yellow -- because
+the HSV space is more amenable to calculations for feature extraction [see
+*e.g.* @Keke2010StuSki], we measured the risk level by calculating the angular
+distance of the hue of each pixel to a reference value of 60, and weighted this
+risk level by the value component. Specifically, given a pixel with colorimetric
+coordinates $(h,s,v)$, its ranged weighted risk value is
+
+$$
+v\times\left[1-\frac{\left|\text{atan}\left(\text{cos}(\text{rad}(h)), \text{sin}(\text{rad}(h))\right) - X\right)\right|}{2\pi}\right]\,,
+$$
+
+where X is $atan(cos(deg2rad(60.0)), sin(deg2rad(60.0))$, a constant
+approximately equal to $0.5235$.
 
 ## Viral phylogeography
 
