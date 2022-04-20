@@ -265,12 +265,12 @@ comparatively lower number of hosts; this suggests that the South American
 bat-betacoronvirus complex has been more isolated, and is probably undergoing a
 different co-evolutionary dynamic. Alternatively, this distinctiveness hostpot
 may be a product of under-sampling: South-America is one of the places where the
-fewest betacoronaviruses have been discovered (Anthony et al., 2017), and adding
+fewest betacoronaviruses have been discovered [@Anthony2017GloPat], and adding
 more viruses would bring the distinctiveness of known sequences down. Previous
 work has suggested the Americas may be a hotspot of both undiscovered bat
-viruses in general (Olival) and coronavirus specifically (Anthony), though not
-necessarily betacoronaviruses, and particularly not those in clades with notable
-zoonotic potential (c.f. Anthony).
+viruses in general [@Allen2017GloHot; @Olival2017HosVir] and coronavirus
+specifically [@Anthony2017GloPat], though not necessarily betacoronaviruses, and
+particularly not those in clades with notable zoonotic potential.
 
 ## Geographic Mosaic of bat-betacoronavirus risk
 
