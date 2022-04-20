@@ -39,27 +39,23 @@ areas in which bats, viruses, and human are co-occuring are facing a risk of
 spillover towards human populations, and the areas in which this risk exist may
 not be facing risks of the same nature and magnitude.
 
-<!-- Yet, a comprehensive assessment of the risk of spillover of betacoronaviruses
-from bat hosts to humans is limited by the fact that we do not know the full
-diversity of viruses associated with every bat species. Predictive models can
-help fill in some of these gaps, by recommending hosts based on known host-virus
-associations BECKER REF. -->
-
 In this paper, we examine the biogeographic structure of bats-betacoronaviruses
 associations, based on a curated dataset of known and recently discovered hosts.
 This work is important both as a description of the bats-betacoronavirus
 complex, but aslo because more broadly, bats are known reservoirs for a variety
-of emerging viruses (Calisher 2006), making balancing the needs for bat
-conservation and disease prevention a potentially difficult act and a source of
-human-wildlife conflicst, especially in more densely populated areas (REF). By
-drawing on concepts from the Geographic Mosaic Theory of Coevolution (REF), we
-turn these associations into a spatially explicit additive mapping of zoonotic
-risk components, which reveals extreme heterogeneity of risk at the global
-scale; furthermore, we identify the Amazon and South-Eastern Asia as hotspots of
-phylogenetic distinctiveness of betacoronaviruses; surprisingly, current data
-suggest that viral sharing between hosts in high in the Amazon and low in
-South-Eastern Asia, which has the potential to result in different evolutionary
-dynamics between these two regions.
+of emerging viruses and pathogens [@Calisher2006BatImp;@Melaun2014BatPot],
+making balancing the needs for bat conservation and disease prevention a
+potentially difficult act and a source of human-wildlife conflicts, especially
+in more densely populated areas [@Rego2015AssHum; @Stone2015ManCon]. By drawing
+on concepts from the Geographic Mosaic Theory of Coevolution
+[@Thompson2005GeoMos], we turn these associations into a spatially explicit
+additive mapping of zoonotic risk components, which reveals extreme
+heterogeneity of risk at the global scale; furthermore, we identify the Amazon
+and South-Eastern Asia as hotspots of phylogenetic distinctiveness of
+betacoronaviruses; surprisingly, current data suggest that viral sharing between
+hosts in high in the Amazon and low in South-Eastern Asia, which has the
+potential to result in different evolutionary dynamics between these two
+regions.
 
 # Methods
 
