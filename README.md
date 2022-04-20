@@ -19,24 +19,25 @@ pathogens, there is conceptual and empirical support to the idea that these
 community- level mechanisms are even more important in driving the overall risk
 [@Power2004PatSpi].
 
-Bats are important reservoir hosts for different classes of microorganisms (Chu
+Bats are important reservoir hosts for different classes of microorganisms  (Chu
 2008, Donaldson 2010, Li 2010), some of which can threaten human health.
 Chiropterans emerged around 64 million years ago and are one of the most diverse
 mammalian orders, with an estimated richness of more than 12000 species,
-(Peixoto F et al, 2018) and 14325 known species (Simmons & Cirranello). They
-exhibit a broad variety of habitat use, behaviour, and feeding strategies,
-resulting in their playing an essential role in the delivery of several
-ecosystem services tied to important ecosystem-derived benefits (Kasso 2013).
-For example, over two-thirds of bats are know to be either obligate or
-facultative insectivorous mammals, therefore playing an important role in the
-regulation of insect pests that can affect crops (Williams-Guillen 2011), and
-vectors of diseases that put a risk on human health (Gonsalves 2013). Because
-bats are globally distributed and have a long evolutionary history,
-phylogeographic and biogeographic approaches are required to shed light on the
-extant distribution of coevolutionary processes between bats and the pathogens
-they carry. Not all areas in which bats, viruses, and human are co-occuring are
-facing a risk of spillover towards human populations, and the areas in which
-this risk exist may not be facing risks of the same nature and magnitude.
+[@Peixoto2018SynEco] and 14325 known species [@Simmons2020BatSpe]. They exhibit
+a broad variety of habitat use, behaviour, and feeding strategies, resulting in
+their playing an essential role in the delivery of several ecosystem services
+tied to important ecosystem-derived benefits [@Kasso2013EcoEco]. For example,
+over two-thirds of bats are know to be either obligate or facultative
+insectivorous mammals, therefore playing an important role in the regulation of
+insect pests that can affect crops [@Voigt2016BatAnt;
+@Williams-Guillen2008BatLim], and vectors of diseases that put a risk on human
+health [@Gonsalves2013MosCon; @Gonsalves2013MosInf]. Because bats are globally
+distributed and have a long evolutionary history, phylogeographic and
+biogeographic approaches are required to shed light on the extant distribution
+of coevolutionary processes between bats and the pathogens they carry. Not all
+areas in which bats, viruses, and human are co-occuring are facing a risk of
+spillover towards human populations, and the areas in which this risk exist may
+not be facing risks of the same nature and magnitude.
 
 <!-- Yet, a comprehensive assessment of the risk of spillover of betacoronaviruses
 from bat hosts to humans is limited by the fact that we do not know the full
