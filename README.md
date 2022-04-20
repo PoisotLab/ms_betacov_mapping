@@ -153,8 +153,8 @@ $$
 v\times\left[1-\frac{\left|\text{atan}\left(\text{cos}(\text{rad}(h)), \text{sin}(\text{rad}(h))\right) - X\right|}{2\pi}\right]\,,
 $$
 
-where X is $atan(cos(deg2rad(60.0)), sin(deg2rad(60.0)))$, a constant
-approximately equal to $0.5235$.
+where X is $\text{atan}\left(\text{cos}(\text{rad}(60)),
+\text{sin}(\text{rad}(60))\right)$, a constant approximately equal to $0.5235$.
 
 ## Viral phylogeography
 
