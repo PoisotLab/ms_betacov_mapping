@@ -1446,6 +1446,56 @@
         "volume": "7"
     },
     {
+        "DOI": "10.1007/978-3-642-39333-4_3",
+        "author": [
+            {
+                "family": "Melaun",
+                "given": "Christian"
+            },
+            {
+                "family": "Werblow",
+                "given": "Antje"
+            },
+            {
+                "family": "Busch",
+                "given": "Markus Wilhelm"
+            },
+            {
+                "family": "Liston",
+                "given": "Andrew"
+            },
+            {
+                "family": "Klimpel",
+                "given": "Sven"
+            }
+        ],
+        "collection-title": "Parasitology Research Monographs",
+        "container-title": "Bats (Chiroptera) as Vectors of Diseases and Parasites: Facts and Myths",
+        "editor": [
+            {
+                "family": "Klimpel",
+                "given": "Sven"
+            },
+            {
+                "family": "Mehlhorn",
+                "given": "Heinz"
+            }
+        ],
+        "id": "Melaun2014BatPot",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "25-61",
+        "publisher": "Springer",
+        "publisher-place": "Berlin, Heidelberg",
+        "title": "Bats as Potential Reservoir Hosts for Vector-Borne Diseases",
+        "type": "chapter"
+    },
+    {
         "DOI": "10.1073/pnas.2006778117",
         "author": [
             {
@@ -1958,6 +2008,43 @@
         "volume": "164"
     },
     {
+        "DOI": "10.1186/s13002-015-0058-7",
+        "author": [
+            {
+                "family": "Rego",
+                "given": "Karlla Morganna da Costa"
+            },
+            {
+                "family": "Zeppelini",
+                "given": "Caio Graco"
+            },
+            {
+                "family": "Lopez",
+                "given": "Luiz Carlos Serramo"
+            },
+            {
+                "family": "Alves",
+                "given": "R\u00f4mulo Romeu N\u00f3brega"
+            }
+        ],
+        "container-title": "Journal of Ethnobiology and Ethnomedicine",
+        "id": "Rego2015AssHum",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2015,
+                    11,
+                    17
+                ]
+            ]
+        },
+        "page": "80",
+        "title": "Assessing human-bat interactions around a protected area in northeastern Brazil",
+        "type": "article-journal",
+        "volume": "11"
+    },
+    {
         "DOI": "10.1038/s41467-020-19273-z",
         "author": [
             {
@@ -2110,6 +2197,52 @@
         "volume": "23"
     },
     {
+        "DOI": "10.1371/journal.pone.0131825",
+        "PMCID": "PMC4526527",
+        "author": [
+            {
+                "family": "Stone",
+                "given": "Emma"
+            },
+            {
+                "family": "Zeale",
+                "given": "Matt R. K."
+            },
+            {
+                "family": "Newson",
+                "given": "Stuart E."
+            },
+            {
+                "family": "Browne",
+                "given": "William J."
+            },
+            {
+                "family": "Harris",
+                "given": "Stephen"
+            },
+            {
+                "family": "Jones",
+                "given": "Gareth"
+            }
+        ],
+        "container-title": "PLoS ONE",
+        "id": "Stone2015ManCon",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    2015,
+                    8,
+                    5
+                ]
+            ]
+        },
+        "page": "e0131825",
+        "title": "Managing Conflict between Bats and Humans: The Response of Soprano Pipistrelles (Pipistrellus pygmaeus) to Exclusion from Roosts in Houses",
+        "type": "article-journal",
+        "volume": "10"
+    },
+    {
         "DOI": "10.1126/science.1105113",
         "author": [
             {
@@ -2152,6 +2285,25 @@
         "title": "A Molecular Phylogeny for Bats Illuminates Biogeography and the Fossil Record",
         "type": "article-journal",
         "volume": "307"
+    },
+    {
+        "author": [
+            {
+                "family": "Thompson",
+                "given": "John N"
+            }
+        ],
+        "id": "Thompson2005GeoMos",
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        },
+        "publisher": "University Of Chicago Press",
+        "title": "The Geographic Mosaic of Coevolution",
+        "type": "book"
     },
     {
         "DOI": "10.1371/journal.pbio.3000494",
