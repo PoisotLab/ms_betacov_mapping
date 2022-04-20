@@ -231,23 +231,24 @@ cycle of transmission has been marginal to non-existent.
 
 Chiroptera are an hyperdiverse group, distributed in a large part if the world,
 and are an important reservoir for different strains of betacoronaviruses
-(Drexler et al., 2014); this has attracted attention to areas where high
-diversity of bats can be an important issue for human health (Calisher et al.,
-2006). Accordingly, we collected the IUCN rangemaps for known hosts of
-betacoronaviruses, to illustrate where hotspots of host diversity are. These
-results are presented in Fig xx.a. As per our current knowledge of which bats
-are hosts of betacoronaviruses, these hotspots are primarily South-East Asia,
-parts of Europe, and to a lesser extent sub-saharan Africa. Even the subset of
-chiroptera that are hosts of betacoronaviruses fits the evolutionary timeline of
-the group. Chiropterans can be classified as Microchiroptera and
+[@Drexler2014EcoEvo]; this has attracted attention to areas where high diversity
+of bats can be an important issue for human health [@Calisher2006BatImp;
+@Moratelli2015BatZoo]. Accordingly, we collected the IUCN rangemaps for known
+hosts of betacoronaviruses, to illustrate where hotspots of host diversity are.
+These results are presented in Fig xx.a. As per our current knowledge of which
+bats are hosts of betacoronaviruses, these hotspots are primarily South-East
+Asia, parts of Europe, and to a lesser extent sub-saharan Africa. Even the
+subset of chiroptera that are hosts of betacoronaviruses fits the evolutionary
+timeline of the group. Chiropterans can be classified as Microchiroptera and
 macrochiroptera, where macrochiroptera have an older history from an
-evolutionary perspective compared to macrochiroptera (Springer, 2013; Teeling et
-al., 2005). South-East Asia has a high diversity of bats (Kingston, 2010), and
-our results show that part of that diversity includes betacoronavirus hosts.
-High density of hosts sharing the same virus (albeit possibly different strains)
-calls into question the evolution of the bat antiviral immune system and its
-co-evolution with viruses, which may result in distinct immunological responses
-in different area, as evidenced in other bat species (Banerjee et al., 2020)
+evolutionary perspective compared to macrochiroptera [@Springer2013PhyBat;
+@Teeling2005MolPhy]. South-East Asia has a high diversity of bats (Kingston,
+2010), and our results show that part of that diversity includes betacoronavirus
+hosts. High density of hosts sharing the same virus (albeit possibly different
+strains) calls into question the evolution of the bat antiviral immune system
+and its co-evolution with viruses, which may result in distinct immunological
+responses in different area, as evidenced in other bat species
+[@Banerjee2020NovIns].
 
 ## Viral evolutionary distinctiveness
 
