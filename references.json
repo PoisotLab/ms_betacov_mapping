@@ -119,6 +119,61 @@
         "type": "article-journal"
     },
     {
+        "DOI": "10.1038/s41467-017-00923-8",
+        "author": [
+            {
+                "family": "Allen",
+                "given": "Toph"
+            },
+            {
+                "family": "Murray",
+                "given": "Kris A."
+            },
+            {
+                "family": "Zambrana-Torrelio",
+                "given": "Carlos"
+            },
+            {
+                "family": "Morse",
+                "given": "Stephen S."
+            },
+            {
+                "family": "Rondinini",
+                "given": "Carlo"
+            },
+            {
+                "family": "Di Marco",
+                "given": "Moreno"
+            },
+            {
+                "family": "Breit",
+                "given": "Nathan"
+            },
+            {
+                "family": "Olival",
+                "given": "Kevin J."
+            },
+            {
+                "family": "Daszak",
+                "given": "Peter"
+            }
+        ],
+        "container-title": "Nature Communications",
+        "id": "Allen2017GloHot",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2017,
+                    12
+                ]
+            ]
+        },
+        "title": "Global hotspots and correlates of emerging zoonotic diseases",
+        "type": "article-journal",
+        "volume": "8"
+    },
+    {
         "DOI": "10.1016/j.baae.2017.12.002",
         "author": [
             {
@@ -157,6 +212,69 @@
         "title": "Geographic variation in the relationship between large-scale environmental determinants and bat species richness",
         "type": "article-journal",
         "volume": "27"
+    },
+    {
+        "DOI": "10.1038/s41598-020-67666-3",
+        "author": [
+            {
+                "family": "Andrade-Pacheco",
+                "given": "Ricardo"
+            },
+            {
+                "family": "Rerolle",
+                "given": "Francois"
+            },
+            {
+                "family": "Lemoine",
+                "given": "Jean"
+            },
+            {
+                "family": "Hernandez",
+                "given": "Leda"
+            },
+            {
+                "family": "Me\u00eft\u00e9",
+                "given": "Aboulaye"
+            },
+            {
+                "family": "Juziwelo",
+                "given": "Lazarus"
+            },
+            {
+                "family": "Bibaut",
+                "given": "Aur\u00e9lien F."
+            },
+            {
+                "family": "Laan",
+                "given": "Mark J.",
+                "non-dropping-particle": "van der"
+            },
+            {
+                "family": "Arnold",
+                "given": "Benjamin F."
+            },
+            {
+                "family": "Sturrock",
+                "given": "Hugh J. W."
+            }
+        ],
+        "container-title": "Scientific Reports",
+        "id": "Andrade-Pacheco2020FinHot",
+        "issue": "1, 1",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    7,
+                    2
+                ]
+            ]
+        },
+        "page": "10939",
+        "publisher": "Nature Publishing Group",
+        "title": "Finding hotspots: Development of an adaptive spatial sampling approach",
+        "type": "article-journal",
+        "volume": "10"
     },
     {
         "DOI": "10.1093/ve/vex012",
@@ -301,80 +419,6 @@
         "title": "East of Eden: Asia as an important center of taxonomic origination in mammalian evolution",
         "type": "article-journal",
         "volume": "34"
-    },
-    {
-        "DOI": "10.1101/2020.05.22.111344",
-        "author": [
-            {
-                "family": "Becker",
-                "given": "Daniel J."
-            },
-            {
-                "family": "Albery",
-                "given": "Gregory F."
-            },
-            {
-                "family": "Sjodin",
-                "given": "Anna R."
-            },
-            {
-                "family": "Poisot",
-                "given": "Timoth\u00e9e"
-            },
-            {
-                "family": "Bergner",
-                "given": "Laura M."
-            },
-            {
-                "family": "Dallas",
-                "given": "Tad A."
-            },
-            {
-                "family": "Eskew",
-                "given": "Evan A."
-            },
-            {
-                "family": "Farrell",
-                "given": "Maxwell J."
-            },
-            {
-                "family": "Guth",
-                "given": "Sarah"
-            },
-            {
-                "family": "Han",
-                "given": "Barbara A."
-            },
-            {
-                "family": "Simmons",
-                "given": "Nancy B."
-            },
-            {
-                "family": "Stock",
-                "given": "Michiel"
-            },
-            {
-                "family": "Teeling",
-                "given": "Emma C."
-            },
-            {
-                "family": "Carlson",
-                "given": "Colin J."
-            }
-        ],
-        "genre": "Preprint",
-        "id": "Becker2020OptPre",
-        "issued": {
-            "date-parts": [
-                [
-                    2020,
-                    5
-                ]
-            ]
-        },
-        "publisher": "Ecology",
-        "title": "Optimizing predictive models to prioritize viral discovery in zoonotic reservoirs",
-        "type": "report"
     },
     {
         "DOI": "10.1016/S2666-5247(21)00245-7",
@@ -728,6 +772,46 @@
         "title": "Conservation evaluation and phylogenetic diversity",
         "type": "article-journal",
         "volume": "61"
+    },
+    {
+        "DOI": "10.1086/303382",
+        "author": [
+            {
+                "family": "Gomulkiewicz",
+                "given": "Richard"
+            },
+            {
+                "family": "Thompson",
+                "given": "John N."
+            },
+            {
+                "family": "Holt",
+                "given": "Robert D."
+            },
+            {
+                "family": "Nuismer",
+                "given": "Scott L."
+            },
+            {
+                "family": "Hochberg",
+                "given": "Michael E."
+            }
+        ],
+        "container-title": "The American Naturalist",
+        "id": "Gomulkiewicz2000HotSpo",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2000,
+                    8
+                ]
+            ]
+        },
+        "page": "156-174",
+        "title": "Hot Spots, Cold Spots, and the Geographic Mosaic Theory of Coevolution",
+        "type": "article-journal",
+        "volume": "156"
     },
     {
         "DOI": "10.1371/journal.pone.0077183",
