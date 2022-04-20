@@ -156,7 +156,7 @@ $$
 where X is $\text{atan}\left(\text{cos}(\text{rad}(60)),
 \text{sin}(\text{rad}(60))\right)$, a constant approximately equal to $0.5235$.
 
-## Viral phylogeography
+## Viral phylogeography and evolutionary diversification
 
 We used the following query to pull all betacoronavirus sequence data from the
 GenBank Nucleotide database except SARS-CoV-2; ("Betacoronavirus"[Organism] OR
@@ -172,8 +172,6 @@ MAFFT v 1.4.0 (Katoh and Standley 2013, Supplemental X) and a maximum likelihood
 tree reconstructed in IQ-TREE v 1.6.12 (Nguyen et al. 2015) with ModelFinder
 (Kalyaanamoorthy et al. 2017) ultrafast bootstrap approximation (Hoang et al.
 2018) and the following parameters (STEPH WILL ADD, Supplemental X).
-
-## Viral evolutionary diversification
 
 We first tested the hypothesis that hotspots of viral diversification would
 track hotspots of bat diversification. To do so, we plotted the number of known
