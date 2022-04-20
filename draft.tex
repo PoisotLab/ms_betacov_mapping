@@ -353,7 +353,7 @@ spatial scale, and are therefore applicable at the global scale.
 hosts}\label{viral-sharing-between-hosts}}
 
 For all bat hosts of betacoronaviruses, we extracted their predicted
-viral sharing network (Albery et al.~2020). This network stores pairwise
+viral sharing network (Albery et al. 2020). This network stores pairwise
 values of viral community similarity. To project viral sharing values
 into a single value for every pixel, we averaged the pairwise scores.
 High values of the average sharing propensity means that this specific
@@ -365,13 +365,34 @@ extant bat assemblage is likely to be proficient at exchanging viruses.
 To visualize the aggregated risk at the global scale, we combine the
 three individual risk components (phylogenetic diversity, compositional
 uniqueness, and viral sharing) using an additive color model (Seekell et
-al.~2018). In this approach, every risk component gets assigned a
+al. 2018). In this approach, every risk component gets assigned a
 component in the RGB color model (phylogenetic diversity is green,
 compositional uniqueness is red, and viral sharing is blue). In order to
 achieve a valid RGB measure, all components are re-scaled to the
-{[}0,1{]} interval. This additive model conveys both the intensity of
-the overall risk, but also the nature of the risk as colors diverge
-towards combinations of values for three risk components.
+{[}0,1{]} interval, so that a pixel with no sharing, no phylogenetic
+diversity, and no compositional uniqueness is black, and a pixel with
+maximal values for each is white. This additive model conveys both the
+intensity of the overall risk, but also the nature of the risk as colors
+diverge towards combinations of values for three risk components. Out of
+the possible combinations, the most risky in terms or rapid
+diversification and spillover potential is high phylogenetic diversity
+and low viral sharing (Gomulkiewicz et al. 2000, Cavender-Bares et al.
+2009), in that this allows multiple independent host-virus
+coevolutionary dynamics to take place in the same location. In the
+colorimetric space, this correspond to yellow -- because the HSV space
+is more amenable to calculations for feature extraction (see \emph{e.g.}
+Keke et al. 2010), we measured the risk level by calculating the angular
+distance of the hue of each pixel to a reference value of 60, and
+weighted this risk level by the value component. Specifically, given a
+pixel with colorimetric coordinates \((h,s,v)\), its ranged weighted
+risk value is
+
+\[
+v\times\left[1-\frac{\left|\text{atan}\left(\text{cos}(\text{rad}(h)), \text{sin}(\text{rad}(h))\right) - X\right)\right|}{2\pi}\right]\,,
+\]
+
+where X is \(atan(cos(deg2rad(60.0)), sin(deg2rad(60.0))\), a constant
+approximately equal to \(0.5235\).
 
 \hypertarget{viral-phylogeography}{%
 \subsection{Viral phylogeography}\label{viral-phylogeography}}
@@ -722,6 +743,10 @@ viral discovery in zoonotic reservoirs. - The Lancet Microbe in press.
 Calisher, C. H. et al. 2006. Bats: Important Reservoir Hosts of Emerging
 Viruses. - Clinical Microbiology Reviews 19: 531--545.
 
+\leavevmode\hypertarget{ref-Cavender-Bares2009MerCom}{}%
+Cavender-Bares, J. et al. 2009. The merging of community ecology and
+phylogenetic biology. - Ecol. Lett. 12: 693--715.
+
 \leavevmode\hypertarget{ref-Dansereau2022EvaEco}{}%
 Dansereau, G. et al. 2022. Evaluating ecological uniqueness over broad
 spatial extents using species distribution modelling. - Oikos n/a:
@@ -734,6 +759,10 @@ disease emergence. - Emerging Microbes \& Infections 2: e5.
 \leavevmode\hypertarget{ref-Faith1992ConEva}{}%
 Faith, D. P. 1992. Conservation evaluation and phylogenetic diversity. -
 Biological Conservation 61: 1--10.
+
+\leavevmode\hypertarget{ref-Gomulkiewicz2000HotSpo}{}%
+Gomulkiewicz, R. et al. 2000. Hot Spots, Cold Spots, and the Geographic
+Mosaic Theory of Coevolution. - The American Naturalist 156: 156--174.
 
 \leavevmode\hypertarget{ref-Gonsalves2013MosInf}{}%
 Gonsalves, L. et al. 2013a. Do mosquitoes influence bat activity in
@@ -749,6 +778,11 @@ IUCN 2021. The IUCN Red List of Threatened Species.
 \leavevmode\hypertarget{ref-Kasso2013EcoEco}{}%
 Kasso, M. and Balakrishnan, M. 2013. Ecological and Economic Importance
 of Bats (Order Chiroptera). - ISRN Biodiversity 2013: e187415.
+
+\leavevmode\hypertarget{ref-Keke2010StuSki}{}%
+Keke, S. et al. 2010. Study on skin color image segmentation used by
+Fuzzy-c-means arithmetic. - 2010 Seventh International Conference on
+Fuzzy Systems and Knowledge Discovery 2: 612--615.
 
 \leavevmode\hypertarget{ref-Legendre2013BetDiv}{}%
 Legendre, P. and De Cáceres, M. 2013. Beta diversity as the variance of
@@ -796,6 +830,10 @@ Ethnomedicine 11: 80.
 \leavevmode\hypertarget{ref-RouaultEven2022GdaOgr}{}%
 Rouault, E. et al. 2022. GDAL/OGR Geospatial Data Abstraction software
 Library. - Zenodo.
+
+\leavevmode\hypertarget{ref-Seekell2018GeoLak}{}%
+Seekell, D. A. et al. 2018. A geography of lake carbon cycling. -
+Limnology and Oceanography Letters 3: 49--56.
 
 \leavevmode\hypertarget{ref-Simmons2020BatSpe}{}%
 Simmons, N. B. and Cirranello, A. L. 2020. Bat Species of the World: A

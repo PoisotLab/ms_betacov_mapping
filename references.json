@@ -619,6 +619,42 @@
         "volume": "3"
     },
     {
+        "DOI": "10.1111/j.1461-0248.2009.01314.x",
+        "author": [
+            {
+                "family": "Cavender-Bares",
+                "given": "Jeannine"
+            },
+            {
+                "family": "Kozak",
+                "given": "Kenneth H."
+            },
+            {
+                "family": "Fine",
+                "given": "Paul V. A."
+            },
+            {
+                "family": "Kembel",
+                "given": "Steven W."
+            }
+        ],
+        "container-title": "Ecol. Lett.",
+        "id": "Cavender-Bares2009MerCom",
+        "issue": "7",
+        "issued": {
+            "date-parts": [
+                [
+                    2009,
+                    7
+                ]
+            ]
+        },
+        "page": "693-715",
+        "title": "The merging of community ecology and phylogenetic biology",
+        "type": "article-journal",
+        "volume": "12"
+    },
+    {
         "DOI": "10.1038/s41579-018-0118-9",
         "author": [
             {
@@ -1327,6 +1363,38 @@
         "title": "Ecological and Economic Importance of Bats (Order Chiroptera)",
         "type": "article-journal",
         "volume": "2013"
+    },
+    {
+        "DOI": "10.1109/FSKD.2010.5569451",
+        "author": [
+            {
+                "family": "Keke",
+                "given": "Shang"
+            },
+            {
+                "family": "Peng",
+                "given": "Zhou"
+            },
+            {
+                "family": "Guohui",
+                "given": "Li"
+            }
+        ],
+        "container-title": "2010 Seventh International Conference on Fuzzy Systems and Knowledge Discovery",
+        "event": "2010 Seventh International Conference on Fuzzy Systems and Knowledge Discovery",
+        "id": "Keke2010StuSki",
+        "issued": {
+            "date-parts": [
+                [
+                    2010,
+                    8
+                ]
+            ]
+        },
+        "page": "612-615",
+        "title": "Study on skin color image segmentation used by Fuzzy-c-means arithmetic",
+        "type": "paper-conference",
+        "volume": "2"
     },
     {
         "DOI": "10.1007/s10531-008-9458-5",

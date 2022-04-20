@@ -225,9 +225,13 @@
             <h2 id="bats-compositional-uniqueness">Bats compositional uniqueness</h2>
             <p>For every species pool, we measured its Local Contribution to Beta-Diversity <span class="citation" data-cites="Legendre2013BetDiv">(Legendre and De Cáceres 2013)</span>; LCBD works from a species-data matrix (traditionally noted as <span class="math inline"><strong>Y</strong></span>), where species are rows and sites are columns, and a value of 1 indicates occurrence. We extracted the Y matrix assuming that every pixel represents a unique location, and following best practices <span class="citation" data-cites="Legendre2019SpaTem">(Legendre and Condit 2019)</span> transformed it using Hellinger’s distance to account for unequal bat richness at different pixels. The correction of raw community data is particularly important for two reasons: first, it prevents the artifact of richer sites having higher importance; second, it removes the effect of overall species richness, which is already incorporated in the phylogenetic diversity component. High values of LCBD indicate that the pixel has a community that is on average more dissimilar in species composition than what is expected knowing the entire matrix, i.e. a more unique community. Recent results by <span class="citation" data-cites="Dansereau2022EvaEco">Dansereau et al. (2022)</span> shows that LCBD measures are robust with regards to spatial scale, and are therefore applicable at the global scale.</p>
             <h2 id="viral-sharing-between-hosts">Viral sharing between hosts</h2>
-            <p>For all bat hosts of betacoronaviruses, we extracted their predicted viral sharing network (Albery et al. 2020). This network stores pairwise values of viral community similarity. To project viral sharing values into a single value for every pixel, we averaged the pairwise scores. High values of the average sharing propensity means that this specific extant bat assemblage is likely to be proficient at exchanging viruses.</p>
+            <p>For all bat hosts of betacoronaviruses, we extracted their predicted viral sharing network <span class="citation" data-cites="Albery2020PreGlo">(Albery et al. 2020)</span>. This network stores pairwise values of viral community similarity. To project viral sharing values into a single value for every pixel, we averaged the pairwise scores. High values of the average sharing propensity means that this specific extant bat assemblage is likely to be proficient at exchanging viruses.</p>
             <h2 id="composite-risk-map">Composite risk map</h2>
-            <p>To visualize the aggregated risk at the global scale, we combine the three individual risk components (phylogenetic diversity, compositional uniqueness, and viral sharing) using an additive color model (Seekell et al. 2018). In this approach, every risk component gets assigned a component in the RGB color model (phylogenetic diversity is green, compositional uniqueness is red, and viral sharing is blue). In order to achieve a valid RGB measure, all components are re-scaled to the [0,1] interval. This additive model conveys both the intensity of the overall risk, but also the nature of the risk as colors diverge towards combinations of values for three risk components.</p>
+            <p>To visualize the aggregated risk at the global scale, we combine the three individual risk components (phylogenetic diversity, compositional uniqueness, and viral sharing) using an additive color model <span class="citation" data-cites="Seekell2018GeoLak">(Seekell et al. 2018)</span>. In this approach, every risk component gets assigned a component in the RGB color model (phylogenetic diversity is green, compositional uniqueness is red, and viral sharing is blue). In order to achieve a valid RGB measure, all components are re-scaled to the [0,1] interval, so that a pixel with no sharing, no phylogenetic diversity, and no compositional uniqueness is black, and a pixel with maximal values for each is white. This additive model conveys both the intensity of the overall risk, but also the nature of the risk as colors diverge towards combinations of values for three risk components. Out of the possible combinations, the most risky in terms or rapid diversification and spillover potential is high phylogenetic diversity and low viral sharing <span class="citation" data-cites="Cavender-Bares2009MerCom Gomulkiewicz2000HotSpo">(Gomulkiewicz et al. 2000, Cavender-Bares et al. 2009)</span>, in that this allows multiple independent host-virus coevolutionary dynamics to take place in the same location. In the colorimetric space, this correspond to yellow – because the HSV space is more amenable to calculations for feature extraction <span class="citation" data-cites="Keke2010StuSki">(see <em>e.g.</em> Keke et al. 2010)</span>, we measured the risk level by calculating the angular distance of the hue of each pixel to a reference value of 60, and weighted this risk level by the value component. Specifically, given a pixel with colorimetric coordinates <span class="math inline">(<em>h</em>, <em>s</em>, <em>v</em>)</span>, its ranged weighted risk value is</p>
+            <p><span class="math display">$$
+            v\times\left[1-\frac{\left|\text{atan}\left(\text{cos}(\text{rad}(h)), \text{sin}(\text{rad}(h))\right) - X\right)\right|}{2\pi}\right]\,,
+            $$</span></p>
+            <p>where X is <span class="math inline"><em>a</em><em>t</em><em>a</em><em>n</em>(<em>c</em><em>o</em><em>s</em>(<em>d</em><em>e</em><em>g</em>2<em>r</em><em>a</em><em>d</em>(60.0)), <em>s</em><em>i</em><em>n</em>(<em>d</em><em>e</em><em>g</em>2<em>r</em><em>a</em><em>d</em>(60.0))</span>, a constant approximately equal to <span class="math inline">0.5235</span>.</p>
             <h2 id="viral-phylogeography">Viral phylogeography</h2>
             <p>We used the following query to pull all betacoronavirus sequence data from the GenBank Nucleotide database except SARS-CoV-2; (“Betacoronavirus”[Organism] OR betacoronavirus[All Fields]) NOT (“Severe acute respiratory syndrome coronavirus 2”[Organism] OR sars-cov-2[All Fields]). We added a single representative sequence for SARS-CoV-2 and manually curated to remove sequences without the RNA-dependent RNA polymerase (RdRp) sequence or that contained words indicating recombinant or laboratory strains including “patent,” “mutant,” “GFP,” and “recombinant.” We filtered over-represented taxa including betacoronavirus 1, hCoV-OC43, Middle East respiratory syndrome coronavirus, Murine hepatitis virus, and hCoV-HKU1. Curated betacoronavirus RdRp sequences were then aligned using MAFFT v 1.4.0 (Katoh and Standley 2013, Supplemental X) and a maximum likelihood tree reconstructed in IQ-TREE v 1.6.12 (Nguyen et al. 2015) with ModelFinder (Kalyaanamoorthy et al. 2017) ultrafast bootstrap approximation (Hoang et al. 2018) and the following parameters (STEPH WILL ADD, Supplemental X).</p>
             <h2 id="viral-evolutionary-diversification">Viral evolutionary diversification</h2>
@@ -277,6 +281,9 @@
             <div id="ref-Calisher2006BatImp" class="csl-entry" role="doc-biblioentry">
             Calisher, C. H. et al. 2006. Bats: Important Reservoir Hosts of Emerging Viruses. - Clinical Microbiology Reviews 19: 531–545.
             </div>
+            <div id="ref-Cavender-Bares2009MerCom" class="csl-entry" role="doc-biblioentry">
+            Cavender-Bares, J. et al. 2009. The merging of community ecology and phylogenetic biology. - Ecol. Lett. 12: 693–715.
+            </div>
             <div id="ref-Dansereau2022EvaEco" class="csl-entry" role="doc-biblioentry">
             Dansereau, G. et al. 2022. Evaluating ecological uniqueness over broad spatial extents using species distribution modelling. - Oikos n/a: e09063.
             </div>
@@ -285,6 +292,9 @@
             </div>
             <div id="ref-Faith1992ConEva" class="csl-entry" role="doc-biblioentry">
             Faith, D. P. 1992. Conservation evaluation and phylogenetic diversity. - Biological Conservation 61: 1–10.
+            </div>
+            <div id="ref-Gomulkiewicz2000HotSpo" class="csl-entry" role="doc-biblioentry">
+            Gomulkiewicz, R. et al. 2000. Hot Spots, Cold Spots, and the Geographic Mosaic Theory of Coevolution. - The American Naturalist 156: 156–174.
             </div>
             <div id="ref-Gonsalves2013MosInf" class="csl-entry" role="doc-biblioentry">
             Gonsalves, L. et al. 2013a. Do mosquitoes influence bat activity in coastal habitats? - Wildlife Research 40: 10–24.
@@ -297,6 +307,9 @@
             </div>
             <div id="ref-Kasso2013EcoEco" class="csl-entry" role="doc-biblioentry">
             Kasso, M. and Balakrishnan, M. 2013. Ecological and Economic Importance of Bats (Order Chiroptera). - ISRN Biodiversity 2013: e187415.
+            </div>
+            <div id="ref-Keke2010StuSki" class="csl-entry" role="doc-biblioentry">
+            Keke, S. et al. 2010. Study on skin color image segmentation used by Fuzzy-c-means arithmetic. - 2010 Seventh International Conference on Fuzzy Systems and Knowledge Discovery 2: 612–615.
             </div>
             <div id="ref-Legendre2013BetDiv" class="csl-entry" role="doc-biblioentry">
             Legendre, P. and De Cáceres, M. 2013. Beta diversity as the variance of community data: Dissimilarity coefficients and partitioning (H Morlon, Ed.). - Ecology Letters 16: 951–963.
@@ -327,6 +340,9 @@
             </div>
             <div id="ref-RouaultEven2022GdaOgr" class="csl-entry" role="doc-biblioentry">
             Rouault, E. et al. 2022. GDAL/OGR Geospatial Data Abstraction software Library. - Zenodo.
+            </div>
+            <div id="ref-Seekell2018GeoLak" class="csl-entry" role="doc-biblioentry">
+            Seekell, D. A. et al. 2018. A geography of lake carbon cycling. - Limnology and Oceanography Letters 3: 49–56.
             </div>
             <div id="ref-Simmons2020BatSpe" class="csl-entry" role="doc-biblioentry">
             Simmons, N. B. and Cirranello, A. L. 2020. Bat Species of the World: A taxonomic and geographic database.
