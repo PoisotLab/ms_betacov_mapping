@@ -277,16 +277,18 @@ not those in clades with notable zoonotic potential.
 ## Geographic Mosaic of bat-betacoronavirus risk
 
 In order to turn the hypotheses based on the Geographic Mosaic Theory of
-Coevolution into a measure of risk, we overlapped three components: viral
-sharing, i.e. the chance that two bats will share viruses overall; Local
-Contribution to Beta Diversity, i.e. the fact that a bat community is
+Coevolution into a measure of risk, we overlapped three components of spillover
+risk: viral sharing, *i.e.* the chance that two bats will share viruses overall;
+Local Contribution to Beta Diversity, *i.e.* the fact that a bat community is
 compositionally unique compared to the average compositional similarity across
-the entire system; finally, the phylogenetic diversity, i.e. how dispersed the
+the entire system; finally, the phylogenetic diversity, *i.e.* how dispersed the
 bats in a location are within the tree of life. These results are presented
 using an additive color mapping in Figure xx, and lead to the definition of
 broad biogeographic regions of risk, where the same color represents the same
 type of risk. Pairwise maps of the three components are present in supplementary
 materials.
+
+![This is the legend of the figure...](figures/risk_trivariate.png){#fig:trivariate}
 
 From the perspective of spillover risk, the most important combination of
 factors is a high phylogenetic diversity of hosts with low viral sharing; this,
@@ -297,7 +299,9 @@ co-occurrence of sufficiently distinct viruses to be a major driver of
 emergence. In Fig. xx, this corresponds to yellow to pale green areas, which are
 essentially limited to South-Eastern Asia, and to some part of Sub-Saharan
 Africa. Adopting a geographic mosaic theory perspective on risk, other regions
-of the world are of lesser concern. 
+of the world are of lesser concern.
+
+![This is the legend of the figure...](figures/risk_map.png){#fig:risk}
 
 Available data on bat betacoronavirus spillover into humans (TP overlay on the
 figure) is limited and circumstantial at best for these purposes, but our risk
@@ -330,6 +334,8 @@ areas with lower potential risk. However, this mapping reveals that South-East
 Asia, the Indian subcontinent, and parts of sub-Saharan Africa, are at high risk
 due to the overlap between built areas and bat communities representing more
 opportunities for cross-species transmission of betacoronaviruses.
+
+![This is the legend of the figure...](figures/risk_compounded.png){#fig:compound}
 
 Finally, we provide a summary visualization of what available information
 describes the spillover of zoonotic betacoronaviruses of bat origin where data
