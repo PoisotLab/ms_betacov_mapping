@@ -1,0 +1,25 @@
+\begin{figure}
+\hypertarget{fig:trivariate}{%
+\centering
+\includegraphics{figures/risk_trivariate.png}
+\caption{This is the legend of the figure\ldots{}}\label{fig:trivariate}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:risk}{%
+\centering
+\includegraphics{figures/risk_map.png}
+\caption{This is the legend of the figure\ldots{}}\label{fig:risk}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:compound}{%
+\centering
+\includegraphics{figures/risk_compounded.png}
+\caption{This is the legend of the figure\ldots{}}\label{fig:compound}
+}
+\end{figure}
