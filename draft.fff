@@ -1,4 +1,22 @@
 \begin{figure}
+\hypertarget{fig:richness}{%
+\centering
+\includegraphics{figures/combined_richness.png}
+\caption{This is the legend of the figure\ldots{}}\label{fig:richness}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:biogeo}{%
+\centering
+\includegraphics{figures/combined_biogeo.png}
+\caption{This is the legend of the figure\ldots{}}\label{fig:biogeo}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
 \hypertarget{fig:trivariate}{%
 \centering
 \includegraphics{figures/risk_trivariate.png}
