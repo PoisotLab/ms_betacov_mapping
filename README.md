@@ -225,6 +225,9 @@ Microchiroptera and macrochiroptera, where macrochiroptera have an older history
 from an evolutionary perspective compared to macrochiroptera
 [@Springer2013PhyBat; @Teeling2005MolPhy].
 
+![This is the legend of the figure...](figures/combined_richness.png){#fig:richness}
+
+
 South-East Asia has a high diversity of bats (**Kingston, 2010**), and our
 results show that part of that diversity includes betacoronavirus hosts. High
 density of hosts sharing the same virus (albeit possibly different strains)
@@ -273,6 +276,8 @@ has suggested the Americas may be a hotspot of both undiscovered bat viruses in
 general [@Allen2017GloHot; @Olival2017HosVir] and coronavirus specifically
 [@Anthony2017GloPat], though not necessarily betacoronaviruses, and particularly
 not those in clades with notable zoonotic potential.
+
+![This is the legend of the figure...](figures/combined_biogeo.png){#fig:biogeo}
 
 ## Geographic Mosaic of bat-betacoronavirus risk
 
