@@ -225,7 +225,15 @@ Microchiroptera and macrochiroptera, where macrochiroptera have an older history
 from an evolutionary perspective compared to macrochiroptera
 [@Springer2013PhyBat; @Teeling2005MolPhy].
 
-![This is the legend of the figure...](figures/combined_richness.png){#fig:richness}
+![Top panel: relative diversoty of known bat hosts of betacoronaviruses. This
+map shows that the region with the largest number of possible hosts is
+South-Eastern Asia. Bottom panel: congruence between the evolutionary
+distinctiveness of the hosts (grey to blue) and the viruses (grey to red). By
+contrast to the richness map, this reveals that South America has the most
+evolutionary distinct hosts *and* viruses, whereas South-Eastern Asia has mostly
+distinct viruses. This is congruent with know results about New World bats being
+evolutionary distinct, and suggests that they similarly have distinct
+viruses.](figures/combined_richness.png){#fig:richness}
 
 
 South-East Asia has a high diversity of bats (**Kingston, 2010**), and our
