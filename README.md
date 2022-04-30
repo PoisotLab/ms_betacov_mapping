@@ -335,25 +335,25 @@ essentially, means that very different betacoronavirus could co-exist within the
 same place. This is particularly the case given that betacoronaviruses often
 evolve and even achieve host shifts through recombination, which requires the
 co-occurrence of sufficiently distinct viruses to be a major driver of
-emergence. In Fig. xx, this corresponds to yellow to pale green areas, which are
-essentially limited to South-Eastern Asia, and to some part of Sub-Saharan
-Africa. Adopting a geographic mosaic theory perspective on risk, other regions
-of the world are of lesser concern.
+emergence. In @fig:trivariate, this corresponds to yellow to pale green areas,
+which are essentially limited to South-Eastern Asia, and to some part of
+Sub-Saharan Africa. Adopting a geographic mosaic theory perspective on risk,
+other regions of the world are of lesser concern [@fig:risk]. Our risk
+decomposition does not account for viral diversity or distinctiveness. The
+simple rationale behind it is that the acquisition of viral data is rarely
+disconnected from the acquisition of host data; furthermore, there are more
+sources of information on hosts than on viruses, allowing to develop a
+host-centric perspective on risk. Areas with high bat diversity and high
+turnover *may* facilitate the evolutionary radiation of viruses, matching
+previous findings that the diversification of bat coronaviruses is driven
+largely by host shifts (inter-genus or higher levels of cross-species
+transmission) and, to a lesser degree, cospeciation and sharing (intra-genus
+cross-species transmission; **Anthony et al. 2017**). This diversification is
+not an actual risk factor for spillover itself, but acts downstream of a
+spillover event by increasing the random chance of the emergence of a virus with
+the raw genomic components required for the potential to infect humans.
 
 ![This is the legend of the figure...](figures/risk_map.png){#fig:risk}
-
-Available data on bat betacoronavirus spillover into humans (TP overlay on the
-figure) is limited and circumstantial at best for these purposes, but our risk
-maps suggest that the areas predicted by prior expectations about host
-biogeography correspond loosely to those where previous emergence events have
-been recorded. Areas with high bat diversity and high turnover may facilitate
-the evolutionary radiation of viruses, matching previous findings that the
-diversification of bat coronaviruses is driven largely by host shifts
-(inter-genus or higher levels of cross-species transmission) and, to a lesser
-degree, cospeciation and sharing (intra-genus cross-species transmission;
-Anthony et al. 2017). This diversification - while not an actual risk factor for
-spillover itself - likely increases the random chance of a virus with the raw
-genomic components required for the potential to infect humans.
 
 ## Human occupancy drives different levels of effective risk globally
 
