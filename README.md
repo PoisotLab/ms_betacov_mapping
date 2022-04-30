@@ -279,13 +279,20 @@ show some degree of congruence. High density of hosts sharing the same virus
 bat antiviral immune system, resulting in spatially distinct immunological
 responses, as evidenced in several bat species [@Banerjee2020NovIns]. Immune
 characteristics that allow bats to be better adapted to infection by emerging
-viruses (Gorbunova et al., 2020; Irving et al., 2021) may be related to a wide
+viruses (Gorbunova et al., 2020; Irving et al., 2021), in addition to being
+hardcoded in their genome (**Jebb et al. six...**), may be related to a wide
 variety of diets (Jones et al., 2022; Moreno Santillán et al., 2021; Banerjee et
-al., 2020; Schneeberger et al., 2013; Muylaert et al., 2021), themselves likely to be driven by spatial
-effect, especially at the local scale -- bats, indeed, occupy a variety of
-environments.
+al., 2020; Schneeberger et al., 2013; Muylaert et al., 2021), themselves likely
+to be driven by spatial effects, especially at the local scale -- bats, indeed,
+occupy a variety of environments, and therefore display a variety of adaptations
+to these environments.
 
-![This is the legend of the figure...](figures/combined_biogeo.png){#fig:biogeo}
+![Phylogeographic regions of bats (top) and viruses (bottom) based on the joint
+analysis of their occurrence and phylogenetic relatedness. The different colors
+show tendencies to separate alongside the first two components of a PCoA. Note
+that the PCoA for the bats and viruses are independent, and so cannot be
+compared directly -- that being said, the regions can be compared across
+maps.](figures/combined_biogeo.png){#fig:biogeo}
 
 In @fig:biogeo, we show a projection of the phylogeographic signal of bats (top)
 and viruses (bottom) in space; the distinct groupings (represented by different
@@ -327,7 +334,15 @@ risk, where the same color represents the same type of risk. By way of constrat
 to figures @fig:richness and @fig:biogeo, these regions do not necessarilly
 overlap with previous spatial partitions of the bat/betacoronavirus complex.
 
-![This is the legend of the figure...](figures/risk_trivariate.png){#fig:trivariate}
+![Trivariate additive mapping of the components of risk in the red/green/blue,
+where high virus sharing is encoded in the blue channel, host phylogenetic
+diversity in the green channel, and compositional uniqueness in the red channel.
+A pixel that would maximize all measures would be a pure white (specifically
+RGB(1.0, 1.0. 1.0)), and a pixel with the lowest possible values would be pure
+black (specifically RGB(0.0, 0.0, 0.0)). Therefore, lighter values (the sum of
+the three channels gets closer to 3) indicate higher risk, and the color
+indicates the proportional distribution of the factors making up the total
+risk.](figures/risk_trivariate.png){#fig:trivariate}
 
 From the perspective of spillover risk, the most important combination of
 factors is a high phylogenetic diversity of hosts with low viral sharing; this,
