@@ -38,7 +38,12 @@ viruses.}\label{fig:richness}
 \hypertarget{fig:risk}{%
 \centering
 \includegraphics{figures/risk_map.png}
-\caption{This is the legend of the figure\ldots{}}\label{fig:risk}
+\caption{Extraction of a measure of risk based on the colorimetric space
+from fig.~\ref{fig:trivariate}. The risk is a composite measure of the
+color value and angular distance to the yellow hue, as defined in the
+methods, ranged in the unit space. Based on this analyses, regions at
+high risk of spillover are southeast Asia and
+Madagascar.}\label{fig:risk}
 }
 \end{figure}
 \efloatseparator
@@ -47,6 +52,12 @@ viruses.}\label{fig:richness}
 \hypertarget{fig:compound}{%
 \centering
 \includegraphics{figures/risk_compounded.png}
-\caption{This is the legend of the figure\ldots{}}\label{fig:compound}
+\caption{Overlap of the percent of each pixel occupied by urbanized
+structures, representing the degree of settlement, on the risk map.
+Darker pixels correspond to more risk, in that the GMTC-derived risk of
+fig.~\ref{fig:risk} is high \emph{and} the pixel is densely occupied by
+human populations. This approach increases the relative risk of several
+regions in Africa, and concenreates highlights the risk in India,
+southeast China, and the arabic peninsula.}\label{fig:compound}
 }
 \end{figure}
