@@ -20,7 +20,12 @@ viruses.}\label{fig:richness}
 \hypertarget{fig:biogeo}{%
 \centering
 \includegraphics{figures/combined_biogeo.png}
-\caption{This is the legend of the figure\ldots{}}\label{fig:biogeo}
+\caption{Phylogeographic regions of bats (top) and viruses (bottom)
+based on the joint analysis of their occurrence and phylogenetic
+relatedness. The different colors show tendencies to separate alongside
+the first two components of a PCoA. Note that the PCoA for the bats and
+viruses are independent, and so cannot be compared directly -- that
+being said, the regions can be compared across maps.}\label{fig:biogeo}
 }
 \end{figure}
 \efloatseparator
@@ -29,7 +34,16 @@ viruses.}\label{fig:richness}
 \hypertarget{fig:trivariate}{%
 \centering
 \includegraphics{figures/risk_trivariate.png}
-\caption{This is the legend of the figure\ldots{}}\label{fig:trivariate}
+\caption{Trivariate additive mapping of the components of risk in the
+red/green/blue, where high virus sharing is encoded in the blue channel,
+host phylogenetic diversity in the green channel, and compositional
+uniqueness in the red channel. A pixel that would maximize all measures
+would be a pure white (specifically RGB(1.0, 1.0. 1.0)), and a pixel
+with the lowest possible values would be pure black (specifically
+RGB(0.0, 0.0, 0.0)). Therefore, lighter values (the sum of the three
+channels gets closer to 3) indicate higher risk, and the color indicates
+the proportional distribution of the factors making up the total
+risk.}\label{fig:trivariate}
 }
 \end{figure}
 \efloatseparator
