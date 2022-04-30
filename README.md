@@ -207,33 +207,24 @@ them using a four-color bivariate map.
 
 # Results and discussion
 
-## Host distribution does not match virus distinctiveness
+## Host richness does not predict virus distinctiveness
 
-Bats are found worldwide and are one of the most diverse groups among mammals
-(Moratelli & Calisher, 2015), and one of the main animal reservoir for different
-strains of betacoronaviruses [@Drexler2014EcoEvo]. This has attracted attention
-to areas where high diversity of bats, and therefore presumably high diversity
-of betacoronaviruses, can be an important issue for human health
-[@Calisher2006BatImp; @Moratelli2015BatZoo]. Accordingly, we collected the IUCN
-rangemaps for known hosts of betacoronaviruses, to illustrate where hotspots of
-host diversity are. These results are presented in @fig:richness (top). As per
-our current knowledge of which bats are hosts of betacoronaviruses, these
-hotspots are primarily South-East Asia, parts of Europe, and to a lesser extent
-parts of Africa in the -25-0 range of latitudes. Previous research (**Anthony et
-al., 2017; Mollentze & Streicker, 2020**) states that locally diverse bat
-communities could maintain more viruses and hence, a higher probability of
-having a pathogen that could represent a risk for human health; locally diverse,
-virus-rich bats communities could represent an increased risk of spillover under
-climate change (**Ice ice berg berg**). This probability involves multiple
-factors, among which the relatedness of hosts (which can make the jumps easier
-(**Longdon et al., 2011; Mollentze et al., 2020; Wolfe et al., 2007**), and the
-overall tendency of hosts within a locality to share viruses, which may limit
-viral diversity because of within-host competition (Leeks et al., 2018; Sallinen
-et al., 2020). All things considered, the richness of known betacoronaviruses
-hosts is not a sufficient predictor of spillover risk, and we should move
-towards a more coevolutionary understanding of this system.
+Bats are found worldwide and are both one of the most diverse groups among
+mammals (**Moratelli & Calisher, 2015**), and one of the main animal reservoir
+for different strains of betacoronaviruses [@Drexler2014EcoEvo]. This has
+attracted attention to areas where high diversity of bats, and therefore
+presumably high diversity of betacoronaviruses, can be an important issue for
+human health [@Calisher2006BatImp; @Moratelli2015BatZoo]. By overlaying the IUCN
+rangempas for confirmed bat hosts of betacoronaviruses [@fig:richness; top], we
+see that the the main hotspots of host richness are primarily South-Eastern
+Asia, parts of Southern Europe, and to a lesser extent parts of Africa in the
+-25-0 range of latitudes. The description of host richness is an important first
+step towards understanding risk, as previous research (**Anthony et al., 2017;
+Mollentze & Streicker, 2020**) states that locally diverse bat communities could
+maintain more viruses and hence, a higher probability of having a pathogen that
+could represent a risk for human health.
 
-![Top panel: relative diversoty of known bat hosts of betacoronaviruses. This
+![Top panel: relative diversity of known bat hosts of betacoronaviruses. This
 map shows that the region with the largest number of possible hosts is
 South-Eastern Asia. Bottom panel: congruence between the evolutionary
 distinctiveness of the hosts (grey to blue) and the viruses (grey to red). By
@@ -243,62 +234,98 @@ distinct viruses. This is congruent with know results about New World bats being
 evolutionary distinct, and suggests that they similarly have distinct
 viruses.](figures/combined_richness.png){#fig:richness}
 
-High density of hosts sharing the same virus (albeit possibly different strains)
-calls into question the evolution of the bat antiviral immune system and its
-co-evolution with viruses, which may result in distinct immunological responses
-in different areas, as evidenced in other bat species [@Banerjee2020NovIns].
-Immune characteristics that allow bats to be better adapted to infection by
-emerging viruses (Gorbunova et al., 2020; Irving et al., 2021) may be related to
-a wide variety of diets (Jones et al., 2022; Moreno Santillán et al., 2021;
-Banerjee et al., 2020; Schneeberger et al., 2013). Considering whether viruses
-easily adapted to multiple hosts have lower virulence on these hosts, or lower
-ability to jump to hosts with different immune characteristics, should yield
-valuable additional predictors for the total risk of spillover. The subset of
-chiroptera that are hosts of betacoronaviruses fits the evolutionary timeline of
-the group. Chiropterans can be classified as Microchiroptera and
+Nevertheless, locally diverse and virus-rich bat communities could represent an
+increased risk of spillover under climate change through the creation of novel
+interactions (**Ice ice berg berg**), and therefore the diversity of
+betacoronavirus strains should similarly be ccounted for. In @fig:richness
+(bottom), we contrast the evolutionary distinctiveness of bats and viruses --
+this reveals a slightly different portrait than bat richness alone. Chiropterans
+can be classified, from a macro-evolutionary standpoint, as microchiroptera and
 macrochiroptera, where macrochiroptera have an older history from an
 evolutionary perspective compared to macrochiroptera [@Springer2013PhyBat;
-@Teeling2005MolPhy]. Specifically, we would expect that the New World group of
-bats, being more evolutionary distinct, would also have evolutionary distinct
-viruses. Indeed @fig:richness (bottom) reveals it to be the case. By contrast,
-South-Eastern Asia has a lot of non-evolutionary distinct bats, but
+@Teeling2005MolPhy]. Specifically, we would expect that the so-called "New
+World" group of bats, being more evolutionary distinct, would also have
+evolutionary distinct viruses. Indeed @fig:richness (bottom) reveals it to be
+the case, and this region harbors a distinct bat-betacoronavirus complex. By
+contrast, South-Eastern Asia has a lot of non-evolutionary distinct bats, but
 evolutionary-distinct viruses.
 
-Viral evolutionary distinctiveness largely tracks host diversity, particularly
-in southern China but, oddly, not throughout the rest of southeast Asia. This
-indicates, perhaps, that many distinctive viruses remain to be discovered in
-this region (an idea that is unsurprising given the growing realization, around
-the emergence of SARS-CoV-2, that a unique lineage of similar viruses are
-widespread in bats but still mostly undescribed). The most distinct
-betacoronaviruses are found in South America, a region with a comparatively
-lower number of hosts; this suggests that the South American bat-betacoronvirus
-complex has been more isolated, and is probably undergoing a different
+It is noteworthy that outside of South America, viral evolutionary
+distinctiveness does not accurately tracks host diversity, with some areas
+having over-distinct viruses (southern China but, oddly, not the rest of
+southeast Asia). There are a number of likely explanations. First, given the
+richness of bats in southeast Asia, many betacoronaviruses likely remain to be
+discovered in this region. Indeed, global predictions by @Becker highlight that
+southeast Asia is a likely hostpot of unconfirmed hosts of betacoronaviruses,
+which would likely result in additiona viral discoveries. This idea is
+unsurprising given the growing realization, around the emergence of SARS-CoV-2,
+that a unique lineage of similar viruses are widespread in bats but still mostly
+undescribed. The most distinct bats/betacoronavirus complex is found in South
+America, a region with a comparatively lower number of hosts; this matches with
+the isolation through viariance of the host group, and may highlight a different
 co-evolutionary dynamic. Alternatively, this distinctiveness hostpot may be a
 product of under-sampling: South-America is one of the places where the fewest
-betacoronaviruses have been discovered [@Anthony2017GloPat], and adding more
-viruses would bring the distinctiveness of known sequences down. Previous work
-has suggested the Americas may be a hotspot of both undiscovered bat viruses in
-general [@Allen2017GloHot; @Olival2017HosVir] and coronavirus specifically
-[@Anthony2017GloPat], though not necessarily betacoronaviruses, and particularly
-not those in clades with notable zoonotic potential.
+betacoronaviruses have been discovered [@Anthony2017GloPat;@Allen2017GloHot;
+@Olival2017HosVir], resulting in sparser phylogenetic tree, thereby artificially
+inflating distinctiveness. Adding more viruses would bring the distinctiveness
+of known sequences down.
 
 ## The phylogeographic regions of hosts and their viruses overlap
 
+Despite the difference in evolutionary distinctiveness globally, there are
+reasons to expect that the phylogeography of bats and betacoronaviruses should
+show some degree of congruence. High density of hosts sharing the same virus
+(albeit possibly different strains) can drive or result from evolution of the
+bat antiviral immune system, resulting in spatially distinct immunological
+responses, as evidenced in several bat species [@Banerjee2020NovIns]. Immune
+characteristics that allow bats to be better adapted to infection by emerging
+viruses (Gorbunova et al., 2020; Irving et al., 2021) may be related to a wide
+variety of diets (Jones et al., 2022; Moreno Santillán et al., 2021; Banerjee et
+al., 2020; Schneeberger et al., 2013), themselves likely to be driven by spatial
+effect, especially at the local scale -- bats, indeed, occupy a variety of
+environments.
+
 ![This is the legend of the figure...](figures/combined_biogeo.png){#fig:biogeo}
+
+In @fig:biogeo, we show a projection of the phylogeographic signal of bats (top)
+and viruses (bottom) in space; the distinct groupings (represented by different
+colors symbolizing positions in the subspace formed by the first two axes of the
+PCoA) are essentially equivalent between the two groups, and can be coarsely
+delineated as southeast Asia, Eurasia above a northing of 25, and Africa and
+south America. These results suggest that, although the evolutionary
+distinctiveness of the bat/betacoronavirus complex varies spatially, the system
+shows an important degree of spatial consistency, with a reduced number of
+bioregions. Available information describing the spillover of zoonotic
+betacoronaviruses of bat origin where data was available before and up through
+the COVID-19 pandemic puts spillover events of SARS-CoV-2 in Wuhan, China;
+SARS-CoV in **XXX** based on the presence of closest known viruses circulating
+in nature, and a nearby location where serological (antibody) evidence has
+indicated human exposure to SARS-like viruses (Wang et al. 2018 Virologica
+Sinica); MERS-CoV in **XXX** based on index cases available from a
+recently-published compendium of cases (Ramshaw et al. 2019). For the latest
+event, most if not all index cases are presumed to be camel-to-human
+transmission, and the precise origin point (if it exists) of MERS-CoV in bats is
+uncertain. Recent recombinant canine coronavirus spillover events in Haiti
+(**ref**) and Europe (**ref**) are not relevant here, as bats’ involvement in
+these cycles of transmission have been supposed to be non-existent.
 
 ## Coevolution-informed spillover risk is different in space
 
-In order to turn the hypotheses based on the Geographic Mosaic Theory of
-Coevolution into a measure of risk, we overlapped three components of spillover
-risk: viral sharing, *i.e.* the chance that two bats will share viruses overall;
-Local Contribution to Beta Diversity, *i.e.* the fact that a bat community is
-compositionally unique compared to the average compositional similarity across
-the entire system; finally, the phylogenetic diversity, *i.e.* how dispersed the
-bats in a location are within the tree of life. These results are presented
-using an additive color mapping in Figure xx, and lead to the definition of
-broad biogeographic regions of risk, where the same color represents the same
-type of risk. Pairwise maps of the three components are present in supplementary
-materials.
+As host richness, joint disctinveness, or phylogeographic structure suggest that
+the bat/betacoronavirus complex is globally fragmented enough to give rise to
+both different levels of risk (as evidenced by the spatial location of spillover
+events) and different types of co-evolutionary dynamics, we turn to the
+Geographic Mosaic Theory of Coevolution **REF** to provide a measure of risk
+accounting for multiple processes. In @fig:trivariate, we overlapped three
+components of spillover risk: viral sharing, *i.e.* the chance that two bats
+will share viruses overall; Local Contribution to Beta Diversity, *i.e.* the
+fact that a bat community is compositionally unique compared to the average
+compositional similarity across the entire system; finally, host phylogenetic
+diversity, *i.e.* how dispersed the bats in a location are within the tree of
+life. This approach leads to the definition of broad biogeographic regions of
+risk, where the same color represents the same type of risk. By way of constrat
+to figures @fig:richness and @fig:biogeo, these regions do not necessarilly
+overlap with previous spatial partitions of the bat/betacoronavirus complex.
 
 ![This is the legend of the figure...](figures/risk_trivariate.png){#fig:trivariate}
 
@@ -349,21 +376,7 @@ opportunities for cross-species transmission of betacoronaviruses.
 
 ![This is the legend of the figure...](figures/risk_compounded.png){#fig:compound}
 
-Finally, we provide a summary visualization of what available information
-describes the spillover of zoonotic betacoronaviruses of bat origin where data
-was available before and up through the COVID-19 pandemic. The SARS-CoV-2
-outbreak was georeferenced to the initial case cluster in Wuhan, China; SARS-CoV
-was georeferenced based on the cave with the closest known viruses circulating
-in nature (Hu et al. 2017 PLoS Pathogens), and a nearby location where
-serological (antibody) evidence has indicated human exposure to SARS-like
-viruses (Wang et al. 2018 Virologica Sinica). For MERS-CoV, we presented the
-index cases available from a recently-published compendium of MERS-CoV cases
-(Ramshaw et al. 2019); these are largely if not all presumed to be
-camel-to-human transmission, and the precise origin point of MERS-CoV in bats is
-uncertain. Not shown is a recent case of a recombinant canine coronavirus that
-showed the ability to infect humans, both because this study was published after
-the beginning of the COVID-19 pandemic and because bats’ involvement in this
-cycle of transmission has been marginal to non-existent.
+# Conclusion
 
 Our study focuses largely on the biogeography of hosts. Yet, we know that
 viruses with high host plasticity, that is, the ability of a given virus to
@@ -379,8 +392,6 @@ that are different from the rest of the global pool). The other hotspot of viral
 distinctiveness is S.E. Asia, in which richness is high but sharing is low; this
 suggests a different type of evolutionary dynamics (unrelated viruses coevolving
 with evolutionarily distinct hosts, generating high diversity locally).
-
-# Conclusion
 
 Driven by the need to understand the ecological factors involved in the
 emergence of viral pathogens, we spatially mapped bat-betacoronavirus
@@ -433,6 +444,21 @@ ecology since we have areas with potential zoonotic viruses and bat-human
 interaction. However, it must still be taken into account the quantification of
 real exposure from several scenarios, where there can be directly or indirectly
 bat - human interaction.
+
+This probability involves multiple factors, among which the relatedness of hosts
+(which can make the jumps easier (**Longdon et al., 2011; Mollentze et al.,
+2020; Wolfe et al., 2007**), and the overall tendency of hosts within a locality
+to share viruses, which may limit viral diversity because of within-host
+competition (Leeks et al., 2018; Sallinen et al., 2020). All things considered,
+the richness of known betacoronaviruses hosts is not a sufficient predictor of
+spillover risk, and we should move towards a more coevolutionary understanding
+of this system.
+
+ Considering whether viruses easily adapted to multiple hosts have lower
+virulence on these hosts, or lower ability to jump to hosts with different
+immune characteristics, should yield valuable additional predictors for the
+total risk of spillover.
+
 
 **Acknowledgements**: We acknowledge that this study was conducted on land
 within the traditional unceded territory of the Saint Lawrence Iroquoian,
