@@ -398,9 +398,9 @@ betacoronaviruses.
 representing the degree of settlement, on the risk map. Darker pixels correspond
 to more risk, in that the GMTC-derived risk of @fig:risk is high *and* the pixel
 is densely occupied by human populations. This approach increases the relative
-risk of several regions in Africa, and concenreates highlights the risk in
-India, southeast China, and the arabic
-peninsula.](figures/risk_compounded.png){#fig:compound}
+risk of several regions in Africa, and highlights the risk in India, southeast
+China, and the arabic peninsula where areas of high to moderate risk overlap
+with areas of denser population.](figures/risk_compounded.png){#fig:compound}
 
 # Conclusion
 
