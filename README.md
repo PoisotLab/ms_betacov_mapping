@@ -281,7 +281,7 @@ responses, as evidenced in several bat species [@Banerjee2020NovIns]. Immune
 characteristics that allow bats to be better adapted to infection by emerging
 viruses (Gorbunova et al., 2020; Irving et al., 2021) may be related to a wide
 variety of diets (Jones et al., 2022; Moreno Santillán et al., 2021; Banerjee et
-al., 2020; Schneeberger et al., 2013), themselves likely to be driven by spatial
+al., 2020; Schneeberger et al., 2013; Muylaert et al., 2021), themselves likely to be driven by spatial
 effect, especially at the local scale -- bats, indeed, occupy a variety of
 environments.
 
@@ -353,13 +353,17 @@ not an actual risk factor for spillover itself, but acts downstream of a
 spillover event by increasing the random chance of the emergence of a virus with
 the raw genomic components required for the potential to infect humans.
 
-![This is the legend of the figure...](figures/risk_map.png){#fig:risk}
+![Extraction of a measure of risk based on the colorimetric space from
+@fig:trivariate. The risk is a composite measure of the color value and angular
+distance to the yellow hue, as defined in the methods, ranged in the unit space.
+Based on this analyses, regions at high risk of spillover are southeast Asia and
+Madagascar.](figures/risk_map.png){#fig:risk}
 
 ## Human occupancy drives different levels of effective risk globally
 
 Based on the previous result, we extracted the yellow component of the risk map
 (TP add methods), to provide a single measure of risk varying between 0 and 1.
-This measure is presented in Fig. xxA. However, this maps the potential risk,
+This measure is presented in @fig:risk. However, this maps the potential risk,
 which must be weighed by the potential for contacts with humans. As a proxy for
 this measure, we used the proportion of build/urban land from the EarthEnv
 dataset: this is a reasonable proxy for the density of humans per unit area,
@@ -367,14 +371,21 @@ which increases the probability of pathogen spread more widely (Hazarie et al.,
 2021). Since human activity is required to amplify the frequency of virus
 encounters and thus create areas of viral amplification, mapping the potential
 risk against measures of land use is required to generate a more actionable
-assessment of risk. This map is presented in Fig. xxB. Most of South America and
-Europe are at low risk, as although densely populated, settlements tend to be in
-areas with lower potential risk. However, this mapping reveals that South-East
-Asia, the Indian subcontinent, and parts of sub-Saharan Africa, are at high risk
-due to the overlap between built areas and bat communities representing more
-opportunities for cross-species transmission of betacoronaviruses.
+assessment of risk. This map is presented in @fig:compound. Most of South
+America and Europe are at low risk, as although densely populated, settlements
+tend to be in areas with lower potential risk. However, this mapping reveals
+that South-East Asia, the Indian subcontinent, and parts of sub-Saharan Africa,
+are at high risk due to the overlap between built areas and bat communities
+representing more opportunities for cross-species transmission of
+betacoronaviruses.
 
-![This is the legend of the figure...](figures/risk_compounded.png){#fig:compound}
+![Overlap of the percent of each pixel occupied by urbanized structures,
+representing the degree of settlement, on the risk map. Darker pixels correspond
+to more risk, in that the GMTC-derived risk of @fig:risk is high *and* the pixel
+is densely occupied by human populations. This approach increases the relative
+risk of several regions in Africa, and concenreates highlights the risk in
+India, southeast China, and the arabic
+peninsula.](figures/risk_compounded.png){#fig:compound}
 
 # Conclusion
 
@@ -391,28 +402,12 @@ undergoing independent evolutionary dynamics (related species sharing viruses
 that are different from the rest of the global pool). The other hotspot of viral
 distinctiveness is S.E. Asia, in which richness is high but sharing is low; this
 suggests a different type of evolutionary dynamics (unrelated viruses coevolving
-with evolutionarily distinct hosts, generating high diversity locally).
-
-Driven by the need to understand the ecological factors involved in the
-emergence of viral pathogens, we spatially mapped bat-betacoronavirus
-interactions worldwide, using (i) a database of known betacov hosts(Becker et
-al., 2020), and (ii) range maps for the hosts according to IUCN (IUCN 2021). To
-reflect the fact that the risk posed by viruses has many ecological origins, we
-quantified the phylogenetic diversity of hosts, their compositional uniqueness,
-and the expected viral sharing. Because these components of risk matter when
-contrasted to human density, we compared them to a proxy, namely the proportion
-of each pixel that is covered by urban or built land. This provides a synthetic
-risk map, allowing to identifying of hotspots where the bat-betacoronavirus
-system may originate viruses in humans. SE Asia is one of the regions with the
-highest risk since, according to our results, several of its conditions could
-increase the risk of transmission of the virus.
-
-Species richness, therefore, is not a sufficient measure of viral risk. This is
-exemplified in our results, where both South America and South-Eastern Asia have
-a high species richness of betacov hosts, but only the latter region has a high
-risk. Specifically, because previous studies propose that Asia is important when
-it comes to understanding the evolutionary origin of various mammalian taxa
-(Beard C K, 1988).
+with evolutionarily distinct hosts, generating high diversity locally). Both of
+these areas should be priority areas for sampling, especially since @Becker
+advance that they harbor undiscovered hosts of beta-coronaviruses. This
+diversity of hosts, and the mechanisms by which the exchange of viruses occurs
+between species, is largely affected by the local environmental conditions and
+environmental change.
 
 There are several factors that drive changes in the diversity of bats (Alves et
 al., 2018), but human activities' effects on the ecosystem (like modifications
@@ -423,42 +418,16 @@ factors are decisive moderators for its implications in public health. With the
 increase of contact between humans and potential hosts, we also increase the
 risk of emergence of novel diseases (Johnson et al., 2020), as previous studies
 on RNA viruses suggest the importance of host phylogeography at the time of
-virus dispersal (Gryseels et al., 2017).
-
-This diversity of hosts and how the exchange of viruses occurs between species,
-is largely affected by the different environmental changes, as the case of
-sarbecovirus bats reservoirs (Muylaert et al., 2021) where they are affected by
-the area of the cave or the alteration of the forest, which could result in
-modifications of host distribution. Additionally, our results highlight the
-importance of Asia as a betacov hotspot, which is consistent with recent studies
-(Muylaert et al., 2021), where projections on this area suggest that new future
-events of sarbecovirus viral exchange might be easily spread among species or
-humans.
-
-One of these scenarios where interaction between bats and humans can occur can
-be seed dispersal in tropical agroecosystems. It opens the discussion of whether
-the fruits thrown by bats not only disperse seeds but could also be a source of
-indirect interaction between viruses of bat origin and humans (Deshpande et al.,
-2022) . This represents a challenge for conservation strategies and disease
-ecology since we have areas with potential zoonotic viruses and bat-human
-interaction. However, it must still be taken into account the quantification of
-real exposure from several scenarios, where there can be directly or indirectly
+virus dispersal (Gryseels et al., 2017). One of these scenarios where
+interaction between bats and humans can occur can be seed dispersal in tropical
+agroecosystems. It opens the discussion of whether the fruits thrown by bats not
+only disperse seeds but could also be a source of indirect interaction between
+viruses of bat origin and humans (Deshpande et al., XX). This represents a
+challenge for conservation strategies and disease ecology since we have areas
+with both potential for the acquisition of zoonotic viruses and bat-human
+interaction; in particular, the challenge lies in the fact that actual exposure
+must be quantified from several scenarios, including both direct and indirect
 bat - human interaction.
-
-This probability involves multiple factors, among which the relatedness of hosts
-(which can make the jumps easier (**Longdon et al., 2011; Mollentze et al.,
-2020; Wolfe et al., 2007**), and the overall tendency of hosts within a locality
-to share viruses, which may limit viral diversity because of within-host
-competition (Leeks et al., 2018; Sallinen et al., 2020). All things considered,
-the richness of known betacoronaviruses hosts is not a sufficient predictor of
-spillover risk, and we should move towards a more coevolutionary understanding
-of this system.
-
- Considering whether viruses easily adapted to multiple hosts have lower
-virulence on these hosts, or lower ability to jump to hosts with different
-immune characteristics, should yield valuable additional predictors for the
-total risk of spillover.
-
 
 **Acknowledgements**: We acknowledge that this study was conducted on land
 within the traditional unceded territory of the Saint Lawrence Iroquoian,
