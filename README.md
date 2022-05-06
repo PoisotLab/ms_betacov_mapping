@@ -1,61 +1,66 @@
-Spillover risk is not unidimensional. From the standpoint of an animal
-community, *i.e.* a pool of suitable hosts, it is driven by a multiplicity of
-factors [@Plowright2017PatZoo]. The global richness of hosts is one such
-component commonly mentioned/analysed [see *e.g.* @Anthony2017GloPat for
-coronaviruses], but there is an argument to be made that species who are not
-competent (or know) hosts of a specific virus genus may not factor into this
-[@Plowright2015EcoDyn], or that species who are assumed to share viruses at
-different rates should be weighted accordingly [@Albery2020PreGlo]. In mammals,
-key functional traits (for which phylogeny is a reasonable proxy) are
-determinants of the spillover potential [@Olival2017HosVir]; these include,
-notably, body mass and affinity for urban environments [@Albery2022UrbMam].
-Finally, especially when the pool of potential hosts spans the entire globe,
-there may be local host pools that are highly unique; not having been observed
-in other locations, these can act on the overall risk either by providing novel
-contact opportunities, reflecting unique host-environment combinations
-[@Engering2013PatHos], or facilitating rapid evolutionary changes in specialism
-of their pathogens [@Agosta2010HowSpe]. In the specific case of generalist
-pathogens, there is conceptual and empirical support to the idea that these
-community- level mechanisms are even more important in driving the overall risk
-[@Power2004PatSpi].
+Spillover risk is multidimensional and complicated. From the standpoint of an
+animal community, *i.e.* a pool of suitable hosts, it is driven by a
+multiplicity of factors [@Plowright2017PatZoo]. Proxies for the global richness
+of hosts is one such component commonly analysed [see *e.g.* @Anthony2017GloPat
+for coronaviruses], but there is an argument to be made that species who are not
+competent (or known) hosts of a specific virus genus may not factor into this
+[@Plowright2015EcoDyn]; this is especially true as competence data increases
+predictive power when the taxonomic scope of hosts of a viral family increases
+[@Becker2020InfInt;@Mull2022VirIso]. Similarly, host species who are assumed to
+share viruses at different rates should be weighted accordingly
+[@Albery2020PreGlo]. In mammals, key functional traits (for which phylogeny is a
+reasonable proxy) are determinants of the spillover potential
+[@Olival2017HosVir]; these include, notably, body mass and affinity for urban
+environments [@Albery2022UrbMam]. Finally, especially when the pool of potential
+hosts spans the entire globe, there may be local host pools that are highly
+unique; not having been observed in other locations, these can act on the
+overall risk either by providing novel contact opportunities, reflecting unique
+host-environment combinations [@Engering2013PatHos], or facilitating rapid
+evolutionary changes in specialism of their pathogens [@Agosta2010HowSpe]. In
+the specific case of generalist pathogens [which is the case many viruses in the
+betacoronavirus genus, see *e.g.* @MacLean2021NatSel], there is conceptual and
+empirical support to the idea that these community-level mechanisms are even
+more important in driving the overall risk [@Power2004PatSpi].
 
 Bats are important reservoir hosts for different classes of microorganisms  (Chu
-2008, Donaldson 2010, Li 2010), some of which can threaten human health.
-Chiropterans emerged around 64 million years ago and are one of the most diverse
-mammalian orders, with an estimated richness of more than 14000 species
-[@Peixoto2018SynEco; @Simmons2020BatSpe]. They exhibit a broad variety of
-habitat use, behaviour, and feeding strategies, resulting in their playing an
-essential role in the delivery of several ecosystem services tied to important
-ecosystem-derived benefits [@Kasso2013EcoEco]. For example, over two-thirds of
-bats are know to be either obligate or facultative insectivorous mammals,
-therefore playing an important role in the regulation of insect pests that can
-affect crops [@Voigt2016BatAnt; @Williams-Guillen2008BatLim], and vectors of
-diseases that put a risk on human health [@Gonsalves2013MosCon;
-@Gonsalves2013MosInf]. Because bats are globally distributed and have a long
-evolutionary history, phylogeographic and biogeographic approaches are required
-to shed light on the extant distribution of coevolutionary processes between
-bats and the pathogens they carry. Not all areas in which bats, viruses, and
-human are co-occuring are facing a risk of spillover towards human populations,
-and the areas in which this risk exist may not be facing risks of the same
-nature and magnitude.
+2008, Donaldson 2010, Li 2010), many of which can threaten human health
+[@Letko2020BatVir; @VanBrussel2022ZooDis]. Chiropterans emerged around 64
+million years ago and are one of the most diverse mammalian orders, with an
+estimated richness of more than 1400 species [@Peixoto2018SynEco;
+@Simmons2020BatSpe]. They exhibit a broad variety of habitat use, behaviour, and
+feeding strategies, putting them at key positions in the delivery and
+provisioning of several ecosystem services, tied to important ecosystem-derived
+benefits to human [@Kasso2013EcoEco]. For example, bats are an essential
+component of many seed-dispersal networks [@Mello2011MisPar]. Over two-thirds of
+bats are know to be either obligate or facultative insectivores, therefore
+playing an important role in the regulation of insect pests that can affect
+crops [@Voigt2016BatAnt; @Williams-Guillen2008BatLim], and vectors of pathogens
+that put a risk on human health [@Gonsalves2013MosCon; @Gonsalves2013MosInf].
+Because bats are globally distributed and have a long evolutionary history,
+phylogeographic and biogeographic approaches are required to shed light on the
+contemporary distribution of coevolutionary processes between bats and the
+pathogens they host. Not all areas in which bats, viruses, and human are
+co-occuring are facing a risk of spillover towards human populations, and the
+areas in which this risk exist may not be facing risks of the same nature and
+magnitude.
 
 In this paper, we examine the biogeographic structure of bats-betacoronaviruses
-associations, based on a curated dataset of known and recently discovered hosts.
-This work is important both as a description of the bats-betacoronavirus
-complex, but aslo because more broadly, bats are known reservoirs for a variety
-of emerging viruses and pathogens [@Calisher2006BatImp;@Melaun2014BatPot],
-making balancing the needs for bat conservation and disease prevention a
-potentially difficult act and a source of human-wildlife conflicts, especially
-in more densely populated areas [@Rego2015AssHum; @Stone2015ManCon]. By drawing
-on concepts from the Geographic Mosaic Theory of Coevolution
-[@Thompson2005GeoMos], we turn these associations into a spatially explicit
-additive mapping of zoonotic risk components, which reveals extreme
-heterogeneity of risk at the global scale; furthermore, we identify the Amazon
-and South-Eastern Asia as hotspots of phylogenetic distinctiveness of
-betacoronaviruses [@Anthony2017GloPat]; surprisingly, current data suggest that
-viral sharing between hosts in high in the Amazon and low in South-Eastern Asia,
-which has the potential to result in different evolutionary dynamics between
-these two regions.
+associations, based on a curated dataset of all confirmed bat hosts of
+betacoronaviruses. This work is important both as a description of the
+bats-betacoronavirus complex, but aslo because more broadly, bats are known
+reservoirs for a variety of emerging viruses and other pathogens
+[@Calisher2006BatImp;@Melaun2014BatPot], making balancing the needs for bat
+conservation and disease prevention most likely very difficult and a source of
+human-wildlife conflicts, especially in more densely populated areas
+[@Rego2015AssHum; @Stone2015ManCon]. By drawing on concepts from the Geographic
+Mosaic Theory of Coevolution [@Thompson2005GeoMos], we turn these associations
+into a spatially explicit additive mapping of zoonotic risk components,
+revealing the extreme heterogeneity of risk at the global scale. We identify the
+Amazon and South-Eastern Asia as hotspots where the phylogenetic distinctiveness
+of betacoronaviruses is the highest [@Anthony2017GloPat]; surprisingly, current
+data suggest that viral sharing between hosts is high in the Amazon and low in
+South-Eastern Asia, which has the potential to result in different evolutionary
+dynamics between these two regions.
 
 # Methods
 
