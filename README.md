@@ -205,16 +205,16 @@ them using a four-color bivariate map.
 ## Host richness does not predict virus distinctiveness
 
 Bats are found worldwide and are both one of the most diverse groups among
-mammals (**Moratelli & Calisher, 2015**), and one of the main animal reservoir
-for different strains of betacoronaviruses [@Drexler2014EcoEvo]. This has
-attracted attention to areas where high diversity of bats, and therefore
-presumably high diversity of betacoronaviruses, can be an important issue for
-human health [@Calisher2006BatImp; @Moratelli2015BatZoo]. By overlaying the IUCN
-rangempas for confirmed bat hosts of betacoronaviruses [@fig:richness; top], we
-see that the the main hotspots of host richness are primarily South-Eastern
-Asia, parts of Southern Europe, and to a lesser extent parts of Africa in the
--25-0 range of latitudes. The description of host richness is an important first
-step towards understanding risk, as previous research
+mammals  and one of the main animal reservoir for different strains of
+betacoronaviruses [@Drexler2014EcoEvo]. This has attracted attention to areas
+where high diversity of bats, and therefore presumably high diversity of
+betacoronaviruses, can be an important issue for human health
+[@Calisher2006BatImp; @Moratelli2015BatZoo]. By overlaying the IUCN rangempas
+for confirmed bat hosts of betacoronaviruses [@fig:richness; top], we see that
+the the main hotspots of host richness are primarily South-Eastern Asia, parts
+of Southern Europe, and to a lesser extent parts of Africa in the -25-0 range of
+latitudes. The description of host richness is an important first step towards
+understanding risk, as previous research
 [@Anthony2017GloPat;@Mollentze2020VirZoo] states that locally diverse bat
 communities could maintain more viruses and hence, a higher probability of
 having a pathogen that could represent a risk for human health.
