@@ -751,6 +751,59 @@
         "volume": "n/a"
     },
     {
+        "DOI": "10.3201/eid1601.090726",
+        "PMCID": "PMC2874359",
+        "author": [
+            {
+                "family": "Decaro",
+                "given": "Nicola"
+            },
+            {
+                "family": "Mari",
+                "given": "Viviana"
+            },
+            {
+                "family": "Elia",
+                "given": "Gabriella"
+            },
+            {
+                "family": "Addie",
+                "given": "Diane D."
+            },
+            {
+                "family": "Camero",
+                "given": "Michele"
+            },
+            {
+                "family": "Lucente",
+                "given": "Maria Stella"
+            },
+            {
+                "family": "Martella",
+                "given": "Vito"
+            },
+            {
+                "family": "Buonavoglia",
+                "given": "Canio"
+            }
+        ],
+        "container-title": "Emerging Infectious Diseases",
+        "id": "Decaro2010RecCan",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2010,
+                    1
+                ]
+            ]
+        },
+        "page": "41-47",
+        "title": "Recombinant Canine Coronaviruses in Dogs, Europe",
+        "type": "article-journal",
+        "volume": "16"
+    },
+    {
         "DOI": "10.1111/oik.08359",
         "author": [
             {
@@ -1694,6 +1747,61 @@
         "volume": "5"
     },
     {
+        "DOI": "10.1093/cid/ciab924",
+        "author": [
+            {
+                "family": "Lednicky",
+                "given": "John A."
+            },
+            {
+                "family": "Tagliamonte",
+                "given": "Massimiliano S."
+            },
+            {
+                "family": "White",
+                "given": "Sarah K."
+            },
+            {
+                "family": "Blohm",
+                "given": "Gabriela M."
+            },
+            {
+                "family": "Alam",
+                "given": "Md Mahbubul"
+            },
+            {
+                "family": "Iovine",
+                "given": "Nicole M."
+            },
+            {
+                "family": "Salemi",
+                "given": "Marco"
+            },
+            {
+                "family": "Mavian",
+                "given": "Carla"
+            },
+            {
+                "family": "Morris",
+                "given": "J. Glenn"
+            }
+        ],
+        "container-title": "Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America",
+        "id": "Lednicky2021IsoNov",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    10,
+                    28
+                ]
+            ]
+        },
+        "page": "ciab924",
+        "title": "Isolation of a Novel Recombinant Canine Coronavirus from a Visitor to Haiti: Further Evidence of Transmission of Coronaviruses of Zoonotic Origin to Humans",
+        "type": "article-journal"
+    },
+    {
         "DOI": "10.1093/ve/vey028",
         "author": [
             {
@@ -2605,6 +2713,68 @@
         "volume": "164"
     },
     {
+        "DOI": "10.1038/s41597-019-0330-0",
+        "author": [
+            {
+                "family": "Ramshaw",
+                "given": "Rebecca E."
+            },
+            {
+                "family": "Letourneau",
+                "given": "Ian D."
+            },
+            {
+                "family": "Hong",
+                "given": "Amy Y."
+            },
+            {
+                "family": "Hon",
+                "given": "Julia"
+            },
+            {
+                "family": "Morgan",
+                "given": "Julia D."
+            },
+            {
+                "family": "Osborne",
+                "given": "Joshua C. P."
+            },
+            {
+                "family": "Shirude",
+                "given": "Shreya"
+            },
+            {
+                "family": "Van Kerkhove",
+                "given": "Maria D."
+            },
+            {
+                "family": "Hay",
+                "given": "Simon I."
+            },
+            {
+                "family": "Pigott",
+                "given": "David M."
+            }
+        ],
+        "container-title": "Scientific Data",
+        "id": "Ramshaw2019DatGeo",
+        "issue": "1, 1",
+        "issued": {
+            "date-parts": [
+                [
+                    2019,
+                    12,
+                    13
+                ]
+            ]
+        },
+        "page": "318",
+        "publisher": "Nature Publishing Group",
+        "title": "A database of geopositioned Middle East Respiratory Syndrome Coronavirus occurrences",
+        "type": "article-journal",
+        "volume": "6"
+    },
+    {
         "DOI": "10.1186/s13002-015-0058-7",
         "author": [
             {
@@ -3092,6 +3262,63 @@
         "volume": "52"
     },
     {
+        "DOI": "10.1080/22221751.2022.2040341",
+        "author": [
+            {
+                "family": "Vlasova",
+                "given": "Anastasia N."
+            },
+            {
+                "family": "Toh",
+                "given": "Teck-Hock"
+            },
+            {
+                "family": "Lee",
+                "given": "Jeffrey Soon-Yit"
+            },
+            {
+                "family": "Poovorawan",
+                "given": "Yong"
+            },
+            {
+                "family": "Davis",
+                "given": "Phillip"
+            },
+            {
+                "family": "Azevedo",
+                "given": "Marli S. P."
+            },
+            {
+                "family": "Lednicky",
+                "given": "John A."
+            },
+            {
+                "family": "Saif",
+                "given": "Linda J."
+            },
+            {
+                "family": "Gray",
+                "given": "Gregory C."
+            }
+        ],
+        "container-title": "Emerging Microbes & Infections",
+        "id": "Vlasova2022AniAlp",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    12,
+                    31
+                ]
+            ]
+        },
+        "page": "699-702",
+        "title": "Animal alphacoronaviruses found in human patients with acute respiratory illness in different countries.",
+        "type": "article-journal",
+        "volume": "11"
+    },
+    {
         "DOI": "10.1007/978-3-319-25220-9",
         "editor": [
             {
@@ -3140,6 +3367,91 @@
         "title": "Bats and viruses: A brief review",
         "type": "article-journal",
         "volume": "24"
+    },
+    {
+        "DOI": "10.1007/s12250-018-0012-7",
+        "PMCID": "PMC6178078",
+        "author": [
+            {
+                "family": "Wang",
+                "given": "Ning"
+            },
+            {
+                "family": "Li",
+                "given": "Shi-Yue"
+            },
+            {
+                "family": "Yang",
+                "given": "Xing-Lou"
+            },
+            {
+                "family": "Huang",
+                "given": "Hui-Min"
+            },
+            {
+                "family": "Zhang",
+                "given": "Yu-Ji"
+            },
+            {
+                "family": "Guo",
+                "given": "Hua"
+            },
+            {
+                "family": "Luo",
+                "given": "Chu-Ming"
+            },
+            {
+                "family": "Miller",
+                "given": "Maureen"
+            },
+            {
+                "family": "Zhu",
+                "given": "Guangjian"
+            },
+            {
+                "family": "Chmura",
+                "given": "Aleksei A."
+            },
+            {
+                "family": "Hagan",
+                "given": "Emily"
+            },
+            {
+                "family": "Zhou",
+                "given": "Ji-Hua"
+            },
+            {
+                "family": "Zhang",
+                "given": "Yun-Zhi"
+            },
+            {
+                "family": "Wang",
+                "given": "Lin-Fa"
+            },
+            {
+                "family": "Daszak",
+                "given": "Peter"
+            },
+            {
+                "family": "Shi",
+                "given": "Zheng-Li"
+            }
+        ],
+        "container-title": "Virologica Sinica",
+        "id": "Wang2018SerEvi",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2018,
+                    2
+                ]
+            ]
+        },
+        "page": "104-107",
+        "title": "Serological Evidence of Bat SARS-Related Coronavirus Infection in Humans, China",
+        "type": "article-journal",
+        "volume": "33"
     },
     {
         "DOI": "10.1126/science.1152944",
@@ -3206,6 +3518,83 @@
         "title": "Origins of major human infectious diseases",
         "type": "article-journal",
         "volume": "447"
+    },
+    {
+        "DOI": "10.3201/eid1006.030852",
+        "PMCID": "PMC3323155",
+        "author": [
+            {
+                "family": "Xu",
+                "given": "Rui-Heng"
+            },
+            {
+                "family": "He",
+                "given": "Jian-Feng"
+            },
+            {
+                "family": "Evans",
+                "given": "Meirion R."
+            },
+            {
+                "family": "Peng",
+                "given": "Guo-Wen"
+            },
+            {
+                "family": "Field",
+                "given": "Hume E"
+            },
+            {
+                "family": "Yu",
+                "given": "De-Wen"
+            },
+            {
+                "family": "Lee",
+                "given": "Chin-Kei"
+            },
+            {
+                "family": "Luo",
+                "given": "Hui-Min"
+            },
+            {
+                "family": "Lin",
+                "given": "Wei-Sheng"
+            },
+            {
+                "family": "Lin",
+                "given": "Peng"
+            },
+            {
+                "family": "Li",
+                "given": "Ling-Hui"
+            },
+            {
+                "family": "Liang",
+                "given": "Wen-Jia"
+            },
+            {
+                "family": "Lin",
+                "given": "Jin-Yan"
+            },
+            {
+                "family": "Schnur",
+                "given": "Alan"
+            }
+        ],
+        "container-title": "Emerging Infectious Diseases",
+        "id": "Xu2004EpiClu",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2004,
+                    6
+                ]
+            ]
+        },
+        "page": "1030-1037",
+        "title": "Epidemiologic Clues to SARS Origin in China",
+        "type": "article-journal",
+        "volume": "10"
     },
     {
         "DOI": "10.1111/jeb.12477",
