@@ -250,20 +250,20 @@ distinctiveness does not accurately tracks host diversity, with some areas
 having over-distinct viruses (southern China but, oddly, not the rest of
 southeast Asia). There are a number of likely explanations. First, given the
 richness of bats in southeast Asia, many betacoronaviruses likely remain to be
-discovered in this region. Indeed, global predictions by @Becker highlight that
-southeast Asia is a likely hostpot of unconfirmed hosts of betacoronaviruses,
-which would likely result in additiona viral discoveries. This idea is
-unsurprising given the growing realization, around the emergence of SARS-CoV-2,
-that a unique lineage of similar viruses are widespread in bats but still mostly
-undescribed. The most distinct bats/betacoronavirus complex is found in South
-America, a region with a comparatively lower number of hosts; this matches with
-the isolation through viariance of the host group, and may highlight a different
-co-evolutionary dynamic. Alternatively, this distinctiveness hostpot may be a
-product of under-sampling: South-America is one of the places where the fewest
-betacoronaviruses have been discovered [@Anthony2017GloPat;@Allen2017GloHot;
-@Olival2017HosVir], resulting in sparser phylogenetic tree, thereby artificially
-inflating distinctiveness. Adding more viruses would bring the distinctiveness
-of known sequences down.
+discovered in this region. Indeed, global predictions by @Becker2022OptPre
+highlight that southeast Asia is a likely hostpot of unconfirmed hosts of
+betacoronaviruses, which would likely result in additiona viral discoveries.
+This idea is unsurprising given the growing realization, around the emergence of
+SARS-CoV-2, that a unique lineage of similar viruses are widespread in bats but
+still mostly undescribed. The most distinct bats/betacoronavirus complex is
+found in South America, a region with a comparatively lower number of hosts;
+this matches with the isolation through viariance of the host group, and may
+highlight a different co-evolutionary dynamic. Alternatively, this
+distinctiveness hostpot may be a product of under-sampling: South-America is one
+of the places where the fewest betacoronaviruses have been discovered
+[@Anthony2017GloPat;@Allen2017GloHot; @Olival2017HosVir], resulting in sparser
+phylogenetic tree, thereby artificially inflating distinctiveness. Adding more
+viruses would bring the distinctiveness of known sequences down.
 
 ## The phylogeographic regions of hosts and their viruses overlap
 
