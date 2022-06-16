@@ -231,7 +231,7 @@ viruses.](figures/combined_richness.png){#fig:richness}
 
 Nevertheless, locally diverse and virus-rich bat communities could represent an
 increased risk of spillover under climate change through the creation of novel
-interactions (**Ice ice berg berg**), and therefore the diversity of
+interactions [@Carlson2022CliCha], and therefore the diversity of
 betacoronavirus strains should similarly be ccounted for. In @fig:richness
 (bottom), we contrast the evolutionary distinctiveness of bats and viruses --
 this reveals a slightly different portrait than bat richness alone. Chiropterans
