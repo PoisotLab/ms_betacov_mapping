@@ -385,8 +385,8 @@ predictions.
 
 ## Human occupancy drives different levels of effective risk globally
 
-Based on the previous result, we extracted the yellow component of the risk map
-(TP add methods), to provide a single measure of risk varying between 0 and 1.
+Based on the previous result, we extracted the risk component from the composite
+map (see Methods), to provide a single measure of risk varying between 0 and 1.
 This measure is presented in @fig:risk. However, this maps the potential risk,
 which must be weighed by the potential for contacts with humans. As a proxy for
 this measure, we used the proportion of build/urban land from the EarthEnv
