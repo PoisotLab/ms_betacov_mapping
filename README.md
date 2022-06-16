@@ -219,10 +219,10 @@ rangempas for confirmed bat hosts of betacoronaviruses [@fig:richness; top], we
 see that the the main hotspots of host richness are primarily South-Eastern
 Asia, parts of Southern Europe, and to a lesser extent parts of Africa in the
 -25-0 range of latitudes. The description of host richness is an important first
-step towards understanding risk, as previous research (**Anthony et al., 2017;
-Mollentze & Streicker, 2020**) states that locally diverse bat communities could
-maintain more viruses and hence, a higher probability of having a pathogen that
-could represent a risk for human health.
+step towards understanding risk, as previous research
+[@Anthony2017GloPat;@Mollentze2020VirZoo] states that locally diverse bat
+communities could maintain more viruses and hence, a higher probability of
+having a pathogen that could represent a risk for human health.
 
 ![Top panel: relative diversity of known bat hosts of betacoronaviruses. This
 map shows that the region with the largest number of possible hosts is
@@ -362,17 +362,28 @@ host-centric perspective on risk. Areas with high bat diversity and high
 turnover *may* facilitate the evolutionary radiation of viruses, matching
 previous findings that the diversification of bat coronaviruses is driven
 largely by host shifts (inter-genus or higher levels of cross-species
-transmission) and, to a lesser degree, cospeciation and sharing (intra-genus
-cross-species transmission; **Anthony et al. 2017**). This diversification is
-not an actual risk factor for spillover itself, but acts downstream of a
-spillover event by increasing the random chance of the emergence of a virus with
-the raw genomic components required for the potential to infect humans.
+transmission) and, to a lesser degree, cospeciation and sharing [intra-genus
+cross-species transmission; @Anthony2017GloPat]. This diversification is not an
+actual risk factor for spillover itself, but acts downstream of a spillover
+event by increasing the random chance of the emergence of a virus with the raw
+genomic components required for the potential to infect humans.
 
 ![Extraction of a measure of risk based on the colorimetric space from
 @fig:trivariate. The risk is a composite measure of the color value and angular
 distance to the yellow hue, as defined in the methods, ranged in the unit space.
 Based on this analyses, regions at high risk of spillover are southeast Asia and
 Madagascar.](figures/risk_map.png){#fig:risk}
+
+From another perspective, areas of high host uniqueness and virus sharing
+(red-to-pink) could provide hotspots of betacoronavirus risk through mixing of
+unique viruses (via codivergence) and in turn recombination. Under our
+framework, such a hotspot was identified in Madagascar, where most bat species
+are endemic following evolutionary divergence from sister species in both
+African and Asian continents [*e.g.* @Shi2014DeeDiv]. Recent surveillance
+[@Kettenburg2022FulGen] has identified a novel betacoronavirus (in the subgenus
+*Nobecovirus*) in Madagascar-endemic pteropid bat species (*Pteropus rufus*,
+*Rousettus madagascariensis*), emphasizing strong proof of principle in model
+predictions.
 
 ## Human occupancy drives different levels of effective risk globally
 
