@@ -319,17 +319,18 @@ As host richness, joint disctinveness, or phylogeographic structure suggest that
 the bat/betacoronavirus complex is globally fragmented enough to give rise to
 both different levels of risk (as evidenced by the spatial location of spillover
 events) and different types of co-evolutionary dynamics, we turn to the
-Geographic Mosaic Theory of Coevolution **REF** to provide a measure of risk
-accounting for multiple processes. In @fig:trivariate, we overlapped three
-components of spillover risk: viral sharing, *i.e.* the chance that two bats
-will share viruses overall; Local Contribution to Beta Diversity, *i.e.* the
-fact that a bat community is compositionally unique compared to the average
-compositional similarity across the entire system; finally, host phylogenetic
-diversity, *i.e.* how dispersed the bats in a location are within the tree of
-life. This approach leads to the definition of broad biogeographic regions of
-risk, where the same color represents the same type of risk. By way of constrat
-to figures @fig:richness and @fig:biogeo, these regions do not necessarilly
-overlap with previous spatial partitions of the bat/betacoronavirus complex.
+Geographic Mosaic Theory of Coevolution [@Thompson2005GeoMos] to provide a
+measure of risk accounting for multiple processes. In @fig:trivariate, we
+overlapped three components of spillover risk: viral sharing, *i.e.* the chance
+that two bats will share viruses overall; Local Contribution to Beta Diversity,
+*i.e.* the fact that a bat community is compositionally unique compared to the
+average compositional similarity across the entire system; finally, host
+phylogenetic diversity, *i.e.* how dispersed the bats in a location are within
+the tree of life. This approach leads to the definition of broad biogeographic
+regions of risk, where the same color represents the same type of risk. By way
+of constrat to figures @fig:richness and @fig:biogeo, these regions do not
+necessarilly overlap with previous spatial partitions of the bat/betacoronavirus
+complex.
 
 ![Trivariate additive mapping of the components of risk in the red/green/blue,
 where high virus sharing is encoded in the blue channel, host phylogenetic
