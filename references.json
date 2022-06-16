@@ -1434,6 +1434,143 @@
         "type": "webpage"
     },
     {
+        "DOI": "10.1038/s41586-020-2486-3",
+        "author": [
+            {
+                "family": "Jebb",
+                "given": "David"
+            },
+            {
+                "family": "Huang",
+                "given": "Zixia"
+            },
+            {
+                "family": "Pippel",
+                "given": "Martin"
+            },
+            {
+                "family": "Hughes",
+                "given": "Graham M."
+            },
+            {
+                "family": "Lavrichenko",
+                "given": "Ksenia"
+            },
+            {
+                "family": "Devanna",
+                "given": "Paolo"
+            },
+            {
+                "family": "Winkler",
+                "given": "Sylke"
+            },
+            {
+                "family": "Jermiin",
+                "given": "Lars S."
+            },
+            {
+                "family": "Skirmuntt",
+                "given": "Emilia C."
+            },
+            {
+                "family": "Katzourakis",
+                "given": "Aris"
+            },
+            {
+                "family": "Burkitt-Gray",
+                "given": "Lucy"
+            },
+            {
+                "family": "Ray",
+                "given": "David A."
+            },
+            {
+                "family": "Sullivan",
+                "given": "Kevin A. M."
+            },
+            {
+                "family": "Roscito",
+                "given": "Juliana G."
+            },
+            {
+                "family": "Kirilenko",
+                "given": "Bogdan M."
+            },
+            {
+                "family": "D\u00e1valos",
+                "given": "Liliana M."
+            },
+            {
+                "family": "Corthals",
+                "given": "Angelique P."
+            },
+            {
+                "family": "Power",
+                "given": "Megan L."
+            },
+            {
+                "family": "Jones",
+                "given": "Gareth"
+            },
+            {
+                "family": "Ransome",
+                "given": "Roger D."
+            },
+            {
+                "family": "Dechmann",
+                "given": "Dina K. N."
+            },
+            {
+                "family": "Locatelli",
+                "given": "Andrea G."
+            },
+            {
+                "family": "Puechmaille",
+                "given": "S\u00e9bastien J."
+            },
+            {
+                "family": "Fedrigo",
+                "given": "Olivier"
+            },
+            {
+                "family": "Jarvis",
+                "given": "Erich D."
+            },
+            {
+                "family": "Hiller",
+                "given": "Michael"
+            },
+            {
+                "family": "Vernes",
+                "given": "Sonja C."
+            },
+            {
+                "family": "Myers",
+                "given": "Eugene W."
+            },
+            {
+                "family": "Teeling",
+                "given": "Emma C."
+            }
+        ],
+        "container-title": "Nature",
+        "id": "Jebb2020SixRef",
+        "issue": "7817, 7817",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    7
+                ]
+            ]
+        },
+        "page": "578-584",
+        "publisher": "Nature Publishing Group",
+        "title": "Six reference-quality genomes reveal evolution of bat adaptations",
+        "type": "article-journal",
+        "volume": "583"
+    },
+    {
         "DOI": "10.1098/rspb.2019.2736",
         "author": [
             {
