@@ -652,6 +652,62 @@
         "volume": "3"
     },
     {
+        "DOI": "10.1038/s41586-022-04788-w",
+        "author": [
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            },
+            {
+                "family": "Albery",
+                "given": "Gregory F."
+            },
+            {
+                "family": "Merow",
+                "given": "Cory"
+            },
+            {
+                "family": "Trisos",
+                "given": "Christopher H."
+            },
+            {
+                "family": "Zipfel",
+                "given": "Casey M."
+            },
+            {
+                "family": "Eskew",
+                "given": "Evan A."
+            },
+            {
+                "family": "Olival",
+                "given": "Kevin J."
+            },
+            {
+                "family": "Ross",
+                "given": "Noam"
+            },
+            {
+                "family": "Bansal",
+                "given": "Shweta"
+            }
+        ],
+        "container-title": "Nature",
+        "id": "Carlson2022CliCha",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    4,
+                    28
+                ]
+            ]
+        },
+        "page": "1-1",
+        "publisher": "Nature Publishing Group",
+        "title": "Climate change increases cross-species viral transmission risk",
+        "type": "article-journal"
+    },
+    {
         "DOI": "10.1111/j.1461-0248.2009.01314.x",
         "author": [
             {
