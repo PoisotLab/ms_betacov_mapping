@@ -310,16 +310,19 @@ shows an important degree of spatial consistency, with a reduced number of
 bioregions. Available information describing the spillover of zoonotic
 betacoronaviruses of bat origin where data was available before and up through
 the COVID-19 pandemic puts spillover events of SARS-CoV-2 in Wuhan, China;
-SARS-CoV in **XXX** based on the presence of closest known viruses circulating
-in nature, and a nearby location where serological (antibody) evidence has
-indicated human exposure to SARS-like viruses (Wang et al. 2018 Virologica
-Sinica); MERS-CoV in **XXX** based on index cases available from a
-recently-published compendium of cases (Ramshaw et al. 2019). For the latest
+SARS-CoV in Guangdong, China based on the presence of closest known viruses
+circulating in nature, and a nearby location where serological (antibody)
+evidence has indicated human exposure to SARS-like viruses [@Wang2018SerEvi];
+MERS-CoV in Saudi Arabia based on index cases available from a
+recently-published compendium of cases [@Ramshaw2019DatGeo]. For the latest
 event, most if not all index cases are presumed to be camel-to-human
 transmission, and the precise origin point (if it exists) of MERS-CoV in bats is
 uncertain. Recent recombinant canine coronavirus spillover events in Haiti
-(**ref**) and Europe (**ref**) are not relevant here, as bats’ involvement in
-these cycles of transmission have been supposed to be non-existent.
+[@Lednicky2021IsoNov] and Europe [@Vlasova2022AniAlp] are not relevant here, as
+bats’ involvement in these cycles of transmission have been supposed to be
+non-existent. These index cases fall within different phylogeographic bioregions
+(@fig:biogeo), which further highlight the issue that different host-virus
+sub-systems may lead to widespread emergence.
 
 ## Coevolution-informed spillover risk is different in space
 
@@ -408,7 +411,12 @@ settlements tend to be in areas with lower potential risk. However, this mapping
 reveals that South-East Asia, the Indian subcontinent, and parts of sub-Saharan
 Africa, are at high risk due to the overlap between built areas and bat
 communities representing more opportunities for cross-species transmission of
-betacoronaviruses.
+betacoronaviruses. In looking for the origins of SARS in China, @Xu2004EpiClu
+present serological evidence that strongest human-animal contact results in
+higher risk of virus exposure, regardless of the animal species, but that
+different types of contact had different impacts. Ideally, finer-grained
+information about human activity (rather than human presence through
+anthropisation) could allow to partition this risk further.
 
 ![Overlap of the percent of each pixel occupied by urbanized structures,
 representing the degree of settlement, on the risk map. Darker pixels correspond
