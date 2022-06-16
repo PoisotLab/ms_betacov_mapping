@@ -274,13 +274,12 @@ show some degree of congruence. High density of hosts sharing the same virus
 bat antiviral immune system, resulting in spatially distinct immunological
 responses, as evidenced in several bat species [@Banerjee2020NovIns]. Immune
 characteristics that allow bats to be better adapted to infection by emerging
-viruses (Gorbunova et al., 2020; Irving et al., 2021), in addition to being
-hardcoded in their genome (**Jebb et al. six...**), may be related to a wide
-variety of diets (Jones et al., 2022; Moreno Santillán et al., 2021; Banerjee et
-al., 2020; Schneeberger et al., 2013; Muylaert et al., 2021), themselves likely
-to be driven by spatial effects, especially at the local scale -- bats, indeed,
-occupy a variety of environments, and therefore display a variety of adaptations
-to these environments.
+viruses [@Gorbunova2020WorGoe; @Irving2021LesHos], in addition to being
+hardcoded in their genome [@Jebb2020SixRef], may be related to a wide variety of
+diets [@Banerjee2020NovIns; @MorenoSantillan2021LarGen; @Muylaert2021PreFut],
+themselves likely to be driven by spatial effects, especially at the local scale
+-- bats, indeed, occupy a variety of environments, and therefore display a
+variety of adaptations to these environments.
 
 ![Phylogeographic regions of bats (top) and viruses (bottom) based on the joint
 analysis of their occurrence and phylogenetic relatedness. The different colors
