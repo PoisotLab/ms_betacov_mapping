@@ -421,6 +421,39 @@
         "volume": "34"
     },
     {
+        "DOI": "10.1016/j.tree.2020.08.014",
+        "PMCID": "PMC7483075",
+        "author": [
+            {
+                "family": "Becker",
+                "given": "Daniel J."
+            },
+            {
+                "family": "Seifert",
+                "given": "Stephanie N."
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            }
+        ],
+        "container-title": "Trends in Ecology & Evolution",
+        "id": "Becker2020InfInt",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    12
+                ]
+            ]
+        },
+        "page": "1062-1065",
+        "title": "Beyond Infection: Integrating Competence into Reservoir Host Prediction",
+        "type": "article-journal",
+        "volume": "35"
+    },
+    {
         "DOI": "10.1016/S2666-5247(21)00245-7",
         "author": [
             {
@@ -1439,6 +1472,83 @@
         "volume": "2"
     },
     {
+        "URL": "https://www.frontiersin.org/article/10.3389/fpubh.2022.786060",
+        "author": [
+            {
+                "family": "Kettenburg",
+                "given": "Gwenddolen"
+            },
+            {
+                "family": "Kistler",
+                "given": "Amy"
+            },
+            {
+                "family": "Ranaivoson",
+                "given": "Hafaliana Christian"
+            },
+            {
+                "family": "Ahyong",
+                "given": "Vida"
+            },
+            {
+                "family": "Andrianiaina",
+                "given": "Angelo"
+            },
+            {
+                "family": "Andry",
+                "given": "Santino"
+            },
+            {
+                "family": "DeRisi",
+                "given": "Joseph L."
+            },
+            {
+                "family": "Gentles",
+                "given": "Anecia"
+            },
+            {
+                "family": "Raharinosy",
+                "given": "Vololoniaina"
+            },
+            {
+                "family": "Randriambolamanantsoa",
+                "given": "Tsiry Hasina"
+            },
+            {
+                "family": "Ravelomanantsoa",
+                "given": "Ny Anjara Fifi"
+            },
+            {
+                "family": "Tato",
+                "given": "Cristina M."
+            },
+            {
+                "family": "Dussart",
+                "given": "Philippe"
+            },
+            {
+                "family": "Heraud",
+                "given": "Jean-Michel"
+            },
+            {
+                "family": "Brook",
+                "given": "Cara E."
+            }
+        ],
+        "container-title": "Frontiers in Public Health",
+        "id": "Kettenburg2022FulGen",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "title": "Full Genome Nobecovirus Sequences From Malagasy Fruit Bats Define a Unique Evolutionary History for This Coronavirus Clade",
+        "type": "article-journal",
+        "volume": "10"
+    },
+    {
         "DOI": "10.1007/s10531-008-9458-5",
         "author": [
             {
@@ -1682,6 +1792,47 @@
         "volume": "6"
     },
     {
+        "DOI": "10.1038/s41579-020-0394-z",
+        "author": [
+            {
+                "family": "Letko",
+                "given": "Michael"
+            },
+            {
+                "family": "Seifert",
+                "given": "Stephanie N."
+            },
+            {
+                "family": "Olival",
+                "given": "Kevin J."
+            },
+            {
+                "family": "Plowright",
+                "given": "Raina K."
+            },
+            {
+                "family": "Munster",
+                "given": "Vincent J."
+            }
+        ],
+        "container-title": "Nature Reviews Microbiology",
+        "id": "Letko2020BatVir",
+        "issue": "8, 8",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    8
+                ]
+            ]
+        },
+        "page": "461-471",
+        "publisher": "Nature Publishing Group",
+        "title": "Bat-borne virus diversity, spillover and emergence",
+        "type": "article-journal",
+        "volume": "18"
+    },
+    {
         "DOI": "10.1371/journal.ppat.1002260",
         "author": [
             {
@@ -1726,6 +1877,60 @@
         "title": "Host Phylogeny Determines Viral Persistence and Replication in Novel Hosts",
         "type": "article-journal",
         "volume": "7"
+    },
+    {
+        "DOI": "10.1371/journal.pbio.3001115",
+        "author": [
+            {
+                "family": "MacLean",
+                "given": "Oscar A."
+            },
+            {
+                "family": "Lytras",
+                "given": "Spyros"
+            },
+            {
+                "family": "Weaver",
+                "given": "Steven"
+            },
+            {
+                "family": "Singer",
+                "given": "Joshua B."
+            },
+            {
+                "family": "Boni",
+                "given": "Maciej F."
+            },
+            {
+                "family": "Lemey",
+                "given": "Philippe"
+            },
+            {
+                "family": "Pond",
+                "given": "Sergei L. Kosakovsky"
+            },
+            {
+                "family": "Robertson",
+                "given": "David L."
+            }
+        ],
+        "container-title": "PLOS Biology",
+        "id": "MacLean2021NatSel",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    3,
+                    12
+                ]
+            ]
+        },
+        "page": "e3001115",
+        "publisher": "Public Library of Science",
+        "title": "Natural selection in the evolution of SARS-CoV-2 in bats created a generalist virus and highly capable human pathogen",
+        "type": "article-journal",
+        "volume": "19"
     },
     {
         "DOI": "10.1007/978-3-642-39333-4_3",
@@ -1776,6 +1981,53 @@
         "publisher-place": "Berlin, Heidelberg",
         "title": "Bats as Potential Reservoir Hosts for Vector-Borne Diseases",
         "type": "chapter"
+    },
+    {
+        "DOI": "10.1371/journal.pone.0017395",
+        "author": [
+            {
+                "family": "Mello",
+                "given": "Marco Aurelio Ribeiro"
+            },
+            {
+                "family": "Marquitti",
+                "given": "Fl\u00e1via Maria Darcie"
+            },
+            {
+                "family": "Jr",
+                "given": "Paulo Roberto Guimar\u00e3es"
+            },
+            {
+                "family": "Kalko",
+                "given": "Elisabeth Klara Viktoria"
+            },
+            {
+                "family": "Jordano",
+                "given": "Pedro"
+            },
+            {
+                "dropping-particle": "de",
+                "family": "Aguiar",
+                "given": "Marcus Aloizio Martinez"
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "id": "Mello2011MisPar",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2011,
+                    2,
+                    28
+                ]
+            ]
+        },
+        "page": "e17395",
+        "publisher": "Public Library of Science",
+        "title": "The Missing Part of Seed Dispersal Networks: Structure and Robustness of Bat-Fruit Interactions",
+        "type": "article-journal",
+        "volume": "6"
     },
     {
         "DOI": "10.1073/pnas.2006778117",
@@ -1966,6 +2218,40 @@
         "page": "mec.16027",
         "title": "Large-scale genome sampling reveals unique immunity and metabolic adaptations in bats",
         "type": "article-journal"
+    },
+    {
+        "DOI": "10.1111/1365-2656.13694",
+        "author": [
+            {
+                "family": "Mull",
+                "given": "Nathaniel"
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            },
+            {
+                "family": "Forbes",
+                "given": "Kristian M."
+            },
+            {
+                "family": "Becker",
+                "given": "Daniel J."
+            }
+        ],
+        "container-title": "Journal of Animal Ecology",
+        "id": "Mull2022VirIso",
+        "issue": "n/a",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "title": "Virus isolation data improve host predictions for New World rodent orthohantaviruses",
+        "type": "article-journal",
+        "volume": "n/a"
     },
     {
         "DOI": "10.1101/2021.12.09.471691",
@@ -2544,6 +2830,51 @@
         "volume": "3"
     },
     {
+        "DOI": "10.3161/150811014X687242",
+        "author": [
+            {
+                "family": "Shi",
+                "given": "Jeff J."
+            },
+            {
+                "family": "Chan",
+                "given": "Lauren M."
+            },
+            {
+                "family": "Peel",
+                "given": "Alison J."
+            },
+            {
+                "family": "Lai",
+                "given": "Rebecca"
+            },
+            {
+                "family": "Yoder",
+                "given": "Anne D."
+            },
+            {
+                "family": "Goodman",
+                "given": "Steven M."
+            }
+        ],
+        "container-title": "Acta Chiropterologica",
+        "id": "Shi2014DeeDiv",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2014,
+                    12
+                ]
+            ]
+        },
+        "page": "279-292",
+        "publisher": "Museum and Institute of Zoology, Polish Academy of Sciences",
+        "title": "A Deep Divergence Time between Sister Species of Eidolon (Pteropodidae) with Evidence for Widespread Panmixia",
+        "type": "article-journal",
+        "volume": "16"
+    },
+    {
         "URL": "https://batnames.org/",
         "author": [
             {
@@ -2731,6 +3062,34 @@
         "title": "Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation",
         "type": "article-journal",
         "volume": "17"
+    },
+    {
+        "DOI": "10.1016/j.coviro.2021.12.008",
+        "author": [
+            {
+                "family": "Van Brussel",
+                "given": "Kate"
+            },
+            {
+                "family": "Holmes",
+                "given": "Edward C"
+            }
+        ],
+        "container-title": "Current Opinion in Virology",
+        "id": "VanBrussel2022ZooDis",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    2,
+                    1
+                ]
+            ]
+        },
+        "page": "192-202",
+        "title": "Zoonotic disease and virome diversity in bats",
+        "type": "article-journal",
+        "volume": "52"
     },
     {
         "DOI": "10.1007/978-3-319-25220-9",
