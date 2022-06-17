@@ -744,6 +744,45 @@
         "volume": "12"
     },
     {
+        "DOI": "10.1101/2022.06.15.496296",
+        "author": [
+            {
+                "family": "Cohen",
+                "given": "Lily E."
+            },
+            {
+                "family": "Fagre",
+                "given": "Anna C."
+            },
+            {
+                "family": "Chen",
+                "given": "Binqi"
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            },
+            {
+                "family": "Becker",
+                "given": "Daniel J."
+            }
+        ],
+        "id": "Cohen2022SamStr",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    6,
+                    17
+                ]
+            ]
+        },
+        "page": "2022.06.15.496296",
+        "publisher": "bioRxiv",
+        "title": "Sampling strategies and pre-pandemic surveillance gaps for bat coronaviruses",
+        "type": ""
+    },
+    {
         "DOI": "10.1038/s41579-018-0118-9",
         "author": [
             {
@@ -1334,6 +1373,49 @@
         "type": "article-journal"
     },
     {
+        "DOI": "10.1093/molbev/msx281",
+        "PMCID": "PMC5850222",
+        "author": [
+            {
+                "family": "Hoang",
+                "given": "Diep Thi"
+            },
+            {
+                "family": "Chernomor",
+                "given": "Olga"
+            },
+            {
+                "family": "Haeseler",
+                "given": "Arndt",
+                "non-dropping-particle": "von"
+            },
+            {
+                "family": "Minh",
+                "given": "Bui Quang"
+            },
+            {
+                "family": "Vinh",
+                "given": "Le Sy"
+            }
+        ],
+        "container-title": "Molecular Biology and Evolution",
+        "id": "Hoang2018UfbImp",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2018,
+                    2,
+                    1
+                ]
+            ]
+        },
+        "page": "518-522",
+        "title": "UFBoot2: Improving the Ultrafast Bootstrap Approximation",
+        "type": "article-journal",
+        "volume": "35"
+    },
+    {
         "DOI": "10.1038/s41586-020-03128-0",
         "author": [
             {
@@ -1657,6 +1739,48 @@
         "type": "article-journal"
     },
     {
+        "DOI": "10.1038/nmeth.4285",
+        "PMCID": "PMC5453245",
+        "author": [
+            {
+                "family": "Kalyaanamoorthy",
+                "given": "Subha"
+            },
+            {
+                "family": "Minh",
+                "given": "Bui Quang"
+            },
+            {
+                "family": "Wong",
+                "given": "Thomas K. F."
+            },
+            {
+                "family": "Haeseler",
+                "given": "Arndt",
+                "non-dropping-particle": "von"
+            },
+            {
+                "family": "Jermiin",
+                "given": "Lars S."
+            }
+        ],
+        "container-title": "Nature Methods",
+        "id": "Kalyaanamoorthy2017ModFas",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2017,
+                    6
+                ]
+            ]
+        },
+        "page": "587-589",
+        "title": "ModelFinder: Fast model selection for accurate phylogenetic estimates",
+        "type": "article-journal",
+        "volume": "14"
+    },
+    {
         "DOI": "10.1155/2013/187415",
         "author": [
             {
@@ -1684,6 +1808,35 @@
         "title": "Ecological and Economic Importance of Bats (Order Chiroptera)",
         "type": "article-journal",
         "volume": "2013"
+    },
+    {
+        "DOI": "10.1093/molbev/mst010",
+        "author": [
+            {
+                "family": "Katoh",
+                "given": "Kazutaka"
+            },
+            {
+                "family": "Standley",
+                "given": "Daron M."
+            }
+        ],
+        "container-title": "Molecular Biology and Evolution",
+        "id": "Katoh2013MafMul",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    4,
+                    1
+                ]
+            ]
+        },
+        "page": "772-780",
+        "title": "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability",
+        "type": "article-journal",
+        "volume": "30"
     },
     {
         "DOI": "10.1109/FSKD.2010.5569451",
@@ -1940,6 +2093,86 @@
         "volume": "5"
     },
     {
+        "DOI": "10.1101/2020.05.31.116061",
+        "PMCID": "PMC7302205",
+        "author": [
+            {
+                "family": "Latinne",
+                "given": "Alice"
+            },
+            {
+                "family": "Hu",
+                "given": "Ben"
+            },
+            {
+                "family": "Olival",
+                "given": "Kevin J."
+            },
+            {
+                "family": "Zhu",
+                "given": "Guangjian"
+            },
+            {
+                "family": "Zhang",
+                "given": "Libiao"
+            },
+            {
+                "family": "Li",
+                "given": "Hongying"
+            },
+            {
+                "family": "Chmura",
+                "given": "Aleksei A."
+            },
+            {
+                "family": "Field",
+                "given": "Hume E."
+            },
+            {
+                "family": "Zambrana-Torrelio",
+                "given": "Carlos"
+            },
+            {
+                "family": "Epstein",
+                "given": "Jonathan H."
+            },
+            {
+                "family": "Li",
+                "given": "Bei"
+            },
+            {
+                "family": "Zhang",
+                "given": "Wei"
+            },
+            {
+                "family": "Wang",
+                "given": "Lin-Fa"
+            },
+            {
+                "family": "Shi",
+                "given": "Zheng-Li"
+            },
+            {
+                "family": "Daszak",
+                "given": "Peter"
+            }
+        ],
+        "container-title": "bioRxiv: The Preprint Server for Biology",
+        "id": "Latinne2020OriCro",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    5,
+                    31
+                ]
+            ]
+        },
+        "page": "2020.05.31.116061",
+        "title": "Origin and cross-species transmission of bat coronaviruses in China",
+        "type": "article-journal"
+    },
+    {
         "DOI": "10.1093/cid/ciab924",
         "author": [
             {
@@ -2118,6 +2351,47 @@
         ],
         "container-title": "Nature Reviews Microbiology",
         "id": "Letko2020BatVir",
+        "issue": "8, 8",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    8
+                ]
+            ]
+        },
+        "page": "461-471",
+        "publisher": "Nature Publishing Group",
+        "title": "Bat-borne virus diversity, spillover and emergence",
+        "type": "article-journal",
+        "volume": "18"
+    },
+    {
+        "DOI": "10.1038/s41579-020-0394-z",
+        "author": [
+            {
+                "family": "Letko",
+                "given": "Michael"
+            },
+            {
+                "family": "Seifert",
+                "given": "Stephanie N."
+            },
+            {
+                "family": "Olival",
+                "given": "Kevin J."
+            },
+            {
+                "family": "Plowright",
+                "given": "Raina K."
+            },
+            {
+                "family": "Munster",
+                "given": "Vincent J."
+            }
+        ],
+        "container-title": "Nature Reviews Microbiology",
+        "id": "Letko2020BatVira",
         "issue": "8, 8",
         "issued": {
             "date-parts": [
@@ -2607,6 +2881,102 @@
         "publisher": "Ecology",
         "title": "Present and future distribution of bat hosts of sarbecoviruses: Implications for conservation and public health",
         "type": "report"
+    },
+    {
+        "DOI": "10.1098/rspb.2022.0397",
+        "author": [
+            {
+                "family": "Muylaert",
+                "given": "Renata L."
+            },
+            {
+                "family": "Kingston",
+                "given": "Tigga"
+            },
+            {
+                "family": "Luo",
+                "given": "Jinhong"
+            },
+            {
+                "family": "Vancine",
+                "given": "Maur\u00edcio Humberto"
+            },
+            {
+                "family": "Galli",
+                "given": "Nikolas"
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            },
+            {
+                "family": "John",
+                "given": "Reju Sam"
+            },
+            {
+                "family": "Rulli",
+                "given": "Maria Cristina"
+            },
+            {
+                "family": "Hayman",
+                "given": "David T. S."
+            }
+        ],
+        "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+        "id": "Muylaert2022PreFut",
+        "issue": "1975",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    5,
+                    25
+                ]
+            ]
+        },
+        "page": "20220397",
+        "publisher": "Royal Society",
+        "title": "Present and future distribution of bat hosts of sarbecoviruses: Implications for conservation and public health",
+        "type": "article-journal",
+        "volume": "289"
+    },
+    {
+        "DOI": "10.1093/molbev/msu300",
+        "PMCID": "PMC4271533",
+        "author": [
+            {
+                "family": "Nguyen",
+                "given": "Lam-Tung"
+            },
+            {
+                "family": "Schmidt",
+                "given": "Heiko A."
+            },
+            {
+                "family": "Haeseler",
+                "given": "Arndt",
+                "non-dropping-particle": "von"
+            },
+            {
+                "family": "Minh",
+                "given": "Bui Quang"
+            }
+        ],
+        "container-title": "Molecular Biology and Evolution",
+        "id": "Nguyen2015IqtFas",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2015,
+                    1
+                ]
+            ]
+        },
+        "page": "268-274",
+        "title": "IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating Maximum-Likelihood Phylogenies",
+        "type": "article-journal",
+        "volume": "32"
     },
     {
         "DOI": "10.1038/nature22975",
@@ -3453,6 +3823,62 @@
         "title": "Zoonotic disease and virome diversity in bats",
         "type": "article-journal",
         "volume": "52"
+    },
+    {
+        "DOI": "10.1016/j.coviro.2021.12.008",
+        "author": [
+            {
+                "family": "Van Brussel",
+                "given": "Kate"
+            },
+            {
+                "family": "Holmes",
+                "given": "Edward C"
+            }
+        ],
+        "container-title": "Current Opinion in Virology",
+        "id": "VanBrussel2022ZooDisa",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    2,
+                    1
+                ]
+            ]
+        },
+        "page": "192-202",
+        "title": "Zoonotic disease and virome diversity in bats",
+        "type": "article-journal",
+        "volume": "52"
+    },
+    {
+        "URL": "http://www.jstor.org/stable/40602941",
+        "author": [
+            {
+                "family": "Villalobos",
+                "given": "Fabricio"
+            },
+            {
+                "family": "Arita",
+                "given": "H\u00e9ctor T."
+            }
+        ],
+        "container-title": "Global Ecology and Biogeography",
+        "id": "Villalobos2010DivFie",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        },
+        "page": "200-211",
+        "publisher": "Wiley",
+        "title": "The diversity field of New World leaf-nosed bats (Phyllostomidae)",
+        "type": "article-journal",
+        "volume": "19"
     },
     {
         "DOI": "10.1080/22221751.2022.2040341",

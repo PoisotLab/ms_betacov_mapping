@@ -8,10 +8,10 @@ number of possible hosts is South-Eastern Asia. Bottom panel: congruence
 between the evolutionary distinctiveness of the hosts (grey to blue) and
 the viruses (grey to red). By contrast to the richness map, this reveals
 that South America has the most evolutionary distinct hosts \emph{and}
-viruses, whereas South-Eastern Asia has mostly distinct viruses. This is
-congruent with know results about New World bats being evolutionary
-distinct, and suggests that they similarly have distinct
-viruses.}\label{fig:richness}
+viruses, whereas South-Eastern Asia and the Rift Valley region have
+mostly distinct viruses. This is congruent with know results about New
+World bats being evolutionary distinct, and suggests that they similarly
+have distinct viruses.}\label{fig:richness}
 }
 \end{figure}
 \efloatseparator
@@ -38,12 +38,12 @@ being said, the regions can be compared across maps.}\label{fig:biogeo}
 red/green/blue, where high virus sharing is encoded in the blue channel,
 host phylogenetic diversity in the green channel, and compositional
 uniqueness in the red channel. A pixel that would maximize all measures
-would be a pure white (specifically RGB(1.0, 1.0. 1.0)), and a pixel
-with the lowest possible values would be pure black (specifically
-RGB(0.0, 0.0, 0.0)). Therefore, lighter values (the sum of the three
-channels gets closer to 3) indicate higher risk, and the color indicates
-the proportional distribution of the factors making up the total
-risk.}\label{fig:trivariate}
+(highest possible risk) would be a pure white (specifically RGB(1.0,
+1.0. 1.0)), and a pixel with the lowest possible values would be pure
+black (specifically RGB(0.0, 0.0, 0.0)). Therefore, lighter values (the
+sum of the three channels gets closer to 3) indicate higher risk, and
+the color indicates the proportional distribution of the factors making
+up the total risk.}\label{fig:trivariate}
 }
 \end{figure}
 \efloatseparator
@@ -52,12 +52,12 @@ risk.}\label{fig:trivariate}
 \hypertarget{fig:risk}{%
 \centering
 \includegraphics{figures/risk_map.png}
-\caption{Extraction of a measure of risk based on the colorimetric space
-from fig.~\ref{fig:trivariate}. The risk is a composite measure of the
-color value and angular distance to the yellow hue, as defined in the
-methods, ranged in the unit space. Based on this analyses, regions at
-high risk of spillover are southeast Asia and
-Madagascar.}\label{fig:risk}
+\caption{Extraction of a measure of \emph{Betacoronavirus} spillover
+risk from bat hosts based on the colorimetric space from
+fig.~\ref{fig:trivariate}. The risk is a composite measure of the color
+value and angular distance to the yellow hue, as defined in the methods,
+ranged in the unit space. Based on this analyses, regions at high risk
+of spillover are southeast Asia and Madagascar.}\label{fig:risk}
 }
 \end{figure}
 \efloatseparator
@@ -67,12 +67,14 @@ Madagascar.}\label{fig:risk}
 \centering
 \includegraphics{figures/risk_compounded.png}
 \caption{Overlap of the percent of each pixel occupied by urbanized
-structures, representing the degree of settlement, on the risk map.
-Darker pixels correspond to more risk, in that the GMTC-derived risk of
+structures, representing the degree of settlement, on the spillover risk
+map (where the risk comes only from wildlife, and ignores multi-hosts
+chains of transmissions including non-bats hosts). Darker pixels
+correspond to more risk, in that the GMTC-derived risk of
 fig.~\ref{fig:risk} is high \emph{and} the pixel is densely occupied by
 human populations. This approach increases the relative risk of several
 regions in Africa, and highlights the risk in India, southeast China,
-and the arabic peninsula where areas of high to moderate risk overlap
+and the Arabian peninsula where areas of high to moderate risk overlap
 with areas of denser population.}\label{fig:compound}
 }
 \end{figure}
