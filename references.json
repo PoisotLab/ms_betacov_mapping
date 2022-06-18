@@ -69,7 +69,7 @@
         "volume": "11"
     },
     {
-        "DOI": "10.1101/2021.01.02.425084",
+        "DOI": "10.1038/s41559-022-01723-0",
         "author": [
             {
                 "family": "Albery",
@@ -104,19 +104,22 @@
                 "given": "Daniel J."
             }
         ],
+        "container-title": "Nature Ecology & Evolution",
         "id": "Albery2022UrbMam",
+        "issue": "6, 6",
         "issued": {
             "date-parts": [
                 [
                     2022,
-                    1,
-                    3
+                    6
                 ]
             ]
         },
-        "publisher": "bioRxiv",
+        "page": "794-801",
+        "publisher": "Nature Publishing Group",
         "title": "Urban-adapted mammal species have more known pathogens",
-        "type": "article-journal"
+        "type": "article-journal",
+        "volume": "6"
     },
     {
         "DOI": "10.1038/s41467-017-00923-8",
@@ -1062,6 +1065,63 @@
         "volume": "156"
     },
     {
+        "DOI": "10.1038/sj.hdy.6800949",
+        "author": [
+            {
+                "family": "Gomulkiewicz",
+                "given": "R."
+            },
+            {
+                "family": "Drown",
+                "given": "D. M."
+            },
+            {
+                "family": "Dybdahl",
+                "given": "M. F."
+            },
+            {
+                "family": "Godsoe",
+                "given": "W."
+            },
+            {
+                "family": "Nuismer",
+                "given": "S. L."
+            },
+            {
+                "family": "Pepin",
+                "given": "K. M."
+            },
+            {
+                "family": "Ridenhour",
+                "given": "B. J."
+            },
+            {
+                "family": "Smith",
+                "given": "C. I."
+            },
+            {
+                "family": "Yoder",
+                "given": "J. B."
+            }
+        ],
+        "container-title": "Heredity",
+        "id": "Gomulkiewicz2007DosDon",
+        "issue": "5, 5",
+        "issued": {
+            "date-parts": [
+                [
+                    2007,
+                    5
+                ]
+            ]
+        },
+        "page": "249-258",
+        "publisher": "Nature Publishing Group",
+        "title": "Dos and don\u2019ts of testing the geographic mosaic theory of coevolution",
+        "type": "article-journal",
+        "volume": "98"
+    },
+    {
         "DOI": "10.1371/journal.pone.0077183",
         "author": [
             {
@@ -1416,6 +1476,34 @@
         "volume": "35"
     },
     {
+        "DOI": "10.1086/286194",
+        "author": [
+            {
+                "family": "Hochberg",
+                "given": "M. E."
+            },
+            {
+                "family": "Baalen",
+                "given": "M."
+            }
+        ],
+        "container-title": "The American Naturalist",
+        "id": "Hochberg1998AntCoe",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    1998,
+                    10
+                ]
+            ]
+        },
+        "page": "620-634",
+        "title": "Antagonistic coevolution over productivity gradients",
+        "type": "article-journal",
+        "volume": "152"
+    },
+    {
         "DOI": "10.1038/s41586-020-03128-0",
         "author": [
             {
@@ -1514,6 +1602,56 @@
         },
         "title": "The IUCN Red List of Threatened Species.",
         "type": "webpage"
+    },
+    {
+        "DOI": "10.2307/2408229",
+        "URL": "http://www.jstor.org/stable/2408229",
+        "author": [
+            {
+                "family": "Janzen",
+                "given": "Daniel H."
+            }
+        ],
+        "container-title": "Evolution",
+        "id": "Janzen1980WheIt",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    1980
+                ]
+            ]
+        },
+        "page": "611-612",
+        "publisher": "[Society for the Study of Evolution, Wiley]",
+        "title": "When is it Coevolution?",
+        "type": "article-journal",
+        "volume": "34"
+    },
+    {
+        "DOI": "10.2307/2408229",
+        "URL": "http://www.jstor.org/stable/2408229",
+        "author": [
+            {
+                "family": "Janzen",
+                "given": "Daniel H."
+            }
+        ],
+        "container-title": "Evolution",
+        "id": "Janzen1980WheIta",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    1980
+                ]
+            ]
+        },
+        "page": "611-612",
+        "publisher": "[Society for the Study of Evolution, Wiley]",
+        "title": "When is it Coevolution?",
+        "type": "article-journal",
+        "volume": "34"
     },
     {
         "DOI": "10.1038/s41586-020-2486-3",
@@ -2091,6 +2229,29 @@
         "title": "Spillover and pandemic properties of zoonotic viruses with high host plasticity",
         "type": "article-journal",
         "volume": "5"
+    },
+    {
+        "DOI": "10.1111/j.1420-9101.2005.00933.x",
+        "author": [
+            {
+                "family": "Laine",
+                "given": "A.-L."
+            }
+        ],
+        "container-title": "Journal of Evolutionary Biology",
+        "id": "Laine2005SpaSca",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        },
+        "page": "930-938",
+        "title": "Spatial scale of local adaptation in a plant-pathogen metapopulation",
+        "type": "article-journal",
+        "volume": "18"
     },
     {
         "DOI": "10.1101/2020.05.31.116061",
@@ -2979,6 +3140,37 @@
         "volume": "32"
     },
     {
+        "DOI": "10.1046/j.1420-9101.2003.00609.x",
+        "author": [
+            {
+                "family": "Nuismer",
+                "given": "S. L."
+            },
+            {
+                "family": "Thompson",
+                "given": "J. N."
+            },
+            {
+                "family": "Gomulkiewicz",
+                "given": "R."
+            }
+        ],
+        "container-title": "Journal of Evolutionary Biology",
+        "id": "Nuismer2003CoeHos",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        },
+        "page": "1337-1345",
+        "title": "Coevolution between hosts and parasites with partially overlapping geographic ranges",
+        "type": "article-journal",
+        "volume": "16"
+    },
+    {
         "DOI": "10.1038/nature22975",
         "author": [
             {
@@ -3051,6 +3243,37 @@
         "title": "Ape 5.0: An environment for modern phylogenetics and evolutionary analyses in R",
         "type": "article-journal",
         "volume": "35"
+    },
+    {
+        "DOI": "10.1146/annurev-ecolsys-121415-032321",
+        "author": [
+            {
+                "family": "Parratt",
+                "given": "Steven R."
+            },
+            {
+                "family": "Numminen",
+                "given": "Elina"
+            },
+            {
+                "family": "Laine",
+                "given": "Anna-Liisa"
+            }
+        ],
+        "container-title": "Annual Review of Ecology, Evolution, and Systematics",
+        "id": "Parratt2016InfDis",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "283-306",
+        "title": "Infectious Disease Dynamics in Heterogeneous Landscapes",
+        "type": "article-journal",
+        "volume": "47"
     },
     {
         "DOI": "10.1186/s12898-018-0174-z",
@@ -3276,6 +3499,27 @@
         "volume": "164"
     },
     {
+        "DOI": "10.1017/CBO9780511615030",
+        "author": [
+            {
+                "family": "Price",
+                "given": "Peter W."
+            }
+        ],
+        "id": "Price2002MacThe",
+        "issued": {
+            "date-parts": [
+                [
+                    2002
+                ]
+            ]
+        },
+        "publisher": "Cambridge University Press",
+        "publisher-place": "Cambridge",
+        "title": "Macroevolutionary Theory on Macroecological Patterns",
+        "type": "book"
+    },
+    {
         "DOI": "10.1038/s41597-019-0330-0",
         "author": [
             {
@@ -3456,6 +3700,143 @@
         "title": "GDAL/OGR Geospatial Data Abstraction software Library",
         "type": "book",
         "version": "v3.4.2"
+    },
+    {
+        "DOI": "10.1038/s41579-021-00652-2",
+        "author": [
+            {
+                "family": "Ruiz-Aravena",
+                "given": "Manuel"
+            },
+            {
+                "family": "McKee",
+                "given": "Clifton"
+            },
+            {
+                "family": "Gamble",
+                "given": "Amandine"
+            },
+            {
+                "family": "Lunn",
+                "given": "Tamika"
+            },
+            {
+                "family": "Morris",
+                "given": "Aaron"
+            },
+            {
+                "family": "Snedden",
+                "given": "Celine E."
+            },
+            {
+                "family": "Yinda",
+                "given": "Claude Kwe"
+            },
+            {
+                "family": "Port",
+                "given": "Julia R."
+            },
+            {
+                "family": "Buchholz",
+                "given": "David W."
+            },
+            {
+                "family": "Yeo",
+                "given": "Yao Yu"
+            },
+            {
+                "family": "Faust",
+                "given": "Christina"
+            },
+            {
+                "family": "Jax",
+                "given": "Elinor"
+            },
+            {
+                "family": "Dee",
+                "given": "Lauren"
+            },
+            {
+                "family": "Jones",
+                "given": "Devin N."
+            },
+            {
+                "family": "Kessler",
+                "given": "Maureen K."
+            },
+            {
+                "family": "Falvo",
+                "given": "Caylee"
+            },
+            {
+                "family": "Crowley",
+                "given": "Daniel"
+            },
+            {
+                "family": "Bharti",
+                "given": "Nita"
+            },
+            {
+                "family": "Brook",
+                "given": "Cara E."
+            },
+            {
+                "family": "Aguilar",
+                "given": "Hector C."
+            },
+            {
+                "family": "Peel",
+                "given": "Alison J."
+            },
+            {
+                "family": "Restif",
+                "given": "Olivier"
+            },
+            {
+                "family": "Schountz",
+                "given": "Tony"
+            },
+            {
+                "family": "Parrish",
+                "given": "Colin R."
+            },
+            {
+                "family": "Gurley",
+                "given": "Emily S."
+            },
+            {
+                "family": "Lloyd-Smith",
+                "given": "James O."
+            },
+            {
+                "family": "Hudson",
+                "given": "Peter J."
+            },
+            {
+                "family": "Munster",
+                "given": "Vincent J."
+            },
+            {
+                "family": "Plowright",
+                "given": "Raina K."
+            }
+        ],
+        "container-title": "Nature Reviews Microbiology",
+        "id": "Ruiz-Aravena2022EcoEvo",
+        "issue": "5, 5",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    5
+                ]
+            ]
+        },
+        "page": "299-314",
+        "publisher": "Nature Publishing Group",
+        "title": "Ecology, evolution and spillover of coronaviruses from bats",
+        "type": "article-journal",
+        "volume": "20"
     },
     {
         "DOI": "10.1038/s41467-020-19273-z",
@@ -3751,6 +4132,26 @@
                 "given": "John N"
             }
         ],
+        "id": "Thompson1994CoePro",
+        "issued": {
+            "date-parts": [
+                [
+                    1994
+                ]
+            ]
+        },
+        "publisher": "University of Chicago Press",
+        "publisher-place": "Chicago",
+        "title": "The Coevolutionary Process",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+                "family": "Thompson",
+                "given": "John N"
+            }
+        ],
         "id": "Thompson2005GeoMos",
         "issued": {
             "date-parts": [
@@ -3762,6 +4163,89 @@
         "publisher": "University Of Chicago Press",
         "title": "The Geographic Mosaic of Coevolution",
         "type": "book"
+    },
+    {
+        "DOI": "10.1016/j.tree.2006.11.007",
+        "author": [
+            {
+                "family": "Thrall",
+                "given": "Peter H."
+            },
+            {
+                "family": "Hochberg",
+                "given": "Michael E."
+            },
+            {
+                "family": "Burdon",
+                "given": "Jeremy J."
+            },
+            {
+                "family": "Bever",
+                "given": "James D."
+            }
+        ],
+        "container-title": "Trends in Ecology & Evolution",
+        "id": "Thrall2007CoeSym",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2007,
+                    3
+                ]
+            ]
+        },
+        "page": "120-126",
+        "title": "Coevolution of symbiotic mutualists and parasites in a community context",
+        "type": "article-journal",
+        "volume": "22"
+    },
+    {
+        "author": [
+            {
+                "family": "Turner",
+                "given": "Wendy C"
+            },
+            {
+                "family": "Kamath",
+                "given": "Pauline L"
+            },
+            {
+                "family": "Van Heerden",
+                "given": "Henriette"
+            },
+            {
+                "family": "Huang",
+                "given": "Yen-Hua"
+            },
+            {
+                "family": "Barandongo",
+                "given": "Zoe R"
+            },
+            {
+                "family": "Bruce",
+                "given": "Spencer A"
+            },
+            {
+                "family": "Kausrud",
+                "given": "Kyrre"
+            }
+        ],
+        "container-title": "Royal Society open science",
+        "id": "Turner2021RolEnv",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "210088",
+        "publisher": "The Royal Society",
+        "title": "The roles of environmental variation and parasite survival in virulence\u2013transmission relationships",
+        "type": "article-journal",
+        "volume": "8"
     },
     {
         "DOI": "10.1371/journal.pbio.3000494",
