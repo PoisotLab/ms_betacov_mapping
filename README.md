@@ -298,53 +298,30 @@ host. Not all areas in which bats, viruses, and human are co-occuring are facing
 a risk of spillover towards human populations, and the areas in which this risk
 exist may not be facing risks of the same nature and magnitude.
 
+Previous studies that have used host richness as proxy have predicted a high 
+diversity of unsampled bat viruses [Olival], bat coronaviruses [Anthony], and even
+specifically betacoronaviruses [Becker] in both the Amazon and southeast Asia. While
+we find that both regions are characterized by highly divergent host and viral communities,
+our framework identifies key differences between the regions. We find that Latin America 
+is a hotspot of both host and viral distinctiveness, suggesting that this branch of the 
+bat-betacoronavirus complex may be undergoing independent evolutionary dynamics 
+from the rest of the global pool, but with limited potential for viral diversification---
+a finding that is supported by previous work indicating a higher rate of codivergence in 
+Latin America [Anthony]. In contrast, in southeast Asia, host richness and viral distinctiveness 
+are high but sharing is low; this suggests a different type of evolutionary dynamics that
+could generate high viral diversity locally (see *e.g.* [@Latinne2020OriCro], as well as the
+discovery of recombinant viruses that share genetic material from both the SARS-CoV and SARS-CoV-2
+branches of the Sarbecovirus lineage [Wu]). Both of these regions are priority areas for sampling, 
+especially given predictions by @Becker2022OptPre that they contain many bat hosts of 
+undiscovered betacoronaviruses. However, both the evolutionary and ecological aspects of 
+emergence risk are likely higher in southeast Asia---a fact that will only become more relevant,
+as bats track shifting climates and exchange viruses with other species, creating a hotspot of
+cross-species transmission unique to the region [Carlson].
 
-
-RELOCATE: Indeed, it only assumes the action of well described evolutionary mechanisms.
-The benefit of this approach is to provide the potential for a more dynamic and
-nuanced understanding of risk: not only on ecological timescales, but also by
-providing clues about which areas can change over micro-evolutionary timescales.
-
-
-
-Our study focuses largely on the biogeography of hosts. Specifically, we
-identify the Amazon and South-Eastern Asia as hotspots where the phylogenetic
-distinctiveness of *Betacoronavirus* is the highest [@Anthony2017GloPat];
-surprisingly, current data suggest that viral sharing between hosts is high in
-the Amazon and low in South-Eastern Asia, which has the potential to result in
-different evolutionary dynamics between these two regions, hinting at different
-futures for their viral communities. This work is important both as a
-description of the bats-betacoronaviruses complex, but also because more
-broadly, bats are known reservoirs for a variety of emerging viruses and other
-pathogens [@Calisher2006BatImp;@Melaun2014BatPot], making balancing the needs
-for bat conservation and disease prevention most likely very difficult and a
-source of human-wildlife conflicts, especially in more densely populated areas
-[@Rego2015AssHum; @Stone2015ManCon].
-
-Yet, we know that viruses with high host plasticity, that is, the ability of a
-given virus to adapt to various taxonomic orders and ecological groups
-[@KreuderJohnson2015SpiPan], are more likely to amplify viral spillover,
-followed by secondary human-to-human transmission, and geographical spread
-[@Hazarie2021IntPop]. High viral host plasticity is an especially important
-trait for RNA viruses like betacoronaviruses [@Haddad2021SarPos]. Indeed, our
-analysis of viral sequences reveals that Latin America is a hotspot of viral
-distinctiveness, suggesting that this part of the bats-betacoronaviruses complex
-may be undergoing independent evolutionary dynamics (related species sharing
-viruses that are different from the rest of the global pool). The other hotspot
-of viral distinctiveness is S.E. Asia, in which richness is high but sharing is
-low; this suggests a different type of evolutionary dynamics [unrelated viruses
-coevolving with evolutionarily distinct hosts, generating high diversity
-locally, see *e.g.* @Latinne2020OriCro]. Both of these areas should be priority
-areas for sampling, especially since @Becker2022OptPre advance that they harbor
-undiscovered hosts of beta-coronaviruses. This diversity of hosts, and the
-mechanisms by which the exchange of viruses occurs between species, is largely
-affected by the local environmental conditions and environmental change.
-
-
-There are several factors that drive changes in the diversity of bats
+[para about conservation] There are several factors that drive changes in the diversity of bats
 [@Alves2018GeoVar], but human activities' effects on the ecosystem (like
 modifications of land use) could significantly decrease it. Therefore, it can be
-suggested that changes in the diversity of betacovs in bats are linked to their
+suggested that changes in the diversity of betacoronaviruses in bats are linked to their
 biogeographic variation, and human population density and other anthropogenic
 factors are decisive moderators for its implications in public health. With the
 increase of contact between humans and potential hosts, we also increase the
