@@ -1,63 +1,50 @@
-Spillover risk is multidimensional and complicated. Within a pool of competent
-hosts, it is driven by a multiplicity of factors [@Plowright2017PatZoo].
+Spillover risk is complex and, within a pool of susceptible wildlife 
+hosts, is driven by a multiplicity of factors [@Plowright2017PatZoo].
 Although proxies for the local richness of hosts are commonly analysed
-[@Anthony2017GloPat; @Ruiz-Aravena2022EcoEvo], there is an argument to be made
-that species who are not (known as) competent hosts of a specific virus genus
-may not factor into this [@Plowright2015EcoDyn], calling for species-level
-information. This is especially true as competence data increases predictive
-power when the taxonomic scope of hosts of a viral family increases
-[@Becker2020InfInt; @Mull2022VirIso]. Similarly, host species who share viruses
-at different rates should be weighted accordingly [@Albery2020PreGlo]. In
-mammals, key functional traits (for which phylogeny is a reasonable proxy) are
-determinants of the spillover potential of their viruses [@Olival2017HosVir];
+[@Anthony2017GloPat; @Ruiz-Aravena2022EcoEvo], these approaches deliberately oversimplify 
+interspecific heterogeneity in immunity, behavior, and contact with humans. At the coarsest level, 
+some species play a more central role in the host-virus network because of 
+key functional traits (for which phylogeny is a reasonable proxy) [@Albery2020PreGlo];
 these include, notably, body mass, life history, diet, and use for
-human-occupied spaces [@Albery2022UrbMam]. Finally, especially when the pool of
-potential hosts spans the entire globe, there may be local host pools that are
-highly unique; not having been observed in other locations, these can act on the
-overall risk either by providing novel contact opportunities, reflecting unique
-host-environment combinations [@Engering2013PatHos], or facilitating rapid
-evolutionary changes in specialism of their pathogens [@Agosta2010HowSpe]. In
-the specific case of generalist pathogens [which is the case for many viruses in
-the *Betacoronavirus* genus, see *e.g.* @MacLean2021NatSel], there is conceptual
+human-occupied spaces [@Albery2022UrbMam,@Olival2017HosVir]. Global maps of spillover risk
+often struggle to distill these features into interpretable risk maps, and overlook 
+highly-unique host pools that allow for the rapid evolution of highly divergent viruses 
+[@Agosta2010HowSpe]. In
+the case of generalist pathogens like betacoronaviruses, there is conceptual
 and empirical support to the idea that these community-level mechanisms are even
 more important in driving the overall risk [@Power2004PatSpi]. In this paper, we
-examine the biogeographic structure of bats-betacoronaviruses associations,
-based on a curated dataset of all confirmed bat hosts of betacoronaviruses, by
+examine the biogeographic structure of bat-betacoronavirus associations by
 adopting an analysis framework grounded in concepts from the Geographic Mosaic
 Theory of Coevolution [GMTC; @Thompson2005GeoMos]. The GMTC posits that
 coevolutionary processes between pairs [@Thompson1994CoePro] or complexes
 [@Janzen1980WheIt] of species are structured in space by the rippling effects of
-abiotic conditions onto evolutionary mechansism, resulting in spatially
+abiotic conditions onto evolutionary mechanism, resulting in spatially
 fragmented evolutionary dynamics, coupled only by dispersal-related processes
 [@Gomulkiewicz2000HotSpo]. In turn, these spatially fragmented processes can
-lead taxonomically homogeneous systems (in our case, the bats-betacoronaviruses
-complex) to have different structure and dynamics of large spatial extents [see
+lead taxonomically homogeneous systems to have different structure and dynamics over large spatial extents [see
 *e.g.* @Price2002MacThe].
 
 The GMTC predicts a spatial fragmentation of coevolutionary dynamics under the
 joint action of three processes [see notably @Gomulkiewicz2007DosDon], which all
 have the potential to act on outbreak potential, pathogen tramission, and
-disease virulence [@Turner2021RolEnv; @Parratt2016InfDis]. First hot/cold spots
+disease virulence [@Turner2021RolEnv; @Parratt2016InfDis]. First hot- and coldspots
 of coevolution can appear when the intensity of *interaction* (in terms of
 reciprocal fitness consequences) varies spatially, because of *e.g.* partial
-range overlap between organisms [@Nuismer2003CoeHos]; hot/cold spots are
+range overlap between organisms [@Nuismer2003CoeHos]. Hot- and coldspots are
 notoriously difficult to identify in nature [@Laine2005SpaSca], especially when
-the structure of range overlap is complex, and the reciprocal fitness effets are
-relatively low. Both of these conditions are met in the bats-coronaviruses
-complex. Second, GMTC supposes the existence of selection mosaics, wherein the
-intensity of *selection* (in terms of selective consequences of fitness effects)
-varies across space; the strength of reciprocal selection responds to the biotic
+the structure of range overlap is complex, and the reciprocal fitness effects are
+relatively low---both of which conditions are met in the bat-betacoronavirus
+complex. Second, the GMTC supposes the existence of selection mosaics, wherein the
+intensity of *selection* varies across space; the strength of reciprocal selection responds to the biotic
 complexity of the community [locally diverse hosts and viruses are more
 biotically complex; @Thrall2007CoeSym] *and* to the local favorability of the
 environment [@Hochberg1998AntCoe]. In a system with near global distribution and
-variations in relative richness, like the bats-betacoronaviruses complex, the
-GMTC predicts the establishment of many different coevolutionary trajectories.
+variations in relative richness, like the bat-betacoronavirus complex, the
+GMTC predicts the establishment of many different coevolutionary trajectories (and resulting viral regimes).
 The final GMCT process is trait remixing, under which changes in coevolutionary
 dynamics happen due to the arrival (or departure) of functional traits, through
 changes in community composition due to invasions, meta-community dynamics, and
-disperal; adopting an host-centric perspective, high viral sharing would expose
-the host immune system to multiple new viral traits, thereby changing the
-selection landscape for all viruses.
+disperal; these changes are likely to happen in overlap zones between "long branches" of coevolution.
 
 We turn the processes on the GMTC into definitions of spillover risk from
 viruses to hosts (focusing on the bats-betacoronavirus complex), with a specific
@@ -66,12 +53,12 @@ therefore spatial fragmentation in the risk) through heterogeneity. Our
 components of risk are (i) the phylogenetic diversity of hosts, representing the
 diversification potential of the system (hotspots, selection mosaics), under the
 assumption that bat diversification is not primarily driven by viruses
-[@Gorbunova2020WorGoe]; (ii) the local uniqueness of the bat community,
-representing the potential for viruses to be exposed to novel host traits in
-unusual combinations (cold spots, trait remixing); finally, (iii) viral sharing
-among hosts, representing the potential for hosts to be exposed to complex and
-functionaly diverse communities (trait remixing, biotic complexity). We turn
-these predicates into a spatially explicit additive mapping of zoonotic risk
+[@Gorbunova2020WorGoe]; (ii) viral sharing among hosts, representing levels of 
+viral exchange within host communities that may act as a buffer against viral specialization
+in any given host (i.e., high sharing creates coldspots of selective pressures from any given host species); 
+and (iii) the local uniqueness of the bat community, representing the potential for viruses to be 
+exposed to novel host traits in unusual combinations (trait remixing). We turn these features 
+into a spatially-explicit additive mapping of zoonotic risk
 components, revealing the extreme heterogeneity of risk at the global scale.
 Explicitely framing the notion of spillover risk based on propositions from the
 GMTC (which is to say, based on a framework linking interactions between species
