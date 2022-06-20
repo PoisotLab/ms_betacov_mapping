@@ -1,75 +1,56 @@
-Spillover risk is complex and, within a pool of susceptible wildlife 
-hosts, is driven by a multiplicity of factors [@Plowright2017PatZoo].
-Although proxies for the local richness of hosts are commonly analysed
+Spillover risk is complex and, even within a pool of susceptible wildlife 
+hosts, driven by a multiplicity of factors [@Plowright2017PatZoo].
+Although host richness is often used as a coarse proxy for hotspots of emergence risk
 [@Anthony2017GloPat; @Ruiz-Aravena2022EcoEvo], these approaches deliberately oversimplify 
-interspecific heterogeneity in immunity, behavior, and contact with humans. At the coarsest level, 
-some species play a more central role in the host-virus network because of 
-key functional traits (for which phylogeny is a reasonable proxy) [@Albery2020PreGlo];
-these include, notably, body mass, life history, diet, and use for
-human-occupied spaces [@Albery2022UrbMam,@Olival2017HosVir]. Global maps of spillover risk
+interspecific heterogeneity in immunology, behavior, and other traits. Global maps of spillover risk
 often struggle to distill these features into interpretable risk maps, and overlook 
 highly-unique host pools that allow for the rapid evolution of highly divergent viruses 
-[@Agosta2010HowSpe]. In
-the case of generalist pathogens like betacoronaviruses, there is conceptual
+[@Agosta2010HowSpe]. In the case of generalist pathogens like betacoronaviruses, there is conceptual
 and empirical support to the idea that these community-level mechanisms are even
-more important in driving the overall risk [@Power2004PatSpi]. In this paper, we
-examine the biogeographic structure of bat-betacoronavirus associations by
-adopting an analysis framework grounded in concepts from the Geographic Mosaic
-Theory of Coevolution [GMTC; @Thompson2005GeoMos]. The GMTC posits that
-coevolutionary processes between pairs [@Thompson1994CoePro] or complexes
+more important in driving hotspots of overall risk [@Power2004PatSpi].
+
+These kinds of dynamics lend themselves to interpretation through the lens of
+the Geographic Mosaic Theory of Coevolution [GMTC; @Thompson2005GeoMos], which connects
+microevolutionary dynamics in symbiotic interactions to macroecological dynamics in host communities. 
+The GMTC posits that coevolutionary processes between pairs [@Thompson1994CoePro] or complexes
 [@Janzen1980WheIt] of species are structured in space by the rippling effects of
 abiotic conditions onto evolutionary mechanism, resulting in spatially
 fragmented evolutionary dynamics, coupled only by dispersal-related processes
 [@Gomulkiewicz2000HotSpo]. In turn, these spatially fragmented processes can
 lead taxonomically homogeneous systems to have different structure and dynamics over large spatial extents [see
-*e.g.* @Price2002MacThe].
-
-The GMTC predicts a spatial fragmentation of coevolutionary dynamics under the
+*e.g.* @Price2002MacThe]. The GMTC predicts a spatial fragmentation of coevolutionary dynamics under the
 joint action of three processes [see notably @Gomulkiewicz2007DosDon], which all
 have the potential to act on outbreak potential, pathogen tramission, and
 disease virulence [@Turner2021RolEnv; @Parratt2016InfDis]. First hot- and coldspots
 of coevolution can appear when the intensity of *interaction* (in terms of
 reciprocal fitness consequences) varies spatially, because of *e.g.* partial
-range overlap between organisms [@Nuismer2003CoeHos]. Hot- and coldspots are
-notoriously difficult to identify in nature [@Laine2005SpaSca], especially when
-the structure of range overlap is complex, and the reciprocal fitness effects are
-relatively low---both of which conditions are met in the bat-betacoronavirus
-complex. Second, the GMTC supposes the existence of selection mosaics, wherein the
+range overlap between organisms [@Nuismer2003CoeHos]. Second, the GMTC supposes 
+the existence of selection mosaics, wherein the
 intensity of *selection* varies across space; the strength of reciprocal selection responds to the biotic
 complexity of the community [locally diverse hosts and viruses are more
 biotically complex; @Thrall2007CoeSym] *and* to the local favorability of the
-environment [@Hochberg1998AntCoe]. In a system with near global distribution and
-variations in relative richness, like the bat-betacoronavirus complex, the
-GMTC predicts the establishment of many different coevolutionary trajectories (and resulting viral regimes).
-The final GMCT process is trait remixing, under which changes in coevolutionary
-dynamics happen due to the arrival (or departure) of functional traits, through
+environment [@Hochberg1998AntCoe]. Finally, trait remixing occurs when coevolutionary
+dynamics are driven by the arrival (or departure) of functional traits, through
 changes in community composition due to invasions, meta-community dynamics, and
-disperal; these changes are likely to happen in overlap zones between "long branches" of coevolution.
+disperal. 
+
+Each of these elements can be applied to a relatively quantifiable aspect
+of host-virus ecology: (i) viral sharing among hosts, representing 
+the strength of potential interaction between viruses and any one host (i.e., places where viruses undergo constant host
+switching may be coevolutionary coldspots); (ii) the phylogenetic diversity of hosts, 
+as a proxy for variation in the immunological mechanisms that antagonize viruses (i.e., the selection mosaic); 
+and (iii) the local uniqueness of the bat community, representing the potential for viruses to be 
+exposed to novel host traits (e.g., variation in receptor sequences). Together, we argue that 
+these can be used to identify the evolutionary drivers that---in conjunction with
+transmission processes (e.g., viral prevalence in reservoirs and animal-human contact rates)---
+determine disease emergence risk.
+
+Here, 
 
 We turn the processes on the GMTC into definitions of spillover risk from
 viruses to hosts (focusing on the bats-betacoronavirus complex), with a specific
-emphasis on the potential to create independant coevolutionary dynamics (and
-therefore spatial fragmentation in the risk) through heterogeneity. Our
-components of risk are (i) the phylogenetic diversity of hosts, representing the
-diversification potential of the system (hotspots, selection mosaics), under the
-assumption that bat diversification is not primarily driven by viruses
-[@Gorbunova2020WorGoe]; (ii) viral sharing among hosts, representing levels of 
-viral exchange within host communities that may act as a buffer against viral specialization
-in any given host (i.e., high sharing creates coldspots of selective pressures from any given host species); 
-and (iii) the local uniqueness of the bat community, representing the potential for viruses to be 
-exposed to novel host traits in unusual combinations (trait remixing). We turn these features 
-into a spatially-explicit additive mapping of zoonotic risk
-components, revealing the extreme heterogeneity of risk at the global scale.
-Explicitely framing the notion of spillover risk based on propositions from the
-GMTC (which is to say, based on a framework linking interactions between species
-to change within species) is a novel idea, that should be relatively general.
-Indeed, it only assumes the action of well described evolutionary mechanisms.
-The benefit of this approach is to provide the potential for a more dynamic and
-nuanced understanding of risk: not only on ecological timescales, but also by
-providing clues about which areas can change over micro-evolutionary timescales.
-This provides a way to look at spatial structure by accounting for more notions
-than species richness/similarity, but also a way to identify spatial areas of
-higher risk.
+emphasis on the potential to create independent coevolutionary dynamics (and
+therefore spatial fragmentation in the risk) through heterogeneity. 
 
 # Methods
 
@@ -465,6 +446,14 @@ peninsula where areas of high to moderate risk overlap with areas of denser
 population.](figures/risk_compounded.png){#fig:compound}
 
 # Conclusion
+
+
+RELOCATE: Indeed, it only assumes the action of well described evolutionary mechanisms.
+The benefit of this approach is to provide the potential for a more dynamic and
+nuanced understanding of risk: not only on ecological timescales, but also by
+providing clues about which areas can change over micro-evolutionary timescales.
+
+
 
 Our study focuses largely on the biogeography of hosts. Specifically, we
 identify the Amazon and South-Eastern Asia as hotspots where the phylogenetic
