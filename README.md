@@ -6,8 +6,9 @@ interspecific heterogeneity in immunology, behavior, and other traits, and there
 unique host pools that allow for the rapid evolution of highly divergent viruses 
 [@Agosta2010HowSpe]. In the case of generalist pathogens like betacoronaviruses, 
 there is conceptual and empirical support to the idea that these community-level mechanisms are even
-more important [@Power2004PatSpi]. This creates a disconnect between coevolutionary theory 
-and existing ecological frameworks for mapping spillover risk.
+more important [@Power2004PatSpi], particularly given that cross-species transmission may, as a rule, structure
+viral evolution more than co-divergence with hosts [Geoghegan]. This creates a disconnect between coevolutionary theory 
+(including empirical evidence from virology) and most existing ecological frameworks for mapping spillover risk.
 
 The Geographic Mosaic Theory of Coevolution [GMTC; @Thompson2005GeoMos] attempts to explicitly connect 
 microevolutionary dynamics to the macroecology and biogeography of symbiotic interactions.
@@ -26,7 +27,10 @@ by by the arrival (or departure) of _functional traits_, through changes in comm
 due to invasions, meta-community dynamics, and disperal. 
 
 Here, we apply the GMTC to explore and explain the global biogeography of betacoronaviruses, 
-the group that includes SARS-CoV, MERS-CoV, and SARS-CoV-2. Working from a recently published database 
+the group that includes SARS-CoV, MERS-CoV, and SARS-CoV-2. In their bat reservoirs, coronaviruses
+evolve through a mix of host jumps, recombination among disparate lineages, and, to a lesser degree, 
+co-divergence with their hosts [Anthony]---a mix of mechanisms that creates a complex and nonlinear relationship 
+between host diversity and viral emergence. Working from a recently published database 
 of bat hosts of betacoronaviruses, we develop the first global maps of both host and virus evolutionary
 distinctiveness and biogeographic regions for this system. Aiming to explain these patterns, we develop a 
 generalized framework for applying the GMTC to host-virus interactions, with a specific emphasis on the 
