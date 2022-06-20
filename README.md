@@ -165,7 +165,7 @@ non-existent. These index cases fall within different phylogeographic bioregions
 (@fig:biogeo), which further highlight the issue that different host-virus
 sub-systems may lead to widespread emergence.
 
-## Coevolution-informed spillover risk is different in space
+## Coevolution-informed emergence risk is different in space
 
 As host richness, joint distinctiveness, or phylogeographic structure suggest
 that the bat-betacoronaviruses complex is globally fragmented enough to give
