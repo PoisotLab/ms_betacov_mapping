@@ -7,11 +7,11 @@ unique host pools that allow for the rapid evolution of highly divergent viruses
 [@Agosta2010HowSpe]. In the case of generalist pathogens like betacoronaviruses, 
 there is conceptual and empirical support to the idea that these community-level mechanisms are even
 more important [@Power2004PatSpi]. This creates a disconnect between coevolutionary theory 
-and ecological studies of spillover risk.
+and existing ecological frameworks for mapping spillover risk.
 
 The Geographic Mosaic Theory of Coevolution [GMTC; @Thompson2005GeoMos] attempts to explicitly connect 
 microevolutionary dynamics to the macroecology and biogeography of symbiotic interactions.
-The GMTC posits that coevolutionary processes between pairs [@Thompson1994CoePro] or complexes
+The GMTC posits that coevolutionary processes among pairs [@Thompson1994CoePro] or complexes
 [@Janzen1980WheIt] of species are structured in space by the rippling effects of
 abiotic conditions onto evolutionary mechanism, giving rise to fragmented systems with different 
 structure and ecologically dynamics over large spatial extents [see
@@ -22,17 +22,16 @@ fitness consequences) varies spatially; selection mosaics, wherein the
 intensity of *selection* varies across space, driven by both the biotic complexity of the community 
 (locally diverse hosts and viruses are more biotically complex) and the local favorability 
 of the environment  [@Thrall2007]; and trait remixing, which occurs when coevolutionary dynamics are driven 
-by by the arrival (or departure) of functional traits, through changes in community composition 
+by by the arrival (or departure) of _functional traits_, through changes in community composition 
 due to invasions, meta-community dynamics, and disperal. 
 
-Here, we develop a framework that quantifies each of these elements in light of a measurable aspect
-of host-virus interactions. To do so, we explore the global biogeography of betacoronaviruses, 
+Here, we apply the GMTC to explore and explain the global biogeography of betacoronaviruses, 
 the group that includes SARS-CoV, MERS-CoV, and SARS-CoV-2. Working from a recently published database 
 of bat hosts of betacoronaviruses, we develop the first global maps of both host and virus evolutionary
 distinctiveness and biogeographic regions for this system. Aiming to explain these patterns, we develop a 
 generalized framework for applying the GMTC to host-virus interactions, with a specific emphasis on the 
 potential to create independent coevolutionary dynamics (and therefore spatial fragmentation in risk) through heterogeneity. 
-We develop a trivariate risk assessment system that connects each GMTC mechanism o a quantifiable aspect
+We develop a trivariate risk assessment system that connects each GMTC mechanism to a quantifiable aspect
 of host-virus interactions: (i) viral sharing rates in host communities, representing 
 the strength of potential interaction between viruses and any one host (i.e., places where viruses undergo constant host
 switching may be coevolutionary coldspots); (ii) the phylogenetic diversity of hosts, 
