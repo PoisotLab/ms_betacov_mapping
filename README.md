@@ -298,7 +298,11 @@ host. Not all areas in which bats, viruses, and human are co-occuring are facing
 a risk of spillover towards human populations, and the areas in which this risk
 exist may not be facing risks of the same nature and magnitude.
 
-Previous studies that have used host richness as proxy have predicted a high 
+Here, we propose a simple freamework with broad explanatory power that helps contextualize
+discoveries like highly divergent nobecoviruses in Madagascar and the previously-neglected 
+adaptive radiation of sarbecoviruses outside of southern China and throughout southeast Asia. 
+In doing so, it advances ecological theory beyond the current state of the art for global maps of emergence risk.
+For example, previous studies that have used host richness as proxy have predicted a high 
 diversity of unsampled bat viruses [Olival], bat coronaviruses [Anthony], and even
 specifically betacoronaviruses [Becker] in both the Amazon and southeast Asia. While
 we find that both regions are characterized by highly divergent host and viral communities,
@@ -306,10 +310,11 @@ our framework identifies key differences between the regions. We find that Latin
 is a hotspot of both host and viral distinctiveness, suggesting that this branch of the 
 bat-betacoronavirus complex may be undergoing independent evolutionary dynamics 
 from the rest of the global pool, but with limited potential for viral diversification---
-a finding that is supported by previous work indicating a higher rate of codivergence in 
+a finding that is supported by previous work indicating a higher rate of codivergence in
 Latin America [Anthony]. In contrast, in southeast Asia, host richness and viral distinctiveness 
 are high but sharing is low; this suggests a different type of evolutionary dynamics that
-could generate high viral diversity locally (see *e.g.* [@Latinne2020OriCro], as well as the
+could generate high local diversity of viruses through host switching and viral recombination 
+(see *e.g.* [@Latinne2020OriCro], as well as the
 discovery of recombinant viruses that share genetic material from both the SARS-CoV and SARS-CoV-2
 branches of the Sarbecovirus lineage [Wu]). Both of these regions are priority areas for sampling, 
 especially given predictions by @Becker2022OptPre that they contain many bat hosts of 
@@ -318,7 +323,7 @@ emergence risk are likely higher in southeast Asia---a fact that will only becom
 as bats track shifting climates and exchange viruses with other species, creating a hotspot of
 cross-species transmission unique to the region [Carlson].
 
-[para about conservation] There are several factors that drive changes in the diversity of bats
+[Tim tinker with para about conservation] There are several factors that drive changes in the diversity of bats
 [@Alves2018GeoVar], but human activities' effects on the ecosystem (like
 modifications of land use) could significantly decrease it. Therefore, it can be
 suggested that changes in the diversity of betacoronaviruses in bats are linked to their
@@ -373,7 +378,7 @@ according to recent IUCN data [@IUCN2021IucRed]. The range maps were
 subsequently rasterized using the `rasterize` function from `GDAL`
 [@RouaultEven2022GdaOgr] at a resolution of approximately 100kmx100km. For every
 pixel in the resulting raster where at least one bat host of *Betacoronavirus*
-was present, we extract the species pool (list of all competent bat hosts),
+was present, we extract the species pool (list of all known bat hosts),
 which was used to calculate the following risk assessment components: bat
 phylogenetic diversity, bat compositional uniqueness, and predicted viral
 sharing risk.
