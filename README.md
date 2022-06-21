@@ -9,20 +9,20 @@ case of generalist pathogens like betacoronaviruses, there is conceptual and
 empirical support to the idea that these community-level mechanisms are even
 more important [@Power2004PatSpi], particularly given that cross-species
 transmission may, as a rule, structure viral evolution more than co-divergence
-with hosts [Geoghegan]. This creates a disconnect between coevolutionary theory
+with hosts [@Geoghegan2017ComAna]. This creates a disconnect between coevolutionary theory
 (including empirical evidence from virology) and most existing ecological
 frameworks for mapping spillover risk.
 
-The Geographic Mosaic Theory of Coevolution [GMTC; @Thompson2005GeoMos] attempts
-to explicitly connect microevolutionary dynamics to the macroecology and
-biogeography of symbiotic interactions. The GMTC posits that coevolutionary
-processes among pairs [@Thompson1994CoePro] or complexes [@Janzen1980WheIt] of
-species are structured in space by the rippling effects of abiotic conditions
-onto evolutionary mechanism, giving rise to fragmented systems with different
-structure and ecologically dynamics over large spatial extents [see *e.g.*
-@Price2002MacThe]. The GMTC predicts a spatial fragmentation of coevolutionary
-dynamics under the joint action of three processes [see notably
-@Gomulkiewicz2007DosDon]: coevolutionary hot- and coldspots, which appear when
+The Geographic Mosaic Theory of Coevolution (GMTC) attempts to explicitly
+connect microevolutionary dynamics to the macroecology and biogeography of
+symbiotic interactions [@Thompson2005GeoMos]. The GMTC posits that
+coevolutionary processes among pairs [@Thompson1994CoePro] or complexes
+[@Janzen1980WheIt] of species are structured in space by the rippling effects of
+abiotic conditions onto evolutionary mechanism, giving rise to fragmented
+systems with different structure and ecologically dynamics over large spatial
+extents [@Price2002MacThe]. The GMTC predicts a spatial fragmentation of
+coevolutionary dynamics under the joint action of three processes
+[@Gomulkiewicz2007DosDon]: coevolutionary hot- and coldspots, which appear when
 the intensity of *interaction* (in terms of reciprocal fitness consequences)
 varies spatially; selection mosaics, wherein the intensity of *selection* varies
 across space, driven by both the biotic complexity of the community (locally
@@ -107,8 +107,8 @@ distinctiveness does not accurately track host diversity, with some areas having
 over-distinct viruses (eastern China but, oddly, not the rest of southeast
 Asia). There are a number of likely explanations. First, given the richness of
 bats in southeast Asia, many betacoronaviruses likely remain to be discovered in
-this region. Indeed, global predictions by @Becker2022OptPre highlight that
-southeast Asia is a likely hostpot of unconfirmed hosts of betacoronaviruses,
+this region. Indeed, global predictions highlight that southeast Asia is a
+likely hostpot of unconfirmed hosts of betacoronaviruses [@Becker2022OptPre],
 which would likely result in additional viral discoveries. This idea is
 unsurprising given the growing realization, especially since the emergence of
 SARS-CoV-2, that unique lineages of similar viruses are widespread in bats but
