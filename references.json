@@ -1025,6 +1025,40 @@
         "volume": "61"
     },
     {
+        "DOI": "10.1371/journal.ppat.1006215",
+        "author": [
+            {
+                "family": "Geoghegan",
+                "given": "Jemma L."
+            },
+            {
+                "family": "Duch\u00eane",
+                "given": "Sebasti\u00e1n"
+            },
+            {
+                "family": "Holmes",
+                "given": "Edward C."
+            }
+        ],
+        "container-title": "PLOS Pathogens",
+        "id": "Geoghegan2017ComAna",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2017,
+                    2,
+                    8
+                ]
+            ]
+        },
+        "page": "e1006215",
+        "publisher": "Public Library of Science",
+        "title": "Comparative analysis estimates the relative frequencies of co-divergence and cross-species transmission within viral families",
+        "type": "article-journal",
+        "volume": "13"
+    },
+    {
         "DOI": "10.1086/303382",
         "author": [
             {
