@@ -114,10 +114,10 @@ unsurprising given the growing realization, especially since the emergence of
 SARS-CoV-2, that unique lineages of similar viruses are widespread in bats but
 still mostly undescribed. The most distinct bats-betacoronaviruses complex is
 found in South America, a region with a comparatively lower number of hosts;
-this matches with the isolation through viariance of the host group, and may
-highlight a different co-evolutionary dynamic. Alternatively, this
-distinctiveness hostpot may be a product of under-sampling: South-America is one
-of the places where the fewest *Betacoronavirus* sequences have been discovered
+this matches with isolation through host vicariance, and may highlight a
+different co-evolutionary dynamic. Alternatively, this distinctiveness hostpot
+may be a product of under-sampling: South-America is one of the places where the
+fewest *Betacoronavirus* sequences have been discovered
 [@Anthony2017GloPat;@Allen2017GloHot; @Olival2017HosVir], resulting in sparser
 phylogenetic tree, thereby artificially inflating distinctiveness. Adding more
 viruses would bring the distinctiveness of known sequences down. Finally,
@@ -342,26 +342,22 @@ in southeast Asia---a fact that will only become more relevant, as bats track
 shifting climates and exchange viruses with other species, creating a hotspot of
 cross-species transmission unique to the region [@Carlson2022CliCha].
 
-[Tim tinker with para about conservation] There are several factors that drive
-changes in the diversity of bats [@Alves2018GeoVar], but human activities'
-effects on the ecosystem (like modifications of land use) could significantly
-decrease it. Therefore, it can be suggested that changes in the diversity of
-betacoronaviruses in bats are linked to their biogeographic variation, and human
-population density and other anthropogenic factors are decisive moderators for
-its implications in public health. With the increase of contact between humans
-and potential hosts, we also increase the risk of emergence of novel diseases
-[@Johnson2020GloShi], as previous studies on RNA viruses suggest the importance
-of host phylogeography at the time of virus dispersal [@Gryseels2017WheVir]. One
-of these scenarios where interaction between bats and humans can occur can be
-seed dispersal in tropical agroecosystems. It opens the discussion of whether
-the fruits thrown by bats not only disperse seeds but could also be a source of
-indirect interaction between viruses of bat origin and humans
-[@Deshpande2022ForFru]. This represents a challenge for conservation strategies
-and disease ecology since some areas can haveboth potential for the acquisition
-of zoonotic viruses and bat-human interactions; in particular, the challenge
-lies in the fact that actual exposure must then be quantified accounting for
+The diversity and diversification potential of bats responds to anthropogenic
+factors others than shifting climates [@Alves2018GeoVar]. Land use changes could
+significantly decrease bat suitability, notably through effects on diet and
+availability of habitats [@Treitler2016EffLoc]. As our results establish that
+the diversification of bats betacoronaviruses happens on top of processes
+affecting hosts, biogeographic variation in human population density and
+anthropogenic disturbances may feed into co-evolutionary dynamics. Increase in
+humans-hosts contacts also increase the risk of emergence of novel diseases
+[@Johnson2020GloShi], so does the changes in landscape connectivity at
+local/regional scales [@Gryseels2017WheVir]. This represents a challenge for
+both conservation strategies and disease ecology: some areas can a high
+emergence risk and more potential for the acquisition of zoonotic viruses
+through bat-human encounters [@Amman2011InvRol]. In particular, the challenge
+ahead lies in the need to quantify actual exposure (and risk)  accounting for
 several transmission scenarios, including both direct and indirect bat - human
-interaction.
+interactions, and feeding back into the provision of ecosystem services by bats.
 
 **Acknowledgements**: We acknowledge that this study was conducted on land
 within the traditional unceded territory of the Saint Lawrence Iroquoian,
@@ -372,7 +368,9 @@ des Données (IVADO). This research was enabled in part by support provided by
 Calcul Québec (www.calculquebec.ca) and Compute Canada (www.computecanada.ca).
 NF is funded by the NSERC BIOS² CREATE program. TP and NF are funded by the
 Courtois Foundation. RLM was supported by Bryce Carmine and Anne Carmine (née
-Percival), through the Massey University Foundation.
+Percival), through the Massey University Foundation. DJB was supported by the
+National Institute of General Medical Sciences of the National Institutes of
+Health (P20GM134973).
 
 \newpage
 
@@ -442,11 +440,11 @@ scale, and are therefore applicable at the global scale.
 For all bat hosts of *Betacoronavirus*, we extracted their predicted viral
 sharing network, generated from a previously published generalized additive
 mixed model of virus sharing by a tensor function of phylogenetic distance and
-geographic range overlap [@Albery2020PreGlo]. This network stores pairwise
-values of viral community similarity. To project viral sharing values into a
-single value for every pixel, we averaged the pairwise scores. High values of
-the average sharing propensity means that this specific extant bat assemblage is
-likely to be proficient at exchanging viruses.
+geographic range overlap across mammals [@Albery2020PreGlo]. This network stores
+pairwise values of viral community similarity. To project viral sharing values
+into a single value for every pixel, we averaged the pairwise scores. High
+values of the average sharing propensity means that this specific extant bat
+assemblage is likely to be proficient at exchanging viruses.
 
 ## Composite risk map
 
