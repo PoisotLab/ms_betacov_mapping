@@ -27,16 +27,16 @@ the intensity of *interaction* (in terms of reciprocal fitness consequences)
 varies spatially; selection mosaics, wherein the intensity of *selection* varies
 across space, driven by both the biotic complexity of the community (locally
 diverse hosts and viruses are more biotically complex) and the local
-favorability of the environment  [@Thrall2007]; and trait remixing, which occurs
-when coevolutionary dynamics are driven by by the arrival (or departure) of
-_functional traits_, through changes in community composition due to invasions,
-meta-community dynamics, and disperal. 
+favorability of the environment [@Thrall2007CoeSym]; and trait remixing, which
+occurs when coevolutionary dynamics are driven by by the arrival (or departure)
+of _functional traits_, through changes in community composition due to
+invasions, meta-community dynamics, and disperal.
 
 Here, we apply the GMTC to explore and explain the global biogeography of
 betacoronaviruses, the group that includes SARS-CoV, MERS-CoV, and SARS-CoV-2.
 In their bat reservoirs, coronaviruses evolve through a mix of host jumps,
 recombination among disparate lineages, and, to a lesser degree, co-divergence
-with their hosts [Anthony]---a mix of mechanisms that creates a complex and
+with their hosts [@Anthony2017GloPat]---a mix of mechanisms that creates a complex and
 nonlinear relationship between host diversity and viral emergence. Working from
 a recently published database of bat hosts of betacoronaviruses, we develop the
 first global maps of both host and virus evolutionary distinctiveness and
@@ -319,28 +319,29 @@ the previously-neglected adaptive radiation of sarbecoviruses outside of
 southern China and throughout southeast Asia. In doing so, it advances
 ecological theory beyond the current state of the art for global maps of
 emergence risk. For example, previous studies that have used host richness as
-proxy have predicted a high diversity of unsampled bat viruses [Olival], bat
-coronaviruses [Anthony], and even specifically betacoronaviruses [Becker] in
-both the Amazon and southeast Asia. While we find that both regions are
-characterized by highly divergent host and viral communities, our framework
-identifies key differences between the regions. We find that Latin America is a
-hotspot of both host and viral distinctiveness, suggesting that this branch of
-the bat-betacoronavirus complex may be undergoing independent evolutionary
-dynamics from the rest of the global pool, but with limited potential for viral
-diversification--- a finding that is supported by previous work indicating a
-higher rate of codivergence in Latin America [Anthony]. In contrast, in
-southeast Asia, host richness and viral distinctiveness are high but sharing is
-low; this suggests a different type of evolutionary dynamics that could generate
-high local diversity of viruses through host switching and viral recombination
-(see *e.g.* [@Latinne2020OriCro], as well as the discovery of recombinant
-viruses that share genetic material from both the SARS-CoV and SARS-CoV-2
-branches of the Sarbecovirus lineage [Wu]). Both of these regions are priority
-areas for sampling, especially given predictions by @Becker2022OptPre that they
-contain many bat hosts of undiscovered betacoronaviruses. However, both the
-evolutionary and ecological aspects of emergence risk are likely higher in
-southeast Asia---a fact that will only become more relevant, as bats track
+proxy have predicted a high diversity of unsampled bat viruses
+[@Olival2017HosVir], bat coronaviruses [@Anthony2017GloPat], and even
+specifically betacoronaviruses [@Becker2022OptPre] in both the Amazon and
+southeast Asia. While we find that both regions are characterized by highly
+divergent host and viral communities, our framework identifies key differences
+between the regions. We find that Latin America is a hotspot of both host and
+viral distinctiveness, suggesting that this branch of the bat-betacoronavirus
+complex may be undergoing independent evolutionary dynamics from the rest of the
+global pool, but with limited potential for viral diversification--- a finding
+that is supported by previous work indicating a higher rate of codivergence in
+Latin America [@Anthony2017GloPat]. In contrast, in southeast Asia, host
+richness and viral distinctiveness are high but sharing is low; this suggests a
+different type of evolutionary dynamics that could generate high local diversity
+of viruses through host switching and viral recombination (see *e.g.*
+[@Latinne2020OriCro], as well as the discovery of recombinant viruses that share
+genetic material from both the SARS-CoV and SARS-CoV-2 branches of the
+Sarbecovirus lineage [@Wu2021ComSur]). Both of these regions are priority areas
+for sampling, especially given predictions that they contain many bat hosts of
+undiscovered betacoronaviruses [@Becker2022OptPre; @Cohen2022SamStr]. However,
+both the evolutionary and ecological aspects of emergence risk are likely higher
+in southeast Asia---a fact that will only become more relevant, as bats track
 shifting climates and exchange viruses with other species, creating a hotspot of
-cross-species transmission unique to the region [Carlson].
+cross-species transmission unique to the region [@Carlson2022CliCha].
 
 [Tim tinker with para about conservation] There are several factors that drive
 changes in the diversity of bats [@Alves2018GeoVar], but human activities'
