@@ -492,14 +492,13 @@ sequence or that contained words indicating recombinant or laboratory strains
 including “patent”, “mutant”, “GFP”, and “recombinant”. We filtered
 over-represented taxa including betacoronavirus 1, hCoV-OC43, Middle East
 respiratory syndrome coronavirus, Murine hepatitis virus, and hCoV-HKU1. Curated
-betacoronavirus RdRp sequences were then aligned using MAFFT v 1.4.0
-[@Katoh2013MafMul; Algorithm FFT-NS-2, Scoring matrix 200PAM / k=2, gap open
-penalty 1.53m offset value 0.123] and a maximum likelihood tree reconstructed in
-IQ-TREE v 1.6.12 [@Nguyen2015IqtFas] with ModelFinder
-[@Kalyaanamoorthy2017ModFas] ultrafast bootstrap approximation
-[@Hoang2018UfbImp] with a general time reversible model with empirical base
-frequencies and the 5-discrete-rate-category FreeRaye model of nucleotide
-substitution (GTR+F+R5).
+betacoronavirus RdRp sequences were then aligned using MAFFT [@Katoh2013MafMul]
+v1.4.0 (Algorithm FFT-NS-2, Scoring matrix 200PAM / k=2, gap open penalty 1.53m
+offset value 0.123) and a maximum likelihood tree reconstructed in IQ-TREE
+[@Nguyen2015IqtFas] v1.6.12 with ModelFinder [@Kalyaanamoorthy2017ModFas]
+ultrafast bootstrap approximation [@Hoang2018UfbImp] with a general time
+reversible model with empirical base frequencies and the
+5-discrete-rate-category FreeRaye model of nucleotide substitution (GTR+F+R5).
 
 We first tested the hypothesis that hotspots of viral diversification would
 track hotspots of bat diversification. To do so, we plotted the number of known
@@ -533,5 +532,6 @@ then take the first two principal components and, as with the evolutionary
 distinctiveness analysis, aggregated these to a mean host value and projected
 them using a four-color bivariate map.
 
+\newpage
 
 # References
