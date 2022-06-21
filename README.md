@@ -380,13 +380,13 @@ Percival), through the Massey University Foundation.
 
 ## Known *Betacoronavirus* hosts
 
-We downloaded the data on bats hosts of *Betacoronavirus* assembled by
-@Becker2022OptPre from `https://www.viralemergence.org/betacov` on Apr. 2022,
-and filtered it to "known" hosts (established before the emergence of
-SARS-CoV-2) and "novel" hosts (confirmed through sampling and competence assays
-since the initial data collection). The original database was assembled by a
-combination of data mining and literature surveys, including automated alerts on
-the "bats" and "coronavirus" keywords to identify novel empirical evidence of
+We downloaded the data on bats hosts of *Betacoronavirus* from
+`https://www.viralemergence.org/betacov` on Apr. 2022 [@Becker2022OptPre], and
+filtered it to "known" hosts (established before the emergence of SARS-CoV-2)
+and "novel" hosts (confirmed through sampling and competence assays since the
+initial data collection). The original database was assembled by a combination
+of data mining and literature surveys, including automated alerts on the "bats"
+and "coronavirus" keywords to identify novel empirical evidence of
 bats-betacoronaviruses associations; this yielded a total of 126 known hosts, 47
 of which were novel hosts.
 
@@ -463,14 +463,14 @@ intensity of the overall risk, but also the nature of the risk as colors diverge
 towards combinations of values for three risk components. Out of the possible
 combinations, the most risky in terms or rapid diversification and spillover
 potential is high phylogenetic diversity and low viral sharing
-[@Cavender-Bares2009MerCom; @Gomulkiewicz2000HotSpo], in that this allows
-multiple independent host-virus coevolutionary dynamics to take place in the
-same location. In the colorimetric space, this correspond to yellow -- because
-the HSV space is more amenable to calculations for feature extraction [see
-*e.g.* @Keke2010StuSki], we measured the risk level by calculating the angular
-distance of the hue of each pixel to a reference value of 60, and weighted this
-risk level by the value component. Specifically, given a pixel with colorimetric
-coordinates $(h,s,v)$, its ranged weighted risk value is
+[@Gomulkiewicz2000HotSpo], in that this allows multiple independent host-virus
+coevolutionary dynamics to take place in the same location. In the colorimetric
+space, this correspond to yellow -- because the HSV space is more amenable to
+calculations for feature extraction [@Keke2010StuSki], we measured the risk
+level by calculating the angular distance of the hue of each pixel to a
+reference value of 60 (yellow), and weighted this risk level by the value
+component. Specifically, given a pixel with colorimetric coordinates $(h,s,v)$,
+its ranged weighted risk value is
 
 $$
 v\times\left[1-\frac{\left|\text{atan}\left(\text{cos}(\text{rad}(h)), \text{sin}(\text{rad}(h))\right) - X\right|}{2\pi}\right]\,,
