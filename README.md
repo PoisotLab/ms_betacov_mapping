@@ -65,7 +65,7 @@ as the main animal reservoir for different strains of betacoronaviruses
 of bats, and therefore presumably high diversity of betacoronaviruses, can be an
 important issue for human health [@Calisher2006BatImp; @Moratelli2015BatZoo]. By
 overlaying the IUCN range maps for confirmed bat hosts of betacoronaviruses
-[@fig:richness; top], we see that the the main hotspots (both in terms of size
+(@fig:richness; top), we see that the the main hotspots (both in terms of size
 and higher values) of host richness are primarily South-Eastern Asia, parts of
 Southern Europe, and to a lesser extent parts of Africa in the -25-0 range of
 latitudes. The description of host richness is an important first step towards
@@ -182,18 +182,17 @@ As host richness, joint distinctiveness, or phylogeographic structure suggest
 that the bat-betacoronaviruses complex is globally fragmented enough to give
 rise to both different levels of risk (as evidenced by the spatial location of
 spillover events) and different types of co-evolutionary dynamics, we turn to
-the Geographic Mosaic Theory of Coevolution [@Thompson2005GeoMos] to provide a
-measure of risk accounting for multiple processes. In @fig:trivariate, we
-overlapped three components of spillover risk: viral sharing, *i.e.* the chance
-that two bats will share viruses overall; Local Contribution to Beta Diversity,
-*i.e.* the fact that a bat community is compositionally unique compared to the
-average compositional similarity across the entire system; finally, host
-phylogenetic diversity, *i.e.* how dispersed the bats in a location are within
-the tree of life. This approach leads to the definition of broad biogeographic
-regions of risk, where the same color represents the same type of risk. By way
-of constrat to figures @fig:richness and @fig:biogeo, these regions do not
-necessarilly overlap with previous spatial partitions of the
-bat-betacoronaviruses complex.
+the Geographic Mosaic Theory of Coevolution to provide a measure of risk
+accounting for multiple processes. In @fig:trivariate, we overlapped three
+components of spillover risk: viral sharing, *i.e.* the chance that two bats
+will share viruses overall; Local Contribution to Beta Diversity, *i.e.* the
+fact that a bat community is compositionally unique compared to the average
+compositional similarity across the entire system; finally, host phylogenetic
+diversity, *i.e.* how dispersed the bats in a location are within the tree of
+life. This approach leads to the definition of broad biogeographic regions of
+risk, where the same color represents the same type of risk. By way of constrat
+to figures @fig:richness and @fig:biogeo, these regions do not necessarilly
+overlap with previous spatial partitions of the bat-betacoronaviruses complex.
 
 ![Trivariate additive mapping of the components of risk in the red/green/blue,
 where high virus sharing is encoded in the blue channel, host phylogenetic
@@ -214,7 +213,7 @@ co-occurrence of sufficiently distinct viruses to be a major driver of
 emergence. In @fig:trivariate, this corresponds to yellow to pale green areas,
 which are essentially limited to South-Eastern Asia, and to some part of
 Sub-Saharan Africa. Adopting a geographic mosaic theory perspective on risk,
-other regions of the world are of lesser concern [@fig:risk]. Our risk
+other regions of the world are of lesser concern (@fig:risk). Our risk
 decomposition does not account for viral diversity or distinctiveness. The
 simple rationale behind it is that the acquisition of viral data is rarely
 disconnected from the acquisition of host data. There are more sources of
@@ -224,8 +223,8 @@ traits related to *e.g.* ability to switch hosts or pathogenic potential). Areas
 with high bat diversity and high turnover *may* facilitate the evolutionary
 radiation of viruses, matching previous findings that the diversification of bat
 coronaviruses is driven largely by host shifts (inter-genus or higher levels of
-cross-species transmission) and, to a lesser degree, cospeciation and sharing
-[intra-genus cross-species transmission; @Anthony2017GloPat]. This
+cross-species transmission) and, to a lesser degree, cospeciation and sharing,
+representing intra-genus cross-species transmission [@Anthony2017GloPat]. This
 diversification is not an actual risk factor for spillover itself, but acts
 downstream of a spillover event by increasing the random chance of the emergence
 of a virus with the raw genomic components required for the potential to infect
@@ -243,7 +242,7 @@ From another perspective, areas of high host uniqueness and virus sharing
 unique viruses (via codivergence) and in turn recombination. Under our
 framework, such a hotspot was identified in Madagascar, where most bat species
 are endemic following evolutionary divergence from sister species in both
-African and Asian continents [*e.g.* @Shi2014DeeDiv]. Recent surveillance
+African and Asian continents [@Shi2014DeeDiv]. Recent surveillance
 [@Kettenburg2022FulGen] has identified a novel *Betacoronavirus* (in the
 subgenus *Nobecovirus*) in Madagascar-endemic pteropid bat species (*Pteropus
 rufus*, *Rousettus madagascariensis*), emphasizing strong proof of principle in
@@ -276,10 +275,10 @@ that different types of contact had different impacts. Ideally, finer-grained
 information about human activity (rather than human presence through
 anthropisation) could allow to partition this risk further, alebit at the cost
 of more hypotheses required to estimate the amount of risk represented by each
-activity. Our map of risk overlays with recent results from @Cohen2022SamStr --
-areas of purported high risk/diversitifcation potential (Madagascar,
-South-America) overlay with sampling gaps for *Betacoronavirus*, stressing the
-need for spatially targeted monitoring and discovery.
+activity. Our map of purported high risk/diversitifcation potential (Madagascar,
+South-America) overlay with sampling gaps for *Betacoronavirus*
+[@Cohen2022SamStr], stressing the need for spatially targeted monitoring and
+discovery.
 
 ![Overlap of the percent of each pixel occupied by urbanized structures,
 representing the degree of settlement, on the spillover risk map (where the risk
