@@ -759,17 +759,16 @@ Courtois Foundation. RLM was supported by Bryce Carmine and Anne Carmine
 \subsection{\texorpdfstring{Known \emph{Betacoronavirus}
 hosts}{Known Betacoronavirus hosts}}\label{known-betacoronavirus-hosts}}
 
-We downloaded the data on bats hosts of \emph{Betacoronavirus} assembled
-by\textsuperscript{21} from
-\texttt{https://www.viralemergence.org/betacov} on Apr.~2022, and
-filtered it to ``known'' hosts (established before the emergence of
-SARS-CoV-2) and ``novel'' hosts (confirmed through sampling and
-competence assays since the initial data collection). The original
-database was assembled by a combination of data mining and literature
-surveys, including automated alerts on the ``bats'' and ``coronavirus''
-keywords to identify novel empirical evidence of bats-betacoronaviruses
-associations; this yielded a total of 126 known hosts, 47 of which were
-novel hosts.
+We downloaded the data on bats hosts of \emph{Betacoronavirus} from
+\texttt{https://www.viralemergence.org/betacov} on
+Apr.~2022,\textsuperscript{21} and filtered it to ``known'' hosts
+(established before the emergence of SARS-CoV-2) and ``novel'' hosts
+(confirmed through sampling and competence assays since the initial data
+collection). The original database was assembled by a combination of
+data mining and literature surveys, including automated alerts on the
+``bats'' and ``coronavirus'' keywords to identify novel empirical
+evidence of bats-betacoronaviruses associations; this yielded a total of
+126 known hosts, 47 of which were novel hosts.
 
 \hypertarget{bat-occurrences}{%
 \subsection{Bat occurrences}\label{bat-occurrences}}
@@ -859,13 +858,13 @@ intensity of the overall risk, but also the nature of the risk as colors
 diverge towards combinations of values for three risk components. Out of
 the possible combinations, the most risky in terms or rapid
 diversification and spillover potential is high phylogenetic diversity
-and low viral sharing,\textsuperscript{64,65} in that this allows
-multiple independent host-virus coevolutionary dynamics to take place in
-the same location. In the colorimetric space, this correspond to yellow
--- because the HSV space is more amenable to calculations for feature
-extraction,\textsuperscript{see \emph{e.g.} 66} we measured the risk
-level by calculating the angular distance of the hue of each pixel to a
-reference value of 60, and weighted this risk level by the value
+and low viral sharing,\textsuperscript{64} in that this allows multiple
+independent host-virus coevolutionary dynamics to take place in the same
+location. In the colorimetric space, this correspond to yellow --
+because the HSV space is more amenable to calculations for feature
+extraction,\textsuperscript{65} we measured the risk level by
+calculating the angular distance of the hue of each pixel to a reference
+value of 60 (yellow), and weighted this risk level by the value
 component. Specifically, given a pixel with colorimetric coordinates
 \((h,s,v)\), its ranged weighted risk value is
 
@@ -895,11 +894,11 @@ indicating recombinant or laboratory strains including ``patent'',
 taxa including betacoronavirus 1, hCoV-OC43, Middle East respiratory
 syndrome coronavirus, Murine hepatitis virus, and hCoV-HKU1. Curated
 betacoronavirus RdRp sequences were then aligned using
-MAFFT\textsuperscript{67} v1.4.0 (Algorithm FFT-NS-2, Scoring matrix
+MAFFT\textsuperscript{66} v1.4.0 (Algorithm FFT-NS-2, Scoring matrix
 200PAM / k=2, gap open penalty 1.53m offset value 0.123) and a maximum
-likelihood tree reconstructed in IQ-TREE\textsuperscript{68} v1.6.12
-with ModelFinder\textsuperscript{69} ultrafast bootstrap
-approximation\textsuperscript{70} with a general time reversible model
+likelihood tree reconstructed in IQ-TREE\textsuperscript{67} v1.6.12
+with ModelFinder\textsuperscript{68} ultrafast bootstrap
+approximation\textsuperscript{69} with a general time reversible model
 with empirical base frequencies and the 5-discrete-rate-category
 FreeRaye model of nucleotide substitution (GTR+F+R5).
 
@@ -909,7 +908,7 @@ number of known bat hosts (specifically only those included in the
 phylogeny, so there was a 1:1 correspondence between data sources)
 against the ``mean evolutionary distinctiveness'' of the associated
 viruses. To calculate this, we derived the fair proportions evolutionary
-distinctiveness\textsuperscript{71} for each of the viruses in the tree,
+distinctiveness\textsuperscript{70} for each of the viruses in the tree,
 then averaged these at the bat species level, projected these values
 onto their geographic distributions, and averaged across every bat found
 in a given pixel. As such, this can be thought of as a map of the mean
@@ -922,7 +921,7 @@ hotspots}\label{co-distribution-of-hosts-and-viral-hotspots}}
 
 Subsequently, we tested the hypothesis that the biogeography of bat
 betacoronaviruses should track the biogeography of their hosts. To test
-this idea, we loosely adapted a method from,\textsuperscript{72,73} who
+this idea, we loosely adapted a method from,\textsuperscript{71,72} who
 proposed a phylogenetic method for the delineation of animal
 biogeographic regions. In their original method, a distance matrix -
 where each row or column represents a geographic raster's grid cell, and
@@ -932,7 +931,7 @@ community assemble - undergoes non-metric multidimensional scaling
 using a four-color bivariate map. Here, we build on this idea with an
 entirely novel methodology. First, we measure the phylogenetic distance
 between the different viruses in the betacoronaviruses tree by using the
-cophenetic function in \texttt{ape};\textsuperscript{74} subsequently,
+cophenetic function in \texttt{ape};\textsuperscript{73} subsequently,
 we take a principal components analysis of that distance matrix (readily
 interchangeable for NMDS in this case) to project the viral tree into an
 n-dimensional space. We then take the first two principal components
@@ -1340,73 +1339,67 @@ phylogeography. \emph{Nature Communications} \textbf{11}, 2260 (2020).}
 geography of lake carbon cycling. \emph{Limnology and Oceanography
 Letters} \textbf{3}, 49--56 (2018).}
 
-\leavevmode\hypertarget{ref-Cavender-Bares2009MerCom}{}%
-\CSLLeftMargin{64. }
-\CSLRightInline{Cavender-Bares, J., Kozak, K. H., Fine, P. V. A. \&
-Kembel, S. W. The merging of community ecology and phylogenetic biology.
-\emph{Ecol. Lett.} \textbf{12}, 693--715 (2009).}
-
 \leavevmode\hypertarget{ref-Gomulkiewicz2000HotSpo}{}%
-\CSLLeftMargin{65. }
+\CSLLeftMargin{64. }
 \CSLRightInline{Gomulkiewicz, R., Thompson, J. N., Holt, R. D., Nuismer,
 S. L. \& Hochberg, M. E. Hot Spots, Cold Spots, and the Geographic
 Mosaic Theory of Coevolution. \emph{The American Naturalist}
 \textbf{156}, 156--174 (2000).}
 
 \leavevmode\hypertarget{ref-Keke2010StuSki}{}%
-\CSLLeftMargin{66. }
+\CSLLeftMargin{65. }
 \CSLRightInline{Keke, S., Peng, Z. \& Guohui, L. Study on skin color
 image segmentation used by Fuzzy-c-means arithmetic. in \emph{2010
 Seventh International Conference on Fuzzy Systems and Knowledge
 Discovery} vol. 2 612--615 (2010).}
 
 \leavevmode\hypertarget{ref-Katoh2013MafMul}{}%
-\CSLLeftMargin{67. }
+\CSLLeftMargin{66. }
 \CSLRightInline{Katoh, K. \& Standley, D. M. MAFFT Multiple Sequence
 Alignment Software Version 7: Improvements in Performance and Usability.
 \emph{Molecular Biology and Evolution} \textbf{30}, 772--780 (2013).}
 
 \leavevmode\hypertarget{ref-Nguyen2015IqtFas}{}%
-\CSLLeftMargin{68. }
+\CSLLeftMargin{67. }
 \CSLRightInline{Nguyen, L.-T., Schmidt, H. A., von Haeseler, A. \& Minh,
 B. Q. IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating
 Maximum-Likelihood Phylogenies. \emph{Molecular Biology and Evolution}
 \textbf{32}, 268--274 (2015).}
 
 \leavevmode\hypertarget{ref-Kalyaanamoorthy2017ModFas}{}%
-\CSLLeftMargin{69. }
+\CSLLeftMargin{68. }
 \CSLRightInline{Kalyaanamoorthy, S., Minh, B. Q., Wong, T. K. F., von
 Haeseler, A. \& Jermiin, L. S. ModelFinder: Fast model selection for
 accurate phylogenetic estimates. \emph{Nature Methods} \textbf{14},
 587--589 (2017).}
 
 \leavevmode\hypertarget{ref-Hoang2018UfbImp}{}%
-\CSLLeftMargin{70. }
+\CSLLeftMargin{69. }
 \CSLRightInline{Hoang, D. T., Chernomor, O., von Haeseler, A., Minh, B.
 Q. \& Vinh, L. S. UFBoot2: Improving the Ultrafast Bootstrap
 Approximation. \emph{Molecular Biology and Evolution} \textbf{35},
 518--522 (2018).}
 
 \leavevmode\hypertarget{ref-Isaac2007MamEdg}{}%
-\CSLLeftMargin{71. }
+\CSLLeftMargin{70. }
 \CSLRightInline{Isaac, N. J. B., Turvey, S. T., Collen, B., Waterman, C.
 \& Baillie, J. E. M. Mammals on the EDGE: Conservation Priorities Based
 on Threat and Phylogeny. \emph{PLOS ONE} \textbf{2}, e296 (2007).}
 
 \leavevmode\hypertarget{ref-Kreft2007GloPat}{}%
-\CSLLeftMargin{72. }
+\CSLLeftMargin{71. }
 \CSLRightInline{Kreft, H. \& Jetz, W. Global patterns and determinants
 of vascular plant diversity. \emph{Proceedings of the National Academy
 of Sciences} \textbf{104}, 5925--5930 (2007).}
 
 \leavevmode\hypertarget{ref-Kreft2010FraDel}{}%
-\CSLLeftMargin{73. }
+\CSLLeftMargin{72. }
 \CSLRightInline{Kreft, H. \& Jetz, W. A framework for delineating
 biogeographical regions based on species distributions. \emph{Journal of
 Biogeography} \textbf{37}, 2029--2053 (2010).}
 
 \leavevmode\hypertarget{ref-Paradis2019ApeEnv}{}%
-\CSLLeftMargin{74. }
+\CSLLeftMargin{73. }
 \CSLRightInline{Paradis, E. \& Schliep, K. Ape 5.0: An environment for
 modern phylogenetics and evolutionary analyses in R.
 \emph{Bioinformatics} \textbf{35}, 526--528 (2019).}
