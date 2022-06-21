@@ -217,6 +217,77 @@
         "volume": "27"
     },
     {
+        "URL": "https://www.fao.org/publications/card/fr/c/2323df68-29fd-51de-9846-23c890937459/",
+        "author": [
+            {
+                "family": "Amman",
+                "given": "Brian R"
+            },
+            {
+                "family": "Barrett",
+                "given": "Janine"
+            },
+            {
+                "family": "Jong",
+                "given": "Carol",
+                "non-dropping-particle": "de"
+            },
+            {
+                "family": "Epstein",
+                "given": "Jonathan H."
+            },
+            {
+                "family": "Field",
+                "given": "Hume"
+            },
+            {
+                "family": "Kuzmin",
+                "given": "Ivan H."
+            },
+            {
+                "family": "Mildenstein",
+                "given": "Tammy"
+            },
+            {
+                "family": "Newman",
+                "given": "Scott H."
+            },
+            {
+                "family": "Nichol",
+                "given": "Stuart"
+            },
+            {
+                "family": "Smith",
+                "given": "Craig"
+            },
+            {
+                "family": "Tong",
+                "given": "Suxiang"
+            },
+            {
+                "family": "Towner",
+                "given": "Jonathan"
+            },
+            {
+                "family": "Wang",
+                "given": "Lin-Fa"
+            }
+        ],
+        "collection-title": "FAO Animal Production and Health manual",
+        "id": "Amman2011InvRol",
+        "issued": {
+            "date-parts": [
+                [
+                    2011
+                ]
+            ]
+        },
+        "publisher": "FAO",
+        "publisher-place": "Rome",
+        "title": "Investigating the role of bats in emerging zoonoses: Balancing ecology, conservation and public health interest",
+        "type": "book"
+    },
+    {
         "DOI": "10.1038/s41598-020-67666-3",
         "author": [
             {
@@ -4233,6 +4304,44 @@
         "title": "Coevolution of symbiotic mutualists and parasites in a community context",
         "type": "article-journal",
         "volume": "22"
+    },
+    {
+        "DOI": "10.1002/ece3.2160",
+        "PMCID": "PMC4930980",
+        "author": [
+            {
+                "family": "Treitler",
+                "given": "Julia T."
+            },
+            {
+                "family": "Heim",
+                "given": "Olga"
+            },
+            {
+                "family": "Tschapka",
+                "given": "Marco"
+            },
+            {
+                "family": "Jung",
+                "given": "Kirsten"
+            }
+        ],
+        "container-title": "Ecology and Evolution",
+        "id": "Treitler2016EffLoc",
+        "issue": "13",
+        "issued": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    27
+                ]
+            ]
+        },
+        "page": "4289-4297",
+        "title": "The effect of local land use and loss of forests on bats and nocturnal insects",
+        "type": "article-journal",
+        "volume": "6"
     },
     {
         "author": [
