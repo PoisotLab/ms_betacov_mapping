@@ -57,7 +57,9 @@ we argue that these can be used to identify and map the evolutionary drivers
 that---in conjunction with transmission processes (e.g., viral prevalence in
 reservoirs and animal-human contact rates)--- determine disease emergence risk. 
 
-# Host richness does not predict virus distinctiveness
+# Results and Discussion
+
+## Host richness does not predict virus distinctiveness
 
 Bats, the second most diverse groups of mammals, are found worldwide and serve
 as the main animal reservoir for different strains of betacoronaviruses
@@ -125,7 +127,7 @@ South-America is the range of Phyllostomidae, a group of bats that underwent
 explosive diversification events [@Villalobos2010DivFie], which may drive the
 emergence of multiple viral lineages.
 
-# The phylogeographic regions of hosts and their viruses overlap
+## The phylogeographic regions of hosts and their viruses overlap
 
 Despite the difference in evolutionary distinctiveness globally, there are
 reasons to expect that the phylogeography of bats and betacoronaviruses should
@@ -176,7 +178,7 @@ non-existent. These index cases fall within different phylogeographic bioregions
 (@fig:biogeo), which further highlight the issue that different host-virus
 sub-systems may lead to widespread emergence.
 
-# Coevolution-informed emergence risk is different in space
+## Coevolution-informed emergence risk is different in space
 
 As host richness, joint distinctiveness, or phylogeographic structure suggest
 that the bat-betacoronaviruses complex is globally fragmented enough to give
@@ -248,7 +250,7 @@ subgenus *Nobecovirus*) in Madagascar-endemic pteropid bat species (*Pteropus
 rufus*, *Rousettus madagascariensis*), emphasizing strong proof of principle in
 model predictions.
 
-# Human occupancy drives different levels of effective risk globally
+## Human occupancy drives different levels of effective risk globally
 
 Based on the previous result, we extracted the risk component from the composite
 map (see Methods), to provide a single measure of risk varying between 0 and 1.
