@@ -69,7 +69,7 @@ maps.](figures/combined_biogeo.png){#fig:biogeo}
 
 Overall, these results suggest that the boundaries of bat and betacoronavirus biogeographic regions are largely consistent. This may be surprising, given that cospeciation plays a minor role in coronavirus diversification [@Anthony2017GloPat], a property that would theoretically allow for substantial broad divergence in their biogeography. However, host jumps at the family level or higher are relatively rare and significant events in coronavirus evolutionary history [@Anthony2017GloPat; @Latinne2020OriCro]; as a result, the mosaic of betacoronavirus phylogeography is assembled from a set of overlapping smaller coevolutionary systems, superimposed in space and filtered by the importance of different subgroups in local host communities. For example, the most speciose and cosmopolitan family of bats, the vesper bats (Vespertilionidae), are considered the primary reservoir of merbecoviruses [@Latinne2020OriCro; @Ruiz-Aravena2022EcoEvo]; but in the Americas, where merbecoviruses are the only lineage present, they have only been found in other bat taxa. At the coarsest scale, these heterogeneities are lost, and betacoronavirus biogeography tracks the deep rifts in bat evolutionary history---but within broad regions, the component coevolutionary systems may have very different dynamics.
 
-## Hotspots of host richness and viral diversification are distinct
+## Coevolutionary regimes create distinct hotspots of betacoronavirus biodiversity
 
 Bats, the second most diverse groups of mammals, are found worldwide; gradients
 in their species richness generally track broader patterns of mammal diversity, 
@@ -77,9 +77,9 @@ with a striking Neotropical hotspot (especially in the Amazon basin) and
 a secondary hotspot centered in the southeast Asian peninsula. These 
 hotspots of bat diversity are generally presumed to be hotspots of viral adaptive radiation, 
 and therefore areas of concern for human health. [@Anthony2017GloPat;@Olival2017HosVir]
-However, the hotspots of bat betacoronavirus reservoirs show a distinct pattern, with
+However, the hotspots of known bat betacoronavirus hosts show a distinct pattern, with
 primary hotspots (both in terms of size and higher values) of host richness situated
-primarily southeast Asia, parts of southern Europe, and to a lesser extent parts of 
+in southeast Asia, parts of southern Europe, and to a lesser extent parts of 
 Africa in the -25-0 range of latitudes (@fig:richness; top). Although hundreds of species
 likely host undiscovered betacoronaviruses, machine learning predictions have suggested 
 that these undiscovered reservoirs should follow the same diversity gradient [@Becker2022OptPre].
