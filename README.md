@@ -178,19 +178,11 @@ subgenus *Nobecovirus*) in Madagascar-endemic pteropid bat species (*Pteropus
 rufus*, *Rousettus madagascariensis*), emphasizing strong proof of principle in
 model predictions.
 
-## Human occupancy drives different levels of effective risk globally
+## Human landscapes filter the geography of emergence risk
 
-Based on the previous result, we extracted the risk component from the composite
-map (see Methods), to provide a single measure of risk varying between 0 and 1.
-This measure is presented in @fig:risk. As this map represents the potential
-risk, it must be weighed by the potential for contacts with humans. As a proxy
-for this measure, we used the proportion of build/urban land from the EarthEnv
-dataset: this is a reasonable proxy for the density of humans per unit area,
-which increases the probability of pathogen spread more widely
-[@Hazarie2021IntPop]. Since human activity is required to amplify the frequency
-of virus encounters and thus create areas of viral amplification, mapping the
-potential risk against measures of land use is required to generate a more
-actionable assessment of risk. This map is presented in @fig:compound. Most of
+The relationship between the underlying pathogen pool and emergence risk is mediated by human-wildlife contact and the risk that spillovers become epidemics. As a proxy for both, we finally overlaid the risk component from the composite map (see above) with the proportion of built land, as a proxy for a mix of habitat disturbance, potential for bat synanthropy, and human population density and connectivity [@Plowright2017PatZoo; @Hazarie2021IntPop] (add: Muylaert 2022 Proc B; Hassell 2017 TREE) (@fig:compound).
+
+Most of
 South America and Europe are at comparatively lower risk, as although densely
 populated, settlements tend to be in areas with lower potential risk. Regions
 like Malaysia and the North coast of Australia have a high risk component, but
