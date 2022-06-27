@@ -59,71 +59,54 @@ reservoirs and animal-human contact rates)--- determine disease emergence risk.
 
 # Results and Discussion
 
-## Host richness does not predict virus distinctiveness
+## Hotspots of host richness and viral diversification are distinct
 
 Bats, the second most diverse groups of mammals, are found worldwide; gradients
-in bat species richness generally track broader patterns of mammal diversity, 
+in their species richness generally track broader patterns of mammal diversity, 
 with a striking Neotropical hotspot (especially in the Amazon basin) and 
 a secondary hotspot centered in the southeast Asian peninsula. These 
-hotspots of bat diversity are generally presumed to be hotspots of viral diversity, 
+hotspots of bat diversity are generally presumed to be hotspots of viral adaptive radiation, 
 and therefore areas of concern for human health. [@Anthony2017GloPat;@Olival2017HosVir]
 However, the hotspots of bat betacoronavirus reservoirs show a distinct pattern, with
 primary hotspots (both in terms of size and higher values) of host richness situated
-primarily South-Eastern Asia, parts of Southern Europe, and to a lesser extent parts of 
-Africa in the -25-0 range of latitudes (Fig. 1; top). Although hundreds of species
+primarily southeast Asia, parts of southern Europe, and to a lesser extent parts of 
+Africa in the -25-0 range of latitudes (@fig:richness; top). Although hundreds of species
 likely host undiscovered betacoronaviruses, machine learning predictions have suggested 
 that these undiscovered reservoirs should follow the same diversity gradient [@Becker2022OptPre].
+In principle, these hotspots of locally-diverse, virus-rich bat communities should
+drive more adaptive diversification in their viruses. 
 
 ![Top panel: relative diversity of known bat hosts of betacoronaviruses. This
 map shows that the region with the largest number of possible hosts is
 South-Eastern Asia. Bottom panel: congruence between the evolutionary
-distinctiveness of the hosts (grey to blue) and the viruses (grey to red). By
-contrast to the richness map, this reveals that South America has the most
-evolutionary distinct hosts *and* viruses, whereas South-Eastern Asia and the
-Rift Valley region have mostly distinct viruses. This is congruent with know
-results about New World bats being evolutionary distinct, and suggests that they
-similarly have distinct viruses.](figures/combined_richness.png){#fig:richness}
+distinctiveness of the hosts (grey to blue) and the viruses (grey to red).](figures/combined_richness.png){#fig:richness}
 
-Nevertheless, locally diverse and virus-rich bat communities could represent an
-increased risk of spillover under climate change through the creation of novel
-interactions [@Carlson2022CliCha], and therefore the diversity of
-*Betacoronavirus* strains should similarly be ccounted for. In @fig:richness
-(bottom), we contrast the evolutionary distinctiveness of bats and viruses --
-this reveals a slightly different portrait than bat richness alone. Chiropterans
-can be classified, from a macro-evolutionary standpoint, as Yangochiroptera and
-Yinpterochiroptera elsewhere [@Springer2013PhyBat; @Teeling2005MolPhy].
-Specifically, we would expect that the so-called "New World" group of bats,
-being more evolutionary distinct, would also have evolutionary distinct viruses.
-Indeed @fig:richness (bottom) reveals it to be the case, and this region harbors
-a distinct bat-betacoronaviruses complex. This can be explained by the fact that
-Yangochiroptera, although not limited to the western hemisphere, contain the
-highly diverse adaptive radiation in the Phyllostomidae [@Villalobos2010DivFie],
-which is restricted to the western hemisphere. By contrast, South-Eastern Asia
-has a lot of non-evolutionary distinct bats, who nevertheless hosted
-evolutionary-distinct viruses.
+However, we find that the global pattern of betacoronavirus phylogenetic distinctiveness 
+is quite distinct from both bat host richness and phylogenetic distinctiveness (@fig:richness; bottom). 
+In contrast to the sparsity of Neotropical betacoronavirus hosts, South America has the most
+evolutionary distinct hosts *and* viruses, followed by secondary hotspots in southeast Asia and the
+Rift Valley region have mostly distinct viruses. Some degree of sampling bias may contribute to 
+these patterns: for example, South-America is one of the places where the fewest bat betacoronavirus
+sequences have been generated [@Anthony2017GloPat;@Allen2017GloHot; @Olival2017HosVir],
+resulting in a sparser phylogenetic tree, and artificially inflating distinctiveness; conversely,
+disproportionate research effort in eastern China [@Cohen2022SamStr] may have led to a more
+complete inventory of the local diversity of coronaviruses, again inflating these metrics
+relative to underlying patterns. Even accounting for these potential biases, though, there are obvious
+and distinctive regional regimes of bat-betacoronavirus diversification.
 
-It is noteworthy that outside of South America, viral evolutionary
-distinctiveness does not accurately track host diversity, with some areas having
-over-distinct viruses (eastern China but, oddly, not the rest of southeast
-Asia). There are a number of likely explanations. First, given the richness of
-bats in southeast Asia, many betacoronaviruses likely remain to be discovered in
-this region. Indeed, global predictions highlight that southeast Asia is a
-likely hostpot of unconfirmed hosts of betacoronaviruses [@Becker2022OptPre],
-which would likely result in additional viral discoveries. This idea is
-unsurprising given the growing realization, especially since the emergence of
-SARS-CoV-2, that unique lineages of similar viruses are widespread in bats but
-still mostly undescribed. The most distinct bats-betacoronaviruses complex is
-found in South America, a region with a comparatively lower number of hosts;
-this matches with isolation through host vicariance, and may highlight a
-different co-evolutionary dynamic. Alternatively, this distinctiveness hostpot
-may be a product of under-sampling: South-America is one of the places where the
-fewest *Betacoronavirus* sequences have been discovered
-[@Anthony2017GloPat;@Allen2017GloHot; @Olival2017HosVir], resulting in sparser
-phylogenetic tree, thereby artificially inflating distinctiveness. Adding more
-viruses would bring the distinctiveness of known sequences down. Finally,
-South-America is the range of Phyllostomidae, a group of bats that underwent
-explosive diversification events [@Villalobos2010DivFie], which may drive the
-emergence of multiple viral lineages.
+These global patterns recapitulate the evolutionary history of both the order Chiroptera and 
+the genus _Betacoronavirus_. Horseshoe bats (Rhinolophidae) are both the reservoirs of the SARS-like viruses 
+(subgenus _Sarbecovirus_) and the presumed ancestral host of _Betacoronavirus_ [@Latinne2020OriCro]. The 
+hotspot of host richness and viral diversity in southeast Asia---both of which are disproportionately high
+considering the global landscape of bat species richness---is almost entirely driven by dynamics in this clade 
+[@Becker2022OptPre; @Ruiz-Aravena2022EcoEvo]. In contrast, the Neotropical hotspot is driven by a combination of distinct
+bat and virus adaptive radiation. The hotspot of bat diversity in the Americas is driven by the New World leaf-nosed bats 
+(Phyllostomidae) [@Villalobos2010DivFie], a group of bats that have undergone multiple explosive diversification events---
+but that are more often hosts of alphacoronaviruses. Out of the four main groups of betacoronaviruses,
+only the subgenus _Merbecovirus_---the outgroup of the betacoronavirus tree---has been found in New World bats;
+while found worldwide, the merbecoviruses are almost entirely restricted to vesper bats (Vespertilionidae)
+[]. In this light, the hotspot of virus distinctiveness in the Americas is the result of isolation by
+vicariance--- a unique branch of coronavirus-bat coevolution, separate from the rest of the globe.
 
 ## The phylogeographic regions of hosts and their viruses overlap
 
