@@ -1,17 +1,4 @@
 \begin{figure}
-\hypertarget{fig:richness}{%
-\centering
-\includegraphics{figures/combined_richness.png}
-\caption{Top panel: relative diversity of known bat hosts of
-betacoronaviruses. This map shows that the region with the largest
-number of possible hosts is South-Eastern Asia. Bottom panel: congruence
-between the evolutionary distinctiveness of the hosts (grey to blue) and
-the viruses (grey to red).}\label{fig:richness}
-}
-\end{figure}
-\efloatseparator
- 
-\begin{figure}
 \hypertarget{fig:biogeo}{%
 \centering
 \includegraphics{figures/combined_biogeo.png}
@@ -21,6 +8,19 @@ relatedness. The different colors show tendencies to separate alongside
 the first two components of a PCoA. Note that the PCoA for the bats and
 viruses are independent, and so cannot be compared directly -- that
 being said, the regions can be compared across maps.}\label{fig:biogeo}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:richness}{%
+\centering
+\includegraphics{figures/combined_richness.png}
+\caption{Top panel: relative diversity of known bat hosts of
+betacoronaviruses. This map shows that the region with the largest
+number of possible hosts is South-Eastern Asia. Bottom panel: congruence
+between the evolutionary distinctiveness of the hosts (grey to blue) and
+the viruses (grey to red).}\label{fig:richness}
 }
 \end{figure}
 \efloatseparator
