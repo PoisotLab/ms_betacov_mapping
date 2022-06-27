@@ -61,20 +61,18 @@ reservoirs and animal-human contact rates)--- determine disease emergence risk.
 
 ## Host richness does not predict virus distinctiveness
 
-Bats, the second most diverse groups of mammals, are found worldwide and serve
-as the main animal reservoir for different strains of betacoronaviruses
-[@Drexler2014EcoEvo]. This has attracted attention to areas where high diversity
-of bats, and therefore presumably high diversity of betacoronaviruses, can be an
-important issue for human health [@Calisher2006BatImp; @Moratelli2015BatZoo]. By
-overlaying the IUCN range maps for confirmed bat hosts of betacoronaviruses
-(@fig:richness; top), we see that the the main hotspots (both in terms of size
-and higher values) of host richness are primarily South-Eastern Asia, parts of
-Southern Europe, and to a lesser extent parts of Africa in the -25-0 range of
-latitudes. The description of host richness is an important first step towards
-understanding risk, as previous research
-[@Anthony2017GloPat;@Mollentze2020VirZoo] states that locally diverse bat
-communities could maintain more viruses and hence, a higher probability of
-having a pathogen that could represent a risk for human health.
+Bats, the second most diverse groups of mammals, are found worldwide; gradients
+in bat species richness generally track broader patterns of mammal diversity, 
+with a striking Neotropical hotspot (especially in the Amazon basin) and 
+a secondary hotspot centered in the southeast Asian peninsula. These 
+hotspots of bat diversity are generally presumed to be hotspots of viral diversity, 
+and therefore areas of concern for human health. [@Anthony2017GloPat;@Olival2017HosVir]
+However, the hotspots of bat betacoronavirus reservoirs show a distinct pattern, with
+primary hotspots (both in terms of size and higher values) of host richness situated
+primarily South-Eastern Asia, parts of Southern Europe, and to a lesser extent parts of 
+Africa in the -25-0 range of latitudes (Fig. 1; top). Although hundreds of species
+likely host undiscovered betacoronaviruses, machine learning predictions have suggested 
+that these undiscovered reservoirs should follow the same diversity gradient [@Becker2022OptPre].
 
 ![Top panel: relative diversity of known bat hosts of betacoronaviruses. This
 map shows that the region with the largest number of possible hosts is
@@ -129,7 +127,7 @@ emergence of multiple viral lineages.
 
 ## The phylogeographic regions of hosts and their viruses overlap
 
-Despite the difference in evolutionary distinctiveness globally, there are
+Despite differences in hotspots of evolutionary distinctiveness, there are
 reasons to expect that the phylogeography of bats and betacoronaviruses should
 show some degree of congruence [@VanBrussel2022ZooDis; @Letko2020BatVir]. In
 particular, this should be the case if viruses can circulate among hosts and
