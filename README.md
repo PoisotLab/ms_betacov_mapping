@@ -91,22 +91,10 @@ sequences have been generated [@Anthony2017GloPat;@Allen2017GloHot; @Olival2017H
 resulting in a sparser phylogenetic tree, and artificially inflating distinctiveness; conversely,
 disproportionate research effort in eastern China [@Cohen2022SamStr] may have led to a more
 complete inventory of the local diversity of coronaviruses, again inflating these metrics
-relative to underlying patterns. Even accounting for these potential biases, though, there are obvious
-and distinctive regional regimes of bat-betacoronavirus diversification.
+relative to underlying patterns. Even accounting for these potential biases, though, there is obvious 
+heterogeneity in betacoronavirus evolutionary distinctiveness.
 
-These global patterns recapitulate the evolutionary history of both the order Chiroptera and 
-the genus _Betacoronavirus_. Horseshoe bats (Rhinolophidae) are both the reservoirs of the SARS-like viruses 
-(subgenus _Sarbecovirus_) and the presumed ancestral host of _Betacoronavirus_ [@Latinne2020OriCro]. The 
-hotspot of host richness and viral diversity in southeast Asia---both of which are disproportionately high
-considering the global landscape of bat species richness---is almost entirely driven by dynamics in this clade 
-[@Becker2022OptPre; @Ruiz-Aravena2022EcoEvo]. In contrast, the Neotropical hotspot is driven by a combination of distinct
-bat and virus adaptive radiation. The hotspot of bat diversity in the Americas is driven by the New World leaf-nosed bats 
-(Phyllostomidae) [@Villalobos2010DivFie], a group of bats that have undergone multiple explosive diversification events---
-but that are more often hosts of alphacoronaviruses. Out of the four main groups of betacoronaviruses,
-only the subgenus _Merbecovirus_---the outgroup of the betacoronavirus tree---has been found in New World bats;
-while found worldwide, the merbecoviruses are almost entirely restricted to vesper bats (Vespertilionidae)
-[]. In this light, the hotspot of virus distinctiveness in the Americas is the result of isolation by
-vicariance--- a unique branch of coronavirus-bat coevolution, separate from the rest of the globe.
+These patterns recapitulate the evolutionary history of both the order Chiroptera and the genus _Betacoronavirus_. Horseshoe bats (Rhinolophidae) are both the reservoirs of the SARS-like viruses  (subgenus _Sarbecovirus_) and the presumed ancestral host of _Betacoronavirus_ [@Latinne2020OriCro]. The hotspot of host richness and viral diversity in southeast Asia---both of which are disproportionately high, considering the global landscape of bat species richness---is almost entirely driven by adaptive radiation in this clade[@Becker2022OptPre; @Ruiz-Aravena2022EcoEvo]. In contrast, the Neotropical hotspot of viral distinctiveness is the result of isolation by vicariance for both bats and their viruses. Out of the four main groups of betacoronaviruses, only the subgenus _Merbecovirus_ has been found in animals in the Americas---an introduction that is generally presumed to be ancient. While comparatively understudied, New World merbecoviruses have been found in the ghost-faced bats (Mormoopidae), New World leaf-nosed bats (Phyllostomidae), and free-tailed bats (Molossidae) (add cite: Olival 2020 PLoS Pathogens). The former two groups are endemic to the Neotropics, while the latter two and particularly the phyllostomids are responsible for the hotspot of bat diversity in the Amazon. Together, these groups play host to a distinct regime of bat-betacoronavirus coevolution in the Americas.
 
 ## The phylogeographic regions of hosts and their viruses overlap
 
