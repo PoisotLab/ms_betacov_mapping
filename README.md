@@ -13,7 +13,7 @@ with hosts [@Geoghegan2017ComAna]. This creates a disconnect between
 coevolutionary theory and most existing ecological frameworks for mapping
 spillover risk.
 
-The Geographic Mosaic Theory of Coevolution (GMTC) attempts to explicitly
+The geographic mosaic theory of coevolution (GMTC) attempts to explicitly
 connect microevolutionary dynamics to the macroecology and biogeography of
 symbiotic interactions [@Thompson2005GeoMos]. The GMTC posits that
 coevolutionary processes among pairs [@Thompson1994CoePro] or complexes
@@ -168,24 +168,29 @@ hotspot of bat diversity in the Amazon [@Ammerman2012FirMol]. Together, these
 clades of New World bats play host to a distinct regime of betacoronavirus
 coevolution.
 
-## Coevolution-informed emergence risk is different in space
+## The coevolutionary mosaic generates emergence regimes 
 
-Both the diverse origins of betacoronavirus spillover events and the existence
-of well defined co-phylogenetic regions suggest that the system is spatially
-fragmented enough to create risks of emergence that are different in their
-amplitude and in the coevolutionary processes underlying them. Therefore, we
-turn to the Geographic Mosaic Theory of Coevolution to provide an assesment of
-risk accounting for these processes. In @fig:trivariate, we overlapped three
-components of spillover risk: viral sharing (high viral sharing suggests slower,
-diffuse coevolution); host phylogenetic diversity (high diversity represents
-different evolutionary histories, suggesting more variation in immune
-strategies); host community uniqueness (high uniqueness suggests more potential
-for viruses to be exposed to novel host traits). This approach leads to the
-definition of broad biogeographic regions of risk, where close colors represent
-similar risks, and paler pixels represent overall higher risk (see Methods).
-These regions do not neatly overlap with those defined in @fig:richness or
-@fig:biogeo, reinforcing the notion that local-scale coevolutionary mosaics
-exist within co-phylogenetic regions.
+The existence of well-defined cophylogenetic regions suggests that the bat-betacoronavirus
+system is spatially fragmented enough to create differential coevolutionary processes; in turn,
+the coevolutionary mosaic contributes to heterogeneity in emergence risk. These ideas are, respectively, 
+supported by the existence of hotspots of viral uniqueness and the diverse origins of human betacoronaviruses.
+Together, these ideas point to a predictable relationship between host community structure
+and coevolutionary pressure: phylogeographic structure in bat hosts---and their diverse immune 
+strategies [@Banerjee2020NovIns]---creates a landscape of selective pressure; the trajectory of
+viruses' coevolutionary response is, in turn, constrained by the opportunities they have for either
+coevolutionary specialization or diversification through host jumps and recombination.
+
+Based on the geographic mosaic theory of coevolution, we developed a trivariate map of 
+three facets of coevolutionary pressure (see Methods): (1) _host phylogenetic diversity_: a high diversity of 
+evolutionary histories should expose viruses to more variation in host immune traits; (2) _host 
+community uniqueness_: coevolving with more unique host communities should create more unique 
+branches of viral evolution; and (3) propensity for _viral sharing_: frequent cross-species transmission 
+may  act as a buffer on selective pressure, while lower rates of exchange may enable more simultaneous 
+trajectories of viral specialization to coexist within a given community. We combine global maps 
+of all three to generate a map of coevolutionary regimes, where close colors represent similar risks, 
+and paler pixels represent overall higher risk (@fig:trivariate). We find that these regions do not 
+neatly overlap with those defined in @fig:richness or @fig:biogeo, reinforcing the notion that local-scale 
+coevolutionary mosaics can form within cophylogenetic regions.
 
 ![Trivariate additive mapping of the components of risk in the red/green/blue,
 where high virus sharing is encoded in the blue channel, host phylogenetic
