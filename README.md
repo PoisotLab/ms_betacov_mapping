@@ -196,7 +196,9 @@ coevolutionary mosaics can form within cophylogenetic regions.
 ![Trivariate additive mapping of the components of risk. Viral sharing runs from yellow (low) to blue (high); 
 host phylogenetic diversity runs from pink (low) to high (green) channel, and compositional uniqueness runs from 
 cyan (low) to red (high). The GMTC suggests that the highest evolutionary potential for emergence exists in 
-unique and diverse host communities with low viral sharing, *i.e.* pixels around yellow.](figures/risk_trivariate.png){#fig:trivariate}
+unique and diverse host communities with low viral sharing, *i.e.* pixels around yellow. All components are 
+scaled in brightness so that a pixel with no sharing, no phylogenetic diversity, and no compositional uniqueness 
+would be black, and a pixel with maximal values for each would be white.](figures/risk_trivariate.png){#fig:trivariate}
 
 The greatest evolutionary potential for zoonotic emergence exists where pathogen pools 
 have a high genetic diversity and high propensity for cross-species transmission. In our
@@ -225,12 +227,9 @@ and highly divergent lineage of nobecoviruses from Madagascar-endemic pteropid b
 (*Pteropus rufus* and *Rousettus madagascariensis*), again supporting the predictive power
 of the coevolutionary framework. 
 
-![Extraction of a measure of *Betacoronavirus* emergence risk from bat hosts
-based on the colorimetric space from @fig:trivariate. The risk is a composite
-measure of the color value and angular distance to the yellow hue, as defined in
-the methods, ranged in the unit space. Based on these analyses, South-Eastern
-Asia, Madagascar, the Middle-East, and Africa below the Sahara desert have the
-highest relative risk of emergence.](figures/risk_map.png){#fig:risk}
+![Evolutionary potential for zoonotic emergence of bat-origin betacoronaviruses. Risk is a 
+composite measure of the color value and angular distance to the yellow hue in @fig:trivariate
+(see Methods).](figures/risk_map.png){#fig:risk}
 
 ## Human landscapes filter the geography of emergence risk
 
