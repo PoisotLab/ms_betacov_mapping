@@ -168,7 +168,7 @@ hotspot of bat diversity in the Amazon [@Ammerman2012FirMol]. Together, these
 clades of New World bats play host to a distinct regime of betacoronavirus
 coevolution.
 
-## Host landscapes generate a coevolutionary mosaic
+## Coevolutionary regimes structure evolutionary risk of zoonotic emergence
 
 The existence of well-defined cophylogenetic regions suggests that the bat-betacoronavirus
 system is spatially fragmented enough to create differential coevolutionary processes; in turn,
