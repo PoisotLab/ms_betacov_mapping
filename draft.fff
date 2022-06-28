@@ -32,13 +32,14 @@ the viruses (grey to red).}\label{fig:richness}
 \caption{Trivariate additive mapping of the components of risk in the
 red/green/blue, where high virus sharing is encoded in the blue channel,
 host phylogenetic diversity in the green channel, and compositional
-uniqueness in the red channel. A pixel that would maximize all measures
-(highest possible risk) would be a pure white (specifically RGB(1.0,
-1.0. 1.0)), and a pixel with the lowest possible values would be pure
-black (specifically RGB(0.0, 0.0, 0.0)). Therefore, lighter values (the
-sum of the three channels gets closer to 3) indicate higher risk, and
-the color indicates the proportional distribution of the factors making
-up the total risk.}\label{fig:trivariate}
+uniqueness in the red channel. The main driver of emergence risk
+(possibility of spatially overlapped but coevolutionarily indepent
+host-viral dynamics) corresponds to low viral sharing, \emph{i.e.}
+pixels around yellow. Pixels in the yellow-green space (Africa)
+correspond to areas where, despite the potential for viral
+diversification, coevolutionary dynamics are likely to currently be
+dominated by the effect of host phylogenetic
+diversity.}\label{fig:trivariate}
 }
 \end{figure}
 \efloatseparator
@@ -47,12 +48,13 @@ up the total risk.}\label{fig:trivariate}
 \hypertarget{fig:risk}{%
 \centering
 \includegraphics{figures/risk_map.png}
-\caption{Extraction of a measure of \emph{Betacoronavirus} spillover
+\caption{Extraction of a measure of \emph{Betacoronavirus} emergence
 risk from bat hosts based on the colorimetric space from
 fig.~\ref{fig:trivariate}. The risk is a composite measure of the color
 value and angular distance to the yellow hue, as defined in the methods,
-ranged in the unit space. Based on this analyses, regions at high risk
-of spillover are southeast Asia and Madagascar.}\label{fig:risk}
+ranged in the unit space. Based on these analyses, South-Eastern Asia,
+Madagascar, the Middle-East, and Africa below the Sahara desert have the
+highest relative risk of emergence.}\label{fig:risk}
 }
 \end{figure}
 \efloatseparator

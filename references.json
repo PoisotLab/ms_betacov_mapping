@@ -288,6 +288,39 @@
         "type": "book"
     },
     {
+        "DOI": "10.1644/11-MAMM-A-103.1",
+        "author": [
+            {
+                "family": "Ammerman",
+                "given": "Loren K."
+            },
+            {
+                "family": "Lee",
+                "given": "Dana N."
+            },
+            {
+                "family": "Tipps",
+                "given": "T. Marie"
+            }
+        ],
+        "container-title": "Journal of Mammalogy",
+        "id": "Ammerman2012FirMol",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2012,
+                    2,
+                    16
+                ]
+            ]
+        },
+        "page": "12-28",
+        "title": "First molecular phylogenetic insights into the evolution of free-tailed bats in the subfamily Molossinae (Molossidae, Chiroptera)",
+        "type": "article-journal",
+        "volume": "93"
+    },
+    {
         "DOI": "10.1038/s41598-020-67666-3",
         "author": [
             {
@@ -349,6 +382,98 @@
         "title": "Finding hotspots: Development of an adaptive spatial sampling approach",
         "type": "article-journal",
         "volume": "10"
+    },
+    {
+        "DOI": "10.1099/vir.0.049759-0",
+        "PMCID": "PMC3709589",
+        "author": [
+            {
+                "family": "Anthony",
+                "given": "S. J."
+            },
+            {
+                "family": "Ojeda-Flores",
+                "given": "R."
+            },
+            {
+                "family": "Rico-Ch\u00e1vez",
+                "given": "O."
+            },
+            {
+                "family": "Navarrete-Macias",
+                "given": "I."
+            },
+            {
+                "family": "Zambrana-Torrelio",
+                "given": "C. M."
+            },
+            {
+                "family": "Rostal",
+                "given": "M. K."
+            },
+            {
+                "family": "Epstein",
+                "given": "J. H."
+            },
+            {
+                "family": "Tipps",
+                "given": "T."
+            },
+            {
+                "family": "Liang",
+                "given": "E."
+            },
+            {
+                "family": "Sanchez-Leon",
+                "given": "M."
+            },
+            {
+                "family": "Sotomayor-Bonilla",
+                "given": "J."
+            },
+            {
+                "family": "Aguirre",
+                "given": "A. A."
+            },
+            {
+                "family": "\u00c1vila-Flores",
+                "given": "R."
+            },
+            {
+                "family": "Medell\u00edn",
+                "given": "R. A."
+            },
+            {
+                "family": "Goldstein",
+                "given": "T."
+            },
+            {
+                "family": "Suz\u00e1n",
+                "given": "G."
+            },
+            {
+                "family": "Daszak",
+                "given": "P."
+            },
+            {
+                "family": "Lipkin",
+                "given": "W. I."
+            }
+        ],
+        "container-title": "The Journal of General Virology",
+        "id": "Anthony2013CorBat",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    5
+                ]
+            ]
+        },
+        "page": "1028-1038",
+        "title": "Coronaviruses in bats from Mexico",
+        "type": "article-journal",
+        "volume": "94"
     },
     {
         "DOI": "10.1093/ve/vex012",
@@ -699,6 +824,62 @@
         "title": "Evolutionary origins of the SARS-CoV-2 sarbecovirus lineage responsible for the COVID-19 pandemic",
         "type": "article-journal",
         "volume": "5"
+    },
+    {
+        "DOI": "10.1590/S1413-86702008000600003",
+        "author": [
+            {
+                "family": "Brand\u00e3o",
+                "given": "Paulo Eduardo"
+            },
+            {
+                "family": "Scheffer",
+                "given": "Karin"
+            },
+            {
+                "family": "Villarreal",
+                "given": "Laura Yaneth"
+            },
+            {
+                "family": "Achkar",
+                "given": "Samira"
+            },
+            {
+                "family": "Oliveira",
+                "given": "Rafael de Novaes"
+            },
+            {
+                "family": "Fahl",
+                "given": "Willian de Oliveira"
+            },
+            {
+                "family": "Castilho",
+                "given": "Juliana Galera"
+            },
+            {
+                "family": "Kotait",
+                "given": "Ivanete"
+            },
+            {
+                "family": "Richtzenhain",
+                "given": "Leonardo Jos\u00e9"
+            }
+        ],
+        "container-title": "Brazilian Journal of Infectious Diseases",
+        "id": "Brandao2008CorDet",
+        "issued": {
+            "date-parts": [
+                [
+                    2008,
+                    12
+                ]
+            ]
+        },
+        "page": "466-468",
+        "publisher": "Brazilian Society of Infectious Diseases",
+        "title": "A coronavirus detected in the vampire bat Desmodus rotundus",
+        "type": "article-journal",
+        "volume": "12"
     },
     {
         "DOI": "10.1128/CMR.00017-06",
@@ -1179,6 +1360,117 @@
         "title": "Comparative analysis estimates the relative frequencies of co-divergence and cross-species transmission within viral families",
         "type": "article-journal",
         "volume": "13"
+    },
+    {
+        "DOI": "10.3201/eid1910.130525",
+        "PMCID": "PMC3810755",
+        "author": [
+            {
+                "family": "G\u00f3es",
+                "given": "Luiz Gustavo Bentim"
+            },
+            {
+                "family": "Ruvalcaba",
+                "given": "Sicilene Gonzalez"
+            },
+            {
+                "family": "Campos",
+                "given": "Ang\u00e9lica Almeida"
+            },
+            {
+                "family": "Queiroz",
+                "given": "Luzia Helena"
+            },
+            {
+                "family": "Carvalho",
+                "given": "Cristiano",
+                "non-dropping-particle": "de"
+            },
+            {
+                "family": "Jerez",
+                "given": "Jos\u00e9 Antonio"
+            },
+            {
+                "family": "Durigon",
+                "given": "Edison Luiz"
+            },
+            {
+                "family": "D\u00e1valos",
+                "given": "Luis Ignacio I\u00f1iguez"
+            },
+            {
+                "family": "Dominguez",
+                "given": "Samuel R."
+            }
+        ],
+        "container-title": "Emerging Infectious Diseases",
+        "id": "Goes2013NovBat",
+        "issue": "10",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    10
+                ]
+            ]
+        },
+        "page": "1711-1713",
+        "title": "Novel Bat Coronaviruses, Brazil and Mexico",
+        "type": "article-journal",
+        "volume": "19"
+    },
+    {
+        "DOI": "10.1016/j.meegid.2016.07.034",
+        "PMCID": "PMC7106056",
+        "author": [
+            {
+                "family": "G\u00f3es",
+                "given": "Luiz Gustavo Bentim"
+            },
+            {
+                "family": "Campos",
+                "given": "Ang\u00e9lica Cristine de Almeida"
+            },
+            {
+                "dropping-particle": "de",
+                "family": "Carvalho",
+                "given": "Cristiano"
+            },
+            {
+                "family": "Ambar",
+                "given": "Guilherme"
+            },
+            {
+                "family": "Queiroz",
+                "given": "Luzia Helena"
+            },
+            {
+                "family": "Cruz-Neto",
+                "given": "Ariovaldo Pereira"
+            },
+            {
+                "family": "Munir",
+                "given": "Muhammad"
+            },
+            {
+                "family": "Durigon",
+                "given": "Edison Luiz"
+            }
+        ],
+        "container-title": "Infection, Genetics and Evolution: Journal of Molecular Epidemiology and Evolutionary Genetics in Infectious Diseases",
+        "id": "Goes2016GenDiv",
+        "issued": {
+            "date-parts": [
+                [
+                    2016,
+                    10
+                ]
+            ]
+        },
+        "page": "510-513",
+        "title": "Genetic diversity of bats coronaviruses in the Atlantic Forest hotspot biome, Brazil",
+        "type": "article-journal",
+        "volume": "44"
     },
     {
         "DOI": "10.1086/303382",
