@@ -178,7 +178,7 @@ Together, this framework points to a predictable relationship between host commu
 and coevolutionary pressure: phylogeographic structure in bat hosts (and their diverse immune 
 strategies [@Banerjee2020NovIns]) creates a landscape of selective pressure; the trajectory of
 viruses' coevolutionary response is, in turn, constrained by their opportunities for either
-coevolutionary specialization or diversification through host jumps and recombination.
+specialization or diversification through host jumps and recombination.
 
 Based on the geographic mosaic theory of coevolution, we developed a trivariate map of 
 three facets of coevolutionary pressure (@fig:trivariate): (1) _host phylogenetic diversity_: a high diversity of 
