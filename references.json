@@ -1882,31 +1882,6 @@
         "volume": "34"
     },
     {
-        "DOI": "10.2307/2408229",
-        "URL": "http://www.jstor.org/stable/2408229",
-        "author": [
-            {
-                "family": "Janzen",
-                "given": "Daniel H."
-            }
-        ],
-        "container-title": "Evolution",
-        "id": "Janzen1980WheIta",
-        "issue": "3",
-        "issued": {
-            "date-parts": [
-                [
-                    1980
-                ]
-            ]
-        },
-        "page": "611-612",
-        "publisher": "[Society for the Study of Evolution, Wiley]",
-        "title": "When is it Coevolution?",
-        "type": "article-journal",
-        "volume": "34"
-    },
-    {
         "DOI": "10.1038/s41586-020-2486-3",
         "author": [
             {
@@ -2781,47 +2756,6 @@
         "volume": "18"
     },
     {
-        "DOI": "10.1038/s41579-020-0394-z",
-        "author": [
-            {
-                "family": "Letko",
-                "given": "Michael"
-            },
-            {
-                "family": "Seifert",
-                "given": "Stephanie N."
-            },
-            {
-                "family": "Olival",
-                "given": "Kevin J."
-            },
-            {
-                "family": "Plowright",
-                "given": "Raina K."
-            },
-            {
-                "family": "Munster",
-                "given": "Vincent J."
-            }
-        ],
-        "container-title": "Nature Reviews Microbiology",
-        "id": "Letko2020BatVira",
-        "issue": "8, 8",
-        "issued": {
-            "date-parts": [
-                [
-                    2020,
-                    8
-                ]
-            ]
-        },
-        "page": "461-471",
-        "publisher": "Nature Publishing Group",
-        "title": "Bat-borne virus diversity, spillover and emergence",
-        "type": "article-journal",
-        "volume": "18"
-    },
-    {
         "DOI": "10.1371/journal.ppat.1002260",
         "author": [
             {
@@ -3075,8 +3009,8 @@
             ]
         },
         "page": "1819",
-        "publisher": "Centers for Disease Control; Prevention",
-        "title": "Middle east respiratory syndrome coronavirus in bats, saudi arabia",
+        "publisher": "Centers for Disease Control and Prevention",
+        "title": "Middle East respiratory syndrome coronavirus in bats, Saudi Arabia",
         "type": "article-journal",
         "volume": "19"
     },
@@ -3361,64 +3295,10 @@
             ]
         },
         "page": "2093",
-        "publisher": "Centers for Disease Control; Prevention",
-        "title": "MERS coronavirus neutralizing antibodies in camels, eastern africa, 1983\u20131997",
+        "publisher": "Centers for Disease Control and Prevention",
+        "title": "MERS coronavirus neutralizing antibodies in camels, Eastern Africa, 1983\u20131997",
         "type": "article-journal",
         "volume": "20"
-    },
-    {
-        "DOI": "10.1101/2021.12.09.471691",
-        "author": [
-            {
-                "family": "Muylaert",
-                "given": "Renata L."
-            },
-            {
-                "family": "Kingston",
-                "given": "Tigga"
-            },
-            {
-                "family": "Luo",
-                "given": "Jinhong"
-            },
-            {
-                "family": "Vancine",
-                "given": "Maur\u00edcio Humberto"
-            },
-            {
-                "family": "Galli",
-                "given": "Nikolas"
-            },
-            {
-                "family": "Carlson",
-                "given": "Colin J."
-            },
-            {
-                "family": "John",
-                "given": "Reju Sam"
-            },
-            {
-                "family": "Rulli",
-                "given": "Maria Cristina"
-            },
-            {
-                "family": "Hayman",
-                "given": "David T. S."
-            }
-        ],
-        "genre": "Preprint",
-        "id": "Muylaert2021PreFut",
-        "issued": {
-            "date-parts": [
-                [
-                    2021,
-                    12
-                ]
-            ]
-        },
-        "publisher": "Ecology",
-        "title": "Present and future distribution of bat hosts of sarbecoviruses: Implications for conservation and public health",
-        "type": "report"
     },
     {
         "DOI": "10.1098/rspb.2022.0397",
@@ -3639,7 +3519,7 @@
             }
         ],
         "container-title": "PLoS pathogens",
-        "id": "Olival2020PosZoo",
+        "id": "Olival2020PosRev",
         "issue": "9",
         "issued": {
             "date-parts": [
@@ -4297,7 +4177,7 @@
             }
         ],
         "container-title": "Nature Food",
-        "id": "Rulli2021LanUse",
+        "id": "Rulli2021LanCha",
         "issue": "6",
         "issued": {
             "date-parts": [
@@ -4883,34 +4763,6 @@
         "volume": "52"
     },
     {
-        "DOI": "10.1016/j.coviro.2021.12.008",
-        "author": [
-            {
-                "family": "Van Brussel",
-                "given": "Kate"
-            },
-            {
-                "family": "Holmes",
-                "given": "Edward C"
-            }
-        ],
-        "container-title": "Current Opinion in Virology",
-        "id": "VanBrussel2022ZooDisa",
-        "issued": {
-            "date-parts": [
-                [
-                    2022,
-                    2,
-                    1
-                ]
-            ]
-        },
-        "page": "192-202",
-        "title": "Zoonotic disease and virome diversity in bats",
-        "type": "article-journal",
-        "volume": "52"
-    },
-    {
         "URL": "http://www.jstor.org/stable/40602941",
         "author": [
             {
@@ -5197,6 +5049,7 @@
         "volume": "447"
     },
     {
+        "DOI": "10.5281/zenodo.6299600",
         "author": [
             {
                 "family": "Worobey",
@@ -5251,7 +5104,7 @@
                 ]
             ]
         },
-        "title": "The huanan market was the epicenter of SARS-CoV-2 emergence",
+        "title": "The Huanan market was the epicenter of SARS-CoV-2 emergence",
         "type": "article-journal"
     },
     {
