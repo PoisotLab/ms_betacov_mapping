@@ -327,31 +327,20 @@ of viruses through host switching and viral recombination (see *e.g.*
 genetic material from both the SARS-CoV and SARS-CoV-2 branches of the
 Sarbecovirus lineage [@Wu2021ComSur]). 
 
-
-Both of these regions are priority areas
-for sampling, especially given predictions that they contain many bat hosts of
-undiscovered betacoronaviruses [@Becker2022OptPre; @Cohen2022SamStr]. However,
-both the evolutionary and ecological aspects of emergence risk are higher
-in southeast Asia---a fact that will only become more relevant, as bats track
-shifting climates and exchange viruses with other species, creating a hotspot of
-elevated cross-species transmission unique to the region [@Carlson2022CliCha].
-
-The diversity and diversification potential of bats responds to anthropogenic
-factors others than shifting climates [@Alves2018GeoVar]. Land use changes could
-significantly decrease bat suitability, notably through effects on diet and
-availability of habitats [@Treitler2016EffLoc]. As our results establish that
-the diversification of bats betacoronaviruses happens on top of processes
-affecting hosts, biogeographic variation in human population density and
-anthropogenic disturbances may feed into co-evolutionary dynamics. Increase in
-human-wildlife contact also increase the risk of emergence of novel diseases
-[@Johnson2020GloShi], as do changes in landscape connectivity at
-local/regional scales [@Gryseels2017WheVir]. This represents a challenge for
-both conservation strategies and disease ecology: some areas can a high
-emergence risk and more potential for the acquisition of zoonotic viruses
-through bat-human encounters [@Amman2011InvRol]. In particular, the challenge
-ahead lies in the need to quantify actual exposure (and risk)  accounting for
-several transmission scenarios, including both direct and indirect bat - human
-interactions, and feeding back into the provision of ecosystem services by bats.
+Both of these regions are priority areas for sampling, especially given predictions 
+that they contain many bat hosts of undiscovered betacoronaviruses [@Becker2022OptPre; 
+@Cohen2022SamStr]. However, both the evolutionary and ecological aspects of emergence 
+risk are higher in southeast Asia---a fact that will only become more relevant, as bats 
+track shifting climates and exchange viruses with other species, creating a hotspot of
+elevated cross-species transmission unique to the region [@Carlson2022CliCha; @Muylaert2022PreFut].
+Bats---and the spillover of their viruses---are also sensitive  responds to anthropogenic
+factors others than shifting climates, including deforestation and other kinds of habitat
+loss, increased stress, and greater contact with potential bridge hosts like domesticated
+species [@Alves2018GeoVar; @Treitler2016EffLoc; @Rulli2021LanCha]. This represents a challenge 
+for both conservation strategies and pandemic prevention [@Amman2011InvRol], but identifying
+areas at risk, and protecting the health of bats and ecosystems within those zones, 
+can be a win-win intervention for both (add cites for DOIs:
+10.1038/s41893-020-00640-z; 10.1016/S2542-5196(21)00031-0).
 
 **Acknowledgements**: We acknowledge that this study was conducted on land
 within the traditional unceded territory of the Saint Lawrence Iroquoian,
