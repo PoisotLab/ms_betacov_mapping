@@ -193,12 +193,10 @@ and paler pixels represent overall higher risk (@fig:trivariate). We find that t
 neatly overlap with those defined in @fig:biogeo or @fig:richness, reinforcing the notion that local-scale 
 coevolutionary mosaics can form within cophylogenetic regions.
 
-![Trivariate additive mapping of the components of risk in the red/green/blue,
-where high virus sharing is encoded in the blue channel, host phylogenetic
-diversity in the green channel, and compositional uniqueness in the red channel.
-The main driver of emergence risk (possibility of spatially overlapped but
-coevolutionarily indepent host-viral dynamics) corresponds to low viral sharing,
-*i.e.* pixels around yellow.](figures/risk_trivariate.png){#fig:trivariate}
+![Trivariate additive mapping of the components of risk. Viral sharing runs from yellow (low) to blue (high); 
+host phylogenetic diversity runs from pink (low) to high (green) channel, and compositional uniqueness runs from 
+cyan (low) to red (high). The GMTC suggests that the highest evolutionary potential for emergence exists in 
+unique and diverse host communities with low viral sharing, *i.e.* pixels around yellow.](figures/risk_trivariate.png){#fig:trivariate}
 
 The greatest evolutionary potential for zoonotic emergence exists where pathogen pools 
 have a high genetic diversity and high propensity for cross-species transmission. In our
