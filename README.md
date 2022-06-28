@@ -180,27 +180,7 @@ model predictions.
 
 ## Human landscapes filter the geography of emergence risk
 
-The relationship between the underlying pathogen pool and emergence risk is mediated by human-wildlife contact and the risk that spillovers become epidemics. As a proxy for both, we finally overlaid the risk component from the composite map (see above) with the proportion of built land, as a proxy for a mix of habitat disturbance, potential for bat synanthropy, and human population density and connectivity [@Plowright2017PatZoo; @Hazarie2021IntPop] (add: Muylaert 2022 Proc B; Hassell 2017 TREE) (@fig:compound).
-
-Most of
-South America and Europe are at comparatively lower risk, as although densely
-populated, settlements tend to be in areas with lower potential risk. Regions
-like Malaysia and the North coast of Australia have a high risk component, but
-should represent a relatively lower effective risk due to low human density.
-However, this mapping reveals that South-East Asia, the Indian subcontinent, and
-parts of sub-Saharan Africa, are at high risk due to the overlap between built
-areas and bat communities representing more opportunities for cross-species
-transmission of betacoronaviruses. In looking for the origins of SARS in China,
-@Xu2004EpiClu present serological evidence that strongest human-animal contact
-results in higher risk of virus exposure, regardless of the animal species, but
-that different types of contact had different impacts. Ideally, finer-grained
-information about human activity (rather than human presence through
-anthropisation) could allow to partition this risk further, alebit at the cost
-of more hypotheses required to estimate the amount of risk represented by each
-activity. Our map of purported high risk/diversitifcation potential (Madagascar,
-South-America) overlay with sampling gaps for *Betacoronavirus*
-[@Cohen2022SamStr], stressing the need for spatially targeted monitoring and
-discovery.
+The relationship between the underlying pathogen pool and emergence risk is mediated by both human-wildlife interfaces (the probability of spillover) and opportunities for onward transmission (the probability that spillovers become epidemics). As a proxy for both, we finally overlaid the risk component from the composite map (see above) with the proportion of built land, as a proxy for a mix of habitat disturbance, potential for bat synanthropy or contact with bridge hosts like livestock (cite Rulli et al 2021 Nature Food; cite Cui et al 2019 Nature Reviews Microbiology), and human population density and connectivity [@Plowright2017PatZoo; @Hazarie2021IntPop] (add: Muylaert 2022 Proc B; Hassell 2017 TREE) (@fig:compound). Accounting for these factors, most of South America and Europe are at comparatively lower risk, as--although densely populated--settlements tend to be in areas with lower potential risk. Conversely, regions like Malaysia and the northern coast of Australia have a high evolutionary risk component, but should represent a relatively lower effective risk due to low human density. However, southeast Asia, the Indian subcontinent, and scattered hotspots in sub-Saharan Africa are at high risk due to the overlap between human populations and natural opportunities for cross-species transmission of betacoronaviruses. 
 
 ![Overlap of the percent of each pixel occupied by urbanized structures,
 representing the degree of settlement, on the spillover risk map (where the risk
@@ -212,22 +192,7 @@ in Africa, and highlights the risk in India, southeast China, and the Arabian
 peninsula where areas of high to moderate risk overlap with areas of denser
 population.](figures/risk_compounded.png){#fig:compound}
 
-PUT THIS SOMEWHERE: Available information describing the spillover of zoonotic
-betacoronaviruses of bat origin where data was available before and up through
-the COVID-19 pandemic puts spillover events of SARS-CoV-2 in Wuhan, China;
-SARS-CoV in Guangdong, China based on the presence of closest known viruses
-circulating in nature, and a nearby location where serological (antibody)
-evidence has indicated human exposure to SARS-like viruses [@Wang2018SerEvi];
-MERS-CoV in Saudi Arabia based on index cases available from a
-recently-published compendium of cases [@Ramshaw2019DatGeo]. For the latest
-event, most if not all index cases are presumed to be camel-to-human
-transmission, and the precise origin point (if it exists) of MERS-CoV in bats is
-uncertain. Recent recombinant canine coronavirus spillover events in Haiti
-[@Lednicky2021IsoNov] and Europe [@Vlasova2022AniAlp] are not relevant here, as
-bats’ involvement in these cycles of transmission have been supposed to be
-non-existent. These index cases fall within different phylogeographic bioregions
-(@fig:biogeo), which further highlight the issue that different host-virus
-sub-systems may lead to widespread emergence.
+Reassuringly, these predictions are validated by the sites where the three highly pathogenic coronavirus are believed to have recently emerged. While available information puts the spillover of SARS-CoV-2 in a live animal market in Wuhan, China, the ultimate origin of the virus is almost certainly in a Lineage 2 sarbecovirus from a southeast Asian horseshoe bat. Similarly, the SARS-CoV outbreak began in Guangdong province in 2002, reaching humans through small carnivore bridge hosts, but was eventually traced back to a set of likely progenitor viruses found in cave-dwelling horseshoe bats in Yunnan province (cite Hu et al. 2017 PLoS Pathogens); nearby, antibody evidence has indicated human exposure to SARS-like viruses [@Wang2018SerEvi].  MERS-CoV was originally detected in Saudi Arabia, accompanied by a nearly identical virus sequenced from an Egyptian tomb bat (_Taphozous perforatus_) (cite Memish et al. 2013 EID), but is widespread in camels in East Africa and the Middle East, and may have reached its bridge host decades earlier than originally supposed (cite Muller et al 2014 EID); as a result, the geography of the original bat-to-camel transmission is still widely regarded as uncertain. All of these are broadly consistent with the risk factors we identify. Notably, India and west Africa are additional hotspots that have yet to experience the emergence of a bat coronavirus into human populations, but may still be at risk---particularly given known gaps in bat surveillance [@Cohen2022SamStr], and a dense population in both regions with global connectivity. In any of these regions, surveillance on viral reservoirs can be paired with targeted monitoring of high-risk human populations (i.e., those with regular wildlife contact [@Xu2004EpiClu]) for maximum impact.
 
 # Conclusion
 
