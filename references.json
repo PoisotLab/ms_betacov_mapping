@@ -650,6 +650,57 @@
         "volume": "4"
     },
     {
+        "author": [
+            {
+                "family": "Boni",
+                "given": "Maciej F"
+            },
+            {
+                "family": "Lemey",
+                "given": "Philippe"
+            },
+            {
+                "family": "Jiang",
+                "given": "Xiaowei"
+            },
+            {
+                "family": "Lam",
+                "given": "Tommy Tsan-Yuk"
+            },
+            {
+                "family": "Perry",
+                "given": "Blair W"
+            },
+            {
+                "family": "Castoe",
+                "given": "Todd A"
+            },
+            {
+                "family": "Rambaut",
+                "given": "Andrew"
+            },
+            {
+                "family": "Robertson",
+                "given": "David L"
+            }
+        ],
+        "container-title": "Nature microbiology",
+        "id": "Boni2020EvoOri",
+        "issue": "11",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "1408-1417",
+        "publisher": "Nature Publishing Group",
+        "title": "Evolutionary origins of the SARS-CoV-2 sarbecovirus lineage responsible for the COVID-19 pandemic",
+        "type": "article-journal",
+        "volume": "5"
+    },
+    {
         "DOI": "10.1128/CMR.00017-06",
         "author": [
             {
@@ -1470,6 +1521,41 @@
         "volume": "16"
     },
     {
+        "author": [
+            {
+                "family": "Hassell",
+                "given": "James M"
+            },
+            {
+                "family": "Begon",
+                "given": "Michael"
+            },
+            {
+                "family": "Ward",
+                "given": "Melissa J"
+            },
+            {
+                "family": "F\u00e8vre",
+                "given": "Eric M"
+            }
+        ],
+        "container-title": "Trends in ecology & evolution",
+        "id": "Hassell2017UrbDis",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "55-67",
+        "publisher": "Elsevier",
+        "title": "Urbanization and disease emergence: Dynamics at the wildlife\u2013livestock\u2013human interface",
+        "type": "article-journal",
+        "volume": "32"
+    },
+    {
         "DOI": "10.1038/s42005-021-00679-0",
         "author": [
             {
@@ -1607,6 +1693,68 @@
         "title": "Antagonistic coevolution over productivity gradients",
         "type": "article-journal",
         "volume": "152"
+    },
+    {
+        "author": [
+            {
+                "family": "Hu",
+                "given": "Ben"
+            },
+            {
+                "family": "Zeng",
+                "given": "Lei-Ping"
+            },
+            {
+                "family": "Yang",
+                "given": "Xing-Lou"
+            },
+            {
+                "family": "Ge",
+                "given": "Xing-Yi"
+            },
+            {
+                "family": "Zhang",
+                "given": "Wei"
+            },
+            {
+                "family": "Li",
+                "given": "Bei"
+            },
+            {
+                "family": "Xie",
+                "given": "Jia-Zheng"
+            },
+            {
+                "family": "Shen",
+                "given": "Xu-Rui"
+            },
+            {
+                "family": "Zhang",
+                "given": "Yun-Zhi"
+            },
+            {
+                "family": "Wang",
+                "given": "Ning"
+            },
+            {
+                "literal": "others"
+            }
+        ],
+        "container-title": "PLoS pathogens",
+        "id": "Hu2017DisRic",
+        "issue": "11",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "e1006698",
+        "publisher": "Public Library of Science San Francisco, CA USA",
+        "title": "Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus",
+        "type": "article-journal",
+        "volume": "13"
     },
     {
         "DOI": "10.1038/s41586-020-03128-0",
@@ -2871,6 +3019,68 @@
         "volume": "6"
     },
     {
+        "author": [
+            {
+                "family": "Memish",
+                "given": "Ziad A"
+            },
+            {
+                "family": "Mishra",
+                "given": "Nischay"
+            },
+            {
+                "family": "Olival",
+                "given": "Kevin J"
+            },
+            {
+                "family": "Fagbo",
+                "given": "Shamsudeen F"
+            },
+            {
+                "family": "Kapoor",
+                "given": "Vishal"
+            },
+            {
+                "family": "Epstein",
+                "given": "Jonathan H"
+            },
+            {
+                "family": "AlHakeem",
+                "given": "Rafat"
+            },
+            {
+                "family": "Durosinloun",
+                "given": "Abdulkareem"
+            },
+            {
+                "family": "Al Asmari",
+                "given": "Mushabab"
+            },
+            {
+                "family": "Islam",
+                "given": "Ariful"
+            },
+            {
+                "literal": "others"
+            }
+        ],
+        "container-title": "Emerging infectious diseases",
+        "id": "Memish2013MidEas",
+        "issue": "11",
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        },
+        "page": "1819",
+        "publisher": "Centers for Disease Control; Prevention",
+        "title": "Middle east respiratory syndrome coronavirus in bats, saudi arabia",
+        "type": "article-journal",
+        "volume": "19"
+    },
+    {
         "DOI": "10.1073/pnas.2006778117",
         "author": [
             {
@@ -3093,6 +3303,68 @@
         "title": "Virus isolation data improve host predictions for New World rodent orthohantaviruses",
         "type": "article-journal",
         "volume": "n/a"
+    },
+    {
+        "author": [
+            {
+                "family": "M\u00fcller",
+                "given": "Marcel A"
+            },
+            {
+                "family": "Corman",
+                "given": "Victor Max"
+            },
+            {
+                "family": "Jores",
+                "given": "Joerg"
+            },
+            {
+                "family": "Meyer",
+                "given": "Benjamin"
+            },
+            {
+                "family": "Younan",
+                "given": "Mario"
+            },
+            {
+                "family": "Liljander",
+                "given": "Anne"
+            },
+            {
+                "family": "Bosch",
+                "given": "Berend-Jan"
+            },
+            {
+                "family": "Lattwein",
+                "given": "Erik"
+            },
+            {
+                "family": "Hilali",
+                "given": "Mosaad"
+            },
+            {
+                "family": "Musa",
+                "given": "Bakri E"
+            },
+            {
+                "literal": "others"
+            }
+        ],
+        "container-title": "Emerging infectious diseases",
+        "id": "Muller2014MerCor",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "2093",
+        "publisher": "Centers for Disease Control; Prevention",
+        "title": "MERS coronavirus neutralizing antibodies in camels, eastern africa, 1983\u20131997",
+        "type": "article-journal",
+        "volume": "20"
     },
     {
         "DOI": "10.1101/2021.12.09.471691",
@@ -3319,6 +3591,68 @@
         "title": "Host and viral traits predict zoonotic spillover from mammals",
         "type": "article-journal",
         "volume": "546"
+    },
+    {
+        "author": [
+            {
+                "family": "Olival",
+                "given": "Kevin J"
+            },
+            {
+                "family": "Cryan",
+                "given": "Paul M"
+            },
+            {
+                "family": "Amman",
+                "given": "Brian R"
+            },
+            {
+                "family": "Baric",
+                "given": "Ralph S"
+            },
+            {
+                "family": "Blehert",
+                "given": "David S"
+            },
+            {
+                "family": "Brook",
+                "given": "Cara E"
+            },
+            {
+                "family": "Calisher",
+                "given": "Charles H"
+            },
+            {
+                "family": "Castle",
+                "given": "Kevin T"
+            },
+            {
+                "family": "Coleman",
+                "given": "Jeremy TH"
+            },
+            {
+                "family": "Daszak",
+                "given": "Peter"
+            },
+            {
+                "literal": "others"
+            }
+        ],
+        "container-title": "PLoS pathogens",
+        "id": "olival2020PosZoo",
+        "issue": "9",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "e1008758",
+        "publisher": "Public Library of Science San Francisco, CA USA",
+        "title": "Possibility for reverse zoonotic transmission of SARS-CoV-2 to free-ranging wildlife: A case study of bats",
+        "type": "article-journal",
+        "volume": "16"
     },
     {
         "DOI": "10.1093/bioinformatics/bty633",
@@ -3944,6 +4278,41 @@
         "volume": "20"
     },
     {
+        "author": [
+            {
+                "family": "Rulli",
+                "given": "Maria Cristina"
+            },
+            {
+                "family": "D\u2019Odorico",
+                "given": "Paolo"
+            },
+            {
+                "family": "Galli",
+                "given": "Nikolas"
+            },
+            {
+                "family": "Hayman",
+                "given": "David TS"
+            }
+        ],
+        "container-title": "Nature Food",
+        "id": "Rulli2021LanUse",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "page": "409-416",
+        "publisher": "Nature Publishing Group",
+        "title": "Land-use change and the livestock revolution increase the risk of zoonotic coronavirus transmission from rhinolophid bats",
+        "type": "article-journal",
+        "volume": "2"
+    },
+    {
         "DOI": "10.1038/s41467-020-19273-z",
         "author": [
             {
@@ -4229,6 +4598,68 @@
         "title": "A Molecular Phylogeny for Bats Illuminates Biogeography and the Fossil Record",
         "type": "article-journal",
         "volume": "307"
+    },
+    {
+        "author": [
+            {
+                "family": "Temmam",
+                "given": "Sarah"
+            },
+            {
+                "family": "Vongphayloth",
+                "given": "Khamsing"
+            },
+            {
+                "family": "Baquero",
+                "given": "Eduard"
+            },
+            {
+                "family": "Munier",
+                "given": "Sandie"
+            },
+            {
+                "family": "Bonomi",
+                "given": "Massimiliano"
+            },
+            {
+                "family": "Regnault",
+                "given": "B\u00e9atrice"
+            },
+            {
+                "family": "Douangboubpha",
+                "given": "Bounsavane"
+            },
+            {
+                "family": "Karami",
+                "given": "Yasaman"
+            },
+            {
+                "family": "Chr\u00e9tien",
+                "given": "Delphine"
+            },
+            {
+                "family": "Sanamxay",
+                "given": "Daosavanh"
+            },
+            {
+                "literal": "others"
+            }
+        ],
+        "container-title": "Nature",
+        "id": "Temmam2022BatCor",
+        "issue": "7905",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "330-336",
+        "publisher": "Nature Publishing Group",
+        "title": "Bat coronaviruses related to SARS-CoV-2 and infectious for human cells",
+        "type": "article-journal",
+        "volume": "604"
     },
     {
         "author": [
@@ -4764,6 +5195,64 @@
         "title": "Origins of major human infectious diseases",
         "type": "article-journal",
         "volume": "447"
+    },
+    {
+        "author": [
+            {
+                "family": "Worobey",
+                "given": "Michael"
+            },
+            {
+                "family": "Levy",
+                "given": "Joshua I"
+            },
+            {
+                "family": "Serrano",
+                "given": "Lorena M Malpica"
+            },
+            {
+                "family": "Crits-Christoph",
+                "given": "Alexander"
+            },
+            {
+                "family": "Pekar",
+                "given": "Jonathan E"
+            },
+            {
+                "family": "Goldstein",
+                "given": "Stephen A"
+            },
+            {
+                "family": "Rasmussen",
+                "given": "Angela L"
+            },
+            {
+                "family": "Kraemer",
+                "given": "Moritz UG"
+            },
+            {
+                "family": "Newman",
+                "given": "Chris"
+            },
+            {
+                "family": "Koopmans",
+                "given": "Marion PG"
+            },
+            {
+                "literal": "others"
+            }
+        ],
+        "container-title": "Zenodo",
+        "id": "Worobey2022HuaMar",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "title": "The huanan market was the epicenter of SARS-CoV-2 emergence",
+        "type": "article-journal"
     },
     {
         "DOI": "10.21203/rs.3.rs-885194/v1",
