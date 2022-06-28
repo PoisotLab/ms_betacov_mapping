@@ -35,11 +35,7 @@ host phylogenetic diversity in the green channel, and compositional
 uniqueness in the red channel. The main driver of emergence risk
 (possibility of spatially overlapped but coevolutionarily indepent
 host-viral dynamics) corresponds to low viral sharing, \emph{i.e.}
-pixels around yellow. Pixels in the yellow-green space (Africa)
-correspond to areas where, despite the potential for viral
-diversification, coevolutionary dynamics are likely to currently be
-dominated by the effect of host phylogenetic
-diversity.}\label{fig:trivariate}
+pixels around yellow.}\label{fig:trivariate}
 }
 \end{figure}
 \efloatseparator
