@@ -168,13 +168,13 @@ hotspot of bat diversity in the Amazon [@Ammerman2012FirMol]. Together, these
 clades of New World bats play host to a distinct regime of betacoronavirus
 coevolution.
 
-## Coevolutionary regimes structure evolutionary risk of zoonotic emergence
+## Coevolutionary regimes structure evolutionary potential for zoonotic emergence
 
 The existence of well-defined cophylogenetic regions suggests that the bat-betacoronavirus
 system is spatially fragmented enough to create divergent coevolutionary trajectories; in turn,
-the coevolutionary mosaic underlies the risk of zoonotic emergence. These ideas are, respectively, 
+this coevolutionary mosaic may alter the risk of zoonotic emergence. These ideas are, respectively, 
 supported by the existence of hotspots of viral uniqueness and the diverse origins of human betacoronaviruses.
-Together, these ideas point to a predictable relationship between host community structure
+Together, this framework points to a predictable relationship between host community structure
 and coevolutionary pressure: phylogeographic structure in bat hosts (and their diverse immune 
 strategies [@Banerjee2020NovIns]) creates a landscape of selective pressure; the trajectory of
 viruses' coevolutionary response is, in turn, constrained by their opportunities for either
