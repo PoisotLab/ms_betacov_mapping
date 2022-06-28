@@ -209,7 +209,7 @@ coevolve independently, but divergent viruses may still have opportunities for r
 In @fig:trivariate, this corresponds to yellow areas (dynamics dominated by low viral sharing, 
 with equal contributions of selection mosaics and trait remixing; southeast Asia, and the 
 Indian sub-continent), green-yellow areas (dynamics with low viral sharing but dominated by 
-the selection mosaic effect of host diversity; Africa below the Sahara desert), and red-yellow 
+the selection mosaic effect of host diversity; sub-Saharan Africa), and red-yellow 
 areas (dynamics with low viral sharing but dominated by trait remixing in host communities; 
 the Middle East). Translating this axis of variation back into a univariate risk map ([@fig:risk])
 highlights that this evolutionary landscape has a striking correspondence to regions where 
