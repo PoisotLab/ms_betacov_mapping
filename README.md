@@ -287,9 +287,7 @@ of high-risk human populations (i.e., those with regular wildlife contact
 
 # Conclusion
 
-Bats are important reservoir hosts for different classes of microorganisms, many
-of which a threat to human health [@Letko2020BatVir; @VanBrussel2022ZooDis].
-Chiropterans emerged around 64 million years ago and are one of the most diverse
+Bats emerged around 64 million years ago, and are one of the most diverse
 mammalian orders, with more than 1,400 estimated species
 [@Peixoto2018SynEco; @Simmons2020BatSpe]. They exhibit a broad variety of
 habitat use, behaviour, and feeding strategies, putting them at key positions in
