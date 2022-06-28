@@ -9,27 +9,27 @@ case of generalist pathogens like betacoronaviruses, there is conceptual and
 empirical support to the idea that these community-level mechanisms are even
 more important [@Power2004PatSpi], particularly given that cross-species
 transmission may, as a rule, structure viral evolution more than co-divergence
-with hosts [@Geoghegan2017ComAna]. This creates a disconnect between coevolutionary theory
-and most existing ecological frameworks for mapping spillover risk.
+with hosts [@Geoghegan2017ComAna]. This creates a disconnect between
+coevolutionary theory and most existing ecological frameworks for mapping
+spillover risk.
 
 The Geographic Mosaic Theory of Coevolution (GMTC) attempts to explicitly
 connect microevolutionary dynamics to the macroecology and biogeography of
 symbiotic interactions [@Thompson2005GeoMos]. The GMTC posits that
 coevolutionary processes among pairs [@Thompson1994CoePro] or complexes
 [@Janzen1980WheIt] of species are structured in space by the rippling effects of
-abiotic conditions onto evolutionary mechanism, giving rise to fragmented
-systems with different structure and ecologically dynamics over large spatial
-extents [@Price2002MacThe]. The GMTC predicts a spatial fragmentation of
-coevolutionary dynamics under the joint action of three processes
-[@Gomulkiewicz2007DosDon]: coevolutionary hot- and coldspots, which appear when
-the intensity of *interaction* (in terms of reciprocal fitness consequences)
-varies spatially; selection mosaics, wherein the intensity of *selection* varies
-across space, driven by both the biotic complexity of the community (locally
-diverse hosts and viruses are more biotically complex) and the local
-favorability of the environment [@Thrall2007CoeSym]; and trait remixing, which
-occurs when coevolutionary dynamics are driven by by the arrival (or departure)
-of _functional traits_, through changes in community composition due to
-invasions, meta-community dynamics, and disperal.
+abiotic conditions onto evolutionary mechanisms, giving rise to fragmented
+systems with different ecologies over large spatial extents [@Price2002MacThe].
+The GMTC predicts a spatial fragmentation of coevolutionary dynamics under the
+joint action of three processes [@Gomulkiewicz2007DosDon]: coevolutionary hot-
+and coldspots, which appear when the intensity of *interaction* (in terms of
+reciprocal fitness consequences) varies spatially; selection mosaics, wherein
+the intensity of *selection* varies across space, driven by both the biotic
+complexity of the community (locally diverse hosts and viruses are more
+biotically complex) and the local favorability of the environment
+[@Thrall2007CoeSym]; and trait remixing, which occurs when coevolutionary
+dynamics change when community-level _functional traits_ change through
+meta-community dynamics.
 
 Here, we apply the GMTC to explore and explain the global biogeography of
 betacoronaviruses, the group that includes SARS-CoV, MERS-CoV, and SARS-CoV-2.
@@ -159,7 +159,7 @@ viruses) has been found in animals in the Americas---an introduction that is
 generally presumed to be ancient [@Ruiz-Aravena2022EcoEvo]. While comparatively
 understudied, New World merbecoviruses have been found in the ghost-faced bats
 (Mormoopidae), New World leaf-nosed bats (Phyllostomidae), and free-tailed bats
-(Molossidae) [@Olival2020PosZoo]. The former two groups are endemic to the
+(Molossidae) [@Olival2020PosRev]. The former two groups are endemic to the
 Neotropics, while the explosive adaptive radiations of the latter two (and
 particularly the phyllostomids) are responsible for the hotspot of bat diversity
 in the Amazon. Together, these clades of New World bats play host to a distinct
@@ -245,7 +245,7 @@ opportunities for onward transmission (the probability that spillovers become
 epidemics)[@Plowright2017PatZoo]. As a proxy for both, we finally overlaid the
 risk component from the composite map (see above) with the proportion of built
 land, as a proxy for a mix of habitat disturbance, potential for bat synanthropy
-or contact with bridge hosts like livestock [@Rulli2021LanUse; @Cui2019OriEvo],
+or contact with bridge hosts like livestock [@Rulli2021LanCha; @Cui2019OriEvo],
 and human population density and connectivity [@Plowright2017PatZoo;
 @Muylaert2022PreFut; @Hassell2017UrbDis] (@fig:compound). Accounting for these
 factors, most of South America and Europe are at comparatively lower risk,
