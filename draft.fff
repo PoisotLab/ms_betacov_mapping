@@ -2,12 +2,13 @@
 \hypertarget{fig:biogeo}{%
 \centering
 \includegraphics{figures/combined_biogeo.png}
-\caption{Phylogeographic regions of bats (top) and viruses (bottom)
-based on the joint analysis of their occurrence and phylogenetic
-relatedness. The different colors show tendencies to separate alongside
-the first two components of a PCoA. Note that the PCoA for the bats and
-viruses are independent, and so cannot be compared directly -- that
-being said, the regions can be compared across maps.}\label{fig:biogeo}
+\caption{\textbf{Bat and betacoronavirus biogeographic regions.}
+Phylogeography of bats (top) and viruses (bottom) is categorized based
+on analysis of bat distributions paired with bat or virus phylogeny. The
+different colors show tendencies to separate alongside the first two
+components of a PCoA. Note that the PCoA for the bats and viruses are
+independent, and so cannot be compared directly -- that being said, the
+regions can be compared across maps.}\label{fig:biogeo}
 }
 \end{figure}
 \efloatseparator
@@ -16,11 +17,12 @@ being said, the regions can be compared across maps.}\label{fig:biogeo}
 \hypertarget{fig:richness}{%
 \centering
 \includegraphics{figures/combined_richness.png}
-\caption{Top panel: relative diversity of known bat hosts of
-betacoronaviruses. This map shows that the region with the largest
-number of possible hosts is South-Eastern Asia. Bottom panel: congruence
-between the evolutionary distinctiveness of the hosts (grey to blue) and
-the viruses (grey to red).}\label{fig:richness}
+\caption{\textbf{Bat and betacoronavirus diversity.} Top panel: relative
+diversity of known bat hosts of betacoronaviruses. This map shows that
+the region with the largest number of possible hosts is South-Eastern
+Asia. Bottom panel: congruence between the evolutionary distinctiveness
+of the hosts (grey to blue) and the viruses (grey to
+red).}\label{fig:richness}
 }
 \end{figure}
 \efloatseparator
@@ -29,14 +31,14 @@ the viruses (grey to red).}\label{fig:richness}
 \hypertarget{fig:trivariate}{%
 \centering
 \includegraphics{figures/risk_trivariate.png}
-\caption{Trivariate additive mapping of the components of risk. Viral
-sharing runs from yellow (low) to blue (high); host phylogenetic
-diversity runs from pink (low) to high (green) channel, and
-compositional uniqueness runs from cyan (low) to red (high). The GMTC
-suggests that the highest evolutionary potential for emergence exists in
-unique and diverse host communities with low viral sharing, \emph{i.e.}
-pixels around yellow. All components are scaled in brightness so that a
-pixel with no sharing, no phylogenetic diversity, and no compositional
+\caption{\textbf{Trivariate additive mapping of the components of risk.}
+Viral sharing runs from yellow (low) to blue (high); host phylogenetic
+diversity runs from pink (low) to high (green); and host compositional
+uniqueness runs from cyan (low) to red (high). The GMTC suggests that
+the highest evolutionary potential for emergence exists in unique and
+diverse host communities with low viral sharing, \emph{i.e.} pixels
+around yellow. All components are scaled in brightness so that a pixel
+with no sharing, no phylogenetic diversity, and no compositional
 uniqueness would be black, and a pixel with maximal values for each
 would be white.}\label{fig:trivariate}
 }
@@ -47,10 +49,10 @@ would be white.}\label{fig:trivariate}
 \hypertarget{fig:risk}{%
 \centering
 \includegraphics{figures/risk_map.png}
-\caption{Evolutionary potential for zoonotic emergence of bat-origin
-betacoronaviruses. Risk is a composite measure of the color value and
-angular distance to the yellow hue in fig.~\ref{fig:trivariate} (see
-Methods).}\label{fig:risk}
+\caption{\textbf{Evolutionary potential for zoonotic emergence of
+bat-origin betacoronaviruses.} Risk is a composite measure of the color
+value and angular distance to the yellow hue in
+fig.~\ref{fig:trivariate} (see Methods).}\label{fig:risk}
 }
 \end{figure}
 \efloatseparator
@@ -59,15 +61,13 @@ Methods).}\label{fig:risk}
 \hypertarget{fig:compound}{%
 \centering
 \includegraphics{figures/risk_compounded.png}
-\caption{Overlap of the percent of each pixel occupied by urbanized
-structures, representing the degree of settlement, on the spillover risk
-map (where the risk comes only from wildlife, and ignores multi-hosts
-chains of transmissions including non-bats hosts). Darker pixels
-correspond to more risk, in that the GMTC-derived risk of
-fig.~\ref{fig:risk} is high \emph{and} the pixel is densely occupied by
-human populations. This approach increases the relative risk of several
-regions in Africa, and highlights the risk in India, southeast China,
-and the Arabian peninsula where areas of high to moderate risk overlap
-with areas of denser population.}\label{fig:compound}
+\caption{\textbf{Overlap between evolutionary potential and ecological
+opportunity for zoonotic emergence.} Overlap of the percent of each
+pixel occupied by urbanized structures, representing the degree of
+settlement, on the spillover risk map (where the risk comes only from
+wildlife, and ignores multi-hosts chains of transmissions including
+non-bats hosts). Darker pixels correspond to more risk, in that the
+GMTC-derived risk of fig.~\ref{fig:risk} is high \emph{and} the pixel is
+densely occupied by human populations.}\label{fig:compound}
 }
 \end{figure}
