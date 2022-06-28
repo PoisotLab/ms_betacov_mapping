@@ -215,9 +215,10 @@ the Middle East). Translating this axis of variation back into a univariate risk
 highlights that this evolutionary landscape has a striking correspondence to regions where 
 zoonotic betacoronaviruses have previously emerged.
 
-Under this framework, other regions where high viral sharing dominates coevolutionary 
+Compared to approaches that map emergence risk based only on the number of known bat hosts of 
+betacoronaviruses, our framework suggests regions where high viral sharing dominates coevolutionary 
 dynamics---such as Latin America, or Eurasia above a northing of 30---would pose less of a 
-risk of zoonotic emergence. Nevertheless, areas of high host uniqueness coupled with high 
+relative risk of zoonotic emergence. Nevertheless, areas of high host uniqueness coupled with high 
 viral sharing (red-to-pink in @fig:trivariate) could create hotspots facilitated by viral
 codivergence. Our framework identifies Madagascar, where most bat species are endemic following 
 evolutionary divergence from sister species in both African and Asian continents [@Shi2014DeeDiv], 
