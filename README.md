@@ -298,11 +298,13 @@ ecosystem-derived benefits to humans [@Kasso2013EcoEco]. Over
 two-thirds of bats are know to be either obligate or facultative insectivores,
 therefore actively contributing for agricultural pest control [@Voigt2016BatAnt;
 @Williams-Guillen2008BatLim], and vectors of pathogens that put a risk on human
-health [@Gonsalves2013MosCon; @Gonsalves2013MosInf]; other species are
-essential links in many seed-dispersal networks [@Mello2011MisPar]. 
-Areas where bats, viruses, and humans co-occur are not necessarily hotspots of 
-risk for human heath; as such, developing more precise ways to map zoonotic hazards
-can help bats and humans coexist safely and support the conservation of these important 
+health [@Gonsalves2013MosCon; @Gonsalves2013MosInf]; some other species are
+essential links in many seed-dispersal networks [@Mello2011MisPar]. However, many of 
+these species face a high risk of extinction, particularly given persecution and 
+killings that sometimes follows from messaging about their role in disease emergence.
+Areas where bats, viruses, and humans co-occur are not always hotspots of risk for 
+human heath; as such, developing more precise ways to map zoonotic hazards
+can help bats and humans coexist safely, and support the conservation of these important 
 and unique animals.
 
 Here, we propose a simple framework with broad explanatory power that helps
@@ -333,8 +335,8 @@ that they contain many bat hosts of undiscovered betacoronaviruses [@Becker2022O
 risk are higher in southeast Asia---a fact that will only become more relevant, as bats 
 track shifting climates and exchange viruses with other species, creating a hotspot of
 elevated cross-species transmission unique to the region [@Carlson2022CliCha; @Muylaert2022PreFut].
-Bats---and the spillover of their viruses---are also sensitive  responds to anthropogenic
-factors others than shifting climates, including deforestation and other kinds of habitat
+Bats---and the spillover of their viruses---are also sensitive to anthropogenic
+factors others than climate change, including deforestation and other kinds of habitat
 loss, increased stress, and greater contact with potential bridge hosts like domesticated
 species [@Alves2018GeoVar; @Treitler2016EffLoc; @Rulli2021LanCha]. This represents a challenge 
 for both conservation strategies and pandemic prevention [@Amman2011InvRol], but identifying
