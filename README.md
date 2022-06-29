@@ -73,9 +73,9 @@ Mediterranean coast; (3) Eurasia above a northing of 40; and (4) Africa and
 Latin America. In some cases, this diverges from expectations about coronavirus
 biogeography: for example, previous work has rarely flagged India as a region of
 interest, but for both bats and betacoronaviruses, the subcontinent falls into
-the same regions as the southeast Asian peninsula (and indeed, the region is home 
-to known bat hosts of multiple betacoronavirus subgenera, including nobecoviruses, 
-sarbecoviruses, and merbecoviruses [@Ruiz-Aravena2022EcoEvo]).
+the same regions as the southeast Asian peninsula (and indeed, the region is
+home to known bat hosts of multiple betacoronavirus subgenera, including
+nobecoviruses, sarbecoviruses, and merbecoviruses [@Ruiz-Aravena2022EcoEvo]).
 
 ![**Bat and betacoronavirus biogeographic regions.** Phylogeography of bats (top) 
 and viruses (bottom) is categorized based on analysis of bat distributions paired with bat
@@ -123,11 +123,11 @@ that these undiscovered reservoirs should follow the same diversity gradient
 [@Becker2022OptPre]. In principle, these hotspots of locally-diverse, virus-rich
 bat communities should drive more adaptive diversification in their viruses. 
 
-![**Bat and betacoronavirus diversity.** Top panel: relative diversity of known bat hosts of betacoronaviruses. This
-map shows that the region with the largest number of possible hosts is
-South-Eastern Asia. Bottom panel: congruence between the evolutionary
-distinctiveness of the hosts (grey to blue) and the viruses (grey to
-red).](figures/combined_richness.png){#fig:richness}
+![**Bat and betacoronavirus diversity.** Top panel: relative diversity of known
+bat hosts of betacoronaviruses. This map shows that the region with the largest
+number of possible hosts is South-Eastern Asia. Bottom panel: congruence between
+the evolutionary distinctiveness of the hosts (grey to blue) and the viruses
+(grey to red).](figures/combined_richness.png){#fig:richness}
 
 However, we find that the global pattern of betacoronavirus phylogenetic
 distinctiveness is quite distinct from both bat host richness and phylogenetic
@@ -170,62 +170,76 @@ coevolution.
 
 ## Coevolutionary regimes structure evolutionary potential for zoonotic emergence
 
-The existence of well-defined cophylogenetic regions suggests that the bat-betacoronavirus
-system is spatially fragmented enough to create divergent coevolutionary trajectories; in turn,
-this coevolutionary mosaic may alter the risk of zoonotic emergence. These ideas are, respectively, 
-supported by the existence of hotspots of viral uniqueness and the diverse origins of human betacoronaviruses.
-Together, this framework points to a predictable relationship between host community structure
-and coevolutionary pressure: phylogeographic structure in bat hosts (and their diverse immune 
-strategies [@Banerjee2020NovIns]) creates a landscape of selective pressure; the trajectory of
-viruses' coevolutionary response is, in turn, constrained by their opportunities for either
-specialization or diversification through host jumps and recombination.
+The existence of well-defined cophylogenetic regions suggests that the
+bat-betacoronavirus system is spatially fragmented enough to create divergent
+coevolutionary trajectories; in turn, this coevolutionary mosaic may alter the
+risk of zoonotic emergence. These ideas are, respectively, supported by the
+existence of hotspots of viral uniqueness and the diverse origins of human
+betacoronaviruses. Together, this framework points to a predictable relationship
+between host community structure and coevolutionary pressure: phylogeographic
+structure in bat hosts (and their diverse immune strategies
+[@Banerjee2020NovIns]) creates a landscape of selective pressure; the trajectory
+of viruses' coevolutionary response is, in turn, constrained by their
+opportunities for either specialization or diversification through host jumps
+and recombination.
 
-Based on the geographic mosaic theory of coevolution, we developed a trivariate map of 
-three facets of coevolutionary pressure (@fig:trivariate): (1) _host phylogenetic diversity_: a high diversity of 
-evolutionary histories should expose viruses to more variation in host immune traits; (2) _host 
-community uniqueness_: exposure to greater host trait heterogeneity can drive viral diversification, and 
-coevolving with more unique host communities should create more unique branches of viral evolution; 
-and (3) propensity for _viral sharing_: frequent cross-species transmission may act as a buffer 
-on selective pressure, while lower rates of exchange may enable more simultaneous 
-trajectories of viral specialization to coexist within a given community. We combine global maps 
-of all three to generate a map of coevolutionary regimes, where close colors represent similar risks, 
-and paler pixels represent overall higher risk (see Methods). We find that these regions do not 
-neatly overlap with those defined in @fig:biogeo or @fig:richness, reinforcing the notion that local-scale 
+Based on the geographic mosaic theory of coevolution, we developed a trivariate
+map of three facets of coevolutionary pressure (@fig:trivariate): (1) _host
+phylogenetic diversity_: a high diversity of evolutionary histories should
+expose viruses to more variation in host immune traits; (2) _host community
+uniqueness_: exposure to greater host trait heterogeneity can drive viral
+diversification, and coevolving with more unique host communities should create
+more unique branches of viral evolution; and (3) propensity for _viral sharing_:
+frequent cross-species transmission may act as a buffer on selective pressure,
+while lower rates of exchange may enable more simultaneous trajectories of viral
+specialization to coexist within a given community. We combine global maps of
+all three to generate a map of coevolutionary regimes, where close colors
+represent similar risks, and paler pixels represent overall higher risk (see
+Methods). We find that these regions do not neatly overlap with those defined in
+@fig:biogeo or @fig:richness, reinforcing the notion that local-scale
 coevolutionary mosaics can form within cophylogenetic regions.
 
-![**Trivariate additive mapping of the components of risk.** Viral sharing runs from yellow (low) to blue (high); 
-host phylogenetic diversity runs from pink (low) to high (green); and host compositional uniqueness runs from 
-cyan (low) to red (high). The GMTC suggests that the highest evolutionary potential for emergence exists in 
-unique and diverse host communities with low viral sharing, *i.e.* pixels around yellow. All components are 
-scaled in brightness so that a pixel with no sharing, no phylogenetic diversity, and no compositional uniqueness 
-would be black, and a pixel with maximal values for each would be white.](figures/risk_trivariate.png){#fig:trivariate}
+![**Trivariate additive mapping of the components of risk.** Viral sharing runs
+from yellow (low) to blue (high); host phylogenetic diversity runs from pink
+(low) to high (green); and host compositional uniqueness runs from cyan (low) to
+red (high). The GMTC suggests that the highest evolutionary potential for
+emergence exists in unique and diverse host communities with low viral sharing,
+*i.e.* pixels around yellow. All components are scaled in brightness so that a
+pixel with no sharing, no phylogenetic diversity, and no compositional
+uniqueness would be black, and a pixel with maximal values for each would be
+white.](figures/risk_trivariate.png){#fig:trivariate}
 
-The greatest evolutionary potential for zoonotic emergence exists where pathogen pools 
-have a high genetic diversity and high propensity for cross-species transmission. In our
-framework, emergence risk is therefore maximized under higher phylogenetic diversity (viruses 
-are exposes to different host clades), higher host uniqueness (viruses are experiencing novel,
-heterogeneous host traits combinations), and low to medium viral sharing (host-virus pairs can 
-coevolve independently, but divergent viruses may still have opportunities for recombination). 
-In @fig:trivariate, this corresponds to yellow areas (dynamics dominated by low viral sharing, 
-with equal contributions of selection mosaics and trait remixing; southeast Asia, and the 
-Indian sub-continent), green-yellow areas (dynamics with low viral sharing but dominated by 
-the selection mosaic effect of host diversity; sub-Saharan Africa), and red-yellow 
-areas (dynamics with low viral sharing but dominated by trait remixing in host communities; 
-the Middle East). Translating this axis of variation back into a univariate risk map ([@fig:risk])
-highlights that this evolutionary landscape has a striking correspondence to regions where 
-zoonotic betacoronaviruses have previously emerged.
+The greatest evolutionary potential for zoonotic emergence exists where pathogen
+pools have a high genetic diversity and high propensity for cross-species
+transmission. In our framework, emergence risk is therefore maximized under
+higher phylogenetic diversity (viruses are exposes to different host clades),
+higher host uniqueness (viruses are experiencing novel, heterogeneous host
+traits combinations), and low to medium viral sharing (host-virus pairs can
+coevolve independently, but divergent viruses may still have opportunities for
+recombination). In @fig:trivariate, this corresponds to yellow areas (dynamics
+dominated by low viral sharing, with equal contributions of selection mosaics
+and trait remixing; southeast Asia, and the Indian sub-continent), green-yellow
+areas (dynamics with low viral sharing but dominated by the selection mosaic
+effect of host diversity; sub-Saharan Africa), and red-yellow areas (dynamics
+with low viral sharing but dominated by trait remixing in host communities; the
+Middle East). Translating this axis of variation back into a univariate risk map
+([@fig:risk]) highlights that this evolutionary landscape has a striking
+correspondence to regions where zoonotic betacoronaviruses have previously
+emerged.
 
-Compared to approaches that map emergence risk based only on the number of known bat hosts of 
-betacoronaviruses, our framework suggests regions where high viral sharing dominates coevolutionary 
-dynamics---such as Latin America, or Eurasia above a northing of 30---would pose less of a 
-relative risk of zoonotic emergence. Nevertheless, areas of high host uniqueness coupled with high 
-viral sharing (red-to-pink in @fig:trivariate) could create hotspots facilitated by viral
-codivergence. Our framework identifies Madagascar, where most bat species are endemic following 
-evolutionary divergence from sister species in both African and Asian continents [@Shi2014DeeDiv], 
-as one such hotspot; interestingly, a recent study [@Kettenburg2022FulGen] reported a novel
-and highly divergent lineage of nobecoviruses from Madagascar-endemic pteropid bat species 
-(*Pteropus rufus* and *Rousettus madagascariensis*), again supporting the predictive power
-of the coevolutionary framework. 
+Compared to approaches that map emergence risk based only on the number of known
+bat hosts of betacoronaviruses, our framework suggests regions where high viral
+sharing dominates coevolutionary dynamics---such as Latin America, or Eurasia
+above a northing of 30---would pose less of a relative risk of zoonotic
+emergence. Nevertheless, areas of high host uniqueness coupled with high viral
+sharing (red-to-pink in @fig:trivariate) could create hotspots facilitated by
+viral codivergence. Our framework identifies Madagascar, where most bat species
+are endemic following evolutionary divergence from sister species in both
+African and Asian continents [@Shi2014DeeDiv], as one such hotspot;
+interestingly, a recent study [@Kettenburg2022FulGen] reported a novel and
+highly divergent lineage of nobecoviruses from Madagascar-endemic pteropid bat
+species (*Pteropus rufus* and *Rousettus madagascariensis*), again supporting
+the predictive power of the coevolutionary framework. 
 
 ![**Evolutionary potential for zoonotic emergence of bat-origin betacoronaviruses.** Risk is a 
 composite measure of the color value and angular distance to the yellow hue in @fig:trivariate
@@ -251,13 +265,13 @@ Asia, the Indian subcontinent, and scattered hotspots in sub-Saharan Africa are
 at high risk due to the overlap between human populations and natural
 opportunities for cross-species transmission of betacoronaviruses. 
 
-![**Overlap between evolutionary potential and ecological opportunity for zoonotic emergence.**
-Overlap of the percent of each pixel occupied by urbanized structures,
-representing the degree of settlement, on the spillover risk map (where the risk
-comes only from wildlife, and ignores multi-hosts chains of transmissions
-including non-bats hosts). Darker pixels correspond to more risk, in that the
-GMTC-derived risk of @fig:risk is high *and* the pixel is densely occupied by
-human populations.](figures/risk_compounded.png){#fig:compound}
+![**Overlap between evolutionary potential and ecological opportunity for
+zoonotic emergence.** Overlap of the percent of each pixel occupied by urbanized
+structures, representing the degree of settlement, on the spillover risk map
+(where the risk comes only from wildlife, and ignores multi-hosts chains of
+transmissions including non-bats hosts). Darker pixels correspond to more risk,
+in that the GMTC-derived risk of @fig:risk is high *and* the pixel is densely
+occupied by human populations.](figures/risk_compounded.png){#fig:compound}
 
 Reassuringly, these predictions correspond to the geographic origins of the
 three bat-origin coronaviruses that have recently emerged in human populations.
@@ -288,59 +302,61 @@ of high-risk human populations (i.e., those with regular wildlife contact
 # Conclusion
 
 Bats emerged around 64 million years ago, and are one of the most diverse
-mammalian orders, with more than 1,400 estimated species
-[@Peixoto2018SynEco; @Simmons2020BatSpe]. They exhibit a broad variety of
-habitat use, behaviour, and feeding strategies, putting them at key positions in
-the delivery and provisioning of several ecosystem services, tied to important
-ecosystem-derived benefits to humans [@Kasso2013EcoEco]. Over
-two-thirds of bats are know to be either obligate or facultative insectivores,
-therefore actively contributing for agricultural pest control [@Voigt2016BatAnt;
-@Williams-Guillen2008BatLim], and vectors of pathogens that put a risk on human
-health [@Gonsalves2013MosCon; @Gonsalves2013MosInf]; some other species are
-essential links in many seed-dispersal networks [@Mello2011MisPar]. However, many of 
-these species face a high risk of extinction, particularly given persecution and 
-killings that sometimes follows from messaging about their role in disease emergence.
-Areas where bats, viruses, and humans co-occur are not always hotspots of risk for 
-human heath; as such, developing more precise ways to map zoonotic hazards
-can help bats and humans coexist safely, and support the conservation of these important 
-and unique animals.
+mammalian orders, with more than 1,400 estimated species [@Peixoto2018SynEco;
+@Simmons2020BatSpe]. They exhibit a broad variety of habitat use, behaviour, and
+feeding strategies, putting them at key positions in the delivery and
+provisioning of several ecosystem services, tied to important ecosystem-derived
+benefits to humans [@Kasso2013EcoEco]. Over two-thirds of bats are know to be
+either obligate or facultative insectivores, therefore actively contributing for
+agricultural pest control [@Voigt2016BatAnt; @Williams-Guillen2008BatLim], and
+vectors of pathogens that put a risk on human health [@Gonsalves2013MosCon;
+@Gonsalves2013MosInf]; some other species are essential links in many
+seed-dispersal networks [@Mello2011MisPar]. However, many of these species face
+a high risk of extinction, particularly given persecution and killings that
+sometimes follows from messaging about their role in disease emergence. Areas
+where bats, viruses, and humans co-occur are not always hotspots of risk for
+human heath; as such, developing more precise ways to map zoonotic hazards can
+help bats and humans coexist safely, and support the conservation of these
+important and unique animals.
 
 Here, we propose a simple framework with broad explanatory power that helps
 contextualize discoveries like highly divergent nobecoviruses in Madagascar and
-the once-neglected adaptive radiation of sarbecoviruses in the Indochinese peninsula. 
-In doing so, it advances ecological theory beyond the current state of the art for 
-global maps of emergence risk. For example, previous studies that have used host richness 
-as a proxy have predicted a high diversity of unsampled bat viruses
-[@Olival2017HosVir], bat coronaviruses [@Anthony2017GloPat], and even
-specifically betacoronaviruses [@Becker2022OptPre] in both the Amazon and
-southeast Asia. While we find that both regions are characterized by unique 
-and diverse communities of both hosts and viruses, our framework is able to 
-identify key differences between the two systems. We find that the merbecovirus complex
-in Latin America has been a unique branch of evolution separate from the rest of the
-global pool, but with limited potential for viral diversification--- a finding
-that is supported by previous work indicating a higher rate of codivergence in
-Latin America [@Anthony2017GloPat]. In contrast, in southeast Asia, host
-richness and viral distinctiveness are high but sharing is low; this suggests a
-different type of evolutionary dynamics that could generate high local diversity
-of viruses through host switching and viral recombination (see *e.g.*
-[@Latinne2020OriCro], as well as the discovery of recombinant viruses with
-genetic material from both the SARS-CoV and SARS-CoV-2 branches of the
+the once-neglected adaptive radiation of sarbecoviruses in the Indochinese
+peninsula. In doing so, it advances ecological theory beyond the current state
+of the art for global maps of emergence risk. For example, previous studies that
+have used host richness as a proxy have predicted a high diversity of unsampled
+bat viruses [@Olival2017HosVir], bat coronaviruses [@Anthony2017GloPat], and
+even specifically betacoronaviruses [@Becker2022OptPre] in both the Amazon and
+southeast Asia. While we find that both regions are characterized by unique and
+diverse communities of both hosts and viruses, our framework is able to identify
+key differences between the two systems. We find that the merbecovirus complex
+in Latin America has been a unique branch of evolution separate from the rest of
+the global pool, but with limited potential for viral diversification--- a
+finding that is supported by previous work indicating a higher rate of
+codivergence in Latin America [@Anthony2017GloPat]. In contrast, in southeast
+Asia, host richness and viral distinctiveness are high but sharing is low; this
+suggests a different type of evolutionary dynamics that could generate high
+local diversity of viruses through host switching and viral recombination (see
+*e.g.* [@Latinne2020OriCro], as well as the discovery of recombinant viruses
+with genetic material from both the SARS-CoV and SARS-CoV-2 branches of the
 Sarbecovirus lineage [@Wu2021ComSur]). 
 
-Both of these regions are priority areas for sampling, especially given predictions 
-that they contain many bat hosts of undiscovered betacoronaviruses [@Becker2022OptPre; 
-@Cohen2022SamStr]. However, both the evolutionary and ecological aspects of emergence 
-risk are higher in southeast Asia---a fact that will only become more relevant, as bats 
-track shifting climates and exchange viruses with other species, creating a hotspot of
-elevated cross-species transmission unique to the region [@Carlson2022CliCha; @Muylaert2022PreFut].
+Both of these regions are priority areas for sampling, especially given
+predictions that they contain many bat hosts of undiscovered betacoronaviruses
+[@Becker2022OptPre; @Cohen2022SamStr]. However, both the evolutionary and
+ecological aspects of emergence risk are higher in southeast Asia---a fact that
+will only become more relevant, as bats track shifting climates and exchange
+viruses with other species, creating a hotspot of elevated cross-species
+transmission unique to the region [@Carlson2022CliCha; @Muylaert2022PreFut].
 Bats---and the spillover of their viruses---are also sensitive to anthropogenic
-factors others than climate change, including deforestation and other kinds of habitat
-loss, increased stress, and greater contact with potential bridge hosts like domesticated
-species [@Alves2018GeoVar; @Treitler2016EffLoc; @Rulli2021LanCha] (add cite for 10.1038/nature13139). This represents a challenge 
-for both conservation strategies and pandemic prevention [@Amman2011InvRol], but identifying
-areas at risk, and protecting the health of bats and ecosystems within those zones, 
-can be a win-win intervention for both (add cites for DOIs:
-10.1038/s41893-020-00640-z; 10.1016/S2542-5196(21)00031-0).
+factors others than climate change, including deforestation and other kinds of
+habitat loss, increased stress, and greater contact with potential bridge hosts
+like domesticated species [@Alves2018GeoVar; @Treitler2016EffLoc;
+@Rulli2021LanCha; @Mendenhall2014PreBio]. This represents a challenge for both
+conservation strategies and pandemic prevention [@Amman2011InvRol], but
+identifying areas at risk, and protecting the health of bats and ecosystems
+within those zones, can be a win-win intervention for both [@Hopkins2021HowIde;
+@Plowright2021LanUse].
 
 **Acknowledgements**: We acknowledge that this study was conducted on land
 within the traditional unceded territory of the Saint Lawrence Iroquoian,
