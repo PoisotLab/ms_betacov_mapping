@@ -1987,6 +1987,82 @@
         "volume": "152"
     },
     {
+        "DOI": "10.1038/s41893-020-00640-z",
+        "author": [
+            {
+                "family": "Hopkins",
+                "given": "Skylar R."
+            },
+            {
+                "family": "Sokolow",
+                "given": "Susanne H."
+            },
+            {
+                "family": "Buck",
+                "given": "Julia C."
+            },
+            {
+                "family": "De Leo",
+                "given": "Giulio A."
+            },
+            {
+                "family": "Jones",
+                "given": "Isabel J."
+            },
+            {
+                "family": "Kwong",
+                "given": "Laura H."
+            },
+            {
+                "family": "LeBoa",
+                "given": "Christopher"
+            },
+            {
+                "family": "Lund",
+                "given": "Andrea J."
+            },
+            {
+                "family": "MacDonald",
+                "given": "Andrew J."
+            },
+            {
+                "family": "Nova",
+                "given": "Nicole"
+            },
+            {
+                "family": "Olson",
+                "given": "Sarah H."
+            },
+            {
+                "family": "Peel",
+                "given": "Alison J."
+            },
+            {
+                "family": "Wood",
+                "given": "Chelsea L."
+            },
+            {
+                "family": "Lafferty",
+                "given": "Kevin D."
+            }
+        ],
+        "container-title": "Nature Sustainability",
+        "id": "Hopkins2021HowIde",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    4
+                ]
+            ]
+        },
+        "page": "298-304",
+        "title": "How to identify win\u2013win interventions that benefit human health and conservation",
+        "type": "article-journal",
+        "volume": "4"
+    },
+    {
         "author": [
             {
                 "family": "Hu",
@@ -3307,6 +3383,47 @@
         "volume": "19"
     },
     {
+        "DOI": "10.1038/nature13139",
+        "author": [
+            {
+                "family": "Mendenhall",
+                "given": "Chase D."
+            },
+            {
+                "family": "Karp",
+                "given": "Daniel S."
+            },
+            {
+                "family": "Meyer",
+                "given": "Christoph F. J."
+            },
+            {
+                "family": "Hadly",
+                "given": "Elizabeth A."
+            },
+            {
+                "family": "Daily",
+                "given": "Gretchen C."
+            }
+        ],
+        "container-title": "Nature",
+        "id": "Mendenhall2014PreBio",
+        "issue": "7499",
+        "issued": {
+            "date-parts": [
+                [
+                    2014,
+                    5,
+                    8
+                ]
+            ]
+        },
+        "page": "213-217",
+        "title": "Predicting biodiversity change and averting collapse in agricultural landscapes",
+        "type": "article-journal",
+        "volume": "509"
+    },
+    {
         "DOI": "10.1073/pnas.2006778117",
         "author": [
             {
@@ -4078,6 +4195,62 @@
         "title": "Pathways to zoonotic spillover",
         "type": "article-journal",
         "volume": "15"
+    },
+    {
+        "DOI": "10.1016/S2542-5196(21)00031-0",
+        "author": [
+            {
+                "family": "Plowright",
+                "given": "Raina K"
+            },
+            {
+                "family": "Reaser",
+                "given": "Jamie K"
+            },
+            {
+                "family": "Locke",
+                "given": "Harvey"
+            },
+            {
+                "family": "Woodley",
+                "given": "Stephen J"
+            },
+            {
+                "family": "Patz",
+                "given": "Jonathan A"
+            },
+            {
+                "family": "Becker",
+                "given": "Daniel J"
+            },
+            {
+                "family": "Oppler",
+                "given": "Gabriel"
+            },
+            {
+                "family": "Hudson",
+                "given": "Peter J"
+            },
+            {
+                "family": "Tabor",
+                "given": "Gary M"
+            }
+        ],
+        "container-title": "The Lancet Planetary Health",
+        "id": "Plowright2021LanUse",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    4
+                ]
+            ]
+        },
+        "page": "e237-e245",
+        "title": "Land use-induced spillover: A call to action to safeguard environmental, animal, and human health",
+        "type": "article-journal",
+        "volume": "5"
     },
     {
         "DOI": "10.1086/424610",
