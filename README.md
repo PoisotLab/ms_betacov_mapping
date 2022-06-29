@@ -336,7 +336,7 @@ elevated cross-species transmission unique to the region [@Carlson2022CliCha; @M
 Bats---and the spillover of their viruses---are also sensitive to anthropogenic
 factors others than climate change, including deforestation and other kinds of habitat
 loss, increased stress, and greater contact with potential bridge hosts like domesticated
-species [@Alves2018GeoVar; @Treitler2016EffLoc; @Rulli2021LanCha]. This represents a challenge 
+species [@Alves2018GeoVar; @Treitler2016EffLoc; @Rulli2021LanCha] (add cite for 10.1038/nature13139). This represents a challenge 
 for both conservation strategies and pandemic prevention [@Amman2011InvRol], but identifying
 areas at risk, and protecting the health of bats and ecosystems within those zones, 
 can be a win-win intervention for both (add cites for DOIs:
