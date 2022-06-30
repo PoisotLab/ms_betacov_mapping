@@ -284,9 +284,7 @@ Guangdong province in 2002, reaching humans through small carnivore bridge
 hosts, but was eventually traced back to a set of likely progenitor viruses
 found in cave-dwelling horseshoe bats in Yunnan province [@Hu2017DisRic];
 nearby, antibody evidence has indicated human exposure to SARS-like viruses
-[@Wang2018SerEvi].  MERS-CoV was originally detected in Saudi Arabia,
-accompanied by a nearly identical virus sequenced from an Egyptian tomb bat
-(_Taphozous perforatus_) [@Memish2013MidEas], but is widespread in camels in
+[@Wang2018SerEvi]. MERS-CoV was first detected in Jordan, but is widespread in camels in
 East Africa and the Middle East, and may have reached its bridge host decades
 earlier than originally supposed [@Muller2014MerCor]; as a result, the geography
 of the original bat-to-camel transmission is still widely regarded as uncertain.
