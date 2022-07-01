@@ -37,10 +37,10 @@ diversity runs from pink (low) to high (green); and host compositional
 uniqueness runs from cyan (low) to red (high). The GMTC suggests that
 the highest evolutionary potential for emergence exists in unique and
 diverse host communities with low viral sharing, \emph{i.e.} pixels
-around yellow. All components are scaled in brightness so that a pixel
-with no sharing, no phylogenetic diversity, and no compositional
-uniqueness would be black, and a pixel with maximal values for each
-would be white.}\label{fig:trivariate}
+around yellow. All components within bat host ranges are scaled in
+brightness so that a pixel with no sharing, no phylogenetic diversity,
+and no compositional uniqueness would be black, and a pixel with maximal
+values for each would be white.}\label{fig:trivariate}
 }
 \end{figure}
 \efloatseparator

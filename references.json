@@ -3837,6 +3837,135 @@
         "volume": "16"
     },
     {
+        "DOI": "10.1371/journal.ppat.1010537",
+        "author": [
+            {
+                "literal": "OHHLEP"
+            },
+            {
+                "family": "Adisasmito",
+                "given": "Wiku B."
+            },
+            {
+                "family": "Almuhairi",
+                "given": "Salama"
+            },
+            {
+                "family": "Behravesh",
+                "given": "Casey Barton"
+            },
+            {
+                "family": "Bilivogui",
+                "given": "P\u00e9p\u00e9"
+            },
+            {
+                "family": "Bukachi",
+                "given": "Salome A."
+            },
+            {
+                "family": "Casas",
+                "given": "Natalia"
+            },
+            {
+                "family": "Becerra",
+                "given": "Natalia Cediel"
+            },
+            {
+                "family": "Charron",
+                "given": "Dominique F."
+            },
+            {
+                "family": "Chaudhary",
+                "given": "Abhishek"
+            },
+            {
+                "family": "Zanella",
+                "given": "Janice R. Ciacci"
+            },
+            {
+                "family": "Cunningham",
+                "given": "Andrew A."
+            },
+            {
+                "family": "Dar",
+                "given": "Osman"
+            },
+            {
+                "family": "Debnath",
+                "given": "Nitish"
+            },
+            {
+                "family": "Dungu",
+                "given": "Baptiste"
+            },
+            {
+                "family": "Farag",
+                "given": "Elmoubasher"
+            },
+            {
+                "family": "Gao",
+                "given": "George F."
+            },
+            {
+                "family": "Hayman",
+                "given": "David T. S."
+            },
+            {
+                "family": "Khaitsa",
+                "given": "Margaret"
+            },
+            {
+                "family": "Koopmans",
+                "given": "Marion P. G."
+            },
+            {
+                "family": "Machalaba",
+                "given": "Catherine"
+            },
+            {
+                "family": "Mackenzie",
+                "given": "John S."
+            },
+            {
+                "family": "Markotter",
+                "given": "Wanda"
+            },
+            {
+                "family": "Mettenleiter",
+                "given": "Thomas C."
+            },
+            {
+                "family": "Morand",
+                "given": "Serge"
+            },
+            {
+                "family": "Smolenskiy",
+                "given": "Vyacheslav"
+            },
+            {
+                "family": "Zhou",
+                "given": "Lei"
+            }
+        ],
+        "container-title": "PLOS Pathogens",
+        "id": "OHHLEP2022OneHea",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    6,
+                    23
+                ]
+            ]
+        },
+        "page": "e1010537",
+        "publisher": "Public Library of Science",
+        "title": "One Health: A new definition for a sustainable and healthy future",
+        "type": "article-journal",
+        "volume": "18"
+    },
+    {
         "DOI": "10.1038/nature22975",
         "author": [
             {
