@@ -354,7 +354,7 @@ like domesticated species [@Alves2018GeoVar; @Treitler2016EffLoc;
 conservation strategies and pandemic prevention [@Amman2011InvRol], but
 identifying areas at risk, and protecting the health of bats and ecosystems
 within those zones, can be a win-win intervention for both [@Hopkins2021HowIde;
-@Plowright2021LanUse;OHHLEP2022OneHea].
+@Plowright2021LanUse;@OHHLEP2022OneHea].
 
 **Acknowledgements**: We acknowledge that this study was conducted on land
 within the traditional unceded territory of the Saint Lawrence Iroquoian,
