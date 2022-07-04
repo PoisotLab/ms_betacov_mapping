@@ -922,6 +922,31 @@
         "volume": "19"
     },
     {
+        "DOI": "10.1128/spectrum.01411-22",
+        "author": [
+            {
+                "family": "Caraballo",
+                "given": "Diego A."
+            }
+        ],
+        "container-title": "Microbiology Spectrum",
+        "id": "Caraballo2022CroTra",
+        "issue": "0",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    6,
+                    30
+                ]
+            ]
+        },
+        "page": "e01411-22",
+        "title": "Cross-Species Transmission of Bat Coronaviruses in the Americas: Contrasting Patterns between Alphacoronavirus and Betacoronavirus",
+        "type": "article-journal",
+        "volume": "0"
+    },
+    {
         "DOI": "10.1038/s41559-019-0910-6",
         "author": [
             {
