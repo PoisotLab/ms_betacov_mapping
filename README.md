@@ -137,13 +137,14 @@ evolutionary distinct hosts *and* viruses, followed by secondary hotspots in
 southeast Asia and the Rift Valley region have mostly distinct viruses. Some
 degree of sampling bias may contribute to these patterns: for example, the
 Neotropics are one of the places where the fewest bat betacoronavirus sequences
-have been generated (cite2), resulting in a sparser phylogenetic tree, and
-artificially inflating distinctiveness; conversely, disproportionate research
-effort in eastern China [@Cohen2022SamStr] may have led to a more complete
-inventory of the local diversity of coronaviruses, again inflating these metrics
-relative to underlying patterns. Even accounting for these potential biases,
-though, there is obvious heterogeneity in betacoronavirus evolutionary
-distinctiveness that is distinct from overall bat diversity.
+have been generated [@Worobey2022HuaMar; @Temmam2022BatCor; @Boni2020EvoOri],
+resulting in a sparser phylogenetic tree, and artificially inflating
+distinctiveness; conversely, disproportionate research effort in eastern China
+[@Cohen2022SamStr] may have led to a more complete inventory of the local
+diversity of coronaviruses, again inflating these metrics relative to underlying
+patterns. Even accounting for these potential biases, though, there is obvious
+heterogeneity in betacoronavirus evolutionary distinctiveness that is distinct
+from overall bat diversity.
 
 Overall, these patterns recapitulate the evolutionary history of both the order
 Chiroptera and the genus _Betacoronavirus_. Horseshoe bats (Rhinolophidae)
@@ -331,13 +332,13 @@ key differences between the two systems. We find that the merbecovirus complex
 in Latin America has been a unique branch of evolution separate from the rest of
 the global pool, but with limited potential for viral diversification--- a
 finding that is supported by previous work indicating a higher rate of
-codivergence in Latin America [@Anthony2017GloPat]. In contrast, in southeast
-Asia, host richness and viral distinctiveness are high but sharing is low; this
-suggests a different type of evolutionary dynamics that could generate high
-local diversity of viruses through host switching and viral recombination (see
-*e.g.* [@Latinne2020OriCro], as well as the discovery of recombinant viruses
-with genetic material from both the SARS-CoV and SARS-CoV-2 branches of the
-Sarbecovirus lineage [@Wu2021ComSur]). 
+codivergence in Latin America [@Anthony2017GloPat;@Caraballo2022CroTra]. In
+contrast, in southeast Asia, host richness and viral distinctiveness are high
+but sharing is low; this suggests a different type of evolutionary dynamics that
+could generate high local diversity of viruses through host switching and viral
+recombination (see *e.g.* [@Latinne2020OriCro], as well as the discovery of
+recombinant viruses with genetic material from both the SARS-CoV and SARS-CoV-2
+branches of the Sarbecovirus lineage [@Wu2021ComSur]).
 
 Both of these regions are priority areas for sampling, especially given
 predictions that they contain many bat hosts of undiscovered betacoronaviruses
