@@ -1,7 +1,7 @@
 Disease emergence is complex, and is driven not only by animal-human contact,
 but also by the underlying evolutionary dynamics in viral reservoirs
 [@Plowright2017PatZoo]. Although host richness is often used as a superficial
-proxy for spillover risk [@Anthony2017GloPat; @Ruiz-Aravena2022EcoEvo], these
+proxy for spillover risk [@Anthony2017GloPat; @Ruiz-Aravena2022EcoEvo; @Sanchez2022Strategy], these
 approaches oversimplify the relevant interspecific heterogeneity in immunology,
 behavior, and other traits, and therefore overlook unique host pools that allow
 for the rapid evolution of highly divergent viruses [@Agosta2010HowSpe]. In the
@@ -108,7 +108,7 @@ the component coevolutionary systems may have very different dynamics.
 ## Hotspots of bat and betacoronavirus biodiversity are distinct
 
 Bats, the second most diverse groups of mammals, are found worldwide; gradients
-in their species richness generally track broader patterns of mammal diversity,
+in their species richness generally track broader patterns of mammal diversity [@Tanalgo2022Mapping],
 with a striking Neotropical hotspot (especially in the Amazon basin) and a
 secondary hotspot centered in Indochina. These hotspots of bat diversity are
 generally presumed to be hotspots of viral adaptive radiation, and therefore
