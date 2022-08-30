@@ -4848,6 +4848,61 @@
         "volume": "11"
     },
     {
+        "author": [
+            {
+                "family": "S\u00e1nchez",
+                "given": "Cecilia A"
+            },
+            {
+                "family": "Li",
+                "given": "Hongying"
+            },
+            {
+                "family": "Phelps",
+                "given": "Kendra L"
+            },
+            {
+                "family": "Zambrana-Torrelio",
+                "given": "Carlos"
+            },
+            {
+                "family": "Wang",
+                "given": "Lin-Fa"
+            },
+            {
+                "family": "Zhou",
+                "given": "Peng"
+            },
+            {
+                "family": "Shi",
+                "given": "Zheng-Li"
+            },
+            {
+                "family": "Olival",
+                "given": "Kevin J"
+            },
+            {
+                "family": "Daszak",
+                "given": "Peter"
+            }
+        ],
+        "container-title": "Nature communications",
+        "id": "Sanchez2022Strategy",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "1-12",
+        "publisher": "Nature Publishing Group",
+        "title": "A strategy to assess spillover risk of bat SARS-related coronaviruses in southeast asia",
+        "type": "article-journal",
+        "volume": "13"
+    },
+    {
         "DOI": "10.1371/journal.pone.0054023",
         "author": [
             {
@@ -5053,6 +5108,36 @@
         "title": "Managing Conflict between Bats and Humans: The Response of Soprano Pipistrelles (Pipistrellus pygmaeus) to Exclusion from Roosts in Houses",
         "type": "article-journal",
         "volume": "10"
+    },
+    {
+        "author": [
+            {
+                "family": "Tanalgo",
+                "given": "Krizler C"
+            },
+            {
+                "family": "Oliveira",
+                "given": "Hernani FM"
+            },
+            {
+                "family": "Hughes",
+                "given": "Alice Catherine"
+            }
+        ],
+        "container-title": "Science of The Total Environment",
+        "id": "Tanalgo2022mapping",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "156909",
+        "publisher": "Elsevier",
+        "title": "Mapping global conservation priorities and habitat vulnerabilities for cave-dwelling bats in a changing world",
+        "type": "article-journal",
+        "volume": "843"
     },
     {
         "DOI": "10.1126/science.1105113",
