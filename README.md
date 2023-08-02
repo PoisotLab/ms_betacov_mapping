@@ -231,9 +231,15 @@ with low viral sharing but dominated by trait remixing in host communities; the
 Middle East). Translating this axis of variation back into a univariate risk map
 ([@fig:risk]) highlights that this evolutionary landscape has a striking
 correspondence to regions where zoonotic betacoronaviruses have previously
-emerged. Nevertheless, there are actually very few documented cases of emergence
-events, and therefore we cannot rule out the chance of future emergence events
-in other areas.
+emerged. Our findings align with predictions regarding the spatial location of
+cross-species transmission. These locations not only pose a potential risk of
+viral jumps that could endanger human health but also provide valuable
+information for monitoring wildlife health. This could guide us to determine
+where and what measures to implement for effectively monitoring wildlife and
+human betacoronavirus outbreaks before they escalate to critical levels.
+Nevertheless, there are actually very few documented cases of emergence events,
+and therefore we cannot rule out the chance of future emergence events in other
+areas.
 
 Compared to approaches that map emergence risk based only on the number of known
 bat hosts of betacoronaviruses, our framework suggests regions where high viral
@@ -247,7 +253,7 @@ African and Asian continents [@Shi2014DeeDiv], as one such hotspot;
 interestingly, a recent study [@Kettenburg2022FulGen] reported a novel and
 highly divergent lineage of nobecoviruses from Madagascar-endemic pteropid bat
 species (*Pteropus rufus* and *Rousettus madagascariensis*), again supporting
-the predictive power of the coevolutionary framework. 
+the predictive power of the coevolutionary framework.
 
 ![**Evolutionary potential for zoonotic emergence of bat-origin betacoronaviruses.** Risk is a 
 composite measure of the color value and angular distance to the yellow hue in @fig:trivariate
@@ -361,8 +367,29 @@ results should be robust to under-sampling in high-risk regions: the discovery
 of new hosts would increase uniqueness and host diversity, which would result in
 elevated risk of emergence. Furthermore, the purpose of our risk decomposition
 framework is to be informative at large (biogeographic) spatial scales. For this
-reason,  we expect that the big picture of bats-betacoronavirus interactions is
+reason, we expect that the big picture of bats-betacoronavirus interactions is
 well known enough to be robust to future discovery of bat hosts.
+
+Our trivariate additive mapping of components of risk (@fig:trivariate) aims to
+elicit the complexity of spatial cross-species transmission risk beyond the mere
+presence or absence of the pathogen host in a specific location. By considering
+coevolutionary factors such as viral sharing and host uniqueness, we suggest
+insights that can aid in identifying potential locations for surveillance of
+betacoronavirus circulation and assessing the risk of cross-species transmission
+to other mammals. In communities characterized by diverse but unique host
+populations, with limited viral sharing between them, we could encounter viruses
+that specialize in targeting the immune system of specific hosts. This implies a
+low likelihood of infecting novel hosts but, once locally introduced into a new
+host (either a new species, or an immunologically naïve population), the
+specialized virus could spread relatively easily due to encountering little
+immune resistance (CITE PLOWRIGHT). With the right combination of viral traits,
+such as low disease-induced mortality or high transmission rate, this could lead
+to successfully spread within the new host community. However, while high
+adaptation to a specific host can be advantageous, it may also lead to
+maladaptation when the pathogen encounters a new unsuitable host, potentially
+resulting in its extinction.
+
+> Plowright RK, Foley P, Field HE, Dobson AP, Foley JE, Eby P, Daszak P. Urban habituation, ecological connectivity and epidemic dampening: the emergence of Hendra virus from flying foxes (Pteropus spp.). Proceedings of the Royal Society B: Biological Sciences. 2011 Dec 22;278(1725):3703-12.
 
 Bats---and the spillover of their viruses---are also sensitive to anthropogenic
 factors others than climate change, including deforestation and other kinds of
@@ -404,7 +431,11 @@ initial data collection). The original database was assembled by a combination
 of data mining and literature surveys, including automated alerts on the "bats"
 and "coronavirus" keywords to identify novel empirical evidence of
 bats-betacoronaviruses associations; this yielded a total of 126 known hosts, 47
-of which were novel hosts.
+of which were novel hosts. This host–virus list of interactions was obtained
+through a comprehensive aggregation of GenBank data as well as systematic
+literature searches [@Becker2022OptPre; @Cohen2022SamStr], such that we have
+high confidence in its fitness for the purpose of inference at a large spatial
+scale.
 
 ## Bat occurrences
 
@@ -555,6 +586,13 @@ for NMDS in this case) to project the viral tree into an n-dimensional space. We
 then take the first two principal components and, as with the evolutionary
 distinctiveness analysis, aggregated these to a mean host value and projected
 them using a four-color bivariate map.
+
+## Data availability statement
+
+The code to reproduce these analyses, as well as the data (with the exception of
+the IUCN rangemaps, which must be downloaded from their website) are available
+in the [`viralemergence/betamap`](https://github.com/viralemergence/betamap)
+repository on GitHub.
 
 \newpage
 
