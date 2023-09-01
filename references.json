@@ -6115,5 +6115,112 @@
         "title": "Mapping global conservation priorities and habitat vulnerabilities for cave-dwelling bats in a changing world",
         "type": "article-journal",
         "volume": "843"
+    },
+    {
+        "DOI": "10.1098/rspb.2011.0522",
+        "URL": "https://doi.org/10.1098/rspb.2011.0522",
+        "author": [
+            {
+                "family": "Plowright",
+                "given": "Raina K."
+            },
+            {
+                "family": "Foley",
+                "given": "Patrick"
+            },
+            {
+                "family": "Field",
+                "given": "Hume E."
+            },
+            {
+                "family": "Dobson",
+                "given": "Andy P."
+            },
+            {
+                "family": "Foley",
+                "given": "Janet E."
+            },
+            {
+                "family": "Eby",
+                "given": "Peggy"
+            },
+            {
+                "family": "Daszak",
+                "given": "Peter"
+            }
+        ],
+        "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+        "id": "Plowright2011Urban",
+        "issue": "1725",
+        "issued": {
+            "date-parts": [
+                [
+                    2011,
+                    5
+                ]
+            ]
+        },
+        "page": "3703-3712",
+        "publisher": "The Royal Society",
+        "title": "Urban habituation, ecological connectivity and epidemic dampening: The emergence of hendra virus from flying foxes (pteropus spp.)",
+        "type": "article-journal",
+        "volume": "278"
+    },
+    {
+        "DOI": "10.1038/s41467-022-31860-w",
+        "URL": "https://doi.org/10.1038/s41467-022-31860-w",
+        "author": [
+            {
+                "family": "S\u00e1nchez",
+                "given": "Cecilia A."
+            },
+            {
+                "family": "Li",
+                "given": "Hongying"
+            },
+            {
+                "family": "Phelps",
+                "given": "Kendra L."
+            },
+            {
+                "family": "Zambrana-Torrelio",
+                "given": "Carlos"
+            },
+            {
+                "family": "Wang",
+                "given": "Lin-Fa"
+            },
+            {
+                "family": "Zhou",
+                "given": "Peng"
+            },
+            {
+                "family": "Shi",
+                "given": "Zheng-Li"
+            },
+            {
+                "family": "Olival",
+                "given": "Kevin J."
+            },
+            {
+                "family": "Daszak",
+                "given": "Peter"
+            }
+        ],
+        "container-title": "Nature Communications",
+        "id": "Sanchez2022Strategy",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    8
+                ]
+            ]
+        },
+        "publisher": "Springer Science; Business Media LLC",
+        "title": "A strategy to assess spillover risk of bat SARS-related coronaviruses in southeast asia",
+        "type": "article-journal",
+        "volume": "13"
     }
 ]
