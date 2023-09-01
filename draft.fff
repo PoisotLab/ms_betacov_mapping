@@ -4,11 +4,12 @@
 \includegraphics{figures/combined_biogeo.png}
 \caption{\textbf{Bat and betacoronavirus biogeographic regions.}
 Phylogeography of bats (top) and viruses (bottom) is categorized based
-on analysis of bat distributions paired with bat or virus phylogeny. The
-different colors show tendencies to separate alongside the first two
+on an analysis of bat distributions, paired with bat or virus phylogeny.
+The different colors show tendencies to separate alongside the first two
 components of a PCoA. Note that the PCoA for the bats and viruses are
 independent, and so cannot be compared directly -- that being said, the
-regions can be compared across maps.}\label{fig:biogeo}
+fact that different regions cluster in the same way across maps be
+directly compared.}\label{fig:biogeo}
 }
 \end{figure}
 \efloatseparator
@@ -17,12 +18,13 @@ regions can be compared across maps.}\label{fig:biogeo}
 \hypertarget{fig:richness}{%
 \centering
 \includegraphics{figures/combined_richness.png}
-\caption{\textbf{Bat and betacoronavirus diversity.} Top panel: relative
-diversity of known bat hosts of betacoronaviruses. This map shows that
-the region with the largest number of possible hosts is South-Eastern
-Asia. Bottom panel: congruence between the evolutionary distinctiveness
-of the hosts (grey to blue) and the viruses (grey to
-red).}\label{fig:richness}
+\caption{\textbf{Bat and betacoronavirus diversity.} Top panel:
+diversity of known bat hosts of betacoronaviruses in our dataset. This
+map shows that the region with the largest number of possible hosts is
+South-Eastern Asia. Bottom panel: congruence between the
+\emph{evolutionary} distinctiveness of the hosts (grey to blue) and the
+viruses (grey to red). Darker areas have higher combined evolutionary
+distinctiveness for the entire bat-virus system.}\label{fig:richness}
 }
 \end{figure}
 \efloatseparator
@@ -40,7 +42,8 @@ diverse host communities with low viral sharing, \emph{i.e.} pixels
 around yellow. All components within bat host ranges are scaled in
 brightness so that a pixel with no sharing, no phylogenetic diversity,
 and no compositional uniqueness would be black, and a pixel with maximal
-values for each would be white.}\label{fig:trivariate}
+values for each would be white. The individual layers that compose this
+figure are given in supplementary material.}\label{fig:trivariate}
 }
 \end{figure}
 \efloatseparator
@@ -52,7 +55,9 @@ values for each would be white.}\label{fig:trivariate}
 \caption{\textbf{Evolutionary potential for zoonotic emergence of
 bat-origin betacoronaviruses.} Risk is a composite measure of the color
 value and angular distance to the yellow hue in
-fig.~\ref{fig:trivariate} (see Methods).}\label{fig:risk}
+fig.~\ref{fig:trivariate} (see Methods). Darker pixels represent areas
+where the co-evolutionary mechanisms are likely to introduce a strong
+risk of emergence.}\label{fig:risk}
 }
 \end{figure}
 \efloatseparator
