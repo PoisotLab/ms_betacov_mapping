@@ -149,10 +149,10 @@ evolutionary distinct hosts *and* viruses, followed by secondary hotspots in
 southeast Asia and the Rift Valley region have mostly distinct viruses. Some
 degree of sampling bias may contribute to these patterns: for example, the
 Neotropics are one of the places where the fewest bat betacoronavirus sequences
-have been generated [@Worobey2022HuaMar; @Temmam2022BatCor; @Boni2020EvoOri],
+have been generated [@Worobey2022Huanan; @Temmam2022Bat; @Boni2020Evolutionary],
 resulting in a sparser phylogenetic tree, and artificially inflating
 distinctiveness; conversely, disproportionate research effort in eastern China
-[@Cohen2022SamStr] may have led to a more complete inventory of the local
+[@Cohen2022Sampling] may have led to a more complete inventory of the local
 diversity of coronaviruses, again inflating these metrics relative to underlying
 patterns. Even accounting for these potential biases, though, there is obvious
 heterogeneity in betacoronavirus evolutionary distinctiveness that is distinct
@@ -162,22 +162,23 @@ Overall, these patterns recapitulate the evolutionary history of both the order
 Chiroptera and the genus _Betacoronavirus_. Horseshoe bats (Rhinolophidae)
 include the reservoirs of the SARS-like viruses (subgenus _Sarbecovirus_), the
 group of pandemic threats that have been of the greatest interest to researchers
-[@Latinne2020OriCro] (and so have been sampled most intensively
-[@Cohen2022SamStr]). The hotspots of host richness and viral diversity in
+[@Latinne2020Origins] (and so have been sampled most intensively;
+@Cohen2022Sampling). The hotspots of host richness and viral diversity in
 southeast Asia---both of which are disproportionately high, considering the
 global landscape of bat species richness---are almost entirely driven by viral
-adaptive radiation through host switching within this clade[@Becker2022OptPre;
-@Ruiz-Aravena2022EcoEvo]. In contrast, the Neotropical hotspot of viral
-distinctiveness is driven by isolation by host vicariance. Out of the four main
-groups of betacoronaviruses, only merbecoviruses have been found in animals in
-the Americas--- an introduction that is generally presumed to be ancient
-[@Ruiz-Aravena2022EcoEvo; @Olival2020PosRev]. While comparatively understudied,
-New World merbecoviruses have been found in the ghost-faced bats (Mormoopidae),
+adaptive radiation through host switching within this
+clade[@Becker2022Optimising; @Ruiz-Aravena2022Ecology]. In contrast, the
+Neotropical hotspot of viral distinctiveness is driven by isolation by host
+vicariance. Out of the four main groups of betacoronaviruses, only
+merbecoviruses have been found in animals in the Americas--- an introduction
+that is generally presumed to be ancient [@Ruiz-Aravena2022Ecology;
+@Olival2020Possibility]. While comparatively understudied, New World
+merbecoviruses have been found in the ghost-faced bats (Mormoopidae),
 Neotropical leaf-nosed bats (Phyllostomidae), and free-tailed bats (Molossidae)
-[@Anthony2013CorBat;@Goes2013NovBat;@Goes2016GenDiv;@Brandao2008CorDet]. The
-former two groups and a clade of the latter are endemic to the Neotropics, while
-the explosive adaptive radiations of the phyllostomids are responsible for the
-hotspot of bat diversity in the Amazon [@Ammerman2012FirMol]. Together, these
+[@Anthony2013Coronaviruses;@Goes2013Novel;@Goes2016Genetic;@Brandao2008Coronavirus].
+The former two groups and a clade of the latter are endemic to the Neotropics,
+while the explosive adaptive radiations of the phyllostomids are responsible for
+the hotspot of bat diversity in the Amazon [@Ammerman2012First]. Together, these
 clades of New World bats play host to a distinct regime of betacoronavirus
 coevolution.
 
