@@ -15,27 +15,27 @@ mapping spillover risk.
 
 The geographic mosaic theory of coevolution (GMTC) attempts to explicitly
 connect microevolutionary dynamics to the macroecology and biogeography of
-symbiotic interactions [@Thompson2005GeoMos]. The GMTC posits that
-coevolutionary processes among pairs [@Thompson1994CoePro] or complexes
-[@Janzen1980WheIt] of species are structured in space by the rippling effects of
+symbiotic interactions [@Thompson2005Geographic]. The GMTC posits that
+coevolutionary processes among pairs [@Thompson1994Coevolutionary] or complexes
+[@Janzen1980When] of species are structured in space by the rippling effects of
 abiotic conditions onto evolutionary mechanisms, giving rise to fragmented
-systems with different ecologies over large spatial extents [@Price2002MacThe].
-The GMTC predicts a spatial fragmentation of coevolutionary dynamics under the
-joint action of three processes [@Gomulkiewicz2007DosDon]: coevolutionary hot-
-and coldspots, which appear when the intensity of *interaction* (in terms of
-reciprocal fitness consequences) varies spatially; selection mosaics, wherein
-the intensity of *selection* varies across space, driven by both the biotic
-complexity of the community (locally diverse hosts and viruses are more
-biotically complex) and the local favorability of the environment
-[@Thrall2007CoeSym]; and trait remixing, which occurs when coevolutionary
-dynamics change when community-level _functional traits_ change through
-meta-community dynamics.
+systems with different ecologies over large spatial extents
+[@Price2002Macroevolutionary]. The GMTC predicts a spatial fragmentation of
+coevolutionary dynamics under the joint action of three processes
+[@Gomulkiewicz2007Dos]: coevolutionary hot- and coldspots, which appear when the
+intensity of *interaction* (in terms of reciprocal fitness consequences) varies
+spatially; selection mosaics, wherein the intensity of *selection* varies across
+space, driven by both the biotic complexity of the community (locally diverse
+hosts and viruses are more biotically complex) and the local favorability of the
+environment [@Thrall2007Coevolution]; and trait remixing, which occurs when
+coevolutionary dynamics change when community-level _functional traits_ change
+through meta-community dynamics.
 
 Here, we apply the GMTC to explore and explain the global biogeography of
 betacoronaviruses, the group that includes SARS-CoV, MERS-CoV, and SARS-CoV-2.
 In their bat reservoirs, coronaviruses evolve through a mix of host jumps,
 recombination among disparate lineages, and, to a lesser degree, co-divergence
-with their hosts [@Anthony2017GloPat]---a mix of mechanisms that creates a
+with their hosts [@Anthony2017Global]---a mix of mechanisms that creates a
 complex and nonlinear relationship between host diversity and viral emergence.
 Working from a recently published database of bat hosts of betacoronaviruses, we
 test whether spatial structure in bat-betacoronavirus coevolution is
@@ -75,7 +75,7 @@ biogeography: for example, previous work has rarely flagged India as a region of
 interest, but for both bats and betacoronaviruses, the subcontinent falls into
 the same regions as the southeast Asian peninsula (and indeed, the region is
 home to known bat hosts of multiple betacoronavirus subgenera, including
-nobecoviruses, sarbecoviruses, and merbecoviruses [@Ruiz-Aravena2022EcoEvo]).
+nobecoviruses, sarbecoviruses, and merbecoviruses [@Ruiz-Aravena2022Ecology]).
 
 ![**Bat and betacoronavirus biogeographic regions.** Phylogeography of bats
 (top) and viruses (bottom) is categorized based on an analysis of bat
@@ -96,22 +96,23 @@ driving a unique level of viral sampling effort that generates these patterns).
 These spatially limited mismatches nonwithstanding, the large level of
 congruence may be surprising, given that cross-species transmission may play a
 stronger role in coronavirus diversification than cospeciation
-[@Anthony2017GloPat]---a property that would theoretically allow for substantial
+[@Anthony2017Global]---a property that would theoretically allow for substantial
 broad divergence in their biogeography. However, host jumps at the family level
 or higher are relatively rare and significant events in coronavirus evolutionary
-history [@Anthony2017GloPat; @Latinne2020OriCro]; as a result, the mosaic of
+history [@Anthony2017Global; @Latinne2020Origin]; as a result, the mosaic of
 betacoronavirus phylogeography is assembled from a set of overlapping smaller
 coevolutionary systems, superimposed in space and filtered by the importance of
 different subgroups in local host communities. For example, the most speciose
 and cosmopolitan family of bats, the vesper bats (Vespertilionidae), are
 considered the primary hosts of the subgenus _Merbecovirus_ (MERS-like viruses)
-[@Latinne2020OriCro; @Ruiz-Aravena2022EcoEvo]; but in the Americas, where
+[@Latinne2020Origin; @Ruiz-Aravena2022Ecology]; but in the Americas, where
 merbecoviruses are the only lineage present, they have only been found in other
 bat taxa (*e.g.*, Molossidae, Phyllostomidae)
-[@Anthony2013CorBat;@Goes2013NovBat;@Goes2016GenDiv;@Brandao2008CorDet]. At the
-coarsest scale, these heterogeneities are lost, and betacoronavirus biogeography
-tracks the deep rifts in bat evolutionary history---but within broad regions,
-the component coevolutionary systems may have very different dynamics.
+[@Anthony2013Coronaviruses;@Goes2013Novel;@Goes2016Genetic;@Brandao2008Coronavirus].
+At the coarsest scale, these heterogeneities are lost, and betacoronavirus
+biogeography tracks the deep rifts in bat evolutionary history---but within
+broad regions, the component coevolutionary systems may have very different
+dynamics.
 
 ## Hotspots of bat and betacoronavirus biodiversity are distinct
 
