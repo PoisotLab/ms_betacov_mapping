@@ -16,7 +16,7 @@
             }
         ],
         "container-title": "Zoologia (Curitiba)",
-        "id": "Agosta2010HowSpe",
+        "id": "Agosta2010How",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -53,7 +53,7 @@
             }
         ],
         "container-title": "Nature Communications",
-        "id": "Albery2020PreGlo",
+        "id": "Albery2020Predicting",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -105,7 +105,7 @@
             }
         ],
         "container-title": "Nature Ecology & Evolution",
-        "id": "Albery2022UrbMam",
+        "id": "Albery2022Urbanadapted",
         "issue": "6, 6",
         "issued": {
             "date-parts": [
@@ -162,7 +162,7 @@
             }
         ],
         "container-title": "Nature Communications",
-        "id": "Allen2017GloHot",
+        "id": "Allen2017Global",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -202,7 +202,7 @@
             }
         ],
         "container-title": "Basic and Applied Ecology",
-        "id": "Alves2018GeoVar",
+        "id": "Alves2018Geographic",
         "issued": {
             "date-parts": [
                 [
@@ -274,7 +274,7 @@
             }
         ],
         "collection-title": "FAO Animal Production and Health manual",
-        "id": "Amman2011InvRol",
+        "id": "Amman2011Investigating",
         "issued": {
             "date-parts": [
                 [
@@ -304,7 +304,7 @@
             }
         ],
         "container-title": "Journal of Mammalogy",
-        "id": "Ammerman2012FirMol",
+        "id": "Ammerman2012First",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -366,7 +366,7 @@
             }
         ],
         "container-title": "Scientific Reports",
-        "id": "Andrade-Pacheco2020FinHot",
+        "id": "Andrade-Pacheco2020Finding",
         "issue": "1, 1",
         "issued": {
             "date-parts": [
@@ -461,7 +461,7 @@
             }
         ],
         "container-title": "The Journal of General Virology",
-        "id": "Anthony2013CorBat",
+        "id": "Anthony2013Coronaviruses",
         "issued": {
             "date-parts": [
                 [
@@ -540,7 +540,7 @@
             }
         ],
         "container-title": "Virus Evolution",
-        "id": "Anthony2017GloPat",
+        "id": "Anthony2017Global",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -585,7 +585,7 @@
             }
         ],
         "container-title": "Frontiers in Immunology",
-        "id": "Banerjee2020NovIns",
+        "id": "Banerjee2020Novel",
         "issued": {
             "date-parts": [
                 [
@@ -607,7 +607,7 @@
             }
         ],
         "container-title": "Bulletin of the Carnegie Museum of Natural History",
-        "id": "BeardCK1988EasEde",
+        "id": "BeardCK1988East",
         "issued": {
             "date-parts": [
                 [
@@ -637,7 +637,7 @@
             }
         ],
         "container-title": "Trends in Ecology & Evolution",
-        "id": "Becker2020InfInt",
+        "id": "Becker2020Infection",
         "issue": "12",
         "issued": {
             "date-parts": [
@@ -725,7 +725,7 @@
             }
         ],
         "container-title": "The Lancet Microbe",
-        "id": "Becker2022OptPre",
+        "id": "Becker2022Optimising",
         "issued": {
             "date-parts": [
                 [
@@ -759,7 +759,7 @@
             }
         ],
         "container-title": "Viruses",
-        "id": "Belouzard2012MecCor",
+        "id": "Belouzard2012Mechanisms",
         "issue": "6",
         "issued": {
             "date-parts": [
@@ -810,7 +810,7 @@
             }
         ],
         "container-title": "Nature microbiology",
-        "id": "Boni2020EvoOri",
+        "id": "Boni2020Evolutionary",
         "issue": "11",
         "issued": {
             "date-parts": [
@@ -866,7 +866,7 @@
             }
         ],
         "container-title": "Brazilian Journal of Infectious Diseases",
-        "id": "Brandao2008CorDet",
+        "id": "Brandao2008Coronavirus",
         "issued": {
             "date-parts": [
                 [
@@ -906,7 +906,7 @@
             }
         ],
         "container-title": "Clinical Microbiology Reviews",
-        "id": "Calisher2006BatImp",
+        "id": "Calisher2006Bats",
         "issue": "3",
         "issued": {
             "date-parts": [
@@ -930,7 +930,7 @@
             }
         ],
         "container-title": "Microbiology Spectrum",
-        "id": "Caraballo2022CroTra",
+        "id": "Caraballo2022Crossspecies",
         "issue": "0",
         "issued": {
             "date-parts": [
@@ -967,7 +967,7 @@
             }
         ],
         "container-title": "Nature Ecology & Evolution",
-        "id": "Carlson2019GloEst",
+        "id": "Carlson2019Global",
         "issue": "7",
         "issued": {
             "date-parts": [
@@ -1023,7 +1023,7 @@
             }
         ],
         "container-title": "Nature",
-        "id": "Carlson2022CliCha",
+        "id": "Carlson2022Climate",
         "issued": {
             "date-parts": [
                 [
@@ -1059,7 +1059,7 @@
             }
         ],
         "container-title": "Ecol. Lett.",
-        "id": "Cavender-Bares2009MerCom",
+        "id": "Cavender-Bares2009Merging",
         "issue": "7",
         "issued": {
             "date-parts": [
@@ -1098,7 +1098,7 @@
                 "given": "Daniel J."
             }
         ],
-        "id": "Cohen2022SamStr",
+        "id": "Cohen2022Sampling",
         "issued": {
             "date-parts": [
                 [
@@ -1109,9 +1109,9 @@
             ]
         },
         "page": "2022.06.15.496296",
-        "publisher": "bioRxiv",
+        "status": "preprint",
         "title": "Sampling strategies and pre-pandemic surveillance gaps for bat coronaviruses",
-        "type": ""
+        "type": "webpage"
     },
     {
         "DOI": "10.1038/s41579-018-0118-9",
@@ -1130,7 +1130,7 @@
             }
         ],
         "container-title": "Nature Reviews Microbiology",
-        "id": "Cui2019OriEvo",
+        "id": "Cui2019Origin",
         "issue": "3",
         "issued": {
             "date-parts": [
@@ -1162,7 +1162,7 @@
             }
         ],
         "container-title": "Oikos",
-        "id": "Dansereau2022EvaEco",
+        "id": "Dansereau2022Evaluating",
         "issue": "n/a",
         "issued": {
             "date-parts": [
@@ -1214,7 +1214,7 @@
             }
         ],
         "container-title": "Emerging Infectious Diseases",
-        "id": "Decaro2010RecCan",
+        "id": "Decaro2010Recombinant",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -1250,7 +1250,7 @@
             }
         ],
         "container-title": "Oikos (Copenhagen, Denmark)",
-        "id": "Deshpande2022ForFru",
+        "id": "Deshpande2022Forbidden",
         "issued": {
             "date-parts": [
                 [
@@ -1280,7 +1280,7 @@
             }
         ],
         "container-title": "Antiviral Research",
-        "id": "Drexler2014EcoEvo",
+        "id": "Drexler2014Ecology",
         "issued": {
             "date-parts": [
                 [
@@ -1312,7 +1312,7 @@
             }
         ],
         "container-title": "Emerging Microbes & Infections",
-        "id": "Engering2013PatHos",
+        "id": "Engering2013Pathogen",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -1336,7 +1336,7 @@
             }
         ],
         "container-title": "Biological Conservation",
-        "id": "Faith1992ConEva",
+        "id": "Faith1992Conservation",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -1369,7 +1369,7 @@
             }
         ],
         "container-title": "PLOS Pathogens",
-        "id": "Geoghegan2017ComAna",
+        "id": "Geoghegan2017Comparative",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -1429,7 +1429,7 @@
             }
         ],
         "container-title": "Emerging Infectious Diseases",
-        "id": "Goes2013NovBat",
+        "id": "Goes2013Novel",
         "issue": "10",
         "issued": {
             "date-parts": [
@@ -1483,7 +1483,7 @@
             }
         ],
         "container-title": "Infection, Genetics and Evolution: Journal of Molecular Epidemiology and Evolutionary Genetics in Infectious Diseases",
-        "id": "Goes2016GenDiv",
+        "id": "Goes2016Genetic",
         "issued": {
             "date-parts": [
                 [
@@ -1522,7 +1522,7 @@
             }
         ],
         "container-title": "The American Naturalist",
-        "id": "Gomulkiewicz2000HotSpo",
+        "id": "Gomulkiewicz2000Hot",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -1578,7 +1578,7 @@
             }
         ],
         "container-title": "Heredity",
-        "id": "Gomulkiewicz2007DosDon",
+        "id": "Gomulkiewicz2007Dos",
         "issue": "5, 5",
         "issued": {
             "date-parts": [
@@ -1619,7 +1619,7 @@
             }
         ],
         "container-title": "PLOS ONE",
-        "id": "Gonsalves2013MosCon",
+        "id": "Gonsalves2013Mosquito",
         "issue": "10",
         "issued": {
             "date-parts": [
@@ -1661,7 +1661,7 @@
             }
         ],
         "container-title": "Wildlife Research",
-        "id": "Gonsalves2013MosInf",
+        "id": "Gonsalves2013Mosquitoes",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -1694,7 +1694,7 @@
             }
         ],
         "container-title": "Cell Metabolism",
-        "id": "Gorbunova2020WorGoe",
+        "id": "Gorbunova2020World",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -1744,7 +1744,7 @@
                 "given": "Jens H."
             }
         ],
-        "id": "Gryseels2017WheVir",
+        "id": "Gryseels2017When",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -1822,7 +1822,7 @@
                 "given": "Houssam"
             }
         ],
-        "id": "Haddad2021SarPos",
+        "id": "Haddad2021Sarscov2",
         "issue": "5",
         "issued": {
             "date-parts": [
@@ -1857,7 +1857,7 @@
             }
         ],
         "container-title": "Trends in ecology & evolution",
-        "id": "Hassell2017UrbDis",
+        "id": "Hassell2017Urbanization",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -1897,7 +1897,7 @@
             }
         ],
         "container-title": "Communications Physics",
-        "id": "Hazarie2021IntPop",
+        "id": "Hazarie2021Interplay",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -1925,7 +1925,7 @@
             }
         ],
         "container-title": "Parasitology",
-        "id": "Higino2021BetPhy",
+        "id": "Higino2021Beta",
         "issued": {
             "date-parts": [
                 [
@@ -1967,7 +1967,7 @@
             }
         ],
         "container-title": "Molecular Biology and Evolution",
-        "id": "Hoang2018UfbImp",
+        "id": "Hoang2018Ufboot2",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -1996,7 +1996,7 @@
             }
         ],
         "container-title": "The American Naturalist",
-        "id": "Hochberg1998AntCoe",
+        "id": "Hochberg1998Antagonistic",
         "issue": "4",
         "issued": {
             "date-parts": [
@@ -2072,7 +2072,7 @@
             }
         ],
         "container-title": "Nature Sustainability",
-        "id": "Hopkins2021HowIde",
+        "id": "Hopkins2021How",
         "issue": "4",
         "issued": {
             "date-parts": [
@@ -2134,7 +2134,7 @@
             }
         ],
         "container-title": "PLoS pathogens",
-        "id": "Hu2017DisRic",
+        "id": "Hu2017Discovery",
         "issue": "11",
         "issued": {
             "date-parts": [
@@ -2174,7 +2174,7 @@
             }
         ],
         "container-title": "Nature",
-        "id": "Irving2021LesHos",
+        "id": "Irving2021Lessons",
         "issue": "7842",
         "issued": {
             "date-parts": [
@@ -2214,7 +2214,7 @@
             }
         ],
         "container-title": "PLOS ONE",
-        "id": "Isaac2007MamEdg",
+        "id": "Isaac2007Mammals",
         "issue": "3",
         "issued": {
             "date-parts": [
@@ -2238,7 +2238,7 @@
                 "literal": "IUCN"
             }
         ],
-        "id": "IUCN2021IucRed",
+        "id": "IUCN2021Iucn",
         "issued": {
             "date-parts": [
                 [
@@ -2259,7 +2259,7 @@
             }
         ],
         "container-title": "Evolution",
-        "id": "Janzen1980WheIt",
+        "id": "Janzen1980When",
         "issue": "3",
         "issued": {
             "date-parts": [
@@ -2395,7 +2395,7 @@
             }
         ],
         "container-title": "Nature",
-        "id": "Jebb2020SixRef",
+        "id": "Jebb2020Six",
         "issue": "7817, 7817",
         "issued": {
             "date-parts": [
@@ -2444,7 +2444,7 @@
             }
         ],
         "container-title": "Proceedings of the Royal Society B: Biological Sciences",
-        "id": "Johnson2020GloShi",
+        "id": "Johnson2020Global",
         "issue": "1924",
         "issued": {
             "date-parts": [
@@ -2484,7 +2484,7 @@
             }
         ],
         "container-title": "Trends in Microbiology",
-        "id": "Jones2022GasMic",
+        "id": "Jones2022Gastrointestinal",
         "issued": {
             "date-parts": [
                 [
@@ -2496,6 +2496,31 @@
         "page": "S0966842X21003024",
         "title": "Do gastrointestinal microbiomes play a role in bats\u2019 unique viral hosting capacity?",
         "type": "article-journal"
+    },
+    {
+        "DOI": "10.1016/j.micinf.2005.06.032",
+        "author": [
+            {
+                "family": "Ka-Wai Hui",
+                "given": "Eric"
+            }
+        ],
+        "container-title": "Microbes and Infection",
+        "id": "Ka-WaiHui2006Reasons",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2006,
+                    3,
+                    1
+                ]
+            ]
+        },
+        "page": "905-916",
+        "title": "Reasons for the increase in emerging and re-emerging viral infectious diseases",
+        "type": "article-journal",
+        "volume": "8"
     },
     {
         "DOI": "10.1038/nmeth.4285",
@@ -2524,7 +2549,7 @@
             }
         ],
         "container-title": "Nature Methods",
-        "id": "Kalyaanamoorthy2017ModFas",
+        "id": "Kalyaanamoorthy2017Modelfinder",
         "issue": "6",
         "issued": {
             "date-parts": [
@@ -2552,7 +2577,7 @@
             }
         ],
         "container-title": "ISRN Biodiversity",
-        "id": "Kasso2013EcoEco",
+        "id": "Kasso2013Ecological",
         "issued": {
             "date-parts": [
                 [
@@ -2581,7 +2606,7 @@
             }
         ],
         "container-title": "Molecular Biology and Evolution",
-        "id": "Katoh2013MafMul",
+        "id": "Katoh2013Mafft",
         "issue": "4",
         "issued": {
             "date-parts": [
@@ -2615,7 +2640,7 @@
         ],
         "container-title": "2010 Seventh International Conference on Fuzzy Systems and Knowledge Discovery",
         "event": "2010 Seventh International Conference on Fuzzy Systems and Knowledge Discovery",
-        "id": "Keke2010StuSki",
+        "id": "Keke2010Study",
         "issued": {
             "date-parts": [
                 [
@@ -2694,7 +2719,7 @@
             }
         ],
         "container-title": "Frontiers in Public Health",
-        "id": "Kettenburg2022FulGen",
+        "id": "Kettenburg2022Full",
         "issued": {
             "date-parts": [
                 [
@@ -2715,7 +2740,7 @@
             }
         ],
         "container-title": "Biodiversity and Conservation",
-        "id": "Kingston2010ResPri",
+        "id": "Kingston2010Research",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -2743,7 +2768,7 @@
             }
         ],
         "container-title": "Proceedings of the National Academy of Sciences",
-        "id": "Kreft2007GloPat",
+        "id": "Kreft2007Global",
         "issue": "14",
         "issued": {
             "date-parts": [
@@ -2773,7 +2798,7 @@
             }
         ],
         "container-title": "Journal of Biogeography",
-        "id": "Kreft2010FraDel",
+        "id": "Kreft2010Framework",
         "issue": "11",
         "issued": {
             "date-parts": [
@@ -2836,7 +2861,7 @@
             }
         ],
         "container-title": "Scientific Reports",
-        "id": "KreuderJohnson2015SpiPan",
+        "id": "KreuderJohnson2015Spillover",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -2860,7 +2885,7 @@
             }
         ],
         "container-title": "Journal of Evolutionary Biology",
-        "id": "Laine2005SpaSca",
+        "id": "Laine2005Spatial",
         "issue": "4",
         "issued": {
             "date-parts": [
@@ -2940,7 +2965,7 @@
             }
         ],
         "container-title": "bioRxiv: The Preprint Server for Biology",
-        "id": "Latinne2020OriCro",
+        "id": "Latinne2020Origin",
         "issued": {
             "date-parts": [
                 [
@@ -2995,7 +3020,7 @@
             }
         ],
         "container-title": "Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America",
-        "id": "Lednicky2021IsoNov",
+        "id": "Lednicky2021Isolation",
         "issued": {
             "date-parts": [
                 [
@@ -3030,7 +3055,7 @@
             }
         ],
         "container-title": "Virus Evolution",
-        "id": "Leeks2018BenCoi",
+        "id": "Leeks2018Beneficial",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -3063,7 +3088,7 @@
                 "given": "H\u00e9l\u00e8ne"
             }
         ],
-        "id": "Legendre2013BetDiv",
+        "id": "Legendre2013Beta",
         "issue": "8",
         "issued": {
             "date-parts": [
@@ -3091,7 +3116,7 @@
             }
         ],
         "container-title": "Forest Ecosystems",
-        "id": "Legendre2019SpaTem",
+        "id": "Legendre2019Spatial",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -3132,7 +3157,7 @@
             }
         ],
         "container-title": "Nature Reviews Microbiology",
-        "id": "Letko2020BatVir",
+        "id": "Letko2020Batborne",
         "issue": "8, 8",
         "issued": {
             "date-parts": [
@@ -3179,7 +3204,7 @@
                 "given": "David S."
             }
         ],
-        "id": "Longdon2011HosPhy",
+        "id": "Longdon2011Host",
         "issue": "9",
         "issued": {
             "date-parts": [
@@ -3231,7 +3256,7 @@
             }
         ],
         "container-title": "PLOS Biology",
-        "id": "MacLean2021NatSel",
+        "id": "MacLean2021Natural",
         "issue": "3",
         "issued": {
             "date-parts": [
@@ -3284,7 +3309,7 @@
                 "given": "Heinz"
             }
         ],
-        "id": "Melaun2014BatPot",
+        "id": "Melaun2014Bats",
         "issued": {
             "date-parts": [
                 [
@@ -3328,7 +3353,7 @@
             }
         ],
         "container-title": "PLOS ONE",
-        "id": "Mello2011MisPar",
+        "id": "Mello2011Missing",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -3392,7 +3417,7 @@
             }
         ],
         "container-title": "Emerging infectious diseases",
-        "id": "Memish2013MidEas",
+        "id": "Memish2013Middle",
         "issue": "11",
         "issued": {
             "date-parts": [
@@ -3432,7 +3457,7 @@
             }
         ],
         "container-title": "Nature",
-        "id": "Mendenhall2014PreBio",
+        "id": "Mendenhall2014Predictinga",
         "issue": "7499",
         "issued": {
             "date-parts": [
@@ -3447,6 +3472,64 @@
         "title": "Predicting biodiversity change and averting collapse in agricultural landscapes",
         "type": "article-journal",
         "volume": "509"
+    },
+    {
+        "DOI": "10.1073/pnas.1919176117",
+        "author": [
+            {
+                "family": "Mollentze",
+                "given": "Nardus"
+            },
+            {
+                "family": "Streicker",
+                "given": "Daniel G."
+            }
+        ],
+        "container-title": "Proceedings of the National Academy of Sciences",
+        "id": "Mollentze2020Viral",
+        "issue": "17",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    4
+                ]
+            ]
+        },
+        "page": "9423-9430",
+        "title": "Viral zoonotic risk is homogenous among taxonomic orders of mammalian and avian reservoir hosts",
+        "type": "article-journal",
+        "volume": "117"
+    },
+    {
+        "DOI": "10.1073/pnas.1919176117",
+        "author": [
+            {
+                "family": "Mollentze",
+                "given": "Nardus"
+            },
+            {
+                "family": "Streicker",
+                "given": "Daniel G."
+            }
+        ],
+        "container-title": "Proceedings of the National Academy of Sciences",
+        "id": "Mollentze2020Virala",
+        "issue": "17",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    4,
+                    28
+                ]
+            ]
+        },
+        "page": "9423-9430",
+        "publisher": "Proceedings of the National Academy of Sciences",
+        "title": "Viral zoonotic risk is homogenous among taxonomic orders of mammalian and avian reservoir hosts",
+        "type": "article-journal",
+        "volume": "117"
     },
     {
         "DOI": "10.1073/pnas.2006778117",
@@ -3473,7 +3556,7 @@
             }
         ],
         "container-title": "Proceedings of the National Academy of Sciences",
-        "id": "Mollentze2020VirMis",
+        "id": "Mollentze2020Virulence",
         "issue": "46",
         "issued": {
             "date-parts": [
@@ -3485,34 +3568,6 @@
         },
         "page": "28859-28866",
         "title": "Virulence mismatches in index hosts shape the outcomes of cross-species transmission",
-        "type": "article-journal",
-        "volume": "117"
-    },
-    {
-        "DOI": "10.1073/pnas.1919176117",
-        "author": [
-            {
-                "family": "Mollentze",
-                "given": "Nardus"
-            },
-            {
-                "family": "Streicker",
-                "given": "Daniel G."
-            }
-        ],
-        "container-title": "Proceedings of the National Academy of Sciences",
-        "id": "Mollentze2020VirZoo",
-        "issue": "17",
-        "issued": {
-            "date-parts": [
-                [
-                    2020,
-                    4
-                ]
-            ]
-        },
-        "page": "9423-9430",
-        "title": "Viral zoonotic risk is homogenous among taxonomic orders of mammalian and avian reservoir hosts",
         "type": "article-journal",
         "volume": "117"
     },
@@ -3529,7 +3584,7 @@
             }
         ],
         "container-title": "Mem\u00f3rias do Instituto Oswaldo Cruz",
-        "id": "Moratelli2015BatZoo",
+        "id": "Moratelli2015Bats",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -3625,7 +3680,7 @@
             }
         ],
         "container-title": "Molecular Ecology",
-        "id": "MorenoSantillan2021LarGen",
+        "id": "MorenoSantillan2021Largescale",
         "issued": {
             "date-parts": [
                 [
@@ -3659,7 +3714,7 @@
             }
         ],
         "container-title": "Journal of Animal Ecology",
-        "id": "Mull2022VirIso",
+        "id": "Mull2022Virus",
         "issue": "n/a",
         "issued": {
             "date-parts": [
@@ -3719,7 +3774,7 @@
             }
         ],
         "container-title": "Emerging infectious diseases",
-        "id": "Muller2014MerCor",
+        "id": "Muller2014Mers",
         "issue": "12",
         "issued": {
             "date-parts": [
@@ -3775,7 +3830,65 @@
             }
         ],
         "container-title": "Proceedings of the Royal Society B: Biological Sciences",
-        "id": "Muylaert2022PreFut",
+        "id": "Muylaert2022Present",
+        "issue": "1975",
+        "issued": {
+            "date-parts": [
+                [
+                    2022,
+                    5,
+                    25
+                ]
+            ]
+        },
+        "page": "20220397",
+        "publisher": "Royal Society",
+        "title": "Present and future distribution of bat hosts of sarbecoviruses: Implications for conservation and public health",
+        "type": "article-journal",
+        "volume": "289"
+    },
+    {
+        "DOI": "10.1098/rspb.2022.0397",
+        "author": [
+            {
+                "family": "Muylaert",
+                "given": "Renata L."
+            },
+            {
+                "family": "Kingston",
+                "given": "Tigga"
+            },
+            {
+                "family": "Luo",
+                "given": "Jinhong"
+            },
+            {
+                "family": "Vancine",
+                "given": "Maur\u00edcio Humberto"
+            },
+            {
+                "family": "Galli",
+                "given": "Nikolas"
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            },
+            {
+                "family": "John",
+                "given": "Reju Sam"
+            },
+            {
+                "family": "Rulli",
+                "given": "Maria Cristina"
+            },
+            {
+                "family": "Hayman",
+                "given": "David T. S."
+            }
+        ],
+        "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+        "id": "Muylaert2022Presenta",
         "issue": "1975",
         "issued": {
             "date-parts": [
@@ -3815,7 +3928,7 @@
             }
         ],
         "container-title": "Molecular Biology and Evolution",
-        "id": "Nguyen2015IqtFas",
+        "id": "Nguyen2015Iqtree",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -3847,7 +3960,7 @@
             }
         ],
         "container-title": "Journal of Evolutionary Biology",
-        "id": "Nuismer2003CoeHos",
+        "id": "Nuismer2003Coevolution",
         "issue": "6",
         "issued": {
             "date-parts": [
@@ -3973,7 +4086,7 @@
             }
         ],
         "container-title": "PLOS Pathogens",
-        "id": "OHHLEP2022OneHea",
+        "id": "OHHLEP2022One",
         "issue": "6",
         "issued": {
             "date-parts": [
@@ -4019,7 +4132,7 @@
             }
         ],
         "container-title": "Nature",
-        "id": "Olival2017HosVir",
+        "id": "Olival2017Host",
         "issue": "7660",
         "issued": {
             "date-parts": [
@@ -4082,7 +4195,7 @@
             }
         ],
         "container-title": "PLoS pathogens",
-        "id": "Olival2020PosRev",
+        "id": "Olival2020Possibility",
         "issue": "9",
         "issued": {
             "date-parts": [
@@ -4110,7 +4223,7 @@
             }
         ],
         "container-title": "Bioinformatics",
-        "id": "Paradis2019ApeEnv",
+        "id": "Paradis2019Ape",
         "issue": "3",
         "issued": {
             "date-parts": [
@@ -4143,7 +4256,7 @@
             }
         ],
         "container-title": "Annual Review of Ecology, Evolution, and Systematics",
-        "id": "Parratt2016InfDis",
+        "id": "Parratt2016Infectious",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -4175,7 +4288,7 @@
             }
         ],
         "container-title": "BMC ecology",
-        "id": "Peixoto2018SynEco",
+        "id": "Peixoto2018Synthesis",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -4284,7 +4397,7 @@
             }
         ],
         "container-title": "Proceedings of the Royal Society B: Biological Sciences",
-        "id": "Plowright2015EcoDyn",
+        "id": "Plowright2015Ecological",
         "issue": "1798",
         "issued": {
             "date-parts": [
@@ -4334,7 +4447,7 @@
             }
         ],
         "container-title": "Nature Reviews Microbiology",
-        "id": "Plowright2017PatZoo",
+        "id": "Plowright2017Pathways",
         "issue": "8, 8",
         "issued": {
             "date-parts": [
@@ -4391,7 +4504,7 @@
             }
         ],
         "container-title": "The Lancet Planetary Health",
-        "id": "Plowright2021LanUse",
+        "id": "Plowright2021Land",
         "issue": "4",
         "issued": {
             "date-parts": [
@@ -4419,7 +4532,7 @@
             }
         ],
         "container-title": "The American Naturalist",
-        "id": "Power2004PatSpi",
+        "id": "Power2004Pathogen",
         "issue": "S5",
         "issued": {
             "date-parts": [
@@ -4444,7 +4557,7 @@
                 "given": "Peter W."
             }
         ],
-        "id": "Price2002MacThe",
+        "id": "Price2002Macroevolutionary",
         "issued": {
             "date-parts": [
                 [
@@ -4502,7 +4615,7 @@
             }
         ],
         "container-title": "Scientific Data",
-        "id": "Ramshaw2019DatGeo",
+        "id": "Ramshaw2019Database",
         "issue": "1, 1",
         "issued": {
             "date-parts": [
@@ -4540,7 +4653,7 @@
             }
         ],
         "container-title": "Journal of Ethnobiology and Ethnomedicine",
-        "id": "Rego2015AssHum",
+        "id": "Rego2015Assessing",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -4624,7 +4737,7 @@
                 "given": "Nyall"
             }
         ],
-        "id": "RouaultEven2022GdaOgr",
+        "id": "RouaultEven2022Gdal",
         "issued": {
             "date-parts": [
                 [
@@ -4760,7 +4873,7 @@
             }
         ],
         "container-title": "Nature Reviews Microbiology",
-        "id": "Ruiz-Aravena2022EcoEvo",
+        "id": "Ruiz-Aravena2022Ecology",
         "issue": "5, 5",
         "issued": {
             "date-parts": [
@@ -4796,7 +4909,7 @@
             }
         ],
         "container-title": "Nature Food",
-        "id": "Rulli2021LanCha",
+        "id": "Rulli2021Landuse",
         "issue": "6",
         "issued": {
             "date-parts": [
@@ -4832,7 +4945,7 @@
             }
         ],
         "container-title": "Nature Communications",
-        "id": "Sallinen2020IntHos",
+        "id": "Sallinen2020Intraspecific",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -4846,61 +4959,6 @@
         "title": "Intraspecific host variation plays a key role in virus community assembly",
         "type": "article-journal",
         "volume": "11"
-    },
-    {
-        "author": [
-            {
-                "family": "S\u00e1nchez",
-                "given": "Cecilia A"
-            },
-            {
-                "family": "Li",
-                "given": "Hongying"
-            },
-            {
-                "family": "Phelps",
-                "given": "Kendra L"
-            },
-            {
-                "family": "Zambrana-Torrelio",
-                "given": "Carlos"
-            },
-            {
-                "family": "Wang",
-                "given": "Lin-Fa"
-            },
-            {
-                "family": "Zhou",
-                "given": "Peng"
-            },
-            {
-                "family": "Shi",
-                "given": "Zheng-Li"
-            },
-            {
-                "family": "Olival",
-                "given": "Kevin J"
-            },
-            {
-                "family": "Daszak",
-                "given": "Peter"
-            }
-        ],
-        "container-title": "Nature communications",
-        "id": "Sanchez2022Strategy",
-        "issue": "1",
-        "issued": {
-            "date-parts": [
-                [
-                    2022
-                ]
-            ]
-        },
-        "page": "1-12",
-        "publisher": "Nature Publishing Group",
-        "title": "A strategy to assess spillover risk of bat SARS-related coronaviruses in southeast asia",
-        "type": "article-journal",
-        "volume": "13"
     },
     {
         "DOI": "10.1371/journal.pone.0054023",
@@ -4925,7 +4983,7 @@
                 "given": "Justin David"
             }
         ],
-        "id": "Schneeberger2013MeaCon",
+        "id": "Schneeberger2013Measures",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -4957,7 +5015,7 @@
             }
         ],
         "container-title": "Limnology and Oceanography Letters",
-        "id": "Seekell2018GeoLak",
+        "id": "Seekell2018Geography",
         "issue": "3",
         "issued": {
             "date-parts": [
@@ -5000,7 +5058,7 @@
             }
         ],
         "container-title": "Acta Chiropterologica",
-        "id": "Shi2014DeeDiv",
+        "id": "Shi2014Deep",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -5028,7 +5086,7 @@
                 "given": "A L"
             }
         ],
-        "id": "Simmons2020BatSpe",
+        "id": "Simmons2020Bat",
         "issued": {
             "date-parts": [
                 [
@@ -5048,7 +5106,7 @@
             }
         ],
         "container-title": "Current Biology",
-        "id": "Springer2013PhyBat",
+        "id": "Springer2013Phylogenetics",
         "issue": "22",
         "issued": {
             "date-parts": [
@@ -5093,7 +5151,7 @@
             }
         ],
         "container-title": "PLoS ONE",
-        "id": "Stone2015ManCon",
+        "id": "Stone2015Managing",
         "issue": "8",
         "issued": {
             "date-parts": [
@@ -5108,36 +5166,6 @@
         "title": "Managing Conflict between Bats and Humans: The Response of Soprano Pipistrelles (Pipistrellus pygmaeus) to Exclusion from Roosts in Houses",
         "type": "article-journal",
         "volume": "10"
-    },
-    {
-        "author": [
-            {
-                "family": "Tanalgo",
-                "given": "Krizler C"
-            },
-            {
-                "family": "Oliveira",
-                "given": "Hernani FM"
-            },
-            {
-                "family": "Hughes",
-                "given": "Alice Catherine"
-            }
-        ],
-        "container-title": "Science of The Total Environment",
-        "id": "Tanalgo2022mapping",
-        "issued": {
-            "date-parts": [
-                [
-                    2022
-                ]
-            ]
-        },
-        "page": "156909",
-        "publisher": "Elsevier",
-        "title": "Mapping global conservation priorities and habitat vulnerabilities for cave-dwelling bats in a changing world",
-        "type": "article-journal",
-        "volume": "843"
     },
     {
         "DOI": "10.1126/science.1105113",
@@ -5168,7 +5196,7 @@
             }
         ],
         "container-title": "Science (New York, N.Y.)",
-        "id": "Teeling2005MolPhy",
+        "id": "Teeling2005Molecular",
         "issue": "5709",
         "issued": {
             "date-parts": [
@@ -5231,7 +5259,7 @@
             }
         ],
         "container-title": "Nature",
-        "id": "Temmam2022BatCor",
+        "id": "Temmam2022Bat",
         "issue": "7905",
         "issued": {
             "date-parts": [
@@ -5253,7 +5281,7 @@
                 "given": "John N"
             }
         ],
-        "id": "Thompson1994CoePro",
+        "id": "Thompson1994Coevolutionary",
         "issued": {
             "date-parts": [
                 [
@@ -5273,7 +5301,7 @@
                 "given": "John N"
             }
         ],
-        "id": "Thompson2005GeoMos",
+        "id": "Thompson2005Geographic",
         "issued": {
             "date-parts": [
                 [
@@ -5306,7 +5334,7 @@
             }
         ],
         "container-title": "Trends in Ecology & Evolution",
-        "id": "Thrall2007CoeSym",
+        "id": "Thrall2007Coevolution",
         "issue": "3",
         "issued": {
             "date-parts": [
@@ -5343,7 +5371,7 @@
             }
         ],
         "container-title": "Ecology and Evolution",
-        "id": "Treitler2016EffLoc",
+        "id": "Treitler2016Effect",
         "issue": "13",
         "issued": {
             "date-parts": [
@@ -5391,7 +5419,7 @@
             }
         ],
         "container-title": "Royal Society open science",
-        "id": "Turner2021RolEnv",
+        "id": "Turner2021Roles",
         "issue": "6",
         "issued": {
             "date-parts": [
@@ -5423,7 +5451,7 @@
             }
         ],
         "container-title": "PLOS Biology",
-        "id": "Upham2019InfMam",
+        "id": "Upham2019Inferring",
         "issue": "12",
         "issued": {
             "date-parts": [
@@ -5452,7 +5480,7 @@
             }
         ],
         "container-title": "Current Opinion in Virology",
-        "id": "VanBrussel2022ZooDis",
+        "id": "VanBrussel2022Zoonotic",
         "issued": {
             "date-parts": [
                 [
@@ -5468,7 +5496,7 @@
         "volume": "52"
     },
     {
-        "URL": "http://www.jstor.org/stable/40602941",
+        "URL": "https://www.jstor.org/stable/40602941",
         "author": [
             {
                 "family": "Villalobos",
@@ -5480,7 +5508,7 @@
             }
         ],
         "container-title": "Global Ecology and Biogeography",
-        "id": "Villalobos2010DivFie",
+        "id": "Villalobos2010Diversity",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -5536,7 +5564,7 @@
             }
         ],
         "container-title": "Emerging Microbes & Infections",
-        "id": "Vlasova2022AniAlp",
+        "id": "Vlasova2022Animal",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -5564,7 +5592,7 @@
                 "given": "Tigga"
             }
         ],
-        "id": "Voigt2016BatAnt",
+        "id": "Voigt2016Bats",
         "issued": {
             "date-parts": [
                 [
@@ -5586,7 +5614,7 @@
             }
         ],
         "container-title": "Virologica Sinica",
-        "id": "Wang2009BatVir",
+        "id": "Wang2009Bats",
         "issue": "2",
         "issued": {
             "date-parts": [
@@ -5672,7 +5700,7 @@
             }
         ],
         "container-title": "Virologica Sinica",
-        "id": "Wang2018SerEvi",
+        "id": "Wang2018Serological",
         "issue": "1",
         "issued": {
             "date-parts": [
@@ -5704,7 +5732,7 @@
             }
         ],
         "container-title": "Science",
-        "id": "Williams-Guillen2008BatLim",
+        "id": "Williams-Guillen2008Bats",
         "issue": "5872",
         "issued": {
             "date-parts": [
@@ -5738,7 +5766,7 @@
             }
         ],
         "container-title": "Nature",
-        "id": "Wolfe2007OriMaj",
+        "id": "Wolfe2007Origins",
         "issue": "7142",
         "issued": {
             "date-parts": [
@@ -5801,7 +5829,7 @@
             }
         ],
         "container-title": "Zenodo",
-        "id": "Worobey2022HuaMar",
+        "id": "Worobey2022Huanan",
         "issued": {
             "date-parts": [
                 [
@@ -5901,7 +5929,7 @@
             }
         ],
         "genre": "preprint",
-        "id": "Wu2021ComSur",
+        "id": "Wu2021Comprehensive",
         "issued": {
             "date-parts": [
                 [
@@ -5977,7 +6005,7 @@
             }
         ],
         "container-title": "Emerging Infectious Diseases",
-        "id": "Xu2004EpiClu",
+        "id": "Xu2004Epidemiologic",
         "issue": "6",
         "issued": {
             "date-parts": [
@@ -6009,7 +6037,7 @@
             }
         ],
         "container-title": "Journal of Evolutionary Biology",
-        "id": "Yu2014EarDiv",
+        "id": "Yu2014Early",
         "issue": "10",
         "issued": {
             "date-parts": [
@@ -6041,7 +6069,7 @@
             }
         ],
         "container-title": "Animal Diseases",
-        "id": "Zhou2021TaxHos",
+        "id": "Zhou2021Taxonomy",
         "issue": "1",
         "issued": {
             "date-parts": [
