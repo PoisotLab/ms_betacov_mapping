@@ -6083,5 +6083,37 @@
         "title": "The taxonomy, host range and pathogenicity of coronaviruses and other viruses in the Nidovirales order",
         "type": "article-journal",
         "volume": "1"
+    },
+    {
+        "DOI": "https://doi.org/10.1016/j.scitotenv.2022.156909",
+        "URL": "https://www.sciencedirect.com/science/article/pii/S0048969722040062",
+        "author": [
+            {
+                "family": "Tanalgo",
+                "given": "Krizler C."
+            },
+            {
+                "family": "Oliveira",
+                "given": "Hernani F. M."
+            },
+            {
+                "family": "Hughes",
+                "given": "Alice Catherine"
+            }
+        ],
+        "container-title": "Science of The Total Environment",
+        "id": "Tanalgo2022Mapping",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "keyword": "Bioindicators, Evolutionary distinctiveness, Extinction risks, Island endemism, Subterranean habitats",
+        "page": "156909",
+        "title": "Mapping global conservation priorities and habitat vulnerabilities for cave-dwelling bats in a changing world",
+        "type": "article-journal",
+        "volume": "843"
     }
 ]
