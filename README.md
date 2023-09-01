@@ -585,8 +585,8 @@ associated with a particular subset of bats present.
 
 Subsequently, we tested the hypothesis that the biogeography of bat
 betacoronaviruses should track the biogeography of their hosts. To test this
-idea, we loosely adapted a method from [@Kreft2007GloPat; @Kreft2010FraDel], who
-proposed a phylogenetic method for the delineation of animal biogeographic
+idea, we loosely adapted a method from [@Kreft2007Global; @Kreft2010Framework],
+who proposed a phylogenetic method for the delineation of animal biogeographic
 regions. In their original method, a distance matrix - where each row or column
 represents a geographic raster’s grid cell, and the dissimilarity values are the
 “beta diversity similarity” of their community assemble - undergoes non-metric
@@ -594,7 +594,7 @@ multidimensional scaling (NMDS); the first two axes of the NMDS are projected
 geographically using a four-color bivariate map. Here, we build on this idea
 with an entirely novel methodology. First, we measure the phylogenetic distance
 between the different viruses in the betacoronaviruses tree by using the
-cophenetic function in `ape` [@Paradis2019ApeEnv]; subsequently, we take a
+cophenetic function in `ape` [@Paradis2019Ape]; subsequently, we take a
 principal components analysis of that distance matrix (readily interchangeable
 for NMDS in this case) to project the viral tree into an n-dimensional space. We
 then take the first two principal components and, as with the evolutionary
