@@ -1,7 +1,7 @@
 Disease emergence is complex, and is driven not only by animal-human contact,
 but also by the underlying evolutionary dynamics in viral reservoirs
 [@Plowright2017Pathways]. Although host richness is often used as a superficial
-proxy for spillover risk [@Anthony2017GloPat; @Ruiz-Aravena2022EcoEvo;
+proxy for spillover risk [@Anthony2017Global; @Ruiz-Aravena2022Ecological;
 @Sanchez2022Strategy], these approaches oversimplify the relevant interspecific
 heterogeneity in immunology, behavior, and other traits, and therefore overlook
 unique host pools that allow for the rapid evolution of highly divergent viruses
