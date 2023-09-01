@@ -1,15 +1,15 @@
 Disease emergence is complex, and is driven not only by animal-human contact,
 but also by the underlying evolutionary dynamics in viral reservoirs
-[@Plowright2017PatZoo]. Although host richness is often used as a superficial
+[@Plowright2017Pathways]. Although host richness is often used as a superficial
 proxy for spillover risk [@Anthony2017GloPat; @Ruiz-Aravena2022EcoEvo;
 @Sanchez2022Strategy], these approaches oversimplify the relevant interspecific
 heterogeneity in immunology, behavior, and other traits, and therefore overlook
 unique host pools that allow for the rapid evolution of highly divergent viruses
-[@Agosta2010HowSpe]. In the case of generalist pathogens like betacoronaviruses,
+[@Agosta2010How]. In the case of generalist pathogens like betacoronaviruses,
 there is conceptual and empirical support to the idea that these community-level
-mechanisms are even more important [@Power2004PatSpi], particularly given that
+mechanisms are even more important [@Power2004Pathogen], particularly given that
 cross-species transmission may, as a rule, structure viral evolution more than
-co-divergence with hosts [@Geoghegan2017ComAna]. This creates a disconnect
+co-divergence with hosts [@Geoghegan2017Comparative]. This creates a disconnect
 between coevolutionary theory and most existing ecological frameworks for
 mapping spillover risk.
 
@@ -77,12 +77,13 @@ the same regions as the southeast Asian peninsula (and indeed, the region is
 home to known bat hosts of multiple betacoronavirus subgenera, including
 nobecoviruses, sarbecoviruses, and merbecoviruses [@Ruiz-Aravena2022EcoEvo]).
 
-![**Bat and betacoronavirus biogeographic regions.** Phylogeography of bats (top) 
-and viruses (bottom) is categorized based on analysis of bat distributions paired with bat
-or virus phylogeny. The different colors show tendencies to separate alongside the first two 
-components of a PCoA. Note that the PCoA for the bats and viruses are independent, and 
-so cannot be compared directly -- that being said, the regions can be compared across
-maps.](figures/combined_biogeo.png){#fig:biogeo}
+![**Bat and betacoronavirus biogeographic regions.** Phylogeography of bats
+(top) and viruses (bottom) is categorized based on an analysis of bat
+distributions, paired with bat or virus phylogeny. The different colors show
+tendencies to separate alongside the first two components of a PCoA. Note that
+the PCoA for the bats and viruses are independent, and so cannot be compared
+directly -- that being said, the fact that different regions cluster in the same
+way across maps be directly compared.](figures/combined_biogeo.png){#fig:biogeo}
 
 Overall, these results suggest that the boundaries of bat and betacoronavirus
 biogeographic regions are broadly consistent at a global scale; perfect matching
@@ -130,11 +131,13 @@ that these undiscovered reservoirs should follow the same diversity gradient
 [@Becker2022OptPre]. In principle, these hotspots of locally-diverse, virus-rich
 bat communities should drive more adaptive diversification in their viruses. 
 
-![**Bat and betacoronavirus diversity.** Top panel: relative diversity of known
-bat hosts of betacoronaviruses. This map shows that the region with the largest
-number of possible hosts is South-Eastern Asia. Bottom panel: congruence between
-the evolutionary distinctiveness of the hosts (grey to blue) and the viruses
-(grey to red).](figures/combined_richness.png){#fig:richness}
+![**Bat and betacoronavirus diversity.** Top panel: diversity of known bat hosts
+of betacoronaviruses in our dataset. This map shows that the region with the
+largest number of possible hosts is South-Eastern Asia. Bottom panel: congruence
+between the *evolutionary* distinctiveness of the hosts (grey to blue) and the
+viruses (grey to red). Darker areas have higher combined evolutionary
+distinctiveness for the entire bat-virus
+system.](figures/combined_richness.png){#fig:richness}
 
 However, we find that the global pattern of betacoronavirus phylogenetic
 distinctiveness is quite distinct from both bat host richness and phylogenetic
@@ -228,7 +231,8 @@ emergence exists in unique and diverse host communities with low viral sharing,
 *i.e.* pixels around yellow. All components within bat host ranges are scaled in
 brightness so that a pixel with no sharing, no phylogenetic diversity, and no
 compositional uniqueness would be black, and a pixel with maximal values for
-each would be white.](figures/risk_trivariate.png){#fig:trivariate}
+each would be white. The individual layers that compose this figure are given in
+supplementary material.](figures/risk_trivariate.png){#fig:trivariate}
 
 The greatest evolutionary potential for zoonotic emergence exists where pathogen
 pools have a high genetic diversity and high propensity for cross-species
@@ -269,9 +273,11 @@ highly divergent lineage of nobecoviruses from Madagascar-endemic pteropid bat
 species (*Pteropus rufus* and *Rousettus madagascariensis*), again supporting
 the predictive power of the coevolutionary framework.
 
-![**Evolutionary potential for zoonotic emergence of bat-origin betacoronaviruses.** Risk is a 
-composite measure of the color value and angular distance to the yellow hue in @fig:trivariate
-(see Methods).](figures/risk_map.png){#fig:risk}
+![**Evolutionary potential for zoonotic emergence of bat-origin
+betacoronaviruses.** Risk is a composite measure of the color value and angular
+distance to the yellow hue in @fig:trivariate (see Methods). Darker pixels
+represent areas where the co-evolutionary mechanisms are likely to introduce a
+strong risk of emergence.](figures/risk_map.png){#fig:risk}
 
 ## Human landscapes filter the geography of emergence risk
 
