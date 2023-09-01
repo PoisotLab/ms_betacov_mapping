@@ -233,7 +233,7 @@ each would be white.](figures/risk_trivariate.png){#fig:trivariate}
 The greatest evolutionary potential for zoonotic emergence exists where pathogen
 pools have a high genetic diversity and high propensity for cross-species
 transmission. In our framework, emergence risk is therefore maximized under
-higher phylogenetic diversity (viruses are exposes to different host clades),
+higher phylogenetic diversity (viruses are exposed to different host clades),
 higher host uniqueness (viruses are experiencing novel, heterogeneous host
 traits combinations), and low to medium viral sharing (host-virus pairs can
 coevolve independently, but divergent viruses may still have opportunities for
@@ -335,7 +335,7 @@ mammalian orders, with more than 1,400 estimated species [@Peixoto2018SynEco;
 @Simmons2020BatSpe]. They exhibit a broad variety of habitat use, behaviour, and
 feeding strategies, putting them at key positions in the delivery and
 provisioning of several ecosystem services, tied to important ecosystem-derived
-benefits to humans [@Kasso2013EcoEco]. Over two-thirds of bats are know to be
+benefits to humans [@Kasso2013EcoEco]. Over two-thirds of bats are known to be
 either obligate or facultative insectivores, therefore actively contributing for
 agricultural pest control [@Voigt2016BatAnt; @Williams-Guillen2008BatLim], and
 vectors of pathogens that put a risk on human health [@Gonsalves2013MosCon;
