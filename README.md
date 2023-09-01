@@ -122,15 +122,16 @@ in their species richness generally track broader patterns of mammal diversity
 Amazon basin) and a secondary hotspot centered in Indochina. These hotspots of
 bat diversity are generally presumed to be hotspots of viral adaptive radiation,
 and therefore areas of concern for human health.
-[@Anthony2017GloPat;@Olival2017HosVir] However, the hotspots of known bat
+[@Anthony2017Global;@Olival2017Host] However, the hotspots of known bat
 betacoronavirus hosts show a distinct pattern, with primary hotspots (both in
 terms of area and higher values) of host richness situated in southeast Asia,
 parts of southern Europe, and to a lesser extent parts of Africa in the -25-0
 range of latitudes (@fig:richness; top). Although hundreds of species likely
 host undiscovered betacoronaviruses, machine learning predictions have suggested
 that these undiscovered reservoirs should follow the same diversity gradient
-[@Becker2022OptPre]. In principle, these hotspots of locally-diverse, virus-rich
-bat communities should drive more adaptive diversification in their viruses. 
+[@Becker2022Optimising]. In principle, these hotspots of locally-diverse,
+virus-rich bat communities should drive more adaptive diversification in their
+viruses. 
 
 ![**Bat and betacoronavirus diversity.** Top panel: diversity of known bat hosts
 of betacoronaviruses in our dataset. This map shows that the region with the
