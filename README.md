@@ -89,10 +89,12 @@ biogeographic regions are broadly consistent at a global scale; perfect matching
 between the biogeographic regions would have indicated that the signal of virus
 distribution is fully predicted by bat hosts ranges. Areas for which the
 biogeographic regions for bats and betacoronaviruses differ are primarily (i)
-South-Eastern Asia and (ii) The Middle East, which are regions of previous
-emergence events. These spatially limited mismatches nonwithstanding, the large
-level of congruence may be surprising, given that cross-species transmission may
-play a stronger role in coronavirus diversification than cospeciation
+southeast Asia and southern China, and (ii) the Arabian peninsula, which are
+both regions where zoonotic transmission has been documented (potentially
+driving a unique level of viral sampling effort that generates these patterns).
+These spatially limited mismatches nonwithstanding, the large level of
+congruence may be surprising, given that cross-species transmission may play a
+stronger role in coronavirus diversification than cospeciation
 [@Anthony2017GloPat]---a property that would theoretically allow for substantial
 broad divergence in their biogeography. However, host jumps at the family level
 or higher are relatively rare and significant events in coronavirus evolutionary
@@ -174,6 +176,19 @@ hotspot of bat diversity in the Amazon [@Ammerman2012FirMol]. Together, these
 clades of New World bats play host to a distinct regime of betacoronavirus
 coevolution.
 
+Our approach is potentially limited by sampling bias: key hotspots identified by
+our model have, indeed, been sampled intensely following major zoonotic
+emergence events. In these areas, more betacoronavirus hosts will have been
+discovered, leading to higher overall diversity and potentially higher sharing.
+Similarly, hotspots of evolutionary uniqueness - as in the Arabian peninsula -
+could reflect much broader lineages that have only been sampled in focal areas
+for public health. While the discovery of new branches of bat-betacoronavirus
+coevolution is certainly likely, and might change some of the observed patterns,
+our framework is likely to be fairly robust: the 126 hosts in our study capture
+nearly 10% of global bat diversity, and the underlying evolutionary patterns
+they represent are much less sensitive to new information than any inferences
+about viral evolution.
+
 ## Coevolutionary regimes structure evolutionary potential for zoonotic emergence
 
 The existence of well-defined cophylogenetic regions suggests that the
@@ -238,8 +253,7 @@ information for monitoring wildlife health. This could guide us to determine
 where and what measures to implement for effectively monitoring wildlife and
 human betacoronavirus outbreaks before they escalate to critical levels.
 Nevertheless, there are actually very few documented cases of emergence events,
-and therefore we cannot rule out the chance of future emergence events in other
-areas.
+and similarities could be some degree of coincidental.
 
 Compared to approaches that map emergence risk based only on the number of known
 bat hosts of betacoronaviruses, our framework suggests regions where high viral
@@ -354,21 +368,14 @@ but sharing is low; this suggests a different type of evolutionary dynamics that
 could generate high local diversity of viruses through host switching and viral
 recombination (see *e.g.* [@Latinne2020OriCro], as well as the discovery of
 recombinant viruses with genetic material from both the SARS-CoV and SARS-CoV-2
-branches of the Sarbecovirus lineage [@Wu2021ComSur]).
-
-Both of these regions are priority areas for sampling, especially given
-predictions that they contain many bat hosts of undiscovered betacoronaviruses
-[@Becker2022OptPre; @Cohen2022SamStr]. However, both the evolutionary and
-ecological aspects of emergence risk are higher in southeast Asia---a fact that
-will only become more relevant, as bats track shifting climates and exchange
-viruses with other species, creating a hotspot of elevated cross-species
-transmission unique to the region [@Carlson2022CliCha; @Muylaert2022PreFut]. Our
-results should be robust to under-sampling in high-risk regions: the discovery
-of new hosts would increase uniqueness and host diversity, which would result in
-elevated risk of emergence. Furthermore, the purpose of our risk decomposition
-framework is to be informative at large (biogeographic) spatial scales. For this
-reason, we expect that the big picture of bats-betacoronavirus interactions is
-well known enough to be robust to future discovery of bat hosts.
+branches of the Sarbecovirus lineage [@Wu2021ComSur]).Both of these regions are
+priority areas for sampling, especially given predictions that they contain many
+bat hosts of undiscovered betacoronaviruses [@Becker2022OptPre;
+@Cohen2022SamStr]. However, both the evolutionary and ecological aspects of
+emergence risk are higher in southeast Asia---a fact that will only become more
+relevant, as bats track shifting climates and exchange viruses with other
+species, creating a hotspot of elevated cross-species transmission unique to the
+region [@Carlson2022CliCha; @Muylaert2022PreFut].
 
 Our trivariate additive mapping of components of risk (@fig:trivariate) aims to
 elicit the complexity of spatial cross-species transmission risk beyond the mere
