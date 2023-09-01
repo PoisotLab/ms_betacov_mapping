@@ -340,8 +340,8 @@ regular wildlife contact [@Xu2004Epidemiologic]) for maximum impact.
 # Conclusion
 
 Bats emerged around 64 million years ago, and are one of the most diverse
-mammalian orders, with more than 1,400 estimated species [@Peixoto2018SynEco;
-@Simmons2020BatSpe]. They exhibit a broad variety of habitat use, behaviour, and
+mammalian orders, with more than 1,400 estimated species [@Peixoto2018Synthesis;
+@Simmons2020Bat]. They exhibit a broad variety of habitat use, behaviour, and
 feeding strategies, putting them at key positions in the delivery and
 provisioning of several ecosystem services, tied to important ecosystem-derived
 benefits to humans [@Kasso2013Ecological]. Over two-thirds of bats are known to
