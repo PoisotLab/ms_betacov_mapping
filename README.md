@@ -438,58 +438,58 @@ Health (P20GM134973).
 ## Known *Betacoronavirus* hosts
 
 We downloaded the data on bats hosts of *Betacoronavirus* from
-`https://www.viralemergence.org/betacov` on Apr. 2022 [@Becker2022OptPre], and
-filtered it to "known" hosts (established before the emergence of SARS-CoV-2)
-and "novel" hosts (confirmed through sampling and competence assays since the
-initial data collection). The original database was assembled by a combination
-of data mining and literature surveys, including automated alerts on the "bats"
-and "coronavirus" keywords to identify novel empirical evidence of
+`https://www.viralemergence.org/betacov` on Apr. 2022 [@Becker2022Optimising],
+and filtered it to "known" hosts (established before the emergence of
+SARS-CoV-2) and "novel" hosts (confirmed through sampling and competence assays
+since the initial data collection). The original database was assembled by a
+combination of data mining and literature surveys, including automated alerts on
+the "bats" and "coronavirus" keywords to identify novel empirical evidence of
 bats-betacoronaviruses associations; this yielded a total of 126 known hosts, 47
 of which were novel hosts. This host–virus list of interactions was obtained
 through a comprehensive aggregation of GenBank data as well as systematic
-literature searches [@Becker2022OptPre; @Cohen2022SamStr], such that we have
-high confidence in its fitness for the purpose of inference at a large spatial
-scale.
+literature searches [@Becker2022Optimising; @Cohen2022Sampling], such that we
+have high confidence in its fitness for the purpose of inference at a large
+spatial scale.
 
 ## Bat occurrences
 
 We downloaded the rangemap of every current bat species that was classified as
 an empirically documented host of *Betacoronavirus* from the previous step,
-according to recent IUCN data [@IUCN2021IucRed]. The IUCN data have been
-assembled to support wildlife conservation efforts, and therefore we do not
-expect that they are biased by wildlife disease sampling efforts or priority.
-The range maps were subsequently rasterized using the `rasterize` function from
-`GDAL` [@RouaultEven2022GdaOgr] at a resolution of approximately 100kmx100km at
-the equator. For every pixel in the resulting raster where at least one bat host
-of *Betacoronavirus* was present, we extract the species pool (list of all known
+according to recent IUCN data [@IUCN2021Iuc]. The IUCN data have been assembled
+to support wildlife conservation efforts, and therefore we do not expect that
+they are biased by wildlife disease sampling efforts or priority. The range maps
+were subsequently rasterized using the `rasterize` function from `GDAL`
+[@RouaultEven2022Gdal] at a resolution of approximately 100kmx100km at the
+equator. For every pixel in the resulting raster where at least one bat host of
+*Betacoronavirus* was present, we extract the species pool (list of all known
 bat hosts), which was used to calculate the following risk assessment
 components: bat phylogenetic diversity, bat compositional uniqueness, and
 predicted viral sharing risk.
 
 ## Bat phylogenetic diversity
 
-For every pixel, we measured Faith’s Phylogenetic Diversity [@Faith1992ConEva]
-based on a recent synthetic tree with robust time calibration, covering about
-6000 mammalian species [@Upham2019InfMam]. Faith’s PD measures the sum of unique
-branches from an arbitrary root to a set of tips, and comparatively larger
-values indicate a more phylogenetic diverse species pool. We measured
-phylogenetic diversity starting from the root of the entire tree (and not from
-Chiroptera); this bears no consequences on the resulting values, since all
-branches leading up to Chiroptera are only counted once per species pool, and
-(as we explain when describing the assembly of the composite risk map), all
-individual risk components are ranged in [0,1]. This measure incorporates a
-richness component, which we chose not to correct for; the interpretation of the
-phylogenetic diversity is therefore a weighted species richness, that accounts
-for phylogenetic over/under-dispersal in some places.
+For every pixel, we measured Faith’s Phylogenetic Diversity
+[@Faith1992Conservation] based on a recent synthetic tree with robust time
+calibration, covering about 6000 mammalian species [@Upham2019Inferring].
+Faith’s PD measures the sum of unique branches from an arbitrary root to a set
+of tips, and comparatively larger values indicate a more phylogenetic diverse
+species pool. We measured phylogenetic diversity starting from the root of the
+entire tree (and not from Chiroptera); this bears no consequences on the
+resulting values, since all branches leading up to Chiroptera are only counted
+once per species pool, and (as we explain when describing the assembly of the
+composite risk map), all individual risk components are ranged in [0,1]. This
+measure incorporates a richness component, which we chose not to correct for;
+the interpretation of the phylogenetic diversity is therefore a weighted species
+richness, that accounts for phylogenetic over/under-dispersal in some places.
 
 ## Bat compositional uniqueness
 
 For every species pool, we measured its Local Contribution to Beta-Diversity
-[@Legendre2013BetDiv]; LCBD works from a species-data matrix (traditionally
-noted as $\mathbf{Y}$), where species are rows and sites are columns, and a
-value of 1 indicates occurrence. We extracted the Y matrix assuming that every
-pixel represents a unique location, and following best practices
-[@Legendre2019SpaTem] transformed it using Hellinger’s distance to account for
+[@Legendre2013Beta]; LCBD works from a species-data matrix (traditionally noted
+as $\mathbf{Y}$), where species are rows and sites are columns, and a value of 1
+indicates occurrence. We extracted the Y matrix assuming that every pixel
+represents a unique location, and following best practices
+[@Legendre2019Spatial] transformed it using Hellinger’s distance to account for
 unequal bat richness at different pixels. The correction of raw community data
 is particularly important for two reasons: first, it prevents the artifact of
 richer sites having higher importance; second, it removes the effect of overall
@@ -497,16 +497,16 @@ species richness, which is already incorporated in the phylogenetic diversity
 component. High values of LCBD indicate that the pixel has a community that is
 on average more dissimilar in species composition than what is expected knowing
 the entire matrix, i.e. a more unique community. Recent results by
-@Dansereau2022EvaEco shows that LCBD measures are robust with regards to spatial
-scale, and are therefore applicable at the global scale.
+@Dansereau2022Evaluating shows that LCBD measures are robust with regards to
+spatial scale, and are therefore applicable at the global scale.
 
 ## Viral sharing between hosts
 
 For all bat hosts of *Betacoronavirus*, we extracted their predicted viral
 sharing network, generated from a previously published generalized additive
 mixed model of virus sharing by a tensor function of phylogenetic distance and
-geographic range overlap across mammals [@Albery2020PreGlo]. This network stores
-pairwise values of viral community similarity, measured for all hosts (to
+geographic range overlap across mammals [@Albery2020Predicting]. This network
+stores pairwise values of viral community similarity, measured for all hosts (to
 maintain consistency with teh phylogenetic diversity measure) across all
 viruses; therefore, we consider that it accounts for some overall similarity in
 the way hosts deal with viruses, and not only betacoronaviruses. There is
@@ -521,25 +521,25 @@ likely to be proficient at exchanging viruses.
 
 To visualize the aggregated risk at the global scale, we combine the three
 individual risk components (phylogenetic diversity, compositional uniqueness,
-and viral sharing) using an additive color model [@Seekell2018GeoLak]. In this
-approach, every risk component gets assigned a component in the RGB color model
-(phylogenetic diversity is green, compositional uniqueness is red, and viral
-sharing is blue). In order to achieve a valid RGB measure, all components are
-re-scaled to the [0,1] interval, so that a pixel with no sharing, no
+and viral sharing) using an additive color model [@Seekell2018Geography]. In
+this approach, every risk component gets assigned a component in the RGB color
+model (phylogenetic diversity is green, compositional uniqueness is red, and
+viral sharing is blue). In order to achieve a valid RGB measure, all components
+are re-scaled to the [0,1] interval, so that a pixel with no sharing, no
 phylogenetic diversity, and no compositional uniqueness is black, and a pixel
 with maximal values for each is white. This additive model conveys both the
 intensity of the overall risk, but also the nature of the risk as colors diverge
 towards combinations of values for three risk components. Out of the possible
 combinations, the most risky in terms or rapid diversification and spillover
 potential is high phylogenetic diversity and low viral sharing
-[@Gomulkiewicz2000HotSpo], in that this allows multiple independent host-virus
+[@Gomulkiewicz2000Hot], in that this allows multiple independent host-virus
 coevolutionary dynamics to take place in the same location. In the colorimetric
 space, this correspond to yellow -- because the HSV space is more amenable to
-calculations for feature extraction [@Keke2010StuSki], we measured the risk
-level by calculating the angular distance of the hue of each pixel to a
-reference value of 60 (yellow), and weighted this risk level by the value
-component. Specifically, given a pixel with colorimetric coordinates $(h,s,v)$,
-its ranged weighted risk value is
+calculations for feature extraction [@Keke2010Study], we measured the risk level
+by calculating the angular distance of the hue of each pixel to a reference
+value of 60 (yellow), and weighted this risk level by the value component.
+Specifically, given a pixel with colorimetric coordinates $(h,s,v)$, its ranged
+weighted risk value is
 
 $$
 v\times\left[1-\frac{\left|\text{atan}\left(\text{cos}(\text{rad}(h)), \text{sin}(\text{rad}(h))\right) - X\right|}{2\pi}\right]\,,
@@ -561,11 +561,11 @@ sequence or that contained words indicating recombinant or laboratory strains
 including “patent”, “mutant”, “GFP”, and “recombinant”. We filtered
 over-represented taxa including betacoronavirus 1, hCoV-OC43, Middle East
 respiratory syndrome coronavirus, Murine hepatitis virus, and hCoV-HKU1. Curated
-betacoronavirus RdRp sequences were then aligned using MAFFT [@Katoh2013MafMul]
+betacoronavirus RdRp sequences were then aligned using MAFFT [@Katoh2013Mafft]
 v1.4.0 (Algorithm FFT-NS-2, Scoring matrix 200PAM / k=2, gap open penalty 1.53m
 offset value 0.123) and a maximum likelihood tree reconstructed in IQ-TREE
-[@Nguyen2015IqtFas] v1.6.12 with ModelFinder [@Kalyaanamoorthy2017ModFas]
-ultrafast bootstrap approximation [@Hoang2018UfbImp] with a general time
+[@Nguyen2015IqTree] v1.6.12 with ModelFinder [@Kalyaanamoorthy2017ModelFinder]
+ultrafast bootstrap approximation [@Hoang2018Ufboot2] with a general time
 reversible model with empirical base frequencies and the
 5-discrete-rate-category FreeRaye model of nucleotide substitution (GTR+F+R5).
 
@@ -574,8 +574,8 @@ track hotspots of bat diversification. To do so, we plotted the number of known
 bat hosts (specifically only those included in the phylogeny, so there was a 1:1
 correspondence between data sources) against the “mean evolutionary
 distinctiveness” of the associated viruses. To calculate this, we derived the
-fair proportions evolutionary distinctiveness [@Isaac2007MamEdg] for each of the
-viruses in the tree, then averaged these at the bat species level, projected
+fair proportions evolutionary distinctiveness [@Isaac2007Mammals] for each of
+the viruses in the tree, then averaged these at the bat species level, projected
 these values onto their geographic distributions, and averaged across every bat
 found in a given pixel. As such, this can be thought of as a map of the mean
 evolutionary distinctiveness of the known viral community believed to be
