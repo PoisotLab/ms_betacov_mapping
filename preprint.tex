@@ -788,11 +788,10 @@ species.\textsuperscript{31,49--51} This represents a challenge for both
 conservation strategies and pandemic prevention,\textsuperscript{52} but
 identifying areas at risk, and protecting the health of bats and
 ecosystems within those zones, can be a win-win intervention for
-both.\textsuperscript{53,\textbf{Hopkins2021HowIde?},\textbf{Plowright2021Lan?}}
-As we scale these predictions down in space to finer spatial resolutions
-to guide public health actions,\textsuperscript{33} the incorporation of
-human activity predictors will become more
-importyant.\textsuperscript{54}
+both.\textsuperscript{53--55} As we scale these predictions down in
+space to finer spatial resolutions to guide public health
+actions,\textsuperscript{33} the incorporation of human activity
+predictors will become more importyant.\textsuperscript{56}
 
 \textbf{Acknowledgements}: We acknowledge that this study was conducted
 on land within the traditional unceded territory of the Saint Lawrence
@@ -838,26 +837,26 @@ inference at a large spatial scale.
 We downloaded the rangemap of every current bat species that was
 classified as an empirically documented host of \emph{Betacoronavirus}
 from the previous step, according to recent IUCN
-data.\textsuperscript{\textbf{IUCN2021Iuc?}} The IUCN data have been
-assembled to support wildlife conservation efforts, and therefore we do
-not expect that they are biased by wildlife disease sampling efforts or
-priority. The range maps were subsequently rasterized using the
-\texttt{rasterize} function from \texttt{GDAL}\textsuperscript{55} at a
-resolution of approximately 100kmx100km at the equator. For every pixel
-in the resulting raster where at least one bat host of
-\emph{Betacoronavirus} was present, we extract the species pool (list of
-all known bat hosts), which was used to calculate the following risk
-assessment components: bat phylogenetic diversity, bat compositional
-uniqueness, and predicted viral sharing risk.
+data.\textsuperscript{57} The IUCN data have been assembled to support
+wildlife conservation efforts, and therefore we do not expect that they
+are biased by wildlife disease sampling efforts or priority. The range
+maps were subsequently rasterized using the \texttt{rasterize} function
+from \texttt{GDAL}\textsuperscript{58} at a resolution of approximately
+100kmx100km at the equator. For every pixel in the resulting raster
+where at least one bat host of \emph{Betacoronavirus} was present, we
+extract the species pool (list of all known bat hosts), which was used
+to calculate the following risk assessment components: bat phylogenetic
+diversity, bat compositional uniqueness, and predicted viral sharing
+risk.
 
 \hypertarget{bat-phylogenetic-diversity}{%
 \subsection{Bat phylogenetic
 diversity}\label{bat-phylogenetic-diversity}}
 
 For every pixel, we measured Faith's Phylogenetic
-Diversity\textsuperscript{56} based on a recent synthetic tree with
+Diversity\textsuperscript{59} based on a recent synthetic tree with
 robust time calibration, covering about 6000 mammalian
-species.\textsuperscript{57} Faith's PD measures the sum of unique
+species.\textsuperscript{60} Faith's PD measures the sum of unique
 branches from an arbitrary root to a set of tips, and comparatively
 larger values indicate a more phylogenetic diverse species pool. We
 measured phylogenetic diversity starting from the root of the entire
@@ -875,11 +874,11 @@ accounts for phylogenetic over/under-dispersal in some places.
 uniqueness}\label{bat-compositional-uniqueness}}
 
 For every species pool, we measured its Local Contribution to
-Beta-Diversity;\textsuperscript{58} LCBD works from a species-data
+Beta-Diversity;\textsuperscript{61} LCBD works from a species-data
 matrix (traditionally noted as \(\mathbf{Y}\)), where species are rows
 and sites are columns, and a value of 1 indicates occurrence. We
 extracted the Y matrix assuming that every pixel represents a unique
-location, and following best practices\textsuperscript{59} transformed
+location, and following best practices\textsuperscript{62} transformed
 it using Hellinger's distance to account for unequal bat richness at
 different pixels. The correction of raw community data is particularly
 important for two reasons: first, it prevents the artifact of richer
@@ -888,7 +887,7 @@ species richness, which is already incorporated in the phylogenetic
 diversity component. High values of LCBD indicate that the pixel has a
 community that is on average more dissimilar in species composition than
 what is expected knowing the entire matrix, i.e.~a more unique
-community. Recent results by\textsuperscript{60} shows that LCBD
+community. Recent results by\textsuperscript{63} shows that LCBD
 measures are robust with regards to spatial scale, and are therefore
 applicable at the global scale.
 
@@ -900,13 +899,13 @@ For all bat hosts of \emph{Betacoronavirus}, we extracted their
 predicted viral sharing network, generated from a previously published
 generalized additive mixed model of virus sharing by a tensor function
 of phylogenetic distance and geographic range overlap across
-mammals.\textsuperscript{61} This network stores pairwise values of
+mammals.\textsuperscript{64} This network stores pairwise values of
 viral community similarity, measured for all hosts (to maintain
 consistency with teh phylogenetic diversity measure) across all viruses;
 therefore, we consider that it accounts for some overall similarity in
 the way hosts deal with viruses, and not only betacoronaviruses. There
 is empirical evidence that capacity for cross-species transmission even
-between divergent species is generally high,\textsuperscript{62}
+between divergent species is generally high,\textsuperscript{65}
 especially for beta-coronaviruses.\textsuperscript{14} To project viral
 sharing values into a single value for every pixel, we averaged the
 pairwise scores. High values of the average sharing propensity means
@@ -919,7 +918,7 @@ exchanging viruses.
 To visualize the aggregated risk at the global scale, we combine the
 three individual risk components (phylogenetic diversity, compositional
 uniqueness, and viral sharing) using an additive color
-model.\textsuperscript{63} In this approach, every risk component gets
+model.\textsuperscript{66} In this approach, every risk component gets
 assigned a component in the RGB color model (phylogenetic diversity is
 green, compositional uniqueness is red, and viral sharing is blue). In
 order to achieve a valid RGB measure, all components are re-scaled to
@@ -930,11 +929,11 @@ intensity of the overall risk, but also the nature of the risk as colors
 diverge towards combinations of values for three risk components. Out of
 the possible combinations, the most risky in terms or rapid
 diversification and spillover potential is high phylogenetic diversity
-and low viral sharing,\textsuperscript{64} in that this allows multiple
+and low viral sharing,\textsuperscript{67} in that this allows multiple
 independent host-virus coevolutionary dynamics to take place in the same
 location. In the colorimetric space, this correspond to yellow --
 because the HSV space is more amenable to calculations for feature
-extraction,\textsuperscript{65} we measured the risk level by
+extraction,\textsuperscript{68} we measured the risk level by
 calculating the angular distance of the hue of each pixel to a reference
 value of 60 (yellow), and weighted this risk level by the value
 component. Specifically, given a pixel with colorimetric coordinates
@@ -966,15 +965,13 @@ indicating recombinant or laboratory strains including ``patent'',
 taxa including betacoronavirus 1, hCoV-OC43, Middle East respiratory
 syndrome coronavirus, Murine hepatitis virus, and hCoV-HKU1. Curated
 betacoronavirus RdRp sequences were then aligned using
-MAFFT\textsuperscript{66} v1.4.0 (Algorithm FFT-NS-2, Scoring matrix
+MAFFT\textsuperscript{69} v1.4.0 (Algorithm FFT-NS-2, Scoring matrix
 200PAM / k=2, gap open penalty 1.53m offset value 0.123) and a maximum
-likelihood tree reconstructed in
-IQ-TREE\textsuperscript{\textbf{Nguyen2015IqTree?}} v1.6.12 with
-ModelFinder\textsuperscript{\textbf{Kalyaanamoorthy2017ModelFinder?}}
-ultrafast bootstrap approximation\textsuperscript{67} with a general
-time reversible model with empirical base frequencies and the
-5-discrete-rate-category FreeRaye model of nucleotide substitution
-(GTR+F+R5).
+likelihood tree reconstructed in IQ-TREE\textsuperscript{70} v1.6.12
+with ModelFinder\textsuperscript{71} ultrafast bootstrap
+approximation\textsuperscript{72} with a general time reversible model
+with empirical base frequencies and the 5-discrete-rate-category
+FreeRaye model of nucleotide substitution (GTR+F+R5).
 
 We first tested the hypothesis that hotspots of viral diversification
 would track hotspots of bat diversification. To do so, we plotted the
@@ -982,7 +979,7 @@ number of known bat hosts (specifically only those included in the
 phylogeny, so there was a 1:1 correspondence between data sources)
 against the ``mean evolutionary distinctiveness'' of the associated
 viruses. To calculate this, we derived the fair proportions evolutionary
-distinctiveness\textsuperscript{68} for each of the viruses in the tree,
+distinctiveness\textsuperscript{73} for each of the viruses in the tree,
 then averaged these at the bat species level, projected these values
 onto their geographic distributions, and averaged across every bat found
 in a given pixel. As such, this can be thought of as a map of the mean
@@ -995,7 +992,7 @@ hotspots}\label{co-distribution-of-hosts-and-viral-hotspots}}
 
 Subsequently, we tested the hypothesis that the biogeography of bat
 betacoronaviruses should track the biogeography of their hosts. To test
-this idea, we loosely adapted a method from,\textsuperscript{69,70} who
+this idea, we loosely adapted a method from,\textsuperscript{74,75} who
 proposed a phylogenetic method for the delineation of animal
 biogeographic regions. In their original method, a distance matrix -
 where each row or column represents a geographic raster's grid cell, and
@@ -1005,7 +1002,7 @@ community assemble - undergoes non-metric multidimensional scaling
 using a four-color bivariate map. Here, we build on this idea with an
 entirely novel methodology. First, we measure the phylogenetic distance
 between the different viruses in the betacoronaviruses tree by using the
-cophenetic function in \texttt{ape};\textsuperscript{71} subsequently,
+cophenetic function in \texttt{ape};\textsuperscript{76} subsequently,
 we take a principal components analysis of that distance matrix (readily
 interchangeable for NMDS in this case) to project the viral tree into an
 n-dimensional space. We then take the first two principal components
@@ -1358,120 +1355,152 @@ collapse in agricultural landscapes. \emph{Nature} \textbf{509},
 of bats in emerging zoonoses: Balancing ecology, conservation and public
 health interest}. (FAO, 2011).}
 
-\leavevmode\hypertarget{ref-OHHLEP2022One}{}%
+\leavevmode\hypertarget{ref-Hopkins2021How}{}%
 \CSLLeftMargin{53. }
+\CSLRightInline{Hopkins, S. R. \emph{et al.} How to identify win--win
+interventions that benefit human health and conservation. \emph{Nature
+Sustainability} \textbf{4}, 298--304 (2021).}
+
+\leavevmode\hypertarget{ref-Plowright2021Land}{}%
+\CSLLeftMargin{54. }
+\CSLRightInline{Plowright, R. K. \emph{et al.} Land use-induced
+spillover: A call to action to safeguard environmental, animal, and
+human health. \emph{The Lancet Planetary Health} \textbf{5}, e237--e245
+(2021).}
+
+\leavevmode\hypertarget{ref-OHHLEP2022One}{}%
+\CSLLeftMargin{55. }
 \CSLRightInline{OHHLEP \emph{et al.} One Health: A new definition for a
 sustainable and healthy future. \emph{PLOS Pathogens} \textbf{18},
 e1010537 (2022).}
 
 \leavevmode\hypertarget{ref-Ka-WaiHui2006Reasons}{}%
-\CSLLeftMargin{54. }
+\CSLLeftMargin{56. }
 \CSLRightInline{Ka-Wai Hui, E. Reasons for the increase in emerging and
 re-emerging viral infectious diseases. \emph{Microbes and Infection}
 \textbf{8}, 905--916 (2006).}
 
+\leavevmode\hypertarget{ref-IUCN2021Iucn}{}%
+\CSLLeftMargin{57. }
+\CSLRightInline{IUCN. The IUCN Red List of Threatened Species.
+\url{https://www.iucnredlist.org} (2021).}
+
 \leavevmode\hypertarget{ref-RouaultEven2022Gdal}{}%
-\CSLLeftMargin{55. }
+\CSLLeftMargin{58. }
 \CSLRightInline{Rouault, E. \emph{et al.} \emph{GDAL/OGR Geospatial Data
 Abstraction software Library}. (Zenodo, 2022).
 doi:\href{https://doi.org/10.5281/ZENODO.5884351}{10.5281/ZENODO.5884351}.}
 
 \leavevmode\hypertarget{ref-Faith1992Conservation}{}%
-\CSLLeftMargin{56. }
+\CSLLeftMargin{59. }
 \CSLRightInline{Faith, D. P. Conservation evaluation and phylogenetic
 diversity. \emph{Biological Conservation} \textbf{61}, 1--10 (1992).}
 
 \leavevmode\hypertarget{ref-Upham2019Inferring}{}%
-\CSLLeftMargin{57. }
+\CSLLeftMargin{60. }
 \CSLRightInline{Upham, N. S., Esselstyn, J. A. \& Jetz, W. Inferring the
 mammal tree: Species-level sets of phylogenies for questions in ecology,
 evolution, and conservation. \emph{PLOS Biology} \textbf{17}, e3000494
 (2019).}
 
 \leavevmode\hypertarget{ref-Legendre2013Beta}{}%
-\CSLLeftMargin{58. }
+\CSLLeftMargin{61. }
 \CSLRightInline{Legendre, P. \& De Cáceres, M. Beta diversity as the
 variance of community data: Dissimilarity coefficients and partitioning.
 \emph{Ecology Letters} \textbf{16}, 951--963 (2013).}
 
 \leavevmode\hypertarget{ref-Legendre2019Spatial}{}%
-\CSLLeftMargin{59. }
+\CSLLeftMargin{62. }
 \CSLRightInline{Legendre, P. \& Condit, R. Spatial and temporal analysis
 of beta diversity in the Barro Colorado Island forest dynamics plot,
 Panama. \emph{Forest Ecosystems} \textbf{6}, 7 (2019).}
 
 \leavevmode\hypertarget{ref-Dansereau2022Evaluating}{}%
-\CSLLeftMargin{60. }
+\CSLLeftMargin{63. }
 \CSLRightInline{Dansereau, G., Legendre, P. \& Poisot, T. Evaluating
 ecological uniqueness over broad spatial extents using species
 distribution modelling. \emph{Oikos} \textbf{n/a}, e09063 (2022).}
 
 \leavevmode\hypertarget{ref-Albery2020Predicting}{}%
-\CSLLeftMargin{61. }
+\CSLLeftMargin{64. }
 \CSLRightInline{Albery, G. F., Eskew, E. A., Ross, N. \& Olival, K. J.
 Predicting the global mammalian viral sharing network using
 phylogeography. \emph{Nature Communications} \textbf{11}, 2260 (2020).}
 
 \leavevmode\hypertarget{ref-Mollentze2020Viral}{}%
-\CSLLeftMargin{62. }
+\CSLLeftMargin{65. }
 \CSLRightInline{Mollentze, N. \& Streicker, D. G. Viral zoonotic risk is
 homogenous among taxonomic orders of mammalian and avian reservoir
 hosts. \emph{Proceedings of the National Academy of Sciences}
 \textbf{117}, 9423--9430 (2020).}
 
 \leavevmode\hypertarget{ref-Seekell2018Geography}{}%
-\CSLLeftMargin{63. }
+\CSLLeftMargin{66. }
 \CSLRightInline{Seekell, D. A., Lapierre, J.-F. \& Cheruvelil, K. S. A
 geography of lake carbon cycling. \emph{Limnology and Oceanography
 Letters} \textbf{3}, 49--56 (2018).}
 
 \leavevmode\hypertarget{ref-Gomulkiewicz2000Hot}{}%
-\CSLLeftMargin{64. }
+\CSLLeftMargin{67. }
 \CSLRightInline{Gomulkiewicz, R., Thompson, J. N., Holt, R. D., Nuismer,
 S. L. \& Hochberg, M. E. Hot Spots, Cold Spots, and the Geographic
 Mosaic Theory of Coevolution. \emph{The American Naturalist}
 \textbf{156}, 156--174 (2000).}
 
 \leavevmode\hypertarget{ref-Keke2010Study}{}%
-\CSLLeftMargin{65. }
+\CSLLeftMargin{68. }
 \CSLRightInline{Keke, S., Peng, Z. \& Guohui, L. Study on skin color
 image segmentation used by Fuzzy-c-means arithmetic. in \emph{2010
 Seventh International Conference on Fuzzy Systems and Knowledge
 Discovery} vol. 2 612--615 (2010).}
 
 \leavevmode\hypertarget{ref-Katoh2013Mafft}{}%
-\CSLLeftMargin{66. }
+\CSLLeftMargin{69. }
 \CSLRightInline{Katoh, K. \& Standley, D. M. MAFFT Multiple Sequence
 Alignment Software Version 7: Improvements in Performance and Usability.
 \emph{Molecular Biology and Evolution} \textbf{30}, 772--780 (2013).}
 
+\leavevmode\hypertarget{ref-Nguyen2015Iqtree}{}%
+\CSLLeftMargin{70. }
+\CSLRightInline{Nguyen, L.-T., Schmidt, H. A., von Haeseler, A. \& Minh,
+B. Q. IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating
+Maximum-Likelihood Phylogenies. \emph{Molecular Biology and Evolution}
+\textbf{32}, 268--274 (2015).}
+
+\leavevmode\hypertarget{ref-Kalyaanamoorthy2017Modelfinder}{}%
+\CSLLeftMargin{71. }
+\CSLRightInline{Kalyaanamoorthy, S., Minh, B. Q., Wong, T. K. F., von
+Haeseler, A. \& Jermiin, L. S. ModelFinder: Fast model selection for
+accurate phylogenetic estimates. \emph{Nature Methods} \textbf{14},
+587--589 (2017).}
+
 \leavevmode\hypertarget{ref-Hoang2018Ufboot2}{}%
-\CSLLeftMargin{67. }
+\CSLLeftMargin{72. }
 \CSLRightInline{Hoang, D. T., Chernomor, O., von Haeseler, A., Minh, B.
 Q. \& Vinh, L. S. UFBoot2: Improving the Ultrafast Bootstrap
 Approximation. \emph{Molecular Biology and Evolution} \textbf{35},
 518--522 (2018).}
 
 \leavevmode\hypertarget{ref-Isaac2007Mammals}{}%
-\CSLLeftMargin{68. }
+\CSLLeftMargin{73. }
 \CSLRightInline{Isaac, N. J. B., Turvey, S. T., Collen, B., Waterman, C.
 \& Baillie, J. E. M. Mammals on the EDGE: Conservation Priorities Based
 on Threat and Phylogeny. \emph{PLOS ONE} \textbf{2}, e296 (2007).}
 
 \leavevmode\hypertarget{ref-Kreft2007Global}{}%
-\CSLLeftMargin{69. }
+\CSLLeftMargin{74. }
 \CSLRightInline{Kreft, H. \& Jetz, W. Global patterns and determinants
 of vascular plant diversity. \emph{Proceedings of the National Academy
 of Sciences} \textbf{104}, 5925--5930 (2007).}
 
 \leavevmode\hypertarget{ref-Kreft2010Framework}{}%
-\CSLLeftMargin{70. }
+\CSLLeftMargin{75. }
 \CSLRightInline{Kreft, H. \& Jetz, W. A framework for delineating
 biogeographical regions based on species distributions. \emph{Journal of
 Biogeography} \textbf{37}, 2029--2053 (2010).}
 
 \leavevmode\hypertarget{ref-Paradis2019Ape}{}%
-\CSLLeftMargin{71. }
+\CSLLeftMargin{76. }
 \CSLRightInline{Paradis, E. \& Schliep, K. Ape 5.0: An environment for
 modern phylogenetics and evolutionary analyses in R.
 \emph{Bioinformatics} \textbf{35}, 526--528 (2019).}
