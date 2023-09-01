@@ -1,7 +1,7 @@
 Disease emergence is complex, and is driven not only by animal-human contact,
 but also by the underlying evolutionary dynamics in viral reservoirs
 [@Plowright2017Pathways]. Although host richness is often used as a superficial
-proxy for spillover risk [@Anthony2017Global; @Ruiz-Aravena2022Ecological;
+proxy for spillover risk [@Anthony2017Global; @Ruiz-Aravena2022Ecology;
 @Sanchez2022Strategy], these approaches oversimplify the relevant interspecific
 heterogeneity in immunology, behavior, and other traits, and therefore overlook
 unique host pools that allow for the rapid evolution of highly divergent viruses
@@ -61,8 +61,8 @@ animal-human contact rates)--- determine disease emergence risk.
 ## Bat and betacoronavirus biogeography are broadly consistent
 
 Most previous work has assumed that the presence or richness of key groups of
-bat hosts are predictive of coronavirus diversity [@Anthony2017GloPat;
-@Ruiz-Aravena2022EcoEvo]. Projecting bat and betacoronavirus phylogeny over
+bat hosts are predictive of coronavirus diversity [@Anthony2017Global;
+@Ruiz-Aravena2022Ecology]. Projecting bat and betacoronavirus phylogeny over
 space (@fig:biogeo), we find support for the idea that bat community assembly is
 directly responsible for a global mosaic of viral evolution. The distinct
 groupings (represented by different colors, symbolizing positions in a subspace
@@ -162,7 +162,7 @@ Overall, these patterns recapitulate the evolutionary history of both the order
 Chiroptera and the genus _Betacoronavirus_. Horseshoe bats (Rhinolophidae)
 include the reservoirs of the SARS-like viruses (subgenus _Sarbecovirus_), the
 group of pandemic threats that have been of the greatest interest to researchers
-[@Latinne2020Origins] (and so have been sampled most intensively;
+[@Latinne2020Origin] (and so have been sampled most intensively;
 @Cohen2022Sampling). The hotspots of host richness and viral diversity in
 southeast Asia---both of which are disproportionately high, considering the
 global landscape of bat species richness---are almost entirely driven by viral
@@ -204,11 +204,10 @@ risk of zoonotic emergence. These ideas are, respectively, supported by the
 existence of hotspots of viral uniqueness and the diverse origins of human
 betacoronaviruses. Together, this framework points to a predictable relationship
 between host community structure and coevolutionary pressure: phylogeographic
-structure in bat hosts (and their diverse immune strategies
-[@Banerjee2020Novel]) creates a landscape of selective pressure; the trajectory
-of viruses' coevolutionary response is, in turn, constrained by their
-opportunities for either specialization or diversification through host jumps
-and recombination.
+structure in bat hosts (and their diverse immune strategies; @Banerjee2020Novel)
+creates a landscape of selective pressure; the trajectory of viruses'
+coevolutionary response is, in turn, constrained by their opportunities for
+either specialization or diversification through host jumps and recombination.
 
 Based on the geographic mosaic theory of coevolution, we developed a trivariate
 map of coevolutionary pressure (@fig:trivariate): (1) _host phylogenetic
