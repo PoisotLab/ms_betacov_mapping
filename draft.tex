@@ -652,16 +652,15 @@ contact)\textsuperscript{38} for maximum impact.
 
 Bats emerged around 64 million years ago, and are one of the most
 diverse mammalian orders, with more than 1,400 estimated
-species.\textsuperscript{\textbf{Peixoto2018SynEco?},\textbf{Simmons2020BatSpe?}}
-They exhibit a broad variety of habitat use, behaviour, and feeding
-strategies, putting them at key positions in the delivery and
-provisioning of several ecosystem services, tied to important
-ecosystem-derived benefits to humans.\textsuperscript{39} Over
+species.\textsuperscript{39,40} They exhibit a broad variety of habitat
+use, behaviour, and feeding strategies, putting them at key positions in
+the delivery and provisioning of several ecosystem services, tied to
+important ecosystem-derived benefits to humans.\textsuperscript{41} Over
 two-thirds of bats are known to be either obligate or facultative
 insectivores, therefore actively contributing for agricultural pest
-control,\textsuperscript{40,41} and vectors of pathogens that put a risk
-on human health;\textsuperscript{42,43} some other species are essential
-links in many seed-dispersal networks.\textsuperscript{44} However, many
+control,\textsuperscript{42,43} and vectors of pathogens that put a risk
+on human health;\textsuperscript{44,45} some other species are essential
+links in many seed-dispersal networks.\textsuperscript{46} However, many
 of these species face a high risk of extinction, particularly given
 persecution and killings that sometimes follows from messaging about
 their role in disease emergence. Areas where bats, viruses, and humans
@@ -686,21 +685,21 @@ two systems. We find that the merbecovirus complex in Latin America has
 been a unique branch of evolution separate from the rest of the global
 pool, but with limited potential for viral diversification--- a finding
 that is supported by previous work indicating a higher rate of
-codivergence in Latin America.\textsuperscript{2,45} In contrast, in
+codivergence in Latin America.\textsuperscript{2,47} In contrast, in
 southeast Asia, host richness and viral distinctiveness are high but
 sharing is low; this suggests a different type of evolutionary dynamics
 that could generate high local diversity of viruses through host
 switching and viral recombination (see \emph{e.g.},\textsuperscript{14}
 as well as the discovery of recombinant viruses with genetic material
 from both the SARS-CoV and SARS-CoV-2 branches of the Sarbecovirus
-lineage).\textsuperscript{46}Both of these regions are priority areas
+lineage).\textsuperscript{48}Both of these regions are priority areas
 for sampling, especially given predictions that they contain many bat
 hosts of undiscovered betacoronaviruses.\textsuperscript{21,25} However,
 both the evolutionary and ecological aspects of emergence risk are
 higher in southeast Asia---a fact that will only become more relevant,
 as bats track shifting climates and exchange viruses with other species,
 creating a hotspot of elevated cross-species transmission unique to the
-region.\textsuperscript{33,47}
+region.\textsuperscript{33,49}
 
 Our trivariate additive mapping of components of risk
 (fig.~\ref{fig:trivariate}) aims to elicit the complexity of spatial
@@ -716,7 +715,7 @@ of specific hosts. This implies a low likelihood of infecting novel
 hosts but, once locally introduced into a new host (either a new
 species, or an immunologically naïve population), the specialized virus
 could spread relatively easily due to encountering little immune
-resistance.\textsuperscript{48} With the right combination of viral
+resistance.\textsuperscript{50} With the right combination of viral
 traits, such as low disease-induced mortality or high transmission rate,
 this could lead to successfully spread within the new host community.
 However, while high adaptation to a specific host can be advantageous,
@@ -727,14 +726,14 @@ Bats---and the spillover of their viruses---are also sensitive to
 anthropogenic factors others than climate change, including
 deforestation and other kinds of habitat loss, increased stress, and
 greater contact with potential bridge hosts like domesticated
-species.\textsuperscript{31,49--51} This represents a challenge for both
-conservation strategies and pandemic prevention,\textsuperscript{52} but
+species.\textsuperscript{31,51--53} This represents a challenge for both
+conservation strategies and pandemic prevention,\textsuperscript{54} but
 identifying areas at risk, and protecting the health of bats and
 ecosystems within those zones, can be a win-win intervention for
-both.\textsuperscript{53--55} As we scale these predictions down in
+both.\textsuperscript{55--57} As we scale these predictions down in
 space to finer spatial resolutions to guide public health
 actions,\textsuperscript{33} the incorporation of human activity
-predictors will become more importyant.\textsuperscript{56}
+predictors will become more importyant.\textsuperscript{58}
 
 \textbf{Acknowledgements}: We acknowledge that this study was conducted
 on land within the traditional unceded territory of the Saint Lawrence
@@ -780,11 +779,11 @@ inference at a large spatial scale.
 We downloaded the rangemap of every current bat species that was
 classified as an empirically documented host of \emph{Betacoronavirus}
 from the previous step, according to recent IUCN
-data.\textsuperscript{57} The IUCN data have been assembled to support
+data.\textsuperscript{59} The IUCN data have been assembled to support
 wildlife conservation efforts, and therefore we do not expect that they
 are biased by wildlife disease sampling efforts or priority. The range
 maps were subsequently rasterized using the \texttt{rasterize} function
-from \texttt{GDAL}\textsuperscript{58} at a resolution of approximately
+from \texttt{GDAL}\textsuperscript{60} at a resolution of approximately
 100kmx100km at the equator. For every pixel in the resulting raster
 where at least one bat host of \emph{Betacoronavirus} was present, we
 extract the species pool (list of all known bat hosts), which was used
@@ -797,9 +796,9 @@ risk.
 diversity}\label{bat-phylogenetic-diversity}}
 
 For every pixel, we measured Faith's Phylogenetic
-Diversity\textsuperscript{59} based on a recent synthetic tree with
+Diversity\textsuperscript{61} based on a recent synthetic tree with
 robust time calibration, covering about 6000 mammalian
-species.\textsuperscript{60} Faith's PD measures the sum of unique
+species.\textsuperscript{62} Faith's PD measures the sum of unique
 branches from an arbitrary root to a set of tips, and comparatively
 larger values indicate a more phylogenetic diverse species pool. We
 measured phylogenetic diversity starting from the root of the entire
@@ -817,11 +816,11 @@ accounts for phylogenetic over/under-dispersal in some places.
 uniqueness}\label{bat-compositional-uniqueness}}
 
 For every species pool, we measured its Local Contribution to
-Beta-Diversity;\textsuperscript{61} LCBD works from a species-data
+Beta-Diversity;\textsuperscript{63} LCBD works from a species-data
 matrix (traditionally noted as \(\mathbf{Y}\)), where species are rows
 and sites are columns, and a value of 1 indicates occurrence. We
 extracted the Y matrix assuming that every pixel represents a unique
-location, and following best practices\textsuperscript{62} transformed
+location, and following best practices\textsuperscript{64} transformed
 it using Hellinger's distance to account for unequal bat richness at
 different pixels. The correction of raw community data is particularly
 important for two reasons: first, it prevents the artifact of richer
@@ -830,7 +829,7 @@ species richness, which is already incorporated in the phylogenetic
 diversity component. High values of LCBD indicate that the pixel has a
 community that is on average more dissimilar in species composition than
 what is expected knowing the entire matrix, i.e.~a more unique
-community. Recent results by\textsuperscript{63} shows that LCBD
+community. Recent results by\textsuperscript{65} shows that LCBD
 measures are robust with regards to spatial scale, and are therefore
 applicable at the global scale.
 
@@ -842,13 +841,13 @@ For all bat hosts of \emph{Betacoronavirus}, we extracted their
 predicted viral sharing network, generated from a previously published
 generalized additive mixed model of virus sharing by a tensor function
 of phylogenetic distance and geographic range overlap across
-mammals.\textsuperscript{64} This network stores pairwise values of
+mammals.\textsuperscript{66} This network stores pairwise values of
 viral community similarity, measured for all hosts (to maintain
 consistency with teh phylogenetic diversity measure) across all viruses;
 therefore, we consider that it accounts for some overall similarity in
 the way hosts deal with viruses, and not only betacoronaviruses. There
 is empirical evidence that capacity for cross-species transmission even
-between divergent species is generally high,\textsuperscript{65}
+between divergent species is generally high,\textsuperscript{67}
 especially for beta-coronaviruses.\textsuperscript{14} To project viral
 sharing values into a single value for every pixel, we averaged the
 pairwise scores. High values of the average sharing propensity means
@@ -861,7 +860,7 @@ exchanging viruses.
 To visualize the aggregated risk at the global scale, we combine the
 three individual risk components (phylogenetic diversity, compositional
 uniqueness, and viral sharing) using an additive color
-model.\textsuperscript{66} In this approach, every risk component gets
+model.\textsuperscript{68} In this approach, every risk component gets
 assigned a component in the RGB color model (phylogenetic diversity is
 green, compositional uniqueness is red, and viral sharing is blue). In
 order to achieve a valid RGB measure, all components are re-scaled to
@@ -872,11 +871,11 @@ intensity of the overall risk, but also the nature of the risk as colors
 diverge towards combinations of values for three risk components. Out of
 the possible combinations, the most risky in terms or rapid
 diversification and spillover potential is high phylogenetic diversity
-and low viral sharing,\textsuperscript{67} in that this allows multiple
+and low viral sharing,\textsuperscript{69} in that this allows multiple
 independent host-virus coevolutionary dynamics to take place in the same
 location. In the colorimetric space, this correspond to yellow --
 because the HSV space is more amenable to calculations for feature
-extraction,\textsuperscript{68} we measured the risk level by
+extraction,\textsuperscript{70} we measured the risk level by
 calculating the angular distance of the hue of each pixel to a reference
 value of 60 (yellow), and weighted this risk level by the value
 component. Specifically, given a pixel with colorimetric coordinates
@@ -908,11 +907,11 @@ indicating recombinant or laboratory strains including ``patent'',
 taxa including betacoronavirus 1, hCoV-OC43, Middle East respiratory
 syndrome coronavirus, Murine hepatitis virus, and hCoV-HKU1. Curated
 betacoronavirus RdRp sequences were then aligned using
-MAFFT\textsuperscript{69} v1.4.0 (Algorithm FFT-NS-2, Scoring matrix
+MAFFT\textsuperscript{71} v1.4.0 (Algorithm FFT-NS-2, Scoring matrix
 200PAM / k=2, gap open penalty 1.53m offset value 0.123) and a maximum
-likelihood tree reconstructed in IQ-TREE\textsuperscript{70} v1.6.12
-with ModelFinder\textsuperscript{71} ultrafast bootstrap
-approximation\textsuperscript{72} with a general time reversible model
+likelihood tree reconstructed in IQ-TREE\textsuperscript{72} v1.6.12
+with ModelFinder\textsuperscript{73} ultrafast bootstrap
+approximation\textsuperscript{74} with a general time reversible model
 with empirical base frequencies and the 5-discrete-rate-category
 FreeRaye model of nucleotide substitution (GTR+F+R5).
 
@@ -922,7 +921,7 @@ number of known bat hosts (specifically only those included in the
 phylogeny, so there was a 1:1 correspondence between data sources)
 against the ``mean evolutionary distinctiveness'' of the associated
 viruses. To calculate this, we derived the fair proportions evolutionary
-distinctiveness\textsuperscript{73} for each of the viruses in the tree,
+distinctiveness\textsuperscript{75} for each of the viruses in the tree,
 then averaged these at the bat species level, projected these values
 onto their geographic distributions, and averaged across every bat found
 in a given pixel. As such, this can be thought of as a map of the mean
@@ -935,7 +934,7 @@ hotspots}\label{co-distribution-of-hosts-and-viral-hotspots}}
 
 Subsequently, we tested the hypothesis that the biogeography of bat
 betacoronaviruses should track the biogeography of their hosts. To test
-this idea, we loosely adapted a method from,\textsuperscript{74,75} who
+this idea, we loosely adapted a method from,\textsuperscript{76,77} who
 proposed a phylogenetic method for the delineation of animal
 biogeographic regions. In their original method, a distance matrix -
 where each row or column represents a geographic raster's grid cell, and
@@ -945,7 +944,7 @@ community assemble - undergoes non-metric multidimensional scaling
 using a four-color bivariate map. Here, we build on this idea with an
 entirely novel methodology. First, we measure the phylogenetic distance
 between the different viruses in the betacoronaviruses tree by using the
-cophenetic function in \texttt{ape};\textsuperscript{76} subsequently,
+cophenetic function in \texttt{ape};\textsuperscript{78} subsequently,
 we take a principal components analysis of that distance matrix (readily
 interchangeable for NMDS in this case) to project the viral tree into an
 n-dimensional space. We then take the first two principal components
@@ -1208,71 +1207,83 @@ neutralizing antibodies in camels, Eastern Africa, 1983--1997.
 Origin in China. \emph{Emerging Infectious Diseases} \textbf{10},
 1030--1037 (2004).}
 
-\leavevmode\hypertarget{ref-Kasso2013Ecological}{}%
+\leavevmode\hypertarget{ref-Peixoto2018Synthesis}{}%
 \CSLLeftMargin{39. }
+\CSLRightInline{Peixoto, F. P., Braga, P. H. P. \& Mendes, P. A
+synthesis of ecological and evolutionary determinants of bat diversity
+across spatial scales. \emph{BMC ecology} \textbf{18}, 18 (2018).}
+
+\leavevmode\hypertarget{ref-Simmons2020Bat}{}%
+\CSLLeftMargin{40. }
+\CSLRightInline{Simmons, N. B. \& Cirranello, A. L. Bat Species of the
+World: A taxonomic and geographic database. \url{https://batnames.org/}
+(2020).}
+
+\leavevmode\hypertarget{ref-Kasso2013Ecological}{}%
+\CSLLeftMargin{41. }
 \CSLRightInline{Kasso, M. \& Balakrishnan, M. Ecological and Economic
 Importance of Bats (Order Chiroptera). \emph{ISRN Biodiversity}
 \textbf{2013}, e187415 (2013).}
 
 \leavevmode\hypertarget{ref-Voigt2016Bats}{}%
-\CSLLeftMargin{40. }
+\CSLLeftMargin{42. }
 \CSLRightInline{\emph{Bats in the Anthropocene: Conservation of Bats in
 a Changing World}. (Springer International Publishing, 2016).
 doi:\href{https://doi.org/10.1007/978-3-319-25220-9}{10.1007/978-3-319-25220-9}.}
 
 \leavevmode\hypertarget{ref-Williams-Guillen2008Bats}{}%
-\CSLLeftMargin{41. }
+\CSLLeftMargin{43. }
 \CSLRightInline{Williams-Guillén, K., Perfecto, I. \& Vandermeer, J.
 Bats Limit Insects in a Neotropical Agroforestry System. \emph{Science}
 \textbf{320}, 70--70 (2008).}
 
 \leavevmode\hypertarget{ref-Gonsalves2013Mosquito}{}%
-\CSLLeftMargin{42. }
+\CSLLeftMargin{44. }
 \CSLRightInline{Gonsalves, L., Bicknell, B., Law, B., Webb, C. \&
 Monamy, V. Mosquito Consumption by Insectivorous Bats: Does Size Matter?
 \emph{PLOS ONE} \textbf{8}, e77183 (2013).}
 
 \leavevmode\hypertarget{ref-Gonsalves2013Mosquitoes}{}%
-\CSLLeftMargin{43. }
+\CSLLeftMargin{45. }
 \CSLRightInline{Gonsalves, L., Lamb, S., Webb, C., Law, B. \& Monamy, V.
 Do mosquitoes influence bat activity in coastal habitats? \emph{Wildlife
 Research} \textbf{40}, 10--24 (2013).}
 
 \leavevmode\hypertarget{ref-Mello2011Missing}{}%
-\CSLLeftMargin{44. }
+\CSLLeftMargin{46. }
 \CSLRightInline{Mello, M. A. R. \emph{et al.} The Missing Part of Seed
 Dispersal Networks: Structure and Robustness of Bat-Fruit Interactions.
 \emph{PLOS ONE} \textbf{6}, e17395 (2011).}
 
 \leavevmode\hypertarget{ref-Caraballo2022Crossspecies}{}%
-\CSLLeftMargin{45. }
+\CSLLeftMargin{47. }
 \CSLRightInline{Caraballo, D. A. Cross-Species Transmission of Bat
 Coronaviruses in the Americas: Contrasting Patterns between
 Alphacoronavirus and Betacoronavirus. \emph{Microbiology Spectrum}
 \textbf{0}, e01411--22 (2022).}
 
 \leavevmode\hypertarget{ref-Wu2021Comprehensive}{}%
-\CSLLeftMargin{46. }
+\CSLLeftMargin{48. }
 \CSLRightInline{Wu, Z. \emph{et al.} \emph{A comprehensive survey of bat
 sarbecoviruses across China for the origin tracing of SARS-CoV and
 SARS-CoV-2}. (2021)
 doi:\href{https://doi.org/10.21203/rs.3.rs-885194/v1}{10.21203/rs.3.rs-885194/v1}.}
 
 \leavevmode\hypertarget{ref-Carlson2022Climate}{}%
-\CSLLeftMargin{47. }
+\CSLLeftMargin{49. }
 \CSLRightInline{Carlson, C. J. \emph{et al.} Climate change increases
 cross-species viral transmission risk. \emph{Nature} 1--1 (2022)
 doi:\href{https://doi.org/10.1038/s41586-022-04788-w}{10.1038/s41586-022-04788-w}.}
 
 \leavevmode\hypertarget{ref-Plowright2011Urban}{}%
-\CSLLeftMargin{48. }
+\CSLLeftMargin{50. }
 \CSLRightInline{Plowright, R. K. \emph{et al.} Urban habituation,
 ecological connectivity and epidemic dampening: The emergence of hendra
 virus from flying foxes (pteropus spp.). \emph{Proceedings of the Royal
 Society B: Biological Sciences} \textbf{278}, 3703--3712 (2011).}
 
 \leavevmode\hypertarget{ref-Alves2018Geographic}{}%
-\CSLLeftMargin{49. }
+\CSLLeftMargin{51. }
 \CSLRightInline{Alves, D. M. C. C., Diniz-Filho, J. A. F., da Silva e
 Souza, K., Gouveia, S. F. \& Villalobos, F. Geographic variation in the
 relationship between large-scale environmental determinants and bat
@@ -1280,170 +1291,170 @@ species richness. \emph{Basic and Applied Ecology} \textbf{27}, 1--8
 (2018).}
 
 \leavevmode\hypertarget{ref-Treitler2016Effect}{}%
-\CSLLeftMargin{50. }
+\CSLLeftMargin{52. }
 \CSLRightInline{Treitler, J. T., Heim, O., Tschapka, M. \& Jung, K. The
 effect of local land use and loss of forests on bats and nocturnal
 insects. \emph{Ecology and Evolution} \textbf{6}, 4289--4297 (2016).}
 
 \leavevmode\hypertarget{ref-Mendenhall2014Predictinga}{}%
-\CSLLeftMargin{51. }
+\CSLLeftMargin{53. }
 \CSLRightInline{Mendenhall, C. D., Karp, D. S., Meyer, C. F. J., Hadly,
 E. A. \& Daily, G. C. Predicting biodiversity change and averting
 collapse in agricultural landscapes. \emph{Nature} \textbf{509},
 213--217 (2014).}
 
 \leavevmode\hypertarget{ref-Amman2011Investigating}{}%
-\CSLLeftMargin{52. }
+\CSLLeftMargin{54. }
 \CSLRightInline{Amman, B. R. \emph{et al.} \emph{Investigating the role
 of bats in emerging zoonoses: Balancing ecology, conservation and public
 health interest}. (FAO, 2011).}
 
 \leavevmode\hypertarget{ref-Hopkins2021How}{}%
-\CSLLeftMargin{53. }
+\CSLLeftMargin{55. }
 \CSLRightInline{Hopkins, S. R. \emph{et al.} How to identify win--win
 interventions that benefit human health and conservation. \emph{Nature
 Sustainability} \textbf{4}, 298--304 (2021).}
 
 \leavevmode\hypertarget{ref-Plowright2021Land}{}%
-\CSLLeftMargin{54. }
+\CSLLeftMargin{56. }
 \CSLRightInline{Plowright, R. K. \emph{et al.} Land use-induced
 spillover: A call to action to safeguard environmental, animal, and
 human health. \emph{The Lancet Planetary Health} \textbf{5}, e237--e245
 (2021).}
 
 \leavevmode\hypertarget{ref-OHHLEP2022One}{}%
-\CSLLeftMargin{55. }
+\CSLLeftMargin{57. }
 \CSLRightInline{OHHLEP \emph{et al.} One Health: A new definition for a
 sustainable and healthy future. \emph{PLOS Pathogens} \textbf{18},
 e1010537 (2022).}
 
 \leavevmode\hypertarget{ref-Ka-WaiHui2006Reasons}{}%
-\CSLLeftMargin{56. }
+\CSLLeftMargin{58. }
 \CSLRightInline{Ka-Wai Hui, E. Reasons for the increase in emerging and
 re-emerging viral infectious diseases. \emph{Microbes and Infection}
 \textbf{8}, 905--916 (2006).}
 
 \leavevmode\hypertarget{ref-IUCN2021Iucn}{}%
-\CSLLeftMargin{57. }
+\CSLLeftMargin{59. }
 \CSLRightInline{IUCN. The IUCN Red List of Threatened Species.
 \url{https://www.iucnredlist.org} (2021).}
 
 \leavevmode\hypertarget{ref-RouaultEven2022Gdal}{}%
-\CSLLeftMargin{58. }
+\CSLLeftMargin{60. }
 \CSLRightInline{Rouault, E. \emph{et al.} \emph{GDAL/OGR Geospatial Data
 Abstraction software Library}. (Zenodo, 2022).
 doi:\href{https://doi.org/10.5281/ZENODO.5884351}{10.5281/ZENODO.5884351}.}
 
 \leavevmode\hypertarget{ref-Faith1992Conservation}{}%
-\CSLLeftMargin{59. }
+\CSLLeftMargin{61. }
 \CSLRightInline{Faith, D. P. Conservation evaluation and phylogenetic
 diversity. \emph{Biological Conservation} \textbf{61}, 1--10 (1992).}
 
 \leavevmode\hypertarget{ref-Upham2019Inferring}{}%
-\CSLLeftMargin{60. }
+\CSLLeftMargin{62. }
 \CSLRightInline{Upham, N. S., Esselstyn, J. A. \& Jetz, W. Inferring the
 mammal tree: Species-level sets of phylogenies for questions in ecology,
 evolution, and conservation. \emph{PLOS Biology} \textbf{17}, e3000494
 (2019).}
 
 \leavevmode\hypertarget{ref-Legendre2013Beta}{}%
-\CSLLeftMargin{61. }
+\CSLLeftMargin{63. }
 \CSLRightInline{Legendre, P. \& De Cáceres, M. Beta diversity as the
 variance of community data: Dissimilarity coefficients and partitioning.
 \emph{Ecology Letters} \textbf{16}, 951--963 (2013).}
 
 \leavevmode\hypertarget{ref-Legendre2019Spatial}{}%
-\CSLLeftMargin{62. }
+\CSLLeftMargin{64. }
 \CSLRightInline{Legendre, P. \& Condit, R. Spatial and temporal analysis
 of beta diversity in the Barro Colorado Island forest dynamics plot,
 Panama. \emph{Forest Ecosystems} \textbf{6}, 7 (2019).}
 
 \leavevmode\hypertarget{ref-Dansereau2022Evaluating}{}%
-\CSLLeftMargin{63. }
+\CSLLeftMargin{65. }
 \CSLRightInline{Dansereau, G., Legendre, P. \& Poisot, T. Evaluating
 ecological uniqueness over broad spatial extents using species
 distribution modelling. \emph{Oikos} \textbf{n/a}, e09063 (2022).}
 
 \leavevmode\hypertarget{ref-Albery2020Predicting}{}%
-\CSLLeftMargin{64. }
+\CSLLeftMargin{66. }
 \CSLRightInline{Albery, G. F., Eskew, E. A., Ross, N. \& Olival, K. J.
 Predicting the global mammalian viral sharing network using
 phylogeography. \emph{Nature Communications} \textbf{11}, 2260 (2020).}
 
 \leavevmode\hypertarget{ref-Mollentze2020Viral}{}%
-\CSLLeftMargin{65. }
+\CSLLeftMargin{67. }
 \CSLRightInline{Mollentze, N. \& Streicker, D. G. Viral zoonotic risk is
 homogenous among taxonomic orders of mammalian and avian reservoir
 hosts. \emph{Proceedings of the National Academy of Sciences}
 \textbf{117}, 9423--9430 (2020).}
 
 \leavevmode\hypertarget{ref-Seekell2018Geography}{}%
-\CSLLeftMargin{66. }
+\CSLLeftMargin{68. }
 \CSLRightInline{Seekell, D. A., Lapierre, J.-F. \& Cheruvelil, K. S. A
 geography of lake carbon cycling. \emph{Limnology and Oceanography
 Letters} \textbf{3}, 49--56 (2018).}
 
 \leavevmode\hypertarget{ref-Gomulkiewicz2000Hot}{}%
-\CSLLeftMargin{67. }
+\CSLLeftMargin{69. }
 \CSLRightInline{Gomulkiewicz, R., Thompson, J. N., Holt, R. D., Nuismer,
 S. L. \& Hochberg, M. E. Hot Spots, Cold Spots, and the Geographic
 Mosaic Theory of Coevolution. \emph{The American Naturalist}
 \textbf{156}, 156--174 (2000).}
 
 \leavevmode\hypertarget{ref-Keke2010Study}{}%
-\CSLLeftMargin{68. }
+\CSLLeftMargin{70. }
 \CSLRightInline{Keke, S., Peng, Z. \& Guohui, L. Study on skin color
 image segmentation used by Fuzzy-c-means arithmetic. in \emph{2010
 Seventh International Conference on Fuzzy Systems and Knowledge
 Discovery} vol. 2 612--615 (2010).}
 
 \leavevmode\hypertarget{ref-Katoh2013Mafft}{}%
-\CSLLeftMargin{69. }
+\CSLLeftMargin{71. }
 \CSLRightInline{Katoh, K. \& Standley, D. M. MAFFT Multiple Sequence
 Alignment Software Version 7: Improvements in Performance and Usability.
 \emph{Molecular Biology and Evolution} \textbf{30}, 772--780 (2013).}
 
 \leavevmode\hypertarget{ref-Nguyen2015Iqtree}{}%
-\CSLLeftMargin{70. }
+\CSLLeftMargin{72. }
 \CSLRightInline{Nguyen, L.-T., Schmidt, H. A., von Haeseler, A. \& Minh,
 B. Q. IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating
 Maximum-Likelihood Phylogenies. \emph{Molecular Biology and Evolution}
 \textbf{32}, 268--274 (2015).}
 
 \leavevmode\hypertarget{ref-Kalyaanamoorthy2017Modelfinder}{}%
-\CSLLeftMargin{71. }
+\CSLLeftMargin{73. }
 \CSLRightInline{Kalyaanamoorthy, S., Minh, B. Q., Wong, T. K. F., von
 Haeseler, A. \& Jermiin, L. S. ModelFinder: Fast model selection for
 accurate phylogenetic estimates. \emph{Nature Methods} \textbf{14},
 587--589 (2017).}
 
 \leavevmode\hypertarget{ref-Hoang2018Ufboot2}{}%
-\CSLLeftMargin{72. }
+\CSLLeftMargin{74. }
 \CSLRightInline{Hoang, D. T., Chernomor, O., von Haeseler, A., Minh, B.
 Q. \& Vinh, L. S. UFBoot2: Improving the Ultrafast Bootstrap
 Approximation. \emph{Molecular Biology and Evolution} \textbf{35},
 518--522 (2018).}
 
 \leavevmode\hypertarget{ref-Isaac2007Mammals}{}%
-\CSLLeftMargin{73. }
+\CSLLeftMargin{75. }
 \CSLRightInline{Isaac, N. J. B., Turvey, S. T., Collen, B., Waterman, C.
 \& Baillie, J. E. M. Mammals on the EDGE: Conservation Priorities Based
 on Threat and Phylogeny. \emph{PLOS ONE} \textbf{2}, e296 (2007).}
 
 \leavevmode\hypertarget{ref-Kreft2007Global}{}%
-\CSLLeftMargin{74. }
+\CSLLeftMargin{76. }
 \CSLRightInline{Kreft, H. \& Jetz, W. Global patterns and determinants
 of vascular plant diversity. \emph{Proceedings of the National Academy
 of Sciences} \textbf{104}, 5925--5930 (2007).}
 
 \leavevmode\hypertarget{ref-Kreft2010Framework}{}%
-\CSLLeftMargin{75. }
+\CSLLeftMargin{77. }
 \CSLRightInline{Kreft, H. \& Jetz, W. A framework for delineating
 biogeographical regions based on species distributions. \emph{Journal of
 Biogeography} \textbf{37}, 2029--2053 (2010).}
 
 \leavevmode\hypertarget{ref-Paradis2019Ape}{}%
-\CSLLeftMargin{76. }
+\CSLLeftMargin{78. }
 \CSLRightInline{Paradis, E. \& Schliep, K. Ape 5.0: An environment for
 modern phylogenetics and evolutionary analyses in R.
 \emph{Bioinformatics} \textbf{35}, 526--528 (2019).}
