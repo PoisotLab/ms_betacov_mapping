@@ -412,8 +412,8 @@ like domesticated species [@Alves2018Geographic; @Treitler2016Effect;
 @Rulli2021Landuse; @Mendenhall2014Predictinga]. This represents a challenge for
 both conservation strategies and pandemic prevention [@Amman2011Investigating],
 but identifying areas at risk, and protecting the health of bats and ecosystems
-within those zones, can be a win-win intervention for both [@Hopkins2021HowIde;
-@Plowright2021Lan;@OHHLEP2022One]. As we scale these predictions down in space
+within those zones, can be a win-win intervention for both [@Hopkins2021How;
+@Plowright2021Land;@OHHLEP2022One]. As we scale these predictions down in space
 to finer spatial resolutions to guide public health actions
 [@Muylaert2022Present], the incorporation of human activity predictors will
 become more importyant [@Ka-WaiHui2006Reasons].
@@ -455,7 +455,7 @@ spatial scale.
 
 We downloaded the rangemap of every current bat species that was classified as
 an empirically documented host of *Betacoronavirus* from the previous step,
-according to recent IUCN data [@IUCN2021Iuc]. The IUCN data have been assembled
+according to recent IUCN data [@IUCN2021Iucn]. The IUCN data have been assembled
 to support wildlife conservation efforts, and therefore we do not expect that
 they are biased by wildlife disease sampling efforts or priority. The range maps
 were subsequently rasterized using the `rasterize` function from `GDAL`
@@ -564,7 +564,7 @@ respiratory syndrome coronavirus, Murine hepatitis virus, and hCoV-HKU1. Curated
 betacoronavirus RdRp sequences were then aligned using MAFFT [@Katoh2013Mafft]
 v1.4.0 (Algorithm FFT-NS-2, Scoring matrix 200PAM / k=2, gap open penalty 1.53m
 offset value 0.123) and a maximum likelihood tree reconstructed in IQ-TREE
-[@Nguyen2015IqTree] v1.6.12 with ModelFinder [@Kalyaanamoorthy2017ModelFinder]
+[@Nguyen2015Iqtree] v1.6.12 with ModelFinder [@Kalyaanamoorthy2017Modelfinder]
 ultrafast bootstrap approximation [@Hoang2018Ufboot2] with a general time
 reversible model with empirical base frequencies and the
 5-discrete-rate-category FreeRaye model of nucleotide substitution (GTR+F+R5).
